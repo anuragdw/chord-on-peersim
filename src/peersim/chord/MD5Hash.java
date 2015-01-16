@@ -1,0 +1,28 @@
+package peersim.chord;
+
+import java.security.*;
+import java.math.*;
+
+public class MD5Hash
+{
+    
+	
+        private BigInteger generatedHash;
+
+	public MD5Hash (String s) throws NoSuchAlgorithmException {
+ 	       	
+		try {
+			MessageDigest m=MessageDigest.getInstance("MD5");
+   	    		m.update(s.getBytes(),0,s.length());
+		 	generatedHash = new BigInteger(1,m.digest());
+
+		} catch (NoSuchAlgorithmException e) {
+        		System.err.println("I'm sorry, but MD5 is not a valid message digest algorithm");
+    		}
+    	}
+
+	public BigInteger getHash() {
+		return generatedHash;
+	}
+
+}

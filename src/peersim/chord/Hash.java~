@@ -1,0 +1,22 @@
+package peersim.chord;
+
+import java.security.*;
+import java.math.*;
+
+public class MD5Hash
+{
+    
+	
+        private BigInteger generatedHash;
+
+	public MD5Hash (String s) {
+ 	       	MessageDigest m=MessageDigest.getInstance("MD5");
+       		m.update(s.getBytes(),0,s.length());
+	 	generatedHash = new BigInteger(1,m.digest()).toString(16));
+    	}
+
+	public BigInteger getHash() {
+		return generatedHash;
+	}
+
+}

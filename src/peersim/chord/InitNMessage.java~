@@ -1,0 +1,22 @@
+package peersim.chord;
+
+import java.math.*;
+import peersim.core.*;
+
+public class InitMessage implements ChordMessage {
+
+
+	public int type;
+	private BigInteger target;
+
+	public InitMessage( int type, BigInteger target) {
+		this.type = type;
+		this.target = target;
+	}
+
+	public BigInteger getTarget() {
+		return target;
+	}
+
+
+}

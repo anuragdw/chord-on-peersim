@@ -1,0 +1,2504 @@
+java -cp `find -L lib/ -name "*.jar" | tr [:space:] :`:"":classes peersim.Simulator test.cfg
+
+
+
+0 100 0 0 0 NaN
+1000 100 1 1 0 Infinity
+2000 100 1 1 0 Infinity
+3000 100 1 1 0 Infinity
+4000 100 1 1 0 Infinity
+5000 100 1 1 0 Infinity
+6000 100 1 1 0 Infinity
+7000 100 1 1 0 Infinity
+8000 100 1 1 0 Infinity
+9000 100 1 1 0 Infinity
+10000 101 1 1 0 6.0
+# numRoot : From 11 to 104
+220554182942670109621697512637866214556 - original 
+224781975326913413215279239865658665718 - new 
+226566254310817368817527337777231867238 - old 
+
+#10593: (104)  [104] After Update
+
+#10772: (104)  [104] After Update
+
+#10792: (104)  [104] After Update
+11000 111 10 4 4 25.363636363636363
+
+#11012: (104)  [104] After Update
+
+#11142: (104)  [104] After Update
+
+#11922: (104)  [104] After Update
+
+#11932: (104)  [104] After Update
+12000 121 20 7 8 30.80952380952381
+
+#12452: (104)  [104] After Update
+# setRoot : From 2 to 125
+
+#12912: (104)  [104] After Update
+13000 131 30 9 10 32.096774193548384
+
+#13022: (104)  [104] After Update
+
+#13031: (129)  [129] ConnectDMessage Received
+
+#13031: (129)  [129] Re ConnectMessage send to 103
+
+#13142: (104)  [104] After Update
+14000 141 40 11 12 32.048780487804876
+
+#14062: (104)  [104] After Update
+
+#14172: (104)  [104] After Update
+
+#14452: (104)  [104] After Update
+
+#14662: (104)  [104] After Update
+15000 151 50 14 16 36.627450980392155
+
+#15152: (104)  [104] After Update
+
+#15342: (104)  [104] After Update
+
+#15483: (104)  [104] After Update
+
+#15712: (104)  [104] After Update
+
+#15792: (104)  [104] After Update
+
+#15812: (104)  [104] After Update
+
+#15982: (104)  [104] After Update
+16000 161 60 18 23 44.31147540983606
+
+#16112: (104)  [104] After Update
+
+#16212: (104)  [104] After Update
+
+#16722: (104)  [104] After Update
+17000 171 70 22 26 47.38028169014085
+
+#17032: (104)  [104] After Update
+
+#17072: (104)  [104] After Update
+
+#17512: (104)  [104] After Update
+
+#17831: (177)  [177] ConnectDMessage Received
+
+#17831: (177)  [177] Re ConnectMessage send to 25
+
+#17912: (104)  [104] After Update
+
+#17942: (104)  [104] After Update
+18000 181 80 27 31 51.333333333333336
+# setRoot : From 44 to 181
+
+#18302: (104)  [104] After Update
+
+#18433: (104)  [104] After Update
+
+#18512: (104)  [104] After Update
+# setRoot : From 10 to 186
+
+#18642: (104)  [104] After Update
+
+#18792: (104)  [104] After Update
+
+#18912: (104)  [104] After Update
+19000 191 90 31 37 57.285714285714285
+
+#19062: (104)  [104] After Update
+
+#19492: (104)  [104] After Update
+# setRoot : From 27 to 196
+
+#19672: (104)  [104] After Update
+
+#19792: (104)  [104] After Update
+# setRoot : From 122 to 198
+20000 201 100 35 41 59.56435643564357
+
+#20072: (104)  [104] After Update
+# numRoot : From 104 to 207
+220554182942670109621697512637866214556 - original 
+220614816272209668562485308797129970664 - new 
+224781975326913413215279239865658665718 - old 
+
+#20913: (207)  [207] After Update
+21000 211 110 35 43 59.126126126126124
+
+#21342: (207)  [207] After Update
+
+#21482: (207)  [207] After Update
+22000 221 120 37 45 59.03305785123967
+
+#22252: (207)  [207] After Update
+
+#22462: (207)  [207] After Update
+
+#22562: (207)  [207] After Update
+# setRoot : From 116 to 226
+
+#22662: (207)  [207] After Update
+
+#22771: (226)  [226] ConnectDMessage Received
+
+#22771: (226)  [226] Re ConnectMessage send to 203
+
+#22912: (207)  [207] After Update
+# setRoot : From 186 to 230
+23000 231 130 41 50 63.29770992366412
+
+#23412: (207)  [207] After Update
+# setRoot : From 7 to 235
+# setRoot : From 64 to 236
+
+#23952: (207)  [207] After Update
+# setRoot : From 235 to 240
+24000 241 139 42 52 62.09219858156028
+# setRoot : From 0 to 241
+
+#24312: (207)  [207] After Update
+
+#24462: (207)  [207]  after reduction 52
+
+#24532: (207)  [207] After Update
+
+#24592: (207)  [207] After Update
+# setRoot : From 210 to 246
+# setRoot : From 86 to 248
+
+#24922: (207)  [207] After Update
+25000 251 149 44 55 67.01324503311258
+
+#25612: (207)  [207] After Update
+# setRoot : From 118 to 260
+26000 261 159 45 56 65.92546583850931
+
+#26562: (207)  [207]  after reduction 55
+# setRoot : From 79 to 266
+
+#26612: (207)  [207] After Update
+# setRoot : From 248 to 267
+27000 271 169 44 56 66.01169590643275
+
+#27152: (207)  [207]  after reduction 55
+
+#27302: (207)  [207] After Update
+28000 281 179 44 56 66.19337016574586
+
+#28151: (280)  [280] ConnectDMessage Received
+
+#28151: (280)  [280] Re ConnectMessage send to 203
+
+#28271: (226)  [226] Wait for time out at req
+
+#28271: (226)  [226] ReduceSetMessage Sent
+
+#28272: (207)  [207] After Update
+
+#28322: (207)  [207]  after reduction 56
+
+#28672: (207)  [207]  after reduction 55
+
+#28782: (207)  [207] After Update
+# setRoot : From 266 to 289
+29000 291 188 45 56 68.87434554973822
+
+#29112: (207)  [207]  after reduction 55
+
+#29262: (207)  [207] After Update
+
+#29572: (207)  [207] After Update
+
+#29722: (207)  [207] After Update
+
+#29992: (207)  [207]  after reduction 57
+30000 301 198 46 57 71.57711442786069
+
+#30052: (207)  [207] After Update
+
+#30162: (207)  [207] After Update
+
+#30293: (207)  [207] After Update
+
+#30362: (207)  [207]  after reduction 59
+
+#30472: (207)  [207] After Update
+
+#30872: (207)  [207]  after reduction 59
+
+#30931: (307)  [307] ConnectDMessage Received
+
+#30931: (307)  [307] Re ConnectMessage send to 302
+31000 311 208 47 59 77.86729857819905
+# setRoot : From 145 to 311
+
+#31352: (207)  [207] After Update
+
+#31612: (207)  [207] After Update
+
+#31681: (45)  [30] Wait for time out at req
+
+#31681: (45)  [30] ReduceSetMessage Sent
+
+#31692: (207)  [207] After Update
+
+#31722: (207)  [207]  after reduction 61
+
+#31971: (318)  [318] ConnectDMessage Received
+
+#31971: (318)  [318] Re ConnectMessage send to 303
+# setRoot : From 25 to 320
+32000 321 217 49 61 80.20361990950227
+
+#32102: (207)  [207] After Update
+
+#32312: (207)  [207] After Update
+# setRoot : From 92 to 326
+
+#32772: (207)  [207]  after reduction 62
+
+#32902: (207)  [207] After Update
+33000 331 226 50 63 82.76623376623377
+
+#33062: (207)  [207]  after reduction 62
+
+#33112: (207)  [207] After Update
+
+#33431: (234)  [234] TOI for 34
+
+#33441: (46)  [45] TOI for 34
+
+#33451: (80)  [58] TOI for 34
+
+#33461: (158)  [158] TOI for 34
+
+#33471: (15)  [71] TOI for 34
+
+#33481: (186)  [186] TOI for 34
+
+#33491: (10)  [72] TOI for 34
+
+#33501: (7)  [73] TOI for 34
+
+#33511: (119)  [119] TOI for 34
+
+#33521: (151)  [151] TOI for 34
+
+#33652: (207)  [207] After Update
+
+#33652: (207)  [207]  after reduction 63
+
+#33772: (207)  [207] After Update
+34000 341 238 50 64 86.50207468879668
+
+#34252: (207)  [207] After Update
+
+#34382: (207)  [207] After Update
+
+#34972: (207)  [207]  after reduction 65
+35000 351 247 51 65 86.52988047808765
+
+#35072: (207)  [207]  after reduction 64
+
+#35102: (207)  [207] After Update
+
+#35202: (207)  [207] After Update
+# setRoot : From 144 to 353
+
+#35381: (342)  [342] Wait for time out at req
+
+#35381: (342)  [342] ReduceSetMessage Sent
+
+#35432: (207)  [207]  after reduction 65
+# setRoot : From 164 to 356
+
+#35662: (207)  [207]  after reduction 64
+
+#35752: (207)  [207] After Update
+
+#35952: (207)  [207] After Update
+36000 361 257 50 66 92.37164750957854
+
+#36272: (207)  [207]  after reduction 65
+
+#36372: (207)  [207] After Update
+# setRoot : From 71 to 365
+
+#36522: (207)  [207]  after reduction 65
+
+#36612: (207)  [207] After Update
+# setRoot : From 198 to 368
+37000 371 266 50 66 95.64575645756457
+# setRoot : From 95 to 371
+# setRoot : From 45 to 372
+
+#37252: (207)  [207] After Update
+
+#37712: (207)  [207]  after reduction 66
+
+#37762: (207)  [207]  after reduction 65
+
+#37792: (207)  [207] After Update
+
+#37882: (207)  [207] After Update
+38000 381 276 51 67 99.067615658363
+
+#38231: (282)  [282] TOI for 14
+
+#38241: (266)  [266] TOI for 14
+
+#38251: (189)  [189] TOI for 14
+
+#38261: (173)  [173] TOI for 14
+
+#38271: (308)  [308] Wait for time out at req
+
+#38271: (308)  [308] ReduceSetMessage Sent
+
+#38322: (207)  [207]  after reduction 66
+
+#38352: (207)  [207]  after reduction 65
+
+#38452: (207)  [207] After Update
+
+#38472: (207)  [207] After Update
+
+#38682: (207)  [207] After Update
+# setRoot : From 311 to 387
+# setRoot : From 372 to 389
+
+#38922: (207)  [207] After Update
+# setRoot : From 90 to 390
+39000 391 286 53 69 103.35051546391753
+
+#39302: (207)  [207] After Update
+
+#39672: (207)  [207]  after reduction 69
+
+#39711: (394)  [394] ConnectDMessage Received
+
+#39711: (394)  [394] Re ConnectMessage send to 309
+
+#39731: (394)  [394] ConnectDMessage Received
+
+#39731: (394)  [394] Re ConnectMessage send to 307
+
+#39872: (207)  [207] After Update
+
+#39902: (207)  [207] After Update
+40000 401 295 55 71 105.85049833887044
+# setRoot : From 75 to 407
+# setRoot : From 104 to 410
+41000 411 306 55 71 103.30546623794213
+
+#41631: (316)  [316] TOI for 5
+
+#41641: (212)  [212] TOI for 5
+
+#41651: (145)  [145] TOI for 5
+
+#41661: (38)  [28] TOI for 5
+
+#41671: (175)  [175] TOI for 5
+42000 421 318 55 71 101.0404984423676
+
+#42132: (207)  [207] After Update
+
+#42282: (207)  [207] After Update
+# setRoot : From 173 to 425
+
+#42552: (207)  [207]  after reduction 72
+
+#42571: (423)  [423] ConnectDMessage Received
+
+#42571: (423)  [423] Re ConnectMessage send to 402
+# setRoot : From 59 to 426
+
+#42692: (207)  [207] After Update
+# setRoot : From 246 to 427
+# setRoot : From 157 to 430
+43000 431 328 57 73 103.37160120845921
+# setRoot : From 86 to 431
+# setRoot : From 321 to 436
+
+#43682: (207)  [207]  after reduction 72
+# setRoot : From 101 to 437
+
+#43772: (207)  [207] After Update
+
+#43812: (207)  [207]  after reduction 72
+
+#43902: (207)  [207] After Update
+
+#43972: (207)  [207]  after reduction 72
+44000 441 336 56 72 105.79178885630499
+
+#44132: (207)  [207] After Update
+
+#44132: (207)  [207] After Update
+# setRoot : From 236 to 444
+45000 451 348 57 74 106.88888888888889
+# setRoot : From 82 to 453
+
+#45331: (353)  [353] TOI for 19
+
+#45341: (36)  [26] TOI for 19
+
+#45351: (222)  [222] TOI for 19
+
+#45361: (117)  [117] TOI for 19
+
+#45371: (58)  [38] TOI for 19
+# setRoot : From 151 to 454
+
+#45552: (207)  [207] After Update
+# setRoot : From 18 to 456
+
+#45672: (207)  [207] After Update
+46000 461 359 59 76 106.93628808864266
+
+#46131: (361)  [361] TOI for 65
+
+#46141: (254)  [254] TOI for 65
+
+#46151: (210)  [210] TOI for 65
+
+#46161: (6)  [97] TOI for 65
+
+#46171: (127)  [127] TOI for 65
+# setRoot : From 241 to 462
+
+#46932: (207)  [207]  after reduction 75
+47000 471 369 58 75 105.33692722371967
+
+#47082: (207)  [207] After Update
+# setRoot : From 89 to 473
+
+#47692: (207)  [207]  after reduction 75
+
+#47812: (207)  [207] After Update
+
+#47991: (478)  [478] ConnectDMessage Received
+
+#47991: (478)  [478] Re ConnectMessage send to 413
+48000 481 378 59 76 107.28346456692914
+
+#48092: (207)  [207] After Update
+
+#48231: (382)  [382] TOI for 51
+
+#48241: (349)  [349] TOI for 51
+
+#48251: (365)  [365] TOI for 51
+
+#48261: (71)  [43] TOI for 51
+
+#48322: (207)  [207] After Update
+
+#48402: (207)  [207] After Update
+
+#48422: (207)  [207] After Update
+# setRoot : From 384 to 485
+
+#48572: (207)  [207]  after reduction 79
+
+#48611: (483)  [483] ConnectDMessage Received
+
+#48611: (483)  [483] Re ConnectMessage send to 403
+
+#48752: (207)  [207] After Update
+
+#48811: (485)  [485] ConnectDMessage Received
+
+#48811: (485)  [485] Re ConnectMessage send to 403
+
+#48831: (485)  [485] ConnectDMessage Received
+
+#48831: (485)  [485] Re ConnectMessage send to 316
+
+#48832: (207)  [207]  after reduction 79
+
+#48952: (207)  [207] After Update
+
+#48962: (207)  [207]  after reduction 79
+
+#48971: (487)  [487] ConnectDMessage Received
+
+#48971: (487)  [487] Re ConnectMessage send to 402
+49000 491 389 58 79 113.40153452685422
+
+#49011: (488)  [488] ConnectDMessage Received
+
+#49011: (488)  [488] Re ConnectMessage send to 403
+
+#49012: (207)  [207]  after reduction 78
+
+#49031: (488)  [488] ConnectDMessage Received
+
+#49031: (488)  [488] Re ConnectMessage send to 25
+
+#49051: (488)  [488] ConnectDMessage Received
+
+#49051: (488)  [488] Re ConnectMessage send to 316
+
+#49092: (207)  [207] After Update
+
+#49152: (207)  [207] After Update
+
+#49452: (207)  [207] After Update
+
+#49472: (207)  [207]  after reduction 80
+
+#49531: (492)  [492] ConnectDMessage Received
+
+#49531: (492)  [492] Re ConnectMessage send to 413
+
+#49682: (207)  [207] After Update
+
+#49751: (496)  [496] ConnectDMessage Received
+
+#49751: (496)  [496] Re ConnectMessage send to 413
+
+#49872: (207)  [207] After Update
+50000 501 400 63 82 121.19950124688279
+
+#50202: (207)  [207]  after reduction 81
+
+#50231: (499)  [499] ConnectDMessage Received
+
+#50231: (499)  [499] Re ConnectMessage send to 402
+
+#50311: (500)  [500] ConnectDMessage Received
+
+#50311: (500)  [500] Re ConnectMessage send to 413
+
+#50312: (207)  [207]  after reduction 80
+
+#50331: (500)  [500] ConnectDMessage Received
+
+#50331: (500)  [500] Re ConnectMessage send to 25
+
+#50351: (500)  [500] ConnectDMessage Received
+
+#50351: (500)  [500] Re ConnectMessage send to 316
+
+#50371: (500)  [500] ConnectDMessage Received
+
+#50371: (500)  [500] Re ConnectMessage send to 403
+
+#50372: (207)  [207] After Update
+
+#50391: (500)  [500] ConnectDMessage Received
+
+#50391: (500)  [500] Re ConnectMessage send to 402
+
+#50451: (502)  [502] ConnectDMessage Received
+
+#50451: (502)  [502] Re ConnectMessage send to 402
+
+#50471: (502)  [502] ConnectDMessage Received
+
+#50471: (502)  [502] Re ConnectMessage send to 413
+
+#50482: (207)  [207]  after reduction 80
+
+#50491: (502)  [502] ConnectDMessage Received
+
+#50491: (502)  [502] Re ConnectMessage send to 403
+
+#50511: (502)  [502] ConnectDMessage Received
+
+#50511: (502)  [502] Re ConnectMessage send to 25
+
+#50531: (502)  [502] ConnectDMessage Received
+
+#50531: (502)  [502] Re ConnectMessage send to 316
+
+#50551: (502)  [502] ConnectDMessage Received
+
+#50551: (502)  [502] Re: GetIndexMessage Sent to feed_set44
+# setRoot : From 64 to 507
+# setRoot : From 87 to 509
+51000 511 410 60 80 123.47931873479318
+# setRoot : From 26 to 513
+
+#51342: (207)  [207]  after reduction 79
+
+#51391: (511)  [511] ConnectDMessage Received
+
+#51391: (511)  [511] Re ConnectMessage send to 413
+
+#51411: (511)  [511] ConnectDMessage Received
+
+#51411: (511)  [511] Re ConnectMessage send to 403
+
+#51431: (511)  [511] ConnectDMessage Received
+
+#51431: (511)  [511] Re ConnectMessage send to 316
+
+#51451: (511)  [511] ConnectDMessage Received
+
+#51451: (511)  [511] Re ConnectMessage send to 25
+
+#51471: (511)  [511] ConnectDMessage Received
+
+#51471: (511)  [511] Re ConnectMessage send to 500
+52000 521 420 59 79 122.30166270783847
+# setRoot : From 390 to 521
+53000 531 431 59 79 120.06728538283063
+# setRoot : From 425 to 536
+
+#53891: (126)  [126] Wait for time out at req
+
+#53891: (126)  [126] ReduceSetMessage Sent
+
+#53952: (207)  [207]  after reduction 78
+54000 541 439 59 78 117.97732426303855
+
+#54912: (207)  [207]  after reduction 77
+55000 551 448 57 77 118.03325942350332
+
+#55022: (207)  [207] After Update
+
+#55022: (207)  [207]  after reduction 77
+
+#55132: (207)  [207] After Update
+
+#55402: (207)  [207]  after reduction 78
+
+#55462: (207)  [207] After Update
+
+#55902: (207)  [207]  after reduction 78
+56000 561 459 57 78 122.73752711496746
+
+#56092: (207)  [207] After Update
+
+#56432: (207)  [207]  after reduction 78
+
+#56502: (207)  [207] After Update
+57000 571 468 57 79 123.97452229299363
+
+#57022: (207)  [207]  after reduction 78
+
+#57091: (563)  [563] Wait for time out at req
+
+#57091: (563)  [563] ReduceSetMessage Sent
+
+#57152: (207)  [207]  after reduction 77
+
+#57252: (207)  [207] After Update
+
+#57802: (207)  [207]  after reduction 77
+
+#57932: (207)  [207] After Update
+58000 581 477 56 78 126.86486486486487
+
+#58002: (207)  [207]  after reduction 77
+
+#58192: (207)  [207] After Update
+
+#58192: (207)  [207] After Update
+
+#58462: (207)  [207]  after reduction 77
+
+#58622: (207)  [207] After Update
+
+#58632: (207)  [207] After Update
+
+#58962: (207)  [207]  after reduction 78
+59000 591 489 56 78 132.08961303462323
+
+#59112: (207)  [207] After Update
+
+#59791: (596)  [596] ConnectDMessage Received
+
+#59791: (596)  [596] Re ConnectMessage send to 511
+
+#59811: (596)  [596] ConnectDMessage Received
+
+#59811: (596)  [596] Re ConnectMessage send to 25
+
+#59831: (596)  [596] ConnectDMessage Received
+
+#59831: (596)  [596] Re ConnectMessage send to 500
+# setRoot : From 233 to 599
+
+#59982: (207)  [207] After Update
+# setRoot : From 71 to 600
+60000 601 499 56 80 132.1996007984032
+
+#60892: (207)  [207]  after reduction 79
+
+#60971: (606)  [606] ConnectDMessage Received
+
+#60971: (606)  [606] Re ConnectMessage send to 511
+
+#60991: (606)  [606] ConnectDMessage Received
+
+#60991: (606)  [606] Re ConnectMessage send to 500
+61000 611 507 56 79 132.26810176125244
+
+#61072: (207)  [207]  after reduction 78
+
+#61111: (608)  [608] ConnectDMessage Received
+
+#61111: (608)  [608] Re ConnectMessage send to 25
+
+#61131: (608)  [608] ConnectDMessage Received
+
+#61131: (608)  [608] Re ConnectMessage send to 511
+
+#61151: (608)  [608] ConnectDMessage Received
+
+#61151: (608)  [608] Re ConnectMessage send to 537
+
+#61201: (611)  [611] Wait for time out at req
+
+#61201: (611)  [611] ReduceSetMessage Sent
+
+#61262: (207)  [207]  after reduction 77
+
+#61292: (207)  [207] After Update
+
+#61302: (207)  [207] After Update
+# setRoot : From 70 to 615
+62000 621 517 54 79 134.6295585412668
+
+#62042: (207)  [207]  after reduction 78
+
+#62042: (207)  [207]  after reduction 77
+
+#62051: (618)  [618] ConnectDMessage Received
+
+#62051: (618)  [618] Re ConnectMessage send to 537
+
+#62061: (619)  [619] ConnectDMessage Received
+
+#62061: (619)  [619] Re ConnectMessage send to 615
+
+#62182: (207)  [207] After Update
+
+#62202: (207)  [207] After Update
+
+#62262: (207)  [207]  after reduction 79
+
+#62362: (207)  [207] After Update
+
+#62692: (207)  [207] After Update
+# setRoot : From 119 to 628
+
+#62952: (207)  [207]  after reduction 80
+
+#62971: (627)  [627] ConnectDMessage Received
+
+#62971: (627)  [627] Re ConnectMessage send to 25
+
+#62991: (627)  [627] ConnectDMessage Received
+
+#62991: (627)  [627] Re ConnectMessage send to 537
+63000 631 528 56 80 140.37853107344634
+
+#63011: (627)  [627] ConnectDMessage Received
+
+#63011: (627)  [627] Re ConnectMessage send to 615
+
+#63142: (207)  [207] After Update
+
+#63312: (207)  [207]  after reduction 80
+
+#63372: (207)  [207] After Update
+
+#63472: (207)  [207] After Update
+
+#63632: (207)  [207] After Update
+
+#63682: (207)  [207]  after reduction 82
+
+#63831: (538)  [538] TOI for 41
+
+#63841: (45)  [30] TOI for 41
+
+#63851: (159)  [159] TOI for 41
+
+#63852: (207)  [207] After Update
+
+#63852: (207)  [207] After Update
+
+#63861: (30)  [36] TOI for 41
+
+#63871: (284)  [284] TOI for 41
+
+#63881: (367)  [367] TOI for 41
+64000 641 539 60 83 148.22735674676525
+
+#64181: (69)  [21] Wait for time out at req
+
+#64181: (69)  [21] ReduceSetMessage Sent
+
+#64252: (207)  [207]  after reduction 82
+
+#64542: (207)  [207]  after reduction 81
+65000 651 548 59 81 148.1288566243194
+# setRoot : From 453 to 655
+# setRoot : From 189 to 656
+
+#65781: (636)  [636] Wait for time out at req
+
+#65781: (636)  [636] ReduceSetMessage Sent
+
+#65862: (207)  [207]  after reduction 80
+66000 661 558 59 80 147.00713012477718
+
+#66501: (55)  [16] Wait for time out at req
+
+#66501: (55)  [16] ReduceSetMessage Sent
+
+#66512: (207)  [207]  after reduction 79
+
+#66531: (662)  [662] ConnectDMessage Received
+
+#66531: (662)  [662] Re ConnectMessage send to 643
+
+#66572: (207)  [207]  after reduction 78
+
+#66702: (207)  [207] After Update
+
+#66872: (207)  [207]  after reduction 78
+
+#66932: (207)  [207]  after reduction 77
+# setRoot : From 513 to 670
+67000 671 567 56 77 149.80560420315237
+
+#67031: (570)  [570] TOI for 81
+
+#67032: (207)  [207] After Update
+
+#67041: (509)  [509] TOI for 81
+
+#67051: (481)  [481] TOI for 81
+
+#67061: (232)  [232] TOI for 81
+
+#67071: (536)  [536] TOI for 81
+
+#67081: (355)  [355] TOI for 81
+
+#67122: (207)  [207] After Update
+
+#67312: (207)  [207] After Update
+
+#67602: (207)  [207] After Update
+
+#67762: (207)  [207]  after reduction 80
+
+#67912: (207)  [207] After Update
+68000 681 578 59 81 154.8485370051635
+
+#68481: (509)  [509] Wait for time out at req
+
+#68481: (509)  [509] ReduceSetMessage Sent
+
+#68542: (207)  [207]  after reduction 80
+
+#68722: (207)  [207]  after reduction 79
+
+#68751: (685)  [685] ConnectDMessage Received
+
+#68751: (685)  [685] Re ConnectMessage send to 615
+
+#68771: (685)  [685] ConnectDMessage Received
+
+#68771: (685)  [685] Re ConnectMessage send to 606
+
+#68932: (207)  [207] After Update
+69000 691 586 58 80 155.39932318104906
+
+#69002: (207)  [207]  after reduction 79
+
+#69011: (687)  [687] ConnectDMessage Received
+
+#69011: (687)  [687] Re ConnectMessage send to 643
+# setRoot : From 125 to 691
+
+#69172: (207)  [207] After Update
+
+#69511: (694)  [694] ConnectDMessage Received
+
+#69511: (694)  [694] Re ConnectMessage send to 25
+
+#69531: (694)  [694] ConnectDMessage Received
+
+#69531: (694)  [694] Re ConnectMessage send to 606
+
+#69551: (694)  [694] ConnectDMessage Received
+
+#69551: (694)  [694] Re ConnectMessage send to 611
+
+#69682: (207)  [207] After Update
+
+#69871: (696)  [696] ConnectDMessage Received
+
+#69871: (696)  [696] Re ConnectMessage send to 643
+
+#69902: (207)  [207]  after reduction 80
+# setRoot : From 600 to 700
+70000 701 597 59 80 158.17970049916806
+
+#70022: (207)  [207] After Update
+71000 711 605 60 81 157.05237315875613
+
+#71131: (611)  [611] TOI for 98
+
+#71141: (343)  [343] TOI for 98
+
+#71151: (488)  [488] TOI for 98
+
+#71161: (136)  [136] TOI for 98
+
+#71171: (545)  [545] TOI for 98
+
+#71181: (579)  [579] TOI for 98
+
+#71191: (709)  [709] ConnectDMessage Received
+
+#71191: (709)  [709] Re ConnectMessage send to 25
+
+#71191: (133)  [133] TOI for 98
+
+#71211: (709)  [709] ConnectDMessage Received
+
+#71211: (709)  [709] Re ConnectMessage send to 643
+
+#71212: (207)  [207]  after reduction 80
+
+#71731: (715)  [715] ConnectDMessage Received
+
+#71731: (715)  [715] Re ConnectMessage send to 643
+
+#71751: (715)  [715] ConnectDMessage Received
+
+#71751: (715)  [715] Re ConnectMessage send to 611
+
+#71772: (207)  [207]  after reduction 79
+72000 721 614 58 79 157.16908212560386
+
+#72072: (207)  [207]  after reduction 78
+
+#72131: (621)  [621] TOI for 7
+
+#72192: (207)  [207] After Update
+
+#72491: (437)  [437] Wait for time out at req
+
+#72491: (437)  [437] ReduceSetMessage Sent
+
+#72532: (207)  [207]  after reduction 78
+
+#72722: (207)  [207]  after reduction 77
+
+#72882: (207)  [207] After Update
+73000 731 625 57 78 160.55784469096673
+
+#73092: (207)  [207] After Update
+
+#73312: (207)  [207]  after reduction 78
+
+#73392: (207)  [207] After Update
+
+#73412: (207)  [207] After Update
+
+#73671: (735)  [735] ConnectDMessage Received
+
+#73671: (735)  [735] Re ConnectMessage send to 643
+
+#73691: (735)  [735] ConnectDMessage Received
+
+#73691: (735)  [735] Re ConnectMessage send to 715
+
+#73811: (607)  [607] Wait for time out at req
+
+#73811: (607)  [607] ReduceSetMessage Sent
+
+#73842: (207)  [207] After Update
+
+#73862: (207)  [207]  after reduction 80
+74000 741 635 59 80 164.97035881435258
+
+#74131: (641)  [641] TOI for 85
+
+#74141: (448)  [448] TOI for 85
+
+#74151: (55)  [16] TOI for 85
+
+#74161: (461)  [461] Wait for time out at req
+
+#74161: (461)  [461] ReduceSetMessage Sent
+
+#74161: (544)  [544] TOI for 85
+
+#74171: (4)  [20] TOI for 85
+
+#74202: (207)  [207]  after reduction 79
+75000 751 644 59 79 163.91397849462365
+
+#75492: (207)  [207]  after reduction 78
+
+#75531: (752)  [752] ConnectDMessage Received
+
+#75531: (752)  [752] Re ConnectMessage send to 748
+
+#75562: (207)  [207]  after reduction 77
+
+#75591: (753)  [753] ConnectDMessage Received
+
+#75591: (753)  [753] Re ConnectMessage send to 709
+
+#75692: (207)  [207] After Update
+
+#75702: (207)  [207]  after reduction 77
+
+#75731: (657)  [657] TOI for 30
+
+#75741: (139)  [139] TOI for 30
+
+#75742: (207)  [207] After Update
+
+#75751: (555)  [555] TOI for 30
+
+#75761: (207)  [207] TOI for 30
+
+#75771: (370)  [370] TOI for 30
+# setRoot : From 655 to 758
+
+#75892: (207)  [207] After Update
+
+#75952: (207)  [207] After Update
+
+#75972: (207)  [207] After Update
+76000 761 655 59 81 168.5748865355522
+# setRoot : From 557 to 761
+
+#76112: (207)  [207]  after reduction 80
+
+#76342: (207)  [207] After Update
+
+#76431: (664)  [664] TOI for 18
+
+#76441: (510)  [510] TOI for 18
+
+#76451: (353)  [353] TOI for 18
+
+#76461: (431)  [431] TOI for 18
+
+#76471: (557)  [557] TOI for 18
+
+#76481: (25)  [15] TOI for 18
+
+#76491: (276)  [276] TOI for 18
+# setRoot : From 454 to 765
+
+#76572: (207)  [207]  after reduction 80
+
+#76632: (207)  [207] After Update
+
+#76702: (207)  [207] After Update
+
+#76762: (207)  [207] After Update
+77000 771 665 63 83 175.12816691505216
+
+#77192: (207)  [207]  after reduction 82
+
+#77211: (769)  [769] ConnectDMessage Received
+
+#77211: (769)  [769] Re ConnectMessage send to 715
+
+#77231: (769)  [769] ConnectDMessage Received
+
+#77231: (769)  [769] Re ConnectMessage send to 748
+# setRoot : From 537 to 773
+
+#77382: (207)  [207] After Update
+
+#77802: (207)  [207]  after reduction 82
+
+#77871: (776)  [776] ConnectDMessage Received
+
+#77871: (776)  [776] Re ConnectMessage send to 715
+
+#77891: (776)  [776] ConnectDMessage Received
+
+#77891: (776)  [776] Re ConnectMessage send to 748
+
+#77911: (544)  [544] Wait for time out at req
+
+#77911: (544)  [544] ReduceSetMessage Sent
+
+#77992: (207)  [207]  after reduction 81
+78000 781 673 62 81 176.22320117474302
+
+#78052: (207)  [207] After Update
+
+#78251: (779)  [779] ConnectDMessage Received
+
+#78251: (779)  [779] Re ConnectMessage send to 684
+
+#78262: (207)  [207]  after reduction 81
+
+#78412: (207)  [207] After Update
+
+#78431: (684)  [684] TOI for 102
+
+#78441: (228)  [228] TOI for 102
+
+#78451: (572)  [572] TOI for 102
+
+#78461: (28)  [7] TOI for 102
+
+#78471: (135)  [135] TOI for 102
+
+#78512: (207)  [207]  after reduction 81
+# setRoot : From 35 to 786
+
+#78612: (207)  [207] After Update
+
+#78752: (207)  [207]  after reduction 81
+
+#78842: (207)  [207] After Update
+79000 791 684 63 82 182.76555716353113
+
+#79181: (695)  [695] Wait for time out at req
+
+#79181: (695)  [695] ReduceSetMessage Sent
+
+#79242: (207)  [207]  after reduction 81
+
+#79252: (207)  [207] After Update
+
+#79572: (207)  [207] After Update
+# setRoot : From 473 to 797
+
+#79931: (699)  [699] TOI for 68
+
+#79941: (387)  [387] TOI for 68
+
+#79951: (303)  [303] TOI for 68
+
+#79961: (109)  [109] TOI for 68
+
+#79971: (304)  [304] TOI for 68
+
+#79981: (365)  [365] TOI for 68
+
+#79991: (668)  [668] TOI for 68
+80000 801 693 64 83 183.74037089871612
+
+#80001: (600)  [600] TOI for 68
+
+#80011: (298)  [298] TOI for 68
+
+#80021: (172)  [172] TOI for 68
+
+#80031: (699)  [699] ConnectDMessage Received
+
+#80031: (699)  [699] Re ConnectMessage send to 748
+
+#80031: (689)  [689] TOI for 68
+
+#80041: (269)  [269] TOI for 68
+
+#80051: (245)  [245] TOI for 68
+
+#80162: (207)  [207] After Update
+
+#80222: (207)  [207]  after reduction 83
+
+#80271: (800)  [800] ConnectDMessage Received
+
+#80271: (800)  [800] Re ConnectMessage send to 684
+
+#80312: (207)  [207] After Update
+
+#80422: (207)  [207] After Update
+
+#80481: (802)  [802] ConnectDMessage Received
+
+#80481: (802)  [802] Re ConnectMessage send to 715
+
+#80491: (778)  [778] ConnectDMessage Received
+
+#80491: (778)  [778] Re ConnectMessage send to 709
+
+#80501: (802)  [802] ConnectDMessage Received
+
+#80501: (802)  [802] Re ConnectMessage send to 684
+
+#80521: (802)  [802] ConnectDMessage Received
+
+#80521: (802)  [802] Re ConnectMessage send to 709
+
+#80541: (802)  [802] ConnectDMessage Received
+
+#80541: (802)  [802] Re ConnectMessage send to 748
+
+#80561: (802)  [802] ConnectDMessage Received
+
+#80561: (802)  [802] Re ConnectMessage send to 25
+
+#80581: (802)  [802] ConnectDMessage Received
+
+#80581: (802)  [802] Re: GetIndexMessage Sent to feed_set133
+
+#80642: (207)  [207] After Update
+
+#80792: (207)  [207]  after reduction 85
+
+#80801: (802)  [802] ConnectDMessage Received
+
+#80801: (802)  [802] Re ConnectMessage send to 684
+
+#80802: (207)  [207]  after reduction 84
+
+#80811: (805)  [805] ConnectDMessage Received
+
+#80811: (805)  [805] Re ConnectMessage send to 715
+
+#80821: (802)  [802] ConnectDMessage Received
+
+#80821: (802)  [802] Re ConnectMessage send to 715
+
+#80831: (805)  [805] ConnectDMessage Received
+
+#80831: (805)  [805] Re ConnectMessage send to 748
+
+#80841: (802)  [802] ConnectDMessage Received
+
+#80841: (802)  [802] Re ConnectMessage send to 756
+
+#80851: (805)  [805] ConnectDMessage Received
+
+#80851: (805)  [805] Re ConnectMessage send to 25
+
+#80871: (805)  [805] ConnectDMessage Received
+
+#80871: (805)  [805] Re ConnectMessage send to 684
+
+#80891: (805)  [805] ConnectDMessage Received
+
+#80891: (805)  [805] Re ConnectMessage send to 709
+
+#80911: (805)  [805] ConnectDMessage Received
+
+#80911: (805)  [805] Re: GetIndexMessage Sent to feed_set146
+
+#80982: (207)  [207] After Update
+81000 811 704 65 85 189.35583684950774
+
+#81211: (656)  [656] Wait for time out at req
+
+#81211: (656)  [656] ReduceSetMessage Sent
+
+#81282: (207)  [207]  after reduction 84
+
+#81292: (207)  [207]  after reduction 83
+# setRoot : From 203 to 813
+
+#81311: (810)  [810] ConnectDMessage Received
+
+#81311: (810)  [810] Re ConnectMessage send to 25
+
+#81331: (810)  [810] ConnectDMessage Received
+
+#81331: (810)  [810] Re ConnectMessage send to 709
+
+#81351: (810)  [810] ConnectDMessage Received
+
+#81351: (810)  [810] Re ConnectMessage send to 748
+
+#81371: (810)  [810] ConnectDMessage Received
+
+#81371: (810)  [810] Re ConnectMessage send to 715
+
+#81391: (810)  [810] ConnectDMessage Received
+
+#81391: (810)  [810] Re ConnectMessage send to 684
+
+#81411: (810)  [810] ConnectDMessage Received
+
+#81411: (810)  [810] Re: GetIndexMessage Sent to feed_set144
+
+#81571: (813)  [813] ConnectDMessage Received
+
+#81571: (813)  [813] Re ConnectMessage send to 715
+
+#81591: (813)  [813] ConnectDMessage Received
+
+#81591: (813)  [813] Re ConnectMessage send to 748
+
+#81611: (813)  [813] ConnectDMessage Received
+
+#81611: (813)  [813] Re ConnectMessage send to 684
+
+#81631: (813)  [813] ConnectDMessage Received
+
+#81631: (813)  [813] Re ConnectMessage send to 25
+
+#81631: (716)  [716] TOI for 68
+
+#81641: (116)  [116] TOI for 68
+
+#81651: (349)  [349] TOI for 68
+
+#81651: (814)  [814] ConnectDMessage Received
+
+#81651: (814)  [814] Re ConnectMessage send to 709
+
+#81651: (813)  [813] ConnectDMessage Received
+
+#81651: (813)  [813] Re ConnectMessage send to 709
+
+#81661: (696)  [696] TOI for 68
+
+#81671: (813)  [813] ConnectDMessage Received
+
+#81671: (813)  [813] Re: GetIndexMessage Sent to feed_set63
+
+#81671: (814)  [814] ConnectDMessage Received
+
+#81671: (814)  [814] Re ConnectMessage send to 748
+
+#81691: (814)  [814] ConnectDMessage Received
+
+#81691: (814)  [814] Re ConnectMessage send to 684
+
+#81711: (814)  [814] ConnectDMessage Received
+
+#81711: (814)  [814] Re ConnectMessage send to 715
+
+#81712: (207)  [207]  after reduction 82
+
+#81712: (207)  [207]  after reduction 81
+
+#81731: (810)  [810] ConnectDMessage Received
+
+#81731: (810)  [810] Re ConnectMessage send to 25
+
+#81731: (814)  [814] ConnectDMessage Received
+
+#81731: (814)  [814] Re ConnectMessage send to 25
+
+#81751: (656)  [656] Wait for time out at req
+
+#81751: (656)  [656] ReduceSetMessage Sent
+
+#81751: (814)  [814] ConnectDMessage Received
+
+#81751: (814)  [814] Re: GetIndexMessage Sent to feed_set20
+
+#81751: (810)  [810] ConnectDMessage Received
+
+#81751: (810)  [810] Re ConnectMessage send to 715
+
+#81771: (810)  [810] ConnectDMessage Received
+
+#81771: (810)  [810] Re ConnectMessage send to 709
+
+#81791: (810)  [810] ConnectDMessage Received
+
+#81791: (810)  [810] Re ConnectMessage send to 684
+
+#81811: (810)  [810] ConnectDMessage Received
+
+#81811: (810)  [810] Re ConnectMessage send to 748
+
+#81822: (207)  [207]  after reduction 81
+
+#81831: (810)  [810] ConnectDMessage Received
+
+#81831: (810)  [810] Re: GetIndexMessage Sent to feed_set94
+# setRoot : From 15 to 820
+82000 821 712 63 81 193.72815533980582
+
+#82092: (207)  [207]  after reduction 80
+
+#82111: (810)  [810] ConnectDMessage Received
+
+#82111: (810)  [810] Re ConnectMessage send to 715
+
+#82131: (810)  [810] ConnectDMessage Received
+
+#82131: (810)  [810] Re ConnectMessage send to 684
+
+#82151: (810)  [810] ConnectDMessage Received
+
+#82151: (810)  [810] Re ConnectMessage send to 709
+
+#82171: (810)  [810] ConnectDMessage Received
+
+#82171: (810)  [810] Re ConnectMessage send to 748
+
+#82191: (810)  [810] ConnectDMessage Received
+
+#82191: (810)  [810] Re ConnectMessage send to 25
+# setRoot : From 813 to 822
+
+#82211: (810)  [810] ConnectDMessage Received
+
+#82211: (810)  [810] Re: GetIndexMessage Sent to feed_set107
+# setRoot : From 357 to 824
+
+#82431: (724)  [724] TOI for 46
+
+#82441: (383)  [383] TOI for 46
+
+#82451: (262)  [262] TOI for 46
+
+#82461: (454)  [454] TOI for 46
+
+#82471: (20)  [50] TOI for 46
+
+#82481: (461)  [461] TOI for 46
+
+#82531: (724)  [724] ConnectDMessage Received
+
+#82531: (724)  [724] Re ConnectMessage send to 684
+
+#82551: (724)  [724] ConnectDMessage Received
+
+#82551: (724)  [724] Re ConnectMessage send to 715
+
+#82571: (724)  [724] ConnectDMessage Received
+
+#82571: (724)  [724] Re ConnectMessage send to 748
+
+#82591: (724)  [724] ConnectDMessage Received
+
+#82591: (724)  [724] Re ConnectMessage send to 25
+
+#82611: (724)  [724] ConnectDMessage Received
+
+#82611: (724)  [724] Re ConnectMessage send to 810
+83000 831 723 62 80 192.62790697674419
+
+#83082: (207)  [207]  after reduction 79
+# setRoot : From 761 to 831
+
+#83252: (207)  [207] After Update
+
+#83391: (437)  [437] Wait for time out at req
+
+#83391: (437)  [437] ReduceSetMessage Sent
+
+#83432: (207)  [207]  after reduction 79
+
+#83682: (207)  [207] After Update
+
+#83731: (737)  [737] TOI for 48
+
+#83741: (375)  [375] TOI for 48
+
+#83751: (398)  [398] TOI for 48
+
+#83761: (700)  [700] TOI for 48
+
+#83771: (429)  [429] TOI for 48
+
+#83781: (65)  [48] TOI for 48
+
+#83791: (356)  [356] TOI for 48
+
+#83801: (469)  [469] TOI for 48
+84000 841 733 62 80 194.75708502024293
+
+#84002: (207)  [207] After Update
+
+#84012: (207)  [207]  after reduction 80
+
+#84051: (838)  [838] ConnectDMessage Received
+
+#84051: (838)  [838] Re ConnectMessage send to 724
+
+#84131: (741)  [741] TOI for 74
+
+#84141: (650)  [650] TOI for 74
+
+#84151: (20)  [50] TOI for 74
+
+#84202: (207)  [207] After Update
+
+#84432: (207)  [207] After Update
+85000 851 744 65 82 196.84287616511318
+
+#85071: (848)  [848] ConnectDMessage Received
+
+#85071: (848)  [848] Re ConnectMessage send to 25
+
+#85091: (848)  [848] ConnectDMessage Received
+
+#85091: (848)  [848] Re ConnectMessage send to 724
+# setRoot : From 681 to 851
+
+#85382: (207)  [207]  after reduction 81
+
+#85412: (207)  [207] After Update
+# setRoot : From 402 to 855
+
+#85522: (207)  [207] After Update
+
+#85562: (207)  [207]  after reduction 82
+
+#85672: (207)  [207] After Update
+86000 861 753 63 83 200.07490144546648
+
+#86011: (857)  [857] ConnectDMessage Received
+
+#86011: (857)  [857] Re ConnectMessage send to 848
+
+#86042: (207)  [207]  after reduction 82
+
+#86052: (207)  [207]  after reduction 81
+
+#86152: (207)  [207] After Update
+
+#86182: (207)  [207]  after reduction 81
+
+#86191: (859)  [859] ConnectDMessage Received
+
+#86191: (859)  [859] Re ConnectMessage send to 724
+
+#86262: (207)  [207] After Update
+
+#86332: (207)  [207] After Update
+
+#86472: (207)  [207] After Update
+
+#86562: (207)  [207] After Update
+
+#86912: (207)  [207]  after reduction 84
+87000 871 764 65 84 207.50453955901426
+
+#87012: (207)  [207] After Update
+
+#87022: (207)  [207]  after reduction 84
+
+#87031: (770)  [770] TOI for 68
+
+#87031: (867)  [867] ConnectDMessage Received
+
+#87031: (867)  [867] Re ConnectMessage send to 810
+
+#87041: (223)  [223] TOI for 68
+
+#87051: (495)  [495] TOI for 68
+
+#87051: (867)  [867] ConnectDMessage Received
+
+#87051: (867)  [867] Re ConnectMessage send to 827
+
+#87061: (214)  [214] TOI for 68
+
+#87212: (207)  [207] After Update
+
+#87242: (207)  [207] After Update
+
+#87272: (207)  [207]  after reduction 85
+
+#87422: (207)  [207] After Update
+
+#87582: (207)  [207]  after reduction 85
+
+#87701: (83)  [61] Wait for time out at req
+
+#87701: (83)  [61] ReduceSetMessage Sent
+
+#87742: (207)  [207]  after reduction 84
+
+#87752: (207)  [207] After Update
+
+#87831: (778)  [778] TOI for 57
+
+#87841: (420)  [420] TOI for 57
+
+#87851: (579)  [579] TOI for 57
+
+#87861: (504)  [504] TOI for 57
+
+#87871: (761)  [761] TOI for 57
+
+#87881: (634)  [634] TOI for 57
+
+#87891: (614)  [614] TOI for 57
+
+#87901: (456)  [456] TOI for 57
+
+#87911: (876)  [876] ConnectDMessage Received
+
+#87911: (876)  [876] Re ConnectMessage send to 827
+
+#87931: (876)  [876] ConnectDMessage Received
+
+#87931: (876)  [876] Re ConnectMessage send to 848
+88000 881 776 68 85 214.9359795134443
+
+#88032: (207)  [207] After Update
+
+#88302: (207)  [207]  after reduction 85
+
+#88371: (881)  [881] ConnectDMessage Received
+
+#88371: (881)  [881] Re ConnectMessage send to 848
+
+#88532: (207)  [207] After Update
+89000 891 786 69 86 215.7471554993679
+
+#89131: (791)  [791] TOI for 62
+
+#89141: (203)  [203] TOI for 62
+
+#89151: (583)  [583] TOI for 62
+
+#89161: (784)  [784] TOI for 62
+
+#89171: (563)  [563] TOI for 62
+
+#89372: (207)  [207] After Update
+
+#89412: (207)  [207]  after reduction 86
+
+#89471: (892)  [892] ConnectDMessage Received
+
+#89471: (892)  [892] Re ConnectMessage send to 848
+
+#89562: (207)  [207]  after reduction 85
+
+#89571: (893)  [893] ConnectDMessage Received
+
+#89571: (893)  [893] Re ConnectMessage send to 724
+
+#89591: (893)  [893] ConnectDMessage Received
+
+#89591: (893)  [893] Re ConnectMessage send to 827
+
+#89611: (893)  [893] ConnectDMessage Received
+
+#89611: (893)  [893] Re ConnectMessage send to 25
+
+#89631: (893)  [893] ConnectDMessage Received
+
+#89631: (893)  [893] Re ConnectMessage send to 848
+
+#89632: (207)  [207] After Update
+
+#89651: (893)  [893] ConnectDMessage Received
+
+#89651: (893)  [893] Re ConnectMessage send to 810
+
+#89671: (893)  [893] ConnectDMessage Received
+
+#89671: (893)  [893] Re: GetIndexMessage Sent to feed_set167
+
+#89751: (895)  [895] ConnectDMessage Received
+
+#89751: (895)  [895] Re ConnectMessage send to 724
+
+#89752: (207)  [207]  after reduction 85
+
+#89771: (895)  [895] ConnectDMessage Received
+
+#89771: (895)  [895] Re ConnectMessage send to 848
+
+#89791: (895)  [895] ConnectDMessage Received
+
+#89791: (895)  [895] Re ConnectMessage send to 25
+
+#89811: (895)  [895] ConnectDMessage Received
+
+#89811: (895)  [895] Re ConnectMessage send to 827
+
+#89831: (895)  [895] ConnectDMessage Received
+
+#89831: (895)  [895] Re ConnectMessage send to 810
+
+#89851: (895)  [895] ConnectDMessage Received
+
+#89851: (895)  [895] Re: GetIndexMessage Sent to feed_set195
+
+#89971: (893)  [893] ConnectDMessage Received
+
+#89971: (893)  [893] Re ConnectMessage send to 810
+
+#89991: (893)  [893] ConnectDMessage Received
+
+#89991: (893)  [893] Re ConnectMessage send to 848
+90000 901 795 66 85 218.89513108614233
+
+#90002: (207)  [207]  after reduction 84
+
+#90011: (893)  [893] ConnectDMessage Received
+
+#90011: (893)  [893] Re ConnectMessage send to 724
+
+#90031: (898)  [898] ConnectDMessage Received
+
+#90031: (898)  [898] Re ConnectMessage send to 810
+
+#90031: (893)  [893] ConnectDMessage Received
+
+#90031: (893)  [893] Re ConnectMessage send to 25
+
+#90051: (893)  [893] ConnectDMessage Received
+
+#90051: (893)  [893] Re ConnectMessage send to 827
+
+#90051: (898)  [898] ConnectDMessage Received
+
+#90051: (898)  [898] Re ConnectMessage send to 25
+
+#90071: (898)  [898] ConnectDMessage Received
+
+#90071: (898)  [898] Re ConnectMessage send to 848
+
+#90071: (899)  [899] ConnectDMessage Received
+
+#90071: (899)  [899] Re ConnectMessage send to 724
+
+#90071: (893)  [893] ConnectDMessage Received
+
+#90071: (893)  [893] Re: GetIndexMessage Sent to feed_set142
+
+#90091: (899)  [899] ConnectDMessage Received
+
+#90091: (899)  [899] Re ConnectMessage send to 25
+
+#90091: (898)  [898] ConnectDMessage Received
+
+#90091: (898)  [898] Re ConnectMessage send to 827
+
+#90092: (207)  [207]  after reduction 83
+
+#90111: (899)  [899] ConnectDMessage Received
+
+#90111: (899)  [899] Re ConnectMessage send to 827
+
+#90111: (898)  [898] ConnectDMessage Received
+
+#90111: (898)  [898] Re ConnectMessage send to 724
+
+#90131: (898)  [898] ConnectDMessage Received
+
+#90131: (898)  [898] Re: GetIndexMessage Sent to feed_set183
+
+#90131: (899)  [899] ConnectDMessage Received
+
+#90131: (899)  [899] Re ConnectMessage send to 848
+
+#90151: (899)  [899] ConnectDMessage Received
+
+#90151: (899)  [899] Re ConnectMessage send to 810
+
+#90171: (899)  [899] ConnectDMessage Received
+
+#90171: (899)  [899] Re: GetIndexMessage Sent to feed_set36
+91000 911 807 65 83 218.71763255240444
+
+#91131: (811)  [811] TOI for 104
+
+#91141: (561)  [561] TOI for 104
+
+#91151: (778)  [778] TOI for 104
+
+#91161: (453)  [453] TOI for 104
+
+#91171: (449)  [449] TOI for 104
+
+#91181: (336)  [336] TOI for 104
+
+#91191: (909)  [909] ConnectDMessage Received
+
+#91191: (909)  [909] Re ConnectMessage send to 827
+
+#91191: (619)  [619] TOI for 104
+
+#91201: (733)  [733] TOI for 104
+
+#91211: (909)  [909] ConnectDMessage Received
+
+#91211: (909)  [909] Re ConnectMessage send to 848
+
+#91222: (207)  [207]  after reduction 82
+
+#91231: (909)  [909] ConnectDMessage Received
+
+#91231: (909)  [909] Re ConnectMessage send to 724
+
+#91251: (811)  [811] ConnectDMessage Received
+
+#91251: (811)  [811] Re ConnectMessage send to 848
+
+#91251: (909)  [909] ConnectDMessage Received
+
+#91251: (909)  [909] Re ConnectMessage send to 810
+
+#91271: (909)  [909] ConnectDMessage Received
+
+#91271: (909)  [909] Re ConnectMessage send to 25
+
+#91271: (811)  [811] ConnectDMessage Received
+
+#91271: (811)  [811] Re ConnectMessage send to 827
+
+#91291: (811)  [811] ConnectDMessage Received
+
+#91291: (811)  [811] Re ConnectMessage send to 810
+
+#91291: (909)  [909] ConnectDMessage Received
+
+#91291: (909)  [909] Re: GetIndexMessage Sent to feed_set197
+
+#91311: (811)  [811] ConnectDMessage Received
+
+#91311: (811)  [811] Re ConnectMessage send to 724
+
+#91331: (811)  [811] ConnectDMessage Received
+
+#91331: (811)  [811] Re ConnectMessage send to 25
+
+#91351: (811)  [811] ConnectDMessage Received
+
+#91351: (811)  [811] Re: GetIndexMessage Sent to feed_set78
+
+#91591: (914)  [914] ConnectDMessage Received
+
+#91591: (914)  [914] Re ConnectMessage send to 724
+
+#91611: (914)  [914] ConnectDMessage Received
+
+#91611: (914)  [914] Re ConnectMessage send to 810
+
+#91631: (914)  [914] ConnectDMessage Received
+
+#91631: (914)  [914] Re ConnectMessage send to 827
+
+#91651: (914)  [914] ConnectDMessage Received
+
+#91651: (914)  [914] Re ConnectMessage send to 848
+
+#91671: (914)  [914] ConnectDMessage Received
+
+#91671: (914)  [914] Re ConnectMessage send to 25
+
+#91671: (813)  [813] TOI for 63
+
+#91681: (670)  [670] TOI for 63
+
+#91691: (83)  [61] Wait for time out at req
+
+#91691: (83)  [61] ReduceSetMessage Sent
+
+#91691: (223)  [223] TOI for 63
+
+#91691: (914)  [914] ConnectDMessage Received
+
+#91691: (914)  [914] Re: GetIndexMessage Sent to feed_set159
+
+#91701: (251)  [251] TOI for 63
+
+#91711: (222)  [222] TOI for 63
+
+#91721: (284)  [284] TOI for 63
+
+#91731: (619)  [619] TOI for 63
+
+#91732: (207)  [207]  after reduction 81
+
+#91741: (733)  [733] TOI for 63
+
+#91752: (207)  [207]  after reduction 80
+
+#91781: (813)  [813] ConnectDMessage Received
+
+#91781: (813)  [813] Re ConnectMessage send to 827
+
+#91791: (915)  [915] ConnectDMessage Received
+
+#91791: (915)  [915] Re ConnectMessage send to 810
+
+#91801: (813)  [813] ConnectDMessage Received
+
+#91801: (813)  [813] Re ConnectMessage send to 810
+
+#91811: (915)  [915] ConnectDMessage Received
+
+#91811: (915)  [915] Re ConnectMessage send to 848
+
+#91821: (813)  [813] ConnectDMessage Received
+
+#91821: (813)  [813] Re ConnectMessage send to 848
+
+#91831: (915)  [915] ConnectDMessage Received
+
+#91831: (915)  [915] Re ConnectMessage send to 827
+
+#91841: (813)  [813] ConnectDMessage Received
+
+#91841: (813)  [813] Re ConnectMessage send to 724
+
+#91851: (915)  [915] ConnectDMessage Received
+
+#91851: (915)  [915] Re ConnectMessage send to 724
+
+#91861: (813)  [813] ConnectDMessage Received
+
+#91861: (813)  [813] Re ConnectMessage send to 25
+
+#91871: (915)  [915] ConnectDMessage Received
+
+#91871: (915)  [915] Re ConnectMessage send to 25
+
+#91881: (813)  [813] ConnectDMessage Received
+
+#91881: (813)  [813] Re: GetIndexMessage Sent to feed_set155
+
+#91891: (915)  [915] ConnectDMessage Received
+
+#91891: (915)  [915] Re: GetIndexMessage Sent to feed_set17
+
+#91892: (207)  [207]  after reduction 79
+
+#91951: (914)  [914] ConnectDMessage Received
+
+#91951: (914)  [914] Re ConnectMessage send to 25
+
+#91971: (914)  [914] ConnectDMessage Received
+
+#91971: (914)  [914] Re ConnectMessage send to 810
+
+#91991: (914)  [914] ConnectDMessage Received
+
+#91991: (914)  [914] Re ConnectMessage send to 827
+# setRoot : From 735 to 920
+92000 921 814 62 79 220.9439707673569
+
+#92011: (914)  [914] ConnectDMessage Received
+
+#92011: (914)  [914] Re ConnectMessage send to 848
+
+#92031: (914)  [914] ConnectDMessage Received
+
+#92031: (914)  [914] Re ConnectMessage send to 724
+
+#92051: (914)  [914] ConnectDMessage Received
+
+#92051: (914)  [914] Re: GetIndexMessage Sent to feed_set148
+
+#92072: (207)  [207]  after reduction 78
+
+#92082: (207)  [207]  after reduction 77
+
+#92091: (813)  [813] ConnectDMessage Received
+
+#92091: (813)  [813] Re ConnectMessage send to 25
+
+#92111: (918)  [918] ConnectDMessage Received
+
+#92111: (918)  [918] Re ConnectMessage send to 848
+
+#92111: (813)  [813] ConnectDMessage Received
+
+#92111: (813)  [813] Re ConnectMessage send to 848
+
+#92131: (918)  [918] ConnectDMessage Received
+
+#92131: (918)  [918] Re ConnectMessage send to 25
+
+#92131: (813)  [813] ConnectDMessage Received
+
+#92131: (813)  [813] Re ConnectMessage send to 724
+
+#92151: (813)  [813] ConnectDMessage Received
+
+#92151: (813)  [813] Re ConnectMessage send to 827
+
+#92151: (918)  [918] ConnectDMessage Received
+
+#92151: (918)  [918] Re ConnectMessage send to 724
+
+#92161: (213)  [213] Wait for time out at req
+
+#92161: (213)  [213] ReduceSetMessage Sent
+
+#92171: (918)  [918] ConnectDMessage Received
+
+#92171: (918)  [918] Re ConnectMessage send to 810
+
+#92171: (813)  [813] ConnectDMessage Received
+
+#92171: (813)  [813] Re ConnectMessage send to 810
+
+#92191: (918)  [918] ConnectDMessage Received
+
+#92191: (918)  [918] Re ConnectMessage send to 827
+
+#92191: (813)  [813] ConnectDMessage Received
+
+#92191: (813)  [813] Re: GetIndexMessage Sent to feed_set0
+
+#92211: (918)  [918] ConnectDMessage Received
+
+#92211: (918)  [918] Re: GetIndexMessage Sent to feed_set190
+
+#92232: (207)  [207]  after reduction 76
+
+#92232: (207)  [207]  after reduction 75
+
+#92261: (813)  [813] ConnectDMessage Received
+
+#92261: (813)  [813] Re ConnectMessage send to 848
+
+#92271: (920)  [920] ConnectDMessage Received
+
+#92271: (920)  [920] Re ConnectMessage send to 848
+
+#92281: (813)  [813] ConnectDMessage Received
+
+#92281: (813)  [813] Re ConnectMessage send to 810
+
+#92291: (920)  [920] ConnectDMessage Received
+
+#92291: (920)  [920] Re ConnectMessage send to 827
+
+#92301: (813)  [813] ConnectDMessage Received
+
+#92301: (813)  [813] Re ConnectMessage send to 724
+
+#92301: (922)  [922] ConnectDMessage Received
+
+#92301: (922)  [922] Re ConnectMessage send to 848
+
+#92302: (207)  [207]  after reduction 75
+
+#92311: (920)  [920] ConnectDMessage Received
+
+#92311: (920)  [920] Re ConnectMessage send to 724
+
+#92321: (813)  [813] ConnectDMessage Received
+
+#92321: (813)  [813] Re ConnectMessage send to 827
+
+#92321: (922)  [922] ConnectDMessage Received
+
+#92321: (922)  [922] Re ConnectMessage send to 724
+
+#92331: (920)  [920] ConnectDMessage Received
+
+#92331: (920)  [920] Re ConnectMessage send to 810
+
+#92341: (922)  [922] ConnectDMessage Received
+
+#92341: (922)  [922] Re ConnectMessage send to 827
+
+#92341: (813)  [813] ConnectDMessage Received
+
+#92341: (813)  [813] Re ConnectMessage send to 25
+
+#92351: (920)  [920] ConnectDMessage Received
+
+#92351: (920)  [920] Re ConnectMessage send to 25
+
+#92361: (922)  [922] ConnectDMessage Received
+
+#92361: (922)  [922] Re ConnectMessage send to 461
+
+#92361: (813)  [813] ConnectDMessage Received
+
+#92361: (813)  [813] Re: GetIndexMessage Sent to feed_set187
+
+#92371: (920)  [920] ConnectDMessage Received
+
+#92371: (920)  [920] Re: GetIndexMessage Sent to feed_set126
+
+#92371: (914)  [914] ConnectDMessage Received
+
+#92371: (914)  [914] Re ConnectMessage send to 810
+
+#92391: (914)  [914] ConnectDMessage Received
+
+#92391: (914)  [914] Re ConnectMessage send to 724
+
+#92411: (914)  [914] ConnectDMessage Received
+
+#92411: (914)  [914] Re ConnectMessage send to 848
+
+#92431: (914)  [914] ConnectDMessage Received
+
+#92431: (914)  [914] Re ConnectMessage send to 25
+
+#92451: (914)  [914] ConnectDMessage Received
+
+#92451: (914)  [914] Re ConnectMessage send to 827
+
+#92462: (207)  [207] After Update
+
+#92471: (914)  [914] ConnectDMessage Received
+
+#92471: (914)  [914] Re: GetIndexMessage Sent to feed_set191
+
+#92542: (207)  [207]  after reduction 75
+
+#92571: (920)  [920] ConnectDMessage Received
+
+#92571: (920)  [920] Re ConnectMessage send to 25
+
+#92591: (920)  [920] ConnectDMessage Received
+
+#92591: (920)  [920] Re ConnectMessage send to 827
+
+#92611: (920)  [920] ConnectDMessage Received
+
+#92611: (920)  [920] Re ConnectMessage send to 810
+
+#92631: (920)  [920] ConnectDMessage Received
+
+#92631: (920)  [920] Re ConnectMessage send to 848
+
+#92651: (920)  [920] ConnectDMessage Received
+
+#92651: (920)  [920] Re ConnectMessage send to 724
+
+#92671: (920)  [920] ConnectDMessage Received
+
+#92671: (920)  [920] Re: GetIndexMessage Sent to feed_set178
+
+#92711: (924)  [924] ConnectDMessage Received
+
+#92711: (924)  [924] Re ConnectMessage send to 827
+
+#92712: (207)  [207]  after reduction 74
+
+#92731: (924)  [924] ConnectDMessage Received
+
+#92731: (924)  [924] Re ConnectMessage send to 25
+
+#92751: (924)  [924] ConnectDMessage Received
+
+#92751: (924)  [924] Re ConnectMessage send to 848
+
+#92771: (924)  [924] ConnectDMessage Received
+
+#92771: (924)  [924] Re ConnectMessage send to 810
+
+#92791: (924)  [924] ConnectDMessage Received
+
+#92791: (924)  [924] Re ConnectMessage send to 724
+
+#92791: (925)  [925] ConnectDMessage Received
+
+#92791: (925)  [925] Re ConnectMessage send to 25
+
+#92811: (925)  [925] ConnectDMessage Received
+
+#92811: (925)  [925] Re ConnectMessage send to 810
+
+#92811: (924)  [924] ConnectDMessage Received
+
+#92811: (924)  [924] Re: GetIndexMessage Sent to feed_set189
+
+#92812: (207)  [207]  after reduction 73
+
+#92831: (925)  [925] ConnectDMessage Received
+
+#92831: (925)  [925] Re ConnectMessage send to 724
+
+#92851: (925)  [925] ConnectDMessage Received
+
+#92851: (925)  [925] Re ConnectMessage send to 848
+
+#92871: (925)  [925] ConnectDMessage Received
+
+#92871: (925)  [925] Re ConnectMessage send to 827
+
+#92891: (925)  [925] ConnectDMessage Received
+
+#92891: (925)  [925] Re: GetIndexMessage Sent to feed_set17
+
+#92891: (928)  [928] ConnectDMessage Received
+
+#92891: (928)  [928] Re ConnectMessage send to 724
+
+#92911: (928)  [928] ConnectDMessage Received
+
+#92911: (928)  [928] Re ConnectMessage send to 848
+
+#92931: (928)  [928] ConnectDMessage Received
+
+#92931: (928)  [928] Re ConnectMessage send to 827
+
+#92951: (928)  [928] ConnectDMessage Received
+
+#92951: (928)  [928] Re ConnectMessage send to 25
+
+#92971: (928)  [928] ConnectDMessage Received
+
+#92971: (928)  [928] Re ConnectMessage send to 810
+
+#92991: (928)  [928] ConnectDMessage Received
+
+#92991: (928)  [928] Re: GetIndexMessage Sent to feed_set36
+93000 931 825 56 73 228.4933814681107
+# setRoot : From 136 to 933
+
+#93331: (833)  [833] TOI for 110
+
+#93341: (477)  [477] TOI for 110
+
+#93351: (738)  [738] TOI for 110
+
+#93361: (786)  [786] TOI for 110
+
+#93371: (461)  [461] TOI for 110
+
+#93381: (734)  [734] TOI for 110
+
+#93471: (833)  [833] ConnectDMessage Received
+
+#93471: (833)  [833] Re ConnectMessage send to 827
+
+#93491: (833)  [833] ConnectDMessage Received
+
+#93491: (833)  [833] Re ConnectMessage send to 25
+
+#93511: (833)  [833] ConnectDMessage Received
+
+#93511: (833)  [833] Re ConnectMessage send to 810
+
+#93531: (833)  [833] ConnectDMessage Received
+
+#93531: (833)  [833] Re ConnectMessage send to 724
+
+#93551: (833)  [833] ConnectDMessage Received
+
+#93551: (833)  [833] Re ConnectMessage send to 848
+
+#93571: (252)  [252] Wait for time out at req
+
+#93571: (252)  [252] ReduceSetMessage Sent
+
+#93571: (833)  [833] ConnectDMessage Received
+
+#93571: (833)  [833] Re: GetIndexMessage Sent to feed_set194
+
+#93612: (207)  [207]  after reduction 72
+94000 941 837 56 72 227.24970273483947
+
+#94412: (207)  [207]  after reduction 71
+
+#94431: (941)  [941] ConnectDMessage Received
+
+#94431: (941)  [941] Re ConnectMessage send to 827
+
+#94451: (941)  [941] ConnectDMessage Received
+
+#94451: (941)  [941] Re ConnectMessage send to 724
+
+#94471: (941)  [941] ConnectDMessage Received
+
+#94471: (941)  [941] Re ConnectMessage send to 810
+
+#94491: (941)  [941] ConnectDMessage Received
+
+#94491: (941)  [941] Re ConnectMessage send to 25
+
+#94511: (941)  [941] ConnectDMessage Received
+
+#94511: (941)  [941] Re ConnectMessage send to 848
+
+#94531: (941)  [941] ConnectDMessage Received
+
+#94531: (941)  [941] Re: GetIndexMessage Sent to feed_set171
+# setRoot : From 306 to 946
+
+#94611: (456)  [456] Wait for time out at req
+
+#94611: (456)  [456] ReduceSetMessage Sent
+
+#94682: (207)  [207]  after reduction 70
+
+#94991: (947)  [947] ConnectDMessage Received
+
+#94991: (947)  [947] Re ConnectMessage send to 25
+
+#94992: (207)  [207]  after reduction 69
+95000 951 845 54 69 227.0505287896592
+
+#95011: (947)  [947] ConnectDMessage Received
+
+#95011: (947)  [947] Re ConnectMessage send to 810
+
+#95031: (947)  [947] ConnectDMessage Received
+
+#95031: (947)  [947] Re ConnectMessage send to 827
+
+#95051: (947)  [947] ConnectDMessage Received
+
+#95051: (947)  [947] Re ConnectMessage send to 724
+
+#95071: (947)  [947] ConnectDMessage Received
+
+#95071: (947)  [947] Re ConnectMessage send to 848
+
+#95091: (947)  [947] ConnectDMessage Received
+
+#95091: (947)  [947] Re: GetIndexMessage Sent to feed_set58
+
+#95182: (207)  [207]  after reduction 68
+
+#95211: (949)  [949] ConnectDMessage Received
+
+#95211: (949)  [949] Re ConnectMessage send to 810
+
+#95231: (949)  [949] ConnectDMessage Received
+
+#95231: (949)  [949] Re ConnectMessage send to 724
+
+#95251: (949)  [949] ConnectDMessage Received
+
+#95251: (949)  [949] Re ConnectMessage send to 848
+
+#95271: (949)  [949] ConnectDMessage Received
+
+#95271: (949)  [949] Re ConnectMessage send to 25
+
+#95291: (949)  [949] ConnectDMessage Received
+
+#95291: (949)  [949] Re ConnectMessage send to 827
+
+#95311: (949)  [949] ConnectDMessage Received
+
+#95311: (949)  [949] Re: GetIndexMessage Sent to feed_set145
+
+#95592: (207)  [207]  after reduction 67
+# setRoot : From 387 to 956
+
+#95611: (949)  [949] ConnectDMessage Received
+
+#95611: (949)  [949] Re ConnectMessage send to 827
+
+#95631: (949)  [949] ConnectDMessage Received
+
+#95631: (949)  [949] Re ConnectMessage send to 724
+
+#95651: (949)  [949] ConnectDMessage Received
+
+#95651: (949)  [949] Re ConnectMessage send to 848
+
+#95671: (949)  [949] ConnectDMessage Received
+
+#95671: (949)  [949] Re ConnectMessage send to 25
+
+#95691: (949)  [949] ConnectDMessage Received
+
+#95691: (949)  [949] Re ConnectMessage send to 810
+
+#95711: (949)  [949] ConnectDMessage Received
+
+#95711: (949)  [949] Re: GetIndexMessage Sent to feed_set31
+96000 961 855 51 67 227.99303135888502
+
+#96042: (207)  [207]  after reduction 66
+
+#96071: (958)  [958] ConnectDMessage Received
+
+#96071: (958)  [958] Re ConnectMessage send to 724
+
+#96081: (921)  [921] Wait for time out at req
+
+#96081: (921)  [921] ReduceSetMessage Sent
+
+#96091: (958)  [958] ConnectDMessage Received
+
+#96091: (958)  [958] Re ConnectMessage send to 827
+
+#96111: (958)  [958] ConnectDMessage Received
+
+#96111: (958)  [958] Re ConnectMessage send to 848
+
+#96131: (958)  [958] ConnectDMessage Received
+
+#96131: (958)  [958] Re ConnectMessage send to 955
+
+#96172: (207)  [207]  after reduction 65
+
+#96772: (207)  [207]  after reduction 64
+97000 971 865 50 64 228.85878300803674
+
+#97182: (207)  [207] After Update
+
+#97432: (207)  [207]  after reduction 64
+
+#97552: (207)  [207] After Update
+
+#97562: (207)  [207] After Update
+
+#97631: (876)  [876] TOI for 53
+
+#97641: (338)  [338] TOI for 53
+
+#97651: (433)  [433] TOI for 53
+
+#97661: (296)  [296] TOI for 53
+
+#97671: (305)  [305] TOI for 53
+
+#97681: (147)  [147] TOI for 53
+
+#97691: (103)  [103] TOI for 53
+
+#97962: (207)  [207] After Update
+98000 981 875 52 67 230.9409761634506
+
+#98252: (207)  [207]  after reduction 66
+
+#98322: (207)  [207]  after reduction 65
+
+#98391: (981)  [981] ConnectDMessage Received
+
+#98391: (981)  [981] Re ConnectMessage send to 958
+
+#98432: (207)  [207] After Update
+# setRoot : From 670 to 985
+
+#98562: (207)  [207] After Update
+
+#98752: (207)  [207]  after reduction 66
+
+#98872: (207)  [207] After Update
+99000 991 884 53 67 236.09203142536475
+
+#99062: (207)  [207]  after reduction 66
+
+#99131: (988)  [988] ConnectDMessage Received
+
+#99131: (988)  [988] Re ConnectMessage send to 958
+
+#99252: (207)  [207]  after reduction 65
+
+#99302: (207)  [207] After Update
+
+#99332: (207)  [207] After Update
+
+#99652: (207)  [207]  after reduction 66
+
+#99822: (207)  [207] After Update
+100000 1000 894 50 67 240.45888888888888
+
+#100002: (207)  [207]  after reduction 66
+
+#100012: (207)  [207] After Update
+
+#100203: (207)  [207] After Update
+
+#100212: (207)  [207] After Update

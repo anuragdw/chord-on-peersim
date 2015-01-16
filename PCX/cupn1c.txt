@@ -1,0 +1,61 @@
+java -cp `find -L lib/ -name "*.jar" | tr [:space:] :`:"":classes peersim.Simulator PCX.cfg
+
+
+one advantage is as the topology is changing, our method is better as there is no deregister message
+#0 PCXInitMessage Sent .. 
+3421.0 986 2.4563894
+9084.0 986 8.199798
+
+
+
+#0 PCXInitMessage Sent .. 
+3737.0 986 2.7768762
+7769.0 986 6.8661256
+
+
+
+#0 PCXInitMessage Sent .. 
+3607.0 986 2.6450305
+7781.0 986 6.8782964
+
+
+
+#0 PCXInitMessage Sent .. 
+3419.0 988 2.4493928
+8249.0 988 7.3380566
+
+
+
+#0 PCXInitMessage Sent .. 
+3815.0 988 2.8502023
+7000.0 988 6.073887
+
+
+
+#0 PCXInitMessage Sent .. 
+3471.0 985 2.5096447
+8796.0 985 7.915736
+
+
+
+#0 PCXInitMessage Sent .. 
+3687.0 982 2.7372708
+6724.0 982 5.829939
+
+
+
+#0 PCXInitMessage Sent .. 
+3643.0 988 2.6761134
+7311.0 988 6.388664
+
+
+
+#0 PCXInitMessage Sent .. 
+3425.0 984 2.4654472
+8747.0 984 7.873984
+
+
+
+#0 PCXInitMessage Sent .. 
+4183.0 988 3.222672
+5584.0 988 4.6406884

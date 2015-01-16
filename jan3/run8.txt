@@ -1,0 +1,4519 @@
+
+10000 1001 1 1 0 0.006659267480577136
+
+#10271: (1002)  [1002] ConnectDMessage Received
+
+#10271: (1002)  [1002] Can't connect to active set 0 limit is 20000
+
+#10271: (1002)  [1002] Re: GetIndexMessage Sent to feed_set0
+
+#10271: (1005)  [1005] ConnectDMessage Received
+
+#10271: (1005)  [1005] Can't connect to active set 0 limit is 20000
+
+#10271: (1005)  [1005] Re: GetIndexMessage Sent to feed_set0
+
+#10281: (1001)  [1001] ConnectDMessage Received
+
+#10281: (1001)  [1001] Can't connect to active set 0 limit is 20000
+
+#10281: (1001)  [1001] Re: GetIndexMessage Sent to feed_set0
+
+#10281: (1000)  [1000] ConnectDMessage Received
+
+#10281: (1000)  [1000] Can't connect to active set 0 limit is 20000
+
+#10281: (1000)  [1000] Re: GetIndexMessage Sent to feed_set0
+
+#10281: (1006)  [1006] ConnectDMessage Received
+
+#10281: (1006)  [1006] Can't connect to active set 0 limit is 20000
+
+#10281: (1006)  [1006] Re: GetIndexMessage Sent to feed_set0
+
+#10291: (1015)  [1015] ConnectDMessage Received
+
+#10291: (1015)  [1015] Can't connect to active set 0 limit is 20000
+
+#10291: (1015)  [1015] Re: GetIndexMessage Sent to feed_set0
+
+#10291: (1010)  [1010] ConnectDMessage Received
+
+#10291: (1010)  [1010] Can't connect to active set 0 limit is 20000
+
+#10291: (1010)  [1010] Re: GetIndexMessage Sent to feed_set0
+
+#10301: (1003)  [1003] ConnectDMessage Received
+
+#10301: (1003)  [1003] Can't connect to active set 0 limit is 20000
+
+#10301: (1003)  [1003] Re: GetIndexMessage Sent to feed_set0
+
+#10321: (1019)  [1019] ConnectDMessage Received
+
+#10321: (1019)  [1019] Re ConnectMessage send to 1004
+
+#10331: (1021)  [1021] ConnectDMessage Received
+
+#10331: (1021)  [1021] Re ConnectMessage send to 1004
+
+#10331: (1011)  [1011] ConnectDMessage Received
+
+#10331: (1011)  [1011] Re ConnectMessage send to 1004
+
+#10351: (1016)  [1016] ConnectDMessage Received
+
+#10351: (1016)  [1016] Re ConnectMessage send to 1004
+
+#10361: (1018)  [1018] ConnectDMessage Received
+
+#10361: (1018)  [1018] Re ConnectMessage send to 1013
+
+#10371: (1016)  [1016] ConnectDMessage Received
+
+#10371: (1016)  [1016] Can't connect to active set 0 limit is 20191
+
+#10371: (1016)  [1016] Re: GetIndexMessage Sent to feed_set0
+
+#10371: (1020)  [1020] ConnectDMessage Received
+
+#10371: (1020)  [1020] Re ConnectMessage send to 1013
+
+#10371: (1017)  [1017] ConnectDMessage Received
+
+#10371: (1017)  [1017] Re ConnectMessage send to 1013
+
+#10381: (1005)  [1005] ConnectDMessage Received
+
+#10381: (1005)  [1005] Re ConnectMessage send to 763
+
+#10381: (1028)  [1028] ConnectDMessage Received
+
+#10381: (1028)  [1028] Re ConnectMessage send to 1013
+
+#10381: (1002)  [1002] ConnectDMessage Received
+
+#10381: (1002)  [1002] Re ConnectMessage send to 763
+
+#10381: (1023)  [1023] ConnectDMessage Received
+
+#10381: (1023)  [1023] Re ConnectMessage send to 1004
+
+#10391: (1017)  [1017] ConnectDMessage Received
+
+#10391: (1017)  [1017] Re ConnectMessage send to 1004
+
+#10391: (1006)  [1006] ConnectDMessage Received
+
+#10391: (1006)  [1006] Re ConnectMessage send to 1013
+
+#10391: (1024)  [1024] ConnectDMessage Received
+
+#10391: (1024)  [1024] Re ConnectMessage send to 1007
+
+#10401: (1010)  [1010] ConnectDMessage Received
+
+#10401: (1010)  [1010] Re ConnectMessage send to 1013
+
+#10401: (1005)  [1005] ConnectDMessage Received
+
+#10401: (1005)  [1005] Re ConnectMessage send to 1013
+
+#10401: (1015)  [1015] ConnectDMessage Received
+
+#10401: (1015)  [1015] Re ConnectMessage send to 1013
+
+#10401: (1028)  [1028] ConnectDMessage Received
+
+#10401: (1028)  [1028] Re ConnectMessage send to 763
+
+#10401: (1002)  [1002] ConnectDMessage Received
+
+#10401: (1002)  [1002] Re ConnectMessage send to 1013
+
+#10401: (1023)  [1023] ConnectDMessage Received
+
+#10401: (1023)  [1023] Re ConnectMessage send to 1013
+
+#10411: (1006)  [1006] ConnectDMessage Received
+
+#10411: (1006)  [1006] Re ConnectMessage send to 1004
+
+#10411: (1017)  [1017] ConnectDMessage Received
+
+#10411: (1017)  [1017] Can't connect to active set 0 limit is 20251
+
+#10411: (1017)  [1017] Re: GetIndexMessage Sent to feed_set0
+
+#10421: (1005)  [1005] ConnectDMessage Received
+
+#10421: (1005)  [1005] Can't connect to active set 0 limit is 20251
+
+#10421: (1005)  [1005] Re: GetIndexMessage Sent to feed_set0
+
+#10421: (1015)  [1015] ConnectDMessage Received
+
+#10421: (1015)  [1015] Re ConnectMessage send to 763
+
+#10421: (1023)  [1023] ConnectDMessage Received
+
+#10421: (1023)  [1023] Can't connect to active set 0 limit is 20251
+
+#10421: (1023)  [1023] Re: GetIndexMessage Sent to feed_set0
+
+#10421: (1028)  [1028] ConnectDMessage Received
+
+#10421: (1028)  [1028] Can't connect to active set 0 limit is 20251
+
+#10421: (1028)  [1028] Re: GetIndexMessage Sent to feed_set0
+
+#10421: (1002)  [1002] ConnectDMessage Received
+
+#10421: (1002)  [1002] Can't connect to active set 0 limit is 20251
+
+#10421: (1002)  [1002] Re: GetIndexMessage Sent to feed_set0
+
+#10421: (1010)  [1010] ConnectDMessage Received
+
+#10421: (1010)  [1010] Re ConnectMessage send to 1004
+
+#10431: (1006)  [1006] ConnectDMessage Received
+
+#10431: (1006)  [1006] Can't connect to active set 0 limit is 20251
+
+#10431: (1006)  [1006] Re: GetIndexMessage Sent to feed_set0
+
+#10441: (1010)  [1010] ConnectDMessage Received
+
+#10441: (1010)  [1010] Can't connect to active set 0 limit is 20251
+
+#10441: (1010)  [1010] Re: GetIndexMessage Sent to feed_set0
+
+#10441: (1015)  [1015] ConnectDMessage Received
+
+#10441: (1015)  [1015] Can't connect to active set 0 limit is 20251
+
+#10441: (1015)  [1015] Re: GetIndexMessage Sent to feed_set0
+
+#10451: (1026)  [1026] ConnectDMessage Received
+
+#10451: (1026)  [1026] Re ConnectMessage send to 1012
+
+#10451: (1029)  [1029] ConnectDMessage Received
+
+#10451: (1029)  [1029] Re ConnectMessage send to 1013
+
+#10471: (1033)  [1033] ConnectDMessage Received
+
+#10471: (1033)  [1033] Re ConnectMessage send to 1013
+
+#10471: (1029)  [1029] ConnectDMessage Received
+
+#10471: (1029)  [1029] Re ConnectMessage send to 1012
+
+#10481: (1027)  [1027] ConnectDMessage Received
+
+#10481: (1027)  [1027] Re ConnectMessage send to 1012
+
+#10491: (1033)  [1033] ConnectDMessage Received
+
+#10491: (1033)  [1033] Re ConnectMessage send to 1007
+
+#10491: (1029)  [1029] ConnectDMessage Received
+
+#10491: (1029)  [1029] Re ConnectMessage send to 1007
+
+#10501: (1027)  [1027] ConnectDMessage Received
+
+#10501: (1027)  [1027] Re ConnectMessage send to 1013
+
+#10511: (1045)  [1045] ConnectDMessage Received
+
+#10511: (1045)  [1045] Re ConnectMessage send to 1025
+
+#10511: (1029)  [1029] ConnectDMessage Received
+
+#10511: (1029)  [1029] Re ConnectMessage send to 1009
+
+#10521: (1027)  [1027] ConnectDMessage Received
+
+#10521: (1027)  [1027] Re ConnectMessage send to 1007
+
+#10541: (1005)  [1005] ConnectDMessage Received
+
+#10541: (1005)  [1005] Re ConnectMessage send to 1012
+
+#10541: (1028)  [1028] ConnectDMessage Received
+
+#10541: (1028)  [1028] Re ConnectMessage send to 1025
+
+#10541: (1027)  [1027] ConnectDMessage Received
+
+#10541: (1027)  [1027] Re ConnectMessage send to 1009
+
+#10541: (1036)  [1036] ConnectDMessage Received
+
+#10541: (1036)  [1036] Re ConnectMessage send to 1022
+
+#10551: (1039)  [1039] ConnectDMessage Received
+
+#10551: (1039)  [1039] Re ConnectMessage send to 1025
+
+#10561: (1028)  [1028] ConnectDMessage Received
+
+#10561: (1028)  [1028] Re ConnectMessage send to 1009
+
+#10561: (1005)  [1005] ConnectDMessage Received
+
+#10561: (1005)  [1005] Re ConnectMessage send to 1022
+
+#10561: (1015)  [1015] ConnectDMessage Received
+
+#10561: (1015)  [1015] Re ConnectMessage send to 1025
+
+#10561: (1040)  [1040] ConnectDMessage Received
+
+#10561: (1040)  [1040] Re ConnectMessage send to 1009
+
+#10561: (1010)  [1010] ConnectDMessage Received
+
+#10561: (1010)  [1010] Re ConnectMessage send to 1025
+
+#10561: (1038)  [1038] ConnectDMessage Received
+
+#10561: (1038)  [1038] Re ConnectMessage send to 1022
+
+#10571: (1039)  [1039] ConnectDMessage Received
+
+#10571: (1039)  [1039] Re ConnectMessage send to 1007
+
+#10581: (1028)  [1028] ConnectDMessage Received
+
+#10581: (1028)  [1028] Re ConnectMessage send to 1012
+
+#10581: (1010)  [1010] ConnectDMessage Received
+
+#10581: (1010)  [1010] Re ConnectMessage send to 1022
+
+#10581: (1015)  [1015] ConnectDMessage Received
+
+#10581: (1015)  [1015] Re ConnectMessage send to 1012
+
+#10581: (1040)  [1040] ConnectDMessage Received
+
+#10581: (1040)  [1040] Re ConnectMessage send to 1007
+
+#10591: (1039)  [1039] ConnectDMessage Received
+
+#10591: (1039)  [1039] Re ConnectMessage send to 1009
+
+#10601: (1050)  [1050] ConnectDMessage Received
+
+#10601: (1050)  [1050] Re ConnectMessage send to 1022
+
+#10601: (1028)  [1028] ConnectDMessage Received
+
+#10601: (1028)  [1028] Re ConnectMessage send to 1022
+
+#10601: (1015)  [1015] ConnectDMessage Received
+
+#10601: (1015)  [1015] Re ConnectMessage send to 1022
+
+#10601: (1040)  [1040] ConnectDMessage Received
+
+#10601: (1040)  [1040] Re ConnectMessage send to 1012
+
+#10611: (1048)  [1048] ConnectDMessage Received
+
+#10611: (1048)  [1048] Re ConnectMessage send to 1009
+
+#10611: (1039)  [1039] ConnectDMessage Received
+
+#10611: (1039)  [1039] Re ConnectMessage send to 1022
+
+#10611: (1046)  [1046] ConnectDMessage Received
+
+#10611: (1046)  [1046] Re ConnectMessage send to 1022
+
+#10611: (1043)  [1043] ConnectDMessage Received
+
+#10611: (1043)  [1043] Re ConnectMessage send to 1007
+
+#10611: (1042)  [1042] ConnectDMessage Received
+
+#10611: (1042)  [1042] Re ConnectMessage send to 1009
+
+#10621: (1015)  [1015] ConnectDMessage Received
+
+#10621: (1015)  [1015] Re ConnectMessage send to 1009
+
+#10621: (1028)  [1028] ConnectDMessage Received
+
+#10621: (1028)  [1028] Can't connect to active set 0 limit is 20421
+
+#10621: (1028)  [1028] Re: GetIndexMessage Sent to feed_set3
+
+#10621: (1050)  [1050] ConnectDMessage Received
+
+#10621: (1050)  [1050] Re ConnectMessage send to 1025
+
+#10621: (1040)  [1040] ConnectDMessage Received
+
+#10621: (1040)  [1040] Re ConnectMessage send to 1022
+
+#10631: (1046)  [1046] ConnectDMessage Received
+
+#10631: (1046)  [1046] Re ConnectMessage send to 1012
+
+#10631: (1043)  [1043] ConnectDMessage Received
+
+#10631: (1043)  [1043] Re ConnectMessage send to 1025
+
+#10631: (1042)  [1042] ConnectDMessage Received
+
+#10631: (1042)  [1042] Re ConnectMessage send to 1007
+
+#10631: (1048)  [1048] ConnectDMessage Received
+
+#10631: (1048)  [1048] Re ConnectMessage send to 1025
+
+#10631: (1039)  [1039] ConnectDMessage Received
+
+#10631: (1039)  [1039] Can't connect to active set 0 limit is 20421
+
+#10631: (1039)  [1039] Re: GetIndexMessage Sent to feed_set2
+
+#10641: (1050)  [1050] ConnectDMessage Received
+
+#10641: (1050)  [1050] Re ConnectMessage send to 1012
+
+#10641: (1049)  [1049] ConnectDMessage Received
+
+#10641: (1049)  [1049] Re ConnectMessage send to 1022
+
+#10641: (1040)  [1040] ConnectDMessage Received
+
+#10641: (1040)  [1040] Can't connect to active set 0 limit is 20421
+
+#10641: (1040)  [1040] Re: GetIndexMessage Sent to feed_set2
+
+#10641: (1015)  [1015] ConnectDMessage Received
+
+#10641: (1015)  [1015] Can't connect to active set 0 limit is 20421
+
+#10641: (1015)  [1015] Re: GetIndexMessage Sent to feed_set4
+
+#10651: (1046)  [1046] ConnectDMessage Received
+
+#10651: (1046)  [1046] Re ConnectMessage send to 1007
+
+#10651: (1042)  [1042] ConnectDMessage Received
+
+#10651: (1042)  [1042] Re ConnectMessage send to 1022
+
+#10651: (1043)  [1043] ConnectDMessage Received
+
+#10651: (1043)  [1043] Re ConnectMessage send to 1009
+
+#10651: (1048)  [1048] ConnectDMessage Received
+
+#10651: (1048)  [1048] Re ConnectMessage send to 1022
+
+#10661: (1050)  [1050] ConnectDMessage Received
+
+#10661: (1050)  [1050] Re ConnectMessage send to 1007
+
+#10661: (1049)  [1049] ConnectDMessage Received
+
+#10661: (1049)  [1049] Re ConnectMessage send to 1009
+
+#10671: (1046)  [1046] ConnectDMessage Received
+
+#10671: (1046)  [1046] Re ConnectMessage send to 1025
+
+#10671: (1042)  [1042] ConnectDMessage Received
+
+#10671: (1042)  [1042] Re ConnectMessage send to 1012
+
+#10671: (1048)  [1048] ConnectDMessage Received
+
+#10671: (1048)  [1048] Re ConnectMessage send to 1007
+
+#10671: (1043)  [1043] ConnectDMessage Received
+
+#10671: (1043)  [1043] Re ConnectMessage send to 1022
+
+#10681: (1049)  [1049] ConnectDMessage Received
+
+#10681: (1049)  [1049] Re ConnectMessage send to 1007
+
+#10681: (1050)  [1050] ConnectDMessage Received
+
+#10681: (1050)  [1050] Can't connect to active set 0 limit is 20421
+
+#10681: (1050)  [1050] Re: GetIndexMessage Sent to feed_set0
+
+#10681: (1051)  [1051] ConnectDMessage Received
+
+#10681: (1051)  [1051] Re ConnectMessage send to 1012
+
+#10691: (1043)  [1043] ConnectDMessage Received
+
+#10691: (1043)  [1043] Can't connect to active set 0 limit is 20421
+
+#10691: (1043)  [1043] Re: GetIndexMessage Sent to feed_set11
+
+#10691: (1046)  [1046] ConnectDMessage Received
+
+#10691: (1046)  [1046] Can't connect to active set 0 limit is 20421
+
+#10691: (1046)  [1046] Re: GetIndexMessage Sent to feed_set13
+
+#10691: (1042)  [1042] ConnectDMessage Received
+
+#10691: (1042)  [1042] Can't connect to active set 0 limit is 20421
+
+#10691: (1042)  [1042] Re: GetIndexMessage Sent to feed_set6
+
+#10691: (1048)  [1048] ConnectDMessage Received
+
+#10691: (1048)  [1048] Can't connect to active set 0 limit is 20421
+
+#10691: (1048)  [1048] Re: GetIndexMessage Sent to feed_set2
+
+#10701: (1051)  [1051] ConnectDMessage Received
+
+#10701: (1051)  [1051] Re ConnectMessage send to 1025
+
+#10701: (1057)  [1057] ConnectDMessage Received
+
+#10701: (1057)  [1057] Re ConnectMessage send to 1025
+
+#10701: (1049)  [1049] ConnectDMessage Received
+
+#10701: (1049)  [1049] Re ConnectMessage send to 1025
+
+#10721: (1057)  [1057] ConnectDMessage Received
+
+#10721: (1057)  [1057] Re ConnectMessage send to 1022
+
+#10721: (1051)  [1051] ConnectDMessage Received
+
+#10721: (1051)  [1051] Re ConnectMessage send to 1022
+
+#10721: (1049)  [1049] ConnectDMessage Received
+
+#10721: (1049)  [1049] Can't connect to active set 0 limit is 20421
+
+#10721: (1049)  [1049] Re: GetIndexMessage Sent to feed_set8
+
+#10741: (1051)  [1051] ConnectDMessage Received
+
+#10741: (1051)  [1051] Re ConnectMessage send to 1009
+
+#10741: (1057)  [1057] ConnectDMessage Received
+
+#10741: (1057)  [1057] Re ConnectMessage send to 1012
+
+#10761: (1057)  [1057] ConnectDMessage Received
+
+#10761: (1057)  [1057] Re ConnectMessage send to 1007
+
+#10761: (1051)  [1051] ConnectDMessage Received
+
+#10761: (1051)  [1051] Can't connect to active set 0 limit is 20421
+
+#10761: (1051)  [1051] Re: GetIndexMessage Sent to feed_set15
+
+#10781: (1057)  [1057] ConnectDMessage Received
+
+#10781: (1057)  [1057] Can't connect to active set 0 limit is 20421
+
+#10781: (1057)  [1057] Re: GetIndexMessage Sent to feed_set17
+11000 1101 82 24 25 7.818181818181818
+
+#11241: (1107)  [1107] ConnectDMessage Received
+
+#11241: (1107)  [1107] Re ConnectMessage send to 1068
+
+#11441: (1127)  [1127] ConnectDMessage Received
+
+#11441: (1127)  [1127] Re ConnectMessage send to 1081
+
+#11791: (1158)  [1158] ConnectDMessage Received
+
+#11791: (1158)  [1158] Re ConnectMessage send to 1081
+12000 1201 180 50 62 20.466848319709356
+13000 1301 280 85 95 35.33472106577852
+
+#13951: (1380)  [1380] ConnectDMessage Received
+
+#13951: (1380)  [1380] Re ConnectMessage send to 1056
+
+#13951: (1376)  [1376] ConnectDMessage Received
+
+#13951: (1376)  [1376] Re ConnectMessage send to 1081
+14000 1401 382 112 126 52.000768639508074
+
+#14021: (1381)  [1381] ConnectDMessage Received
+
+#14021: (1381)  [1381] Re ConnectMessage send to 1023
+
+#14041: (1381)  [1381] ConnectDMessage Received
+
+#14041: (1381)  [1381] Re ConnectMessage send to 1081
+
+#14061: (1381)  [1381] ConnectDMessage Received
+
+#14061: (1381)  [1381] Re ConnectMessage send to 1086
+
+#14881: (1471)  [1471] ConnectDMessage Received
+
+#14881: (1471)  [1471] Re ConnectMessage send to 1114
+15000 1501 478 154 177 75.93647394718059
+
+#15051: (1486)  [1486] ConnectDMessage Received
+
+#15051: (1486)  [1486] Re ConnectMessage send to 1081
+
+#15071: (1486)  [1486] ConnectDMessage Received
+
+#15071: (1486)  [1486] Re ConnectMessage send to 1023
+
+#15091: (1486)  [1486] ConnectDMessage Received
+
+#15091: (1486)  [1486] Re ConnectMessage send to 1102
+
+#15451: (1526)  [1526] ConnectDMessage Received
+
+#15451: (1526)  [1526] Re ConnectMessage send to 1148
+16000 1601 577 188 214 96.72684876748833
+17000 1701 681 213 253 114.8469706433479
+
+#17781: (1761)  [1761] ConnectDMessage Received
+
+#17781: (1761)  [1761] Re ConnectMessage send to 1062
+
+#17781: (1759)  [1759] ConnectDMessage Received
+
+#17781: (1759)  [1759] Re ConnectMessage send to 1081
+
+#17801: (1759)  [1759] ConnectDMessage Received
+
+#17801: (1759)  [1759] Re ConnectMessage send to 1023
+
+#17821: (1759)  [1759] ConnectDMessage Received
+
+#17821: (1759)  [1759] Re ConnectMessage send to 1102
+18000 1801 778 241 291 138.9077013521458
+
+#18101: (1791)  [1791] ConnectDMessage Received
+
+#18101: (1791)  [1791] Re ConnectMessage send to 1148
+
+#18211: (1806)  [1806] ConnectDMessage Received
+
+#18211: (1806)  [1806] Re ConnectMessage send to 1018
+
+#18231: (1806)  [1806] ConnectDMessage Received
+
+#18231: (1806)  [1806] Re ConnectMessage send to 1068
+
+#18971: (1882)  [1882] ConnectDMessage Received
+
+#18971: (1882)  [1882] Re ConnectMessage send to 1157
+19000 1901 880 276 334 162.51804553026096
+
+#19811: (1960)  [1960] ConnectDMessage Received
+
+#19811: (1960)  [1960] Re ConnectMessage send to 1068
+20000 2001 978 310 378 187.47553918990005
+
+#20141: (908)  [323] TOI9 for 14
+
+#20151: (167)  [363] TOI9 for 14
+
+#20161: (877)  [374] TOI9 for 14
+
+#20171: (130)  [384] TOI9 for 14
+
+#20181: (864)  [386] TOI9 for 14
+
+#20191: (440)  [390] TOI9 for 14
+
+#20201: (205)  [391] TOI9 for 14
+
+#20211: (77)  [872] TOI9 for 14
+
+#20221: (313)  [114] TOI9 for 14
+
+#20231: (1013)  [1013] TOI9 for 14
+
+#20241: (665)  [319] TOI9 for 14
+
+#20251: (210)  [362] TOI9 for 14
+
+#20261: (867)  [371] TOI9 for 14
+
+#20271: (736)  [382] TOI9 for 14
+
+#20281: (23)  [385] TOI9 for 14
+
+#20291: (854)  [389] TOI9 for 14
+
+#20391: (1088)  [1088] TOI9 for 14
+
+#20401: (910)  [377] TOI9 for 14
+
+#20451: (2030)  [2030] ConnectDMessage Received
+
+#20451: (2030)  [2030] Re ConnectMessage send to 1081
+
+#20471: (835)  [232] TOI9 for 14
+
+#20471: (2030)  [2030] ConnectDMessage Received
+
+#20471: (2030)  [2030] Re ConnectMessage send to 1086
+
+#20481: (111)  [364] TOI9 for 14
+
+#20491: (2030)  [2030] ConnectDMessage Received
+
+#20491: (2030)  [2030] Re ConnectMessage send to 1023
+
+#20491: (1060)  [1060] TOI9 for 14
+
+#20501: (887)  [383] TOI9 for 14
+
+#20511: (2030)  [2030] ConnectDMessage Received
+
+#20511: (2030)  [2030] Re ConnectMessage send to 1102
+
+#20511: (560)  [387] TOI9 for 14
+
+#20661: (2047)  [2047] ConnectDMessage Received
+
+#20661: (2047)  [2047] Re ConnectMessage send to 1055
+
+#20891: (2072)  [2072] ConnectDMessage Received
+
+#20891: (2072)  [2072] Re ConnectMessage send to 1126
+21000 2101 1080 336 412 208.8455772113943
+
+#21011: (2088)  [2088] Re:: GetIndexMessage Sent to feed_set183
+
+#21591: (2142)  [2142] Re:: GetIndexMessage Sent to feed_set322
+
+#21821: (2163)  [2163] Re:: GetIndexMessage Sent to feed_set223
+
+#21931: (2178)  [2178] Re:: GetIndexMessage Sent to feed_set238
+
+#21941: (2183)  [2183] Re:: GetIndexMessage Sent to feed_set100
+22000 2201 1179 353 438 224.0523560209424
+
+#22001: (360)  [318] TOI9 for 14
+
+#22831: (2262)  [2262] Re:: GetIndexMessage Sent to feed_set81
+
+#22911: (2154)  [2154] Empty ReturnIndexMessage Sent
+
+#22911: (2154)  [2154] ReduceSetMessage Sent
+
+#22981: (892)  [928] TOI9 for 14
+
+#22991: (1354)  [1354] TOI9 for 14
+23000 2301 1281 369 459 233.78418900499773
+
+#23001: (1327)  [1327] TOI9 for 14
+
+#23001: (2279)  [2279] Empty ReturnIndexMessage Received from feed_set285
+
+#23001: (2279)  [2279] Re::: GetIndexMessage Sent to feed_set360
+
+#23011: (761)  [359] TOI9 for 14
+
+#23351: (241)  [180] TOI9 for 14
+
+#23361: (1287)  [1287] TOI9 for 14
+
+#23371: (623)  [375] TOI9 for 14
+
+#23411: (2322)  [2322] Re:: GetIndexMessage Sent to feed_set402
+
+#23481: (2255)  [2255] Empty ReturnIndexMessage Sent
+
+#23481: (2255)  [2255] ReduceSetMessage Sent
+
+#23521: (2333)  [2333] Re:: GetIndexMessage Sent to feed_set103
+
+#23521: (2341)  [2341] Empty ReturnIndexMessage Received from feed_set242
+
+#23521: (2341)  [2341] Re::: GetIndexMessage Sent to feed_set450
+
+#23551: (564)  [952] TOI9 for 14
+
+#23561: (1052)  [1052] TOI9 for 14
+
+#23571: (1259)  [1259] TOI9 for 14
+
+#23581: (122)  [381] TOI9 for 14
+
+#23731: (382)  [161] TOI9 for 14
+
+#23741: (666)  [296] TOI9 for 14
+
+#23751: (1105)  [1105] TOI9 for 14
+
+#23801: (2359)  [2359] Re:: GetIndexMessage Sent to feed_set371
+
+#23841: (2365)  [2365] Re:: GetIndexMessage Sent to feed_set296
+24000 2401 1383 382 474 245.64059104737072
+
+#24051: (2085)  [2085] Empty ReturnIndexMessage Sent
+
+#24051: (2085)  [2085] ReduceSetMessage Sent
+
+#24071: (2394)  [2394] Re:: GetIndexMessage Sent to feed_set401
+
+#24101: (2397)  [2397] Empty ReturnIndexMessage Received from feed_set292
+
+#24101: (2397)  [2397] Re::: GetIndexMessage Sent to feed_set257
+
+#24141: (949)  [200] Empty ReturnIndexMessage Sent
+
+#24141: (949)  [200] ReduceSetMessage Sent
+
+#24141: (1545)  [1545] Empty ReturnIndexMessage Sent
+
+#24141: (1545)  [1545] ReduceSetMessage Sent
+
+#24191: (2406)  [2406] Empty ReturnIndexMessage Received from feed_set171
+
+#24191: (2406)  [2406] Re::: GetIndexMessage Sent to feed_set378
+
+#24221: (2403)  [2403] Empty ReturnIndexMessage Received from feed_set17
+
+#24221: (2403)  [2403] Re::: GetIndexMessage Sent to feed_set350
+
+#24231: (2244)  [2244] Empty ReturnIndexMessage Sent
+
+#24231: (2244)  [2244] ReduceSetMessage Sent
+
+#24301: (2413)  [2413] Empty ReturnIndexMessage Received from feed_set341
+
+#24301: (2413)  [2413] Re::: GetIndexMessage Sent to feed_set256
+
+#24331: (2414)  [2414] Re:: GetIndexMessage Sent to feed_set127
+
+#24381: (2276)  [2276] Empty ReturnIndexMessage Sent
+
+#24381: (2276)  [2276] ReduceSetMessage Sent
+
+#24461: (2427)  [2427] Empty ReturnIndexMessage Received from feed_set372
+
+#24461: (2427)  [2427] Re::: GetIndexMessage Sent to feed_set156
+
+#24481: (2429)  [2429] Empty ReturnIndexMessage Sent
+
+#24481: (2429)  [2429] ReduceSetMessage Sent
+
+#24511: (72)  [692] Empty ReturnIndexMessage Sent
+
+#24511: (72)  [692] ReduceSetMessage Sent
+
+#24541: (2439)  [2439] Empty ReturnIndexMessage Received from feed_set376
+
+#24541: (2439)  [2439] Re::: GetIndexMessage Sent to feed_set467
+
+#24551: (2423)  [2423] Empty ReturnIndexMessage Sent
+
+#24551: (2423)  [2423] ReduceSetMessage Sent
+
+#24561: (1440)  [1440] TOI9 for 14
+
+#24561: (2441)  [2441] Re:: GetIndexMessage Sent to feed_set358
+
+#24561: (2427)  [2427] Empty ReturnIndexMessage Received from feed_set156
+
+#24561: (2427)  [2427] Re::: GetIndexMessage Sent to feed_set282
+
+#24571: (691)  [163] TOI9 for 14
+
+#24581: (57)  [297] TOI9 for 14
+
+#24591: (232)  [365] TOI9 for 14
+
+#24601: (696)  [380] TOI9 for 14
+
+#24611: (2446)  [2446] Empty ReturnIndexMessage Received from feed_set365
+
+#24611: (2446)  [2446] Re::: GetIndexMessage Sent to feed_set331
+
+#24661: (2445)  [2445] Re:: GetIndexMessage Sent to feed_set379
+
+#24661: (2284)  [2284] Empty ReturnIndexMessage Sent
+
+#24661: (2284)  [2284] ReduceSetMessage Sent
+
+#24751: (2454)  [2454] Empty ReturnIndexMessage Received from feed_set446
+
+#24751: (2454)  [2454] Re::: GetIndexMessage Sent to feed_set288
+
+#24761: (2461)  [2461] Re:: GetIndexMessage Sent to feed_set355
+25000 2501 1480 393 482 264.5630987088713
+
+#25121: (2495)  [2495] Re:: GetIndexMessage Sent to feed_set321
+
+#25231: (2514)  [2514] Re:: GetIndexMessage Sent to feed_set251
+
+#25231: (2502)  [2502] Re:: GetIndexMessage Sent to feed_set441
+
+#25341: (2517)  [2517] Re:: GetIndexMessage Sent to feed_set479
+
+#25421: (2527)  [2527] Re:: GetIndexMessage Sent to feed_set49
+
+#25501: (2537)  [2537] Re:: GetIndexMessage Sent to feed_set286
+
+#25591: (2548)  [2548] Re:: GetIndexMessage Sent to feed_set310
+
+#25621: (2545)  [2545] Re:: GetIndexMessage Sent to feed_set273
+
+#25661: (2557)  [2557] Re:: GetIndexMessage Sent to feed_set31
+
+#25681: (2551)  [2551] Re:: GetIndexMessage Sent to feed_set359
+
+#25711: (1545)  [1545] Empty ReturnIndexMessage Sent
+
+#25711: (1545)  [1545] ReduceSetMessage Sent
+
+#25731: (2556)  [2556] Re:: GetIndexMessage Sent to feed_set175
+
+#25761: (2559)  [2559] Re:: GetIndexMessage Sent to feed_set499
+
+#25761: (2557)  [2557] Empty ReturnIndexMessage Received from feed_set31
+
+#25761: (2557)  [2557] Re::: GetIndexMessage Sent to feed_set377
+26000 2601 1581 393 488 278.4254298280688
+
+#26031: (6)  [334] TOI9 for 14
+
+#26091: (2590)  [2590] Re:: GetIndexMessage Sent to feed_set350
+
+#26241: (1577)  [1577] TOI9 for 14
+
+#26251: (489)  [348] TOI9 for 14
+
+#26351: (2620)  [2620] Re:: GetIndexMessage Sent to feed_set46
+
+#26481: (2631)  [2631] Re:: GetIndexMessage Sent to feed_set41
+
+#26521: (2637)  [2637] Re:: GetIndexMessage Sent to feed_set38
+
+#26581: (937)  [310] TOI9 for 14
+
+#26591: (577)  [379] TOI9 for 14
+
+#26601: (2643)  [2643] Re:: GetIndexMessage Sent to feed_set133
+
+#26681: (2645)  [2645] ConnectDMessage Received
+
+#26681: (2645)  [2645] Re ConnectMessage send to 1711
+
+#26741: (1939)  [1939] Empty ReturnIndexMessage Sent
+
+#26741: (1939)  [1939] ReduceSetMessage Sent
+
+#26801: (2665)  [2665] Empty ReturnIndexMessage Received from feed_set272
+
+#26801: (2665)  [2665] Re::: GetIndexMessage Sent to feed_set316
+
+#26811: (2664)  [2664] Empty ReturnIndexMessage Received from feed_set272
+
+#26811: (2664)  [2664] Re::: GetIndexMessage Sent to feed_set385
+
+#26841: (2671)  [2671] Re:: GetIndexMessage Sent to feed_set474
+
+#26901: (2675)  [2675] Re:: GetIndexMessage Sent to feed_set319
+
+#26991: (2526)  [2526] Empty ReturnIndexMessage Sent
+
+#26991: (2526)  [2526] ReduceSetMessage Sent
+27000 2701 1678 397 496 288.48096885813146
+
+#27061: (2689)  [2689] Empty ReturnIndexMessage Received from feed_set327
+
+#27061: (2689)  [2689] Re::: GetIndexMessage Sent to feed_set155
+
+#27111: (695)  [398] Empty ReturnIndexMessage Sent
+
+#27111: (695)  [398] ReduceSetMessage Sent
+
+#27181: (2701)  [2701] Empty ReturnIndexMessage Received from feed_set12
+
+#27181: (2701)  [2701] Re::: GetIndexMessage Sent to feed_set484
+
+#27201: (2699)  [2699] Re:: GetIndexMessage Sent to feed_set511
+
+#27251: (2255)  [2255] Empty ReturnIndexMessage Sent
+
+#27251: (2255)  [2255] ReduceSetMessage Sent
+
+#27301: (2719)  [2719] Empty ReturnIndexMessage Received from feed_set301
+
+#27301: (2719)  [2719] Re::: GetIndexMessage Sent to feed_set380
+
+#27311: (2716)  [2716] Empty ReturnIndexMessage Received from feed_set301
+
+#27311: (2716)  [2716] Re::: GetIndexMessage Sent to feed_set399
+
+#27521: (30)  [337] TOI9 for 14
+
+#27531: (1680)  [1680] TOI9 for 14
+
+#27591: (2738)  [2738] Re:: GetIndexMessage Sent to feed_set44
+
+#27731: (2758)  [2758] Re:: GetIndexMessage Sent to feed_set289
+
+#27781: (72)  [692] Empty ReturnIndexMessage Sent
+
+#27781: (72)  [692] ReduceSetMessage Sent
+
+#27831: (2770)  [2770] Empty ReturnIndexMessage Received from feed_set156
+
+#27831: (2770)  [2770] Re::: GetIndexMessage Sent to feed_set537
+
+#27961: (1545)  [1545] Empty ReturnIndexMessage Sent
+
+#27961: (1545)  [1545] ReduceSetMessage Sent
+
+#27981: (2783)  [2783] Re:: GetIndexMessage Sent to feed_set309
+
+#27991: (2655)  [2655] Empty ReturnIndexMessage Sent
+
+#27991: (2655)  [2655] ReduceSetMessage Sent
+28000 2801 1781 410 506 299.6319881525361
+
+#28041: (2785)  [2785] Empty ReturnIndexMessage Received from feed_set17
+
+#28041: (2785)  [2785] Re::: GetIndexMessage Sent to feed_set331
+
+#28051: (2790)  [2790] Empty ReturnIndexMessage Received from feed_set528
+
+#28051: (2790)  [2790] Re::: GetIndexMessage Sent to feed_set24
+
+#28151: (2798)  [2798] Re:: GetIndexMessage Sent to feed_set201
+
+#28301: (14)  [238] Empty ReturnIndexMessage Sent
+
+#28301: (14)  [238] ReduceSetMessage Sent
+
+#28331: (2820)  [2820] Re:: GetIndexMessage Sent to feed_set442
+
+#28361: (2821)  [2821] Empty ReturnIndexMessage Received from feed_set37
+
+#28361: (2821)  [2821] Re::: GetIndexMessage Sent to feed_set245
+
+#28511: (2836)  [2836] Re:: GetIndexMessage Sent to feed_set516
+
+#28531: (2840)  [2840] Re:: GetIndexMessage Sent to feed_set107
+
+#28771: (2862)  [2862] Re:: GetIndexMessage Sent to feed_set364
+29000 2901 1882 417 512 309.8007854337736
+
+#29141: (2276)  [2276] Empty ReturnIndexMessage Sent
+
+#29141: (2276)  [2276] ReduceSetMessage Sent
+
+#29221: (2903)  [2903] Empty ReturnIndexMessage Received from feed_set372
+
+#29221: (2903)  [2903] Re::: GetIndexMessage Sent to feed_set121
+
+#29341: (2903)  [2903] Re:: GetIndexMessage Sent to feed_set401
+
+#29791: (2966)  [2966] Re:: GetIndexMessage Sent to feed_set458
+
+#29831: (2905)  [2905] Empty ReturnIndexMessage Sent
+
+#29831: (2905)  [2905] ReduceSetMessage Sent
+
+#29921: (2971)  [2971] Empty ReturnIndexMessage Received from feed_set281
+
+#29921: (2971)  [2971] Re::: GetIndexMessage Sent to feed_set16
+
+#29991: (2978)  [2978] Re:: GetIndexMessage Sent to feed_set421
+30000 3001 1978 425 519 312.0861771802827
+
+#30031: (2988)  [2988] Re:: GetIndexMessage Sent to feed_set459
+
+#30031: (2986)  [2986] Re:: GetIndexMessage Sent to feed_set557
+
+#30171: (3004)  [3004] Re:: GetIndexMessage Sent to feed_set214
+
+#30201: (3005)  [3005] Re:: GetIndexMessage Sent to feed_set412
+
+#30291: (2595)  [2595] Empty ReturnIndexMessage Sent
+
+#30291: (2595)  [2595] ReduceSetMessage Sent
+
+#30341: (3013)  [3013] Re:: GetIndexMessage Sent to feed_set500
+
+#30351: (2903)  [2903] Empty ReturnIndexMessage Sent
+
+#30351: (2903)  [2903] ReduceSetMessage Sent
+
+#30371: (3024)  [3024] Re:: GetIndexMessage Sent to feed_set469
+
+#30381: (3005)  [3005] Empty ReturnIndexMessage Received from feed_set412
+
+#30381: (3005)  [3005] Re::: GetIndexMessage Sent to feed_set466
+
+#30391: (3028)  [3028] Empty ReturnIndexMessage Received from feed_set331
+
+#30391: (3028)  [3028] Re::: GetIndexMessage Sent to feed_set264
+
+#30481: (3033)  [3033] Re:: GetIndexMessage Sent to feed_set546
+
+#30541: (2903)  [2903] Empty ReturnIndexMessage Sent
+
+#30541: (2903)  [2903] ReduceSetMessage Sent
+
+#30551: (3028)  [3028] Re:: GetIndexMessage Sent to feed_set386
+
+#30601: (3045)  [3045] Empty ReturnIndexMessage Received from feed_set251
+
+#30601: (3045)  [3045] Re::: GetIndexMessage Sent to feed_set408
+
+#30811: (1540)  [1540] Empty ReturnIndexMessage Sent
+
+#30811: (1540)  [1540] ReduceSetMessage Sent
+
+#30861: (3069)  [3069] Re:: GetIndexMessage Sent to feed_set69
+
+#30881: (3071)  [3071] Empty ReturnIndexMessage Received from feed_set209
+
+#30881: (3071)  [3071] Re::: GetIndexMessage Sent to feed_set169
+
+#30891: (3068)  [3068] Re:: GetIndexMessage Sent to feed_set526
+
+#30981: (3077)  [3077] Re:: GetIndexMessage Sent to feed_set24
+31000 3101 2078 422 516 323.4821726091303
+
+#31011: (1702)  [1702] Empty ReturnIndexMessage Sent
+
+#31011: (1702)  [1702] ReduceSetMessage Sent
+
+#31041: (3089)  [3089] Re:: GetIndexMessage Sent to feed_set240
+
+#31071: (3092)  [3092] Empty ReturnIndexMessage Received from feed_set192
+
+#31071: (3092)  [3092] Re::: GetIndexMessage Sent to feed_set221
+
+#31151: (3096)  [3096] Re:: GetIndexMessage Sent to feed_set99
+
+#31171: (3106)  [3106] Re:: GetIndexMessage Sent to feed_set536
+
+#31231: (3104)  [3104] Re:: GetIndexMessage Sent to feed_set318
+
+#31231: (1027)  [1027] TOI9 for 14
+
+#31241: (475)  [281] TOI9 for 14
+
+#31251: (2113)  [2113] TOI9 for 14
+
+#31311: (819)  [979] Empty ReturnIndexMessage Sent
+
+#31311: (819)  [979] ReduceSetMessage Sent
+
+#31361: (3123)  [3123] Empty ReturnIndexMessage Received from feed_set140
+
+#31361: (3123)  [3123] Re::: GetIndexMessage Sent to feed_set139
+
+#31461: (484)  [984] TOI9 for 322
+
+#31471: (1040)  [1040] TOI9 for 322
+
+#31481: (1555)  [1555] TOI9 for 322
+
+#31491: (155)  [73] TOI9 for 322
+
+#31501: (14)  [238] Empty ReturnIndexMessage Sent
+
+#31501: (14)  [238] ReduceSetMessage Sent
+
+#31501: (190)  [76] TOI9 for 322
+
+#31501: (3133)  [3133] Re:: GetIndexMessage Sent to feed_set320
+
+#31511: (1012)  [1012] TOI9 for 322
+
+#31521: (1134)  [1134] TOI9 for 322
+
+#31531: (1444)  [1444] TOI9 for 322
+
+#31541: (2139)  [2139] TOI9 for 322
+
+#31551: (939)  [8] TOI9 for 322
+
+#31561: (2200)  [2200] TOI9 for 322
+
+#31581: (3141)  [3141] Re:: GetIndexMessage Sent to feed_set387
+
+#31691: (3150)  [3150] Re:: GetIndexMessage Sent to feed_set548
+
+#31801: (3165)  [3165] Re:: GetIndexMessage Sent to feed_set137
+
+#31811: (76)  [6] Empty ReturnIndexMessage Sent
+
+#31811: (76)  [6] ReduceSetMessage Sent
+
+#31911: (3170)  [3170] Re:: GetIndexMessage Sent to feed_set579
+
+#31911: (3168)  [3168] Empty ReturnIndexMessage Received from feed_set141
+
+#31911: (3168)  [3168] Re::: GetIndexMessage Sent to feed_set393
+32000 3201 2179 428 521 337.22928087713643
+
+#32001: (3183)  [3183] Re:: GetIndexMessage Sent to feed_set307
+
+#32031: (1939)  [1939] Empty ReturnIndexMessage Sent
+
+#32031: (1939)  [1939] ReduceSetMessage Sent
+
+#32111: (3192)  [3192] Empty ReturnIndexMessage Received from feed_set276
+
+#32111: (3192)  [3192] Re::: GetIndexMessage Sent to feed_set122
+
+#32131: (3194)  [3194] Re:: GetIndexMessage Sent to feed_set94
+
+#32161: (3205)  [3205] Re:: GetIndexMessage Sent to feed_set155
+
+#32221: (2219)  [2219] TOI for 14
+
+#32331: (3218)  [3218] Re:: GetIndexMessage Sent to feed_set378
+
+#32431: (3230)  [3230] Re:: GetIndexMessage Sent to feed_set569
+
+#32441: (3231)  [3231] Re:: GetIndexMessage Sent to feed_set505
+
+#32621: (3241)  [3241] Re:: GetIndexMessage Sent to feed_set86
+
+#32691: (3256)  [3256] Re:: GetIndexMessage Sent to feed_set299
+
+#32701: (2402)  [2402] Empty ReturnIndexMessage Sent
+
+#32701: (2402)  [2402] ReduceSetMessage Sent
+
+#32711: (3250)  [3250] Re:: GetIndexMessage Sent to feed_set174
+
+#32721: (3266)  [3266] Re:: GetIndexMessage Sent to feed_set306
+
+#32741: (3263)  [3263] Empty ReturnIndexMessage Received from feed_set299
+
+#32741: (3263)  [3263] Re::: GetIndexMessage Sent to feed_set294
+
+#32761: (2402)  [2402] Empty ReturnIndexMessage Sent
+
+#32761: (2402)  [2402] ReduceSetMessage Sent
+
+#32771: (3260)  [3260] Re:: GetIndexMessage Sent to feed_set526
+
+#32831: (3256)  [3256] Empty ReturnIndexMessage Received from feed_set299
+
+#32831: (3256)  [3256] Re::: GetIndexMessage Sent to feed_set533
+
+#32981: (3281)  [3281] Re:: GetIndexMessage Sent to feed_set237
+
+#32981: (3279)  [3279] Re:: GetIndexMessage Sent to feed_set5
+33000 3301 2280 437 527 357.0481099656357
+
+#33021: (3285)  [3285] Re:: GetIndexMessage Sent to feed_set480
+
+#33031: (3282)  [3282] Re:: GetIndexMessage Sent to feed_set204
+
+#33141: (3299)  [3299] Re:: GetIndexMessage Sent to feed_set146
+
+#33161: (3279)  [3279] Re:: GetIndexMessage Sent to feed_set451
+
+#33211: (3304)  [3304] Re:: GetIndexMessage Sent to feed_set274
+
+#33281: (3299)  [3299] Re:: GetIndexMessage Sent to feed_set505
+
+#33371: (3324)  [3324] Re:: GetIndexMessage Sent to feed_set385
+
+#33391: (3316)  [3316] Re:: GetIndexMessage Sent to feed_set191
+
+#33461: (3329)  [3329] Re:: GetIndexMessage Sent to feed_set458
+
+#33491: (945)  [946] Empty ReturnIndexMessage Sent
+
+#33491: (945)  [946] ReduceSetMessage Sent
+
+#33511: (3334)  [3334] Re:: GetIndexMessage Sent to feed_set371
+
+#33561: (3339)  [3339] Empty ReturnIndexMessage Received from feed_set354
+
+#33561: (3339)  [3339] Re::: GetIndexMessage Sent to feed_set442
+
+#33591: (3342)  [3342] Re:: GetIndexMessage Sent to feed_set30
+
+#33641: (3347)  [3347] Re:: GetIndexMessage Sent to feed_set239
+
+#33671: (3280)  [3280] Empty ReturnIndexMessage Sent
+
+#33671: (3280)  [3280] ReduceSetMessage Sent
+
+#33711: (3227)  [3227] Empty ReturnIndexMessage Sent
+
+#33711: (3227)  [3227] ReduceSetMessage Sent
+
+#33751: (3356)  [3356] Empty ReturnIndexMessage Received from feed_set268
+
+#33751: (3356)  [3356] Re::: GetIndexMessage Sent to feed_set137
+
+#33761: (3363)  [3363] Empty ReturnIndexMessage Received from feed_set317
+
+#33761: (3363)  [3363] Re::: GetIndexMessage Sent to feed_set16
+
+#33961: (3375)  [3375] Re:: GetIndexMessage Sent to feed_set572
+34000 3401 2382 438 526 373.05301423810965
+
+#34071: (3386)  [3386] Re:: GetIndexMessage Sent to feed_set467
+
+#34251: (3410)  [3410] Re:: GetIndexMessage Sent to feed_set604
+
+#34481: (3435)  [3435] Re:: GetIndexMessage Sent to feed_set557
+
+#34631: (22)  [599] Empty ReturnIndexMessage Sent
+
+#34631: (22)  [599] ReduceSetMessage Sent
+
+#34681: (3455)  [3455] Empty ReturnIndexMessage Received from feed_set143
+
+#34681: (3455)  [3455] Re::: GetIndexMessage Sent to feed_set561
+35000 3501 2484 447 535 378.79976477506614
+
+#35021: (3483)  [3483] Re:: GetIndexMessage Sent to feed_set213
+
+#35121: (3493)  [3493] Re:: GetIndexMessage Sent to feed_set30
+
+#35451: (3526)  [3526] Re:: GetIndexMessage Sent to feed_set389
+
+#35591: (2237)  [2237] TOI9 for 322
+
+#35601: (194)  [49] TOI9 for 322
+
+#35611: (737)  [65] TOI9 for 322
+
+#35681: (3557)  [3557] Re:: GetIndexMessage Sent to feed_set58
+36000 3601 2585 455 544 383.84747215081404
+
+#36001: (3585)  [3585] Re:: GetIndexMessage Sent to feed_set58
+
+#36011: (1443)  [1443] Empty ReturnIndexMessage Sent
+
+#36011: (1443)  [1443] ReduceSetMessage Sent
+
+#36071: (3592)  [3592] Empty ReturnIndexMessage Received from feed_set52
+
+#36071: (3592)  [3592] Re::: GetIndexMessage Sent to feed_set540
+
+#36231: (3604)  [3604] Re:: GetIndexMessage Sent to feed_set49
+
+#36271: (3610)  [3610] Re:: GetIndexMessage Sent to feed_set630
+
+#36361: (3623)  [3623] Re:: GetIndexMessage Sent to feed_set550
+
+#36481: (3633)  [3633] Re:: GetIndexMessage Sent to feed_set177
+
+#36651: (3648)  [3648] Re:: GetIndexMessage Sent to feed_set244
+
+#36771: (3658)  [3658] Re:: GetIndexMessage Sent to feed_set316
+
+#36871: (3670)  [3670] Re:: GetIndexMessage Sent to feed_set524
+37000 3701 2684 455 549 390.596778672591
+
+#37031: (3686)  [3686] Re:: GetIndexMessage Sent to feed_set302
+
+#37101: (3085)  [3085] Empty ReturnIndexMessage Sent
+
+#37101: (3085)  [3085] ReduceSetMessage Sent
+
+#37161: (3701)  [3701] Empty ReturnIndexMessage Received from feed_set210
+
+#37161: (3701)  [3701] Re::: GetIndexMessage Sent to feed_set255
+
+#37171: (3698)  [3698] Re:: GetIndexMessage Sent to feed_set303
+
+#37611: (3748)  [3748] Re:: GetIndexMessage Sent to feed_set545
+
+#37621: (3745)  [3745] Re:: GetIndexMessage Sent to feed_set104
+
+#37721: (2193)  [2193] Empty ReturnIndexMessage Sent
+
+#37721: (2193)  [2193] ReduceSetMessage Sent
+
+#37721: (3765)  [3765] Re:: GetIndexMessage Sent to feed_set193
+
+#37801: (3761)  [3761] Empty ReturnIndexMessage Received from feed_set298
+
+#37801: (3761)  [3761] Re::: GetIndexMessage Sent to feed_set100
+
+#37821: (3771)  [3771] Re:: GetIndexMessage Sent to feed_set228
+
+#37851: (3764)  [3764] Re:: GetIndexMessage Sent to feed_set654
+38000 3801 2782 464 556 403.3385571467171
+
+#38031: (3792)  [3792] Re:: GetIndexMessage Sent to feed_set457
+
+#38171: (3792)  [3792] Re:: GetIndexMessage Sent to feed_set287
+
+#38321: (3815)  [3815] Re:: GetIndexMessage Sent to feed_set673
+
+#38321: (3813)  [3813] Re:: GetIndexMessage Sent to feed_set547
+
+#38511: (3834)  [3834] Re:: GetIndexMessage Sent to feed_set287
+
+#38521: (409)  [764] TOI9 for 322
+
+#38531: (1148)  [1148] TOI9 for 322
+
+#38851: (3870)  [3870] Re:: GetIndexMessage Sent to feed_set445
+
+#38851: (3866)  [3866] Re:: GetIndexMessage Sent to feed_set334
+
+#38891: (3874)  [3874] Re:: GetIndexMessage Sent to feed_set529
+
+#38921: (3875)  [3875] Re:: GetIndexMessage Sent to feed_set319
+
+#38951: (3886)  [3886] Re:: GetIndexMessage Sent to feed_set673
+
+#38951: (3878)  [3878] Re:: GetIndexMessage Sent to feed_set10
+39000 3901 2879 460 559 407.54091028676663
+
+#39141: (3899)  [3899] Re:: GetIndexMessage Sent to feed_set703
+
+#39211: (3910)  [3910] Re:: GetIndexMessage Sent to feed_set701
+
+#39231: (3904)  [3904] Re:: GetIndexMessage Sent to feed_set666
+
+#39331: (3914)  [3914] Re:: GetIndexMessage Sent to feed_set645
+
+#39351: (3922)  [3922] Re:: GetIndexMessage Sent to feed_set10
+
+#39391: (3924)  [3924] Re:: GetIndexMessage Sent to feed_set305
+
+#39511: (3924)  [3924] Re:: GetIndexMessage Sent to feed_set241
+
+#39531: (3940)  [3940] Re:: GetIndexMessage Sent to feed_set523
+
+#39541: (3945)  [3945] Re:: GetIndexMessage Sent to feed_set515
+
+#39681: (3949)  [3949] Re:: GetIndexMessage Sent to feed_set427
+
+#39761: (3959)  [3959] Re:: GetIndexMessage Sent to feed_set388
+
+#39771: (3958)  [3958] Re:: GetIndexMessage Sent to feed_set410
+
+#39811: (3974)  [3974] Re:: GetIndexMessage Sent to feed_set536
+
+#39811: (3964)  [3964] Re:: GetIndexMessage Sent to feed_set103
+40000 4001 2981 456 554 423.36272750576774
+
+#40171: (3998)  [3998] Re:: GetIndexMessage Sent to feed_set671
+
+#40181: (4007)  [4007] Re:: GetIndexMessage Sent to feed_set217
+
+#40261: (3927)  [3927] Empty ReturnIndexMessage Sent
+
+#40261: (3927)  [3927] ReduceSetMessage Sent
+
+#40271: (869)  [510] Empty ReturnIndexMessage Sent
+
+#40271: (869)  [510] ReduceSetMessage Sent
+
+#40351: (4016)  [4016] Empty ReturnIndexMessage Received from feed_set263
+
+#40351: (4016)  [4016] Re::: GetIndexMessage Sent to feed_set145
+
+#40361: (4013)  [4013] Empty ReturnIndexMessage Received from feed_set363
+
+#40361: (4013)  [4013] Re::: GetIndexMessage Sent to feed_set693
+
+#40521: (4031)  [4031] Re:: GetIndexMessage Sent to feed_set384
+
+#40531: (4036)  [4036] Re:: GetIndexMessage Sent to feed_set601
+
+#40571: (4042)  [4042] Re:: GetIndexMessage Sent to feed_set51
+
+#40581: (4045)  [4045] Re:: GetIndexMessage Sent to feed_set240
+
+#40591: (4044)  [4044] Re:: GetIndexMessage Sent to feed_set322
+
+#40661: (4053)  [4053] Re:: GetIndexMessage Sent to feed_set339
+
+#40691: (4050)  [4050] Re:: GetIndexMessage Sent to feed_set540
+
+#40711: (4042)  [4042] Re:: GetIndexMessage Sent to feed_set420
+
+#40821: (4067)  [4067] Re:: GetIndexMessage Sent to feed_set157
+
+#40881: (4069)  [4069] Re:: GetIndexMessage Sent to feed_set166
+41000 4101 3082 458 558 440.70707323169205
+
+#41021: (4085)  [4085] Re:: GetIndexMessage Sent to feed_set569
+
+#41081: (2001)  [2001] Empty ReturnIndexMessage Sent
+
+#41081: (2001)  [2001] ReduceSetMessage Sent
+
+#41141: (4099)  [4099] Empty ReturnIndexMessage Received from feed_set407
+
+#41141: (4099)  [4099] Re::: GetIndexMessage Sent to feed_set496
+
+#41231: (4102)  [4102] Re:: GetIndexMessage Sent to feed_set426
+
+#41251: (4108)  [4108] Re:: GetIndexMessage Sent to feed_set186
+
+#41451: (4128)  [4128] Re:: GetIndexMessage Sent to feed_set594
+
+#41501: (4131)  [4131] Re:: GetIndexMessage Sent to feed_set82
+
+#41511: (4134)  [4134] Re:: GetIndexMessage Sent to feed_set544
+
+#41521: (4133)  [4133] Re:: GetIndexMessage Sent to feed_set24
+
+#41551: (3681)  [3681] Empty ReturnIndexMessage Sent
+
+#41551: (3681)  [3681] ReduceSetMessage Sent
+
+#41571: (4140)  [4140] Re:: GetIndexMessage Sent to feed_set708
+
+#41591: (4142)  [4142] Re:: GetIndexMessage Sent to feed_set166
+
+#41621: (4145)  [4145] Empty ReturnIndexMessage Received from feed_set26
+
+#41621: (4145)  [4145] Re::: GetIndexMessage Sent to feed_set337
+
+#41891: (4170)  [4170] Re:: GetIndexMessage Sent to feed_set623
+
+#41931: (4178)  [4178] Re:: GetIndexMessage Sent to feed_set619
+42000 4201 3182 458 560 452.20775420629116
+
+#42071: (4188)  [4188] Re:: GetIndexMessage Sent to feed_set112
+
+#42081: (4191)  [4191] Re:: GetIndexMessage Sent to feed_set513
+
+#42171: (4202)  [4202] Re:: GetIndexMessage Sent to feed_set395
+
+#42221: (4205)  [4205] Re:: GetIndexMessage Sent to feed_set421
+
+#42631: (4246)  [4246] Re:: GetIndexMessage Sent to feed_set614
+
+#42661: (4247)  [4247] Re:: GetIndexMessage Sent to feed_set277
+
+#42841: (4263)  [4263] Re:: GetIndexMessage Sent to feed_set288
+
+#42861: (4077)  [4077] Empty ReturnIndexMessage Sent
+
+#42861: (4077)  [4077] ReduceSetMessage Sent
+
+#42881: (1940)  [1940] Empty ReturnIndexMessage Sent
+
+#42881: (1940)  [1940] ReduceSetMessage Sent
+
+#42941: (4275)  [4275] Empty ReturnIndexMessage Received from feed_set336
+
+#42941: (4275)  [4275] Re::: GetIndexMessage Sent to feed_set236
+
+#42941: (4279)  [4279] Empty ReturnIndexMessage Received from feed_set379
+
+#42941: (4279)  [4279] Re::: GetIndexMessage Sent to feed_set764
+
+#42971: (4278)  [4278] Re:: GetIndexMessage Sent to feed_set734
+
+#42981: (4277)  [4277] Re:: GetIndexMessage Sent to feed_set667
+43000 4301 3278 465 567 465.63889550107115
+
+#43081: (4285)  [4285] Re:: GetIndexMessage Sent to feed_set748
+
+#43311: (4310)  [4310] Re:: GetIndexMessage Sent to feed_set311
+
+#43501: (4327)  [4327] Re:: GetIndexMessage Sent to feed_set381
+
+#43681: (4345)  [4345] Re:: GetIndexMessage Sent to feed_set521
+
+#43781: (4359)  [4359] Re:: GetIndexMessage Sent to feed_set698
+
+#43811: (4370)  [4370] Re:: GetIndexMessage Sent to feed_set374
+
+#43841: (4345)  [4345] Re:: GetIndexMessage Sent to feed_set339
+
+#43901: (4375)  [4375] Re:: GetIndexMessage Sent to feed_set448
+
+#43971: (4378)  [4378] Re:: GetIndexMessage Sent to feed_set604
+44000 4401 3380 468 574 477.1873982794699
+
+#44141: (4341)  [4341] Empty ReturnIndexMessage Sent
+
+#44141: (4341)  [4341] ReduceSetMessage Sent
+
+#44211: (4404)  [4404] Empty ReturnIndexMessage Received from feed_set564
+
+#44211: (4404)  [4404] Re::: GetIndexMessage Sent to feed_set509
+
+#44431: (4422)  [4422] Re:: GetIndexMessage Sent to feed_set384
+
+#44501: (4435)  [4435] Re:: GetIndexMessage Sent to feed_set520
+
+#44571: (4442)  [4442] Re:: GetIndexMessage Sent to feed_set459
+
+#44661: (4453)  [4453] Re:: GetIndexMessage Sent to feed_set566
+
+#44871: (4474)  [4474] Re:: GetIndexMessage Sent to feed_set426
+
+#44901: (4477)  [4477] Re:: GetIndexMessage Sent to feed_set82
+
+#44911: (4476)  [4476] Re:: GetIndexMessage Sent to feed_set593
+45000 4501 3480 473 584 492.6114519427403
+
+#45211: (4500)  [4500] Re:: GetIndexMessage Sent to feed_set678
+
+#45311: (4512)  [4512] Re:: GetIndexMessage Sent to feed_set434
+
+#45321: (4509)  [4509] Re:: GetIndexMessage Sent to feed_set614
+
+#45351: (4522)  [4522] Re:: GetIndexMessage Sent to feed_set494
+
+#45361: (4521)  [4521] Re:: GetIndexMessage Sent to feed_set265
+
+#45411: (4528)  [4528] Re:: GetIndexMessage Sent to feed_set459
+
+#45461: (4537)  [4537] Re:: GetIndexMessage Sent to feed_set535
+
+#45481: (4529)  [4529] Re:: GetIndexMessage Sent to feed_set767
+
+#45521: (658)  [936] Empty ReturnIndexMessage Sent
+
+#45521: (658)  [936] ReduceSetMessage Sent
+
+#45531: (4540)  [4540] Re:: GetIndexMessage Sent to feed_set10
+
+#45581: (4541)  [4541] Re:: GetIndexMessage Sent to feed_set239
+
+#45591: (4542)  [4542] Empty ReturnIndexMessage Received from feed_set45
+
+#45591: (4542)  [4542] Re::: GetIndexMessage Sent to feed_set267
+
+#45631: (4544)  [4544] Re:: GetIndexMessage Sent to feed_set725
+
+#45651: (4229)  [4229] Empty ReturnIndexMessage Sent
+
+#45651: (4229)  [4229] ReduceSetMessage Sent
+
+#45691: (4554)  [4554] Re:: GetIndexMessage Sent to feed_set23
+
+#45711: (4542)  [4542] Empty ReturnIndexMessage Received from feed_set267
+
+#45711: (4542)  [4542] Re::: GetIndexMessage Sent to feed_set738
+
+#45731: (4556)  [4556] Re:: GetIndexMessage Sent to feed_set781
+
+#45791: (4560)  [4560] Re:: GetIndexMessage Sent to feed_set382
+
+#45801: (4557)  [4557] Re:: GetIndexMessage Sent to feed_set321
+
+#45921: (4579)  [4579] Re:: GetIndexMessage Sent to feed_set717
+
+#45951: (4578)  [4578] Re:: GetIndexMessage Sent to feed_set558
+46000 4601 3580 465 573 503.9724505665408
+
+#46021: (4581)  [4581] Re:: GetIndexMessage Sent to feed_set71
+
+#46201: (4607)  [4607] Re:: GetIndexMessage Sent to feed_set507
+
+#46241: (3545)  [3545] Empty ReturnIndexMessage Sent
+
+#46241: (3545)  [3545] ReduceSetMessage Sent
+
+#46341: (4611)  [4611] Empty ReturnIndexMessage Received from feed_set293
+
+#46341: (4611)  [4611] Re::: GetIndexMessage Sent to feed_set135
+
+#46501: (4629)  [4629] Re:: GetIndexMessage Sent to feed_set395
+
+#46531: (4634)  [4634] Re:: GetIndexMessage Sent to feed_set109
+
+#46531: (4535)  [4535] Empty ReturnIndexMessage Sent
+
+#46531: (4535)  [4535] ReduceSetMessage Sent
+
+#46591: (4646)  [4646] Re:: GetIndexMessage Sent to feed_set793
+
+#46591: (4640)  [4640] Re:: GetIndexMessage Sent to feed_set732
+
+#46621: (4641)  [4641] Empty ReturnIndexMessage Received from feed_set395
+
+#46621: (4641)  [4641] Re::: GetIndexMessage Sent to feed_set764
+
+#46621: (4629)  [4629] Empty ReturnIndexMessage Received from feed_set395
+
+#46621: (4629)  [4629] Re::: GetIndexMessage Sent to feed_set280
+
+#46661: (4649)  [4649] Re:: GetIndexMessage Sent to feed_set484
+
+#46701: (4653)  [4653] Re:: GetIndexMessage Sent to feed_set567
+
+#46731: (4662)  [4662] Re:: GetIndexMessage Sent to feed_set147
+
+#46821: (4659)  [4659] Re:: GetIndexMessage Sent to feed_set44
+
+#46871: (4664)  [4664] Re:: GetIndexMessage Sent to feed_set483
+
+#46901: (4671)  [4671] Re:: GetIndexMessage Sent to feed_set348
+
+#46951: (4684)  [4684] Re:: GetIndexMessage Sent to feed_set793
+
+#46961: (4679)  [4679] Re:: GetIndexMessage Sent to feed_set612
+47000 4701 3676 463 572 513.6372527711367
+
+#47011: (4494)  [4494] Empty ReturnIndexMessage Sent
+
+#47011: (4494)  [4494] ReduceSetMessage Sent
+
+#47041: (4695)  [4695] Empty ReturnIndexMessage Received from feed_set482
+
+#47041: (4695)  [4695] Re::: GetIndexMessage Sent to feed_set426
+
+#47061: (4679)  [4679] Re:: GetIndexMessage Sent to feed_set244
+
+#47091: (148)  [324] Empty ReturnIndexMessage Sent
+
+#47091: (148)  [324] ReduceSetMessage Sent
+
+#47141: (4701)  [4701] Empty ReturnIndexMessage Received from feed_set670
+
+#47141: (4701)  [4701] Re::: GetIndexMessage Sent to feed_set295
+
+#47211: (4512)  [4512] Empty ReturnIndexMessage Sent
+
+#47211: (4512)  [4512] ReduceSetMessage Sent
+
+#47231: (4552)  [4552] Empty ReturnIndexMessage Sent
+
+#47231: (4552)  [4552] ReduceSetMessage Sent
+
+#47271: (4712)  [4712] Empty ReturnIndexMessage Received from feed_set449
+
+#47271: (4712)  [4712] Re::: GetIndexMessage Sent to feed_set196
+
+#47301: (4713)  [4713] Empty ReturnIndexMessage Received from feed_set668
+
+#47301: (4713)  [4713] Re::: GetIndexMessage Sent to feed_set339
+
+#47351: (4716)  [4716] Re:: GetIndexMessage Sent to feed_set346
+
+#47351: (4712)  [4712] Re:: GetIndexMessage Sent to feed_set403
+
+#47391: (4724)  [4724] Re:: GetIndexMessage Sent to feed_set423
+
+#47401: (4563)  [4563] Empty ReturnIndexMessage Sent
+
+#47401: (4563)  [4563] ReduceSetMessage Sent
+
+#47441: (4735)  [4735] Re:: GetIndexMessage Sent to feed_set594
+
+#47461: (4731)  [4731] Empty ReturnIndexMessage Received from feed_set234
+
+#47461: (4731)  [4731] Re::: GetIndexMessage Sent to feed_set157
+
+#47471: (4728)  [4728] Re:: GetIndexMessage Sent to feed_set240
+
+#47601: (4731)  [4731] Re:: GetIndexMessage Sent to feed_set408
+
+#47661: (4749)  [4749] Re:: GetIndexMessage Sent to feed_set639
+
+#47681: (4747)  [4747] Re:: GetIndexMessage Sent to feed_set804
+48000 4801 3781 464 564 528.7683471601787
+
+#48031: (4782)  [4782] Re:: GetIndexMessage Sent to feed_set608
+
+#48061: (4787)  [4787] Re:: GetIndexMessage Sent to feed_set558
+
+#48141: (4795)  [4795] Re:: GetIndexMessage Sent to feed_set785
+
+#48181: (4805)  [4805] Re:: GetIndexMessage Sent to feed_set785
+
+#48381: (4821)  [4821] Re:: GetIndexMessage Sent to feed_set558
+
+#48431: (4552)  [4552] Empty ReturnIndexMessage Sent
+
+#48431: (4552)  [4552] ReduceSetMessage Sent
+
+#48491: (4822)  [4822] Empty ReturnIndexMessage Sent
+
+#48491: (4822)  [4822] ReduceSetMessage Sent
+
+#48511: (4832)  [4832] Empty ReturnIndexMessage Received from feed_set590
+
+#48511: (4832)  [4832] Re::: GetIndexMessage Sent to feed_set254
+
+#48591: (4836)  [4836] Empty ReturnIndexMessage Received from feed_set828
+
+#48591: (4836)  [4836] Re::: GetIndexMessage Sent to feed_set558
+
+#48621: (4060)  [4060] Empty ReturnIndexMessage Sent
+
+#48621: (4060)  [4060] ReduceSetMessage Sent
+
+#48681: (4853)  [4853] Empty ReturnIndexMessage Received from feed_set266
+
+#48681: (4853)  [4853] Re::: GetIndexMessage Sent to feed_set620
+
+#48751: (4860)  [4860] Re:: GetIndexMessage Sent to feed_set183
+
+#48781: (4867)  [4867] Re:: GetIndexMessage Sent to feed_set768
+
+#48821: (4865)  [4865] Re:: GetIndexMessage Sent to feed_set818
+
+#48931: (4878)  [4878] Re:: GetIndexMessage Sent to feed_set487
+49000 4901 3877 466 566 535.9427202666111
+
+#49051: (4886)  [4886] Re:: GetIndexMessage Sent to feed_set403
+
+#49121: (4893)  [4893] Re:: GetIndexMessage Sent to feed_set73
+
+#49121: (4895)  [4895] Re:: GetIndexMessage Sent to feed_set274
+
+#49131: (4174)  [4174] Empty ReturnIndexMessage Sent
+
+#49131: (4174)  [4174] ReduceSetMessage Sent
+
+#49191: (4902)  [4902] Re:: GetIndexMessage Sent to feed_set76
+
+#49201: (4903)  [4903] Empty ReturnIndexMessage Received from feed_set125
+
+#49201: (4903)  [4903] Re::: GetIndexMessage Sent to feed_set486
+
+#49301: (1386)  [1386] Empty ReturnIndexMessage Sent
+
+#49301: (1386)  [1386] ReduceSetMessage Sent
+
+#49331: (2607)  [2607] Empty ReturnIndexMessage Sent
+
+#49331: (2607)  [2607] ReduceSetMessage Sent
+
+#49371: (4920)  [4920] Empty ReturnIndexMessage Received from feed_set179
+
+#49371: (4920)  [4920] Re::: GetIndexMessage Sent to feed_set213
+
+#49421: (4921)  [4921] Empty ReturnIndexMessage Received from feed_set63
+
+#49421: (4921)  [4921] Re::: GetIndexMessage Sent to feed_set837
+
+#49431: (4934)  [4934] Re:: GetIndexMessage Sent to feed_set313
+
+#49471: (4930)  [4930] Re:: GetIndexMessage Sent to feed_set611
+
+#49521: (4931)  [4931] Re:: GetIndexMessage Sent to feed_set739
+
+#49561: (4933)  [4933] Re:: GetIndexMessage Sent to feed_set470
+
+#49601: (4945)  [4945] Re:: GetIndexMessage Sent to feed_set696
+
+#49711: (4952)  [4952] Re:: GetIndexMessage Sent to feed_set191
+
+#49751: (4960)  [4960] Re:: GetIndexMessage Sent to feed_set316
+
+#49761: (4971)  [4971] Re:: GetIndexMessage Sent to feed_set776
+
+#49781: (4580)  [4580] Empty ReturnIndexMessage Sent
+
+#49781: (4580)  [4580] ReduceSetMessage Sent
+
+#49791: (4966)  [4966] Re:: GetIndexMessage Sent to feed_set36
+
+#49801: (4961)  [4961] Re:: GetIndexMessage Sent to feed_set355
+
+#49841: (4965)  [4965] Re:: GetIndexMessage Sent to feed_set600
+
+#49851: (4952)  [4952] Empty ReturnIndexMessage Received from feed_set191
+
+#49851: (4952)  [4952] Re::: GetIndexMessage Sent to feed_set378
+
+#49951: (4978)  [4978] Re:: GetIndexMessage Sent to feed_set201
+
+#49971: (4976)  [4976] Re:: GetIndexMessage Sent to feed_set710
+50000 5001 3977 462 558 552.0771271169149
+
+#50001: (4965)  [4965] Re:: GetIndexMessage Sent to feed_set666
+
+#50031: (4988)  [4988] Re:: GetIndexMessage Sent to feed_set841
+
+#50041: (4987)  [4987] Re:: GetIndexMessage Sent to feed_set147
+
+#50111: (4990)  [4990] Re:: GetIndexMessage Sent to feed_set838
+
+#50121: (4993)  [4993] Re:: GetIndexMessage Sent to feed_set223
+
+#50171: (4988)  [4988] Re:: GetIndexMessage Sent to feed_set722
+
+#50191: (5002)  [5002] Re:: GetIndexMessage Sent to feed_set704
+
+#50231: (5004)  [5004] Re:: GetIndexMessage Sent to feed_set217
+
+#50321: (5017)  [5017] Re:: GetIndexMessage Sent to feed_set36
+
+#50561: (5039)  [5039] Re:: GetIndexMessage Sent to feed_set381
+
+#50681: (5056)  [5056] Re:: GetIndexMessage Sent to feed_set607
+
+#50691: (5060)  [5060] Re:: GetIndexMessage Sent to feed_set642
+
+#50741: (5053)  [5053] Re:: GetIndexMessage Sent to feed_set144
+
+#50771: (5054)  [5054] Re:: GetIndexMessage Sent to feed_set632
+
+#50811: (5064)  [5064] Re:: GetIndexMessage Sent to feed_set239
+
+#50811: (996)  [554] Empty ReturnIndexMessage Sent
+
+#50811: (996)  [554] ReduceSetMessage Sent
+
+#50831: (5066)  [5066] Re:: GetIndexMessage Sent to feed_set772
+
+#50841: (5065)  [5065] Re:: GetIndexMessage Sent to feed_set186
+
+#50851: (5072)  [5072] Re:: GetIndexMessage Sent to feed_set667
+
+#50891: (5070)  [5070] Empty ReturnIndexMessage Received from feed_set165
+
+#50891: (5070)  [5070] Re::: GetIndexMessage Sent to feed_set307
+
+#50951: (5072)  [5072] Re:: GetIndexMessage Sent to feed_set265
+51000 5101 4078 452 547 561.9228154369126
+
+#51011: (5080)  [5080] Re:: GetIndexMessage Sent to feed_set78
+
+#51021: (3139)  [3139] Empty ReturnIndexMessage Sent
+
+#51021: (3139)  [3139] ReduceSetMessage Sent
+
+#51041: (5089)  [5089] Re:: GetIndexMessage Sent to feed_set515
+
+#51071: (5086)  [5086] Re:: GetIndexMessage Sent to feed_set732
+
+#51081: (5093)  [5093] Empty ReturnIndexMessage Received from feed_set248
+
+#51081: (5093)  [5093] Re::: GetIndexMessage Sent to feed_set619
+
+#51141: (3759)  [3759] Empty ReturnIndexMessage Sent
+
+#51141: (3759)  [3759] ReduceSetMessage Sent
+
+#51241: (5101)  [5101] Empty ReturnIndexMessage Received from feed_set258
+
+#51241: (5101)  [5101] Re::: GetIndexMessage Sent to feed_set724
+
+#51251: (2603)  [2603] Empty ReturnIndexMessage Sent
+
+#51251: (2603)  [2603] ReduceSetMessage Sent
+
+#51331: (5114)  [5114] Empty ReturnIndexMessage Received from feed_set688
+
+#51331: (5114)  [5114] Re::: GetIndexMessage Sent to feed_set692
+
+#51391: (5118)  [5118] Re:: GetIndexMessage Sent to feed_set467
+
+#51451: (5128)  [5128] Re:: GetIndexMessage Sent to feed_set112
+
+#51531: (5134)  [5134] Re:: GetIndexMessage Sent to feed_set713
+
+#51611: (1901)  [1901] Empty ReturnIndexMessage Sent
+
+#51611: (1901)  [1901] ReduceSetMessage Sent
+
+#51681: (5151)  [5151] Empty ReturnIndexMessage Received from feed_set83
+
+#51681: (5151)  [5151] Re::: GetIndexMessage Sent to feed_set24
+
+#51701: (5153)  [5153] Re:: GetIndexMessage Sent to feed_set810
+52000 5201 4180 449 541 570.4126641834935
+
+#52081: (5199)  [5199] Re:: GetIndexMessage Sent to feed_set751
+
+#52181: (5203)  [5203] Re:: GetIndexMessage Sent to feed_set3
+
+#52201: (5205)  [5205] Re:: GetIndexMessage Sent to feed_set851
+
+#52381: (5203)  [5203] Re:: GetIndexMessage Sent to feed_set747
+
+#52501: (5203)  [5203] Re:: GetIndexMessage Sent to feed_set337
+
+#52551: (5238)  [5238] Re:: GetIndexMessage Sent to feed_set415
+
+#52671: (5252)  [5252] Re:: GetIndexMessage Sent to feed_set625
+
+#52791: (5252)  [5252] Re:: GetIndexMessage Sent to feed_set649
+
+#52891: (5268)  [5268] Re:: GetIndexMessage Sent to feed_set249
+
+#52901: (5277)  [5277] Re:: GetIndexMessage Sent to feed_set695
+
+#52931: (2129)  [2129] Empty ReturnIndexMessage Sent
+
+#52931: (2129)  [2129] ReduceSetMessage Sent
+
+#52931: (5278)  [5278] Re:: GetIndexMessage Sent to feed_set811
+53000 5301 4279 456 552 582.6896750624879
+
+#53001: (5283)  [5283] Empty ReturnIndexMessage Received from feed_set132
+
+#53001: (5283)  [5283] Re::: GetIndexMessage Sent to feed_set835
+
+#53011: (5268)  [5268] Re:: GetIndexMessage Sent to feed_set459
+
+#53041: (5277)  [5277] Re:: GetIndexMessage Sent to feed_set774
+
+#53221: (5307)  [5307] Re:: GetIndexMessage Sent to feed_set23
+
+#53251: (5306)  [5306] Re:: GetIndexMessage Sent to feed_set94
+
+#53301: (5315)  [5315] Re:: GetIndexMessage Sent to feed_set707
+
+#53411: (3887)  [3887] Empty ReturnIndexMessage Sent
+
+#53411: (3887)  [3887] ReduceSetMessage Sent
+
+#53431: (5332)  [5332] Re:: GetIndexMessage Sent to feed_set467
+
+#53441: (5331)  [5331] Re:: GetIndexMessage Sent to feed_set682
+
+#53461: (5333)  [5333] Empty ReturnIndexMessage Received from feed_set464
+
+#53461: (5333)  [5333] Re::: GetIndexMessage Sent to feed_set752
+
+#53471: (1456)  [1456] Empty ReturnIndexMessage Sent
+
+#53471: (1456)  [1456] ReduceSetMessage Sent
+
+#53531: (5338)  [5338] Empty ReturnIndexMessage Received from feed_set114
+
+#53531: (5338)  [5338] Re::: GetIndexMessage Sent to feed_set423
+
+#53681: (5355)  [5355] Re:: GetIndexMessage Sent to feed_set808
+
+#53731: (5348)  [5348] Re:: GetIndexMessage Sent to feed_set665
+
+#53781: (5361)  [5361] Re:: GetIndexMessage Sent to feed_set193
+
+#53871: (5372)  [5372] Re:: GetIndexMessage Sent to feed_set462
+
+#53961: (5241)  [5241] Empty ReturnIndexMessage Sent
+
+#53961: (5241)  [5241] ReduceSetMessage Sent
+54000 5401 4381 454 552 597.4753820033956
+
+#54001: (5389)  [5389] Empty ReturnIndexMessage Received from feed_set610
+
+#54001: (5389)  [5389] Re::: GetIndexMessage Sent to feed_set55
+
+#54011: (5386)  [5386] Re:: GetIndexMessage Sent to feed_set851
+
+#54021: (5387)  [5387] Empty ReturnIndexMessage Received from feed_set610
+
+#54021: (5387)  [5387] Re::: GetIndexMessage Sent to feed_set448
+
+#54061: (5391)  [5391] Re:: GetIndexMessage Sent to feed_set278
+
+#54101: (5395)  [5395] Re:: GetIndexMessage Sent to feed_set541
+
+#54171: (5400)  [5400] Re:: GetIndexMessage Sent to feed_set503
+
+#54181: (5391)  [5391] Re:: GetIndexMessage Sent to feed_set781
+
+#54211: (5404)  [5404] Re:: GetIndexMessage Sent to feed_set872
+
+#54251: (5410)  [5410] Re:: GetIndexMessage Sent to feed_set537
+
+#54321: (612)  [165] Empty ReturnIndexMessage Sent
+
+#54321: (612)  [165] ReduceSetMessage Sent
+
+#54381: (5423)  [5423] Empty ReturnIndexMessage Received from feed_set715
+
+#54381: (5423)  [5423] Re::: GetIndexMessage Sent to feed_set503
+
+#54571: (5442)  [5442] Re:: GetIndexMessage Sent to feed_set674
+
+#54591: (5027)  [5027] Empty ReturnIndexMessage Sent
+
+#54591: (5027)  [5027] ReduceSetMessage Sent
+
+#54681: (5447)  [5447] Empty ReturnIndexMessage Received from feed_set291
+
+#54681: (5447)  [5447] Re::: GetIndexMessage Sent to feed_set516
+
+#54751: (5450)  [5450] Re:: GetIndexMessage Sent to feed_set404
+
+#54821: (5461)  [5461] Re:: GetIndexMessage Sent to feed_set201
+
+#54861: (1457)  [1457] TOI9 for 289
+
+#54871: (112)  [139] TOI9 for 289
+
+#54881: (380)  [160] TOI9 for 289
+
+#54891: (1729)  [1729] TOI9 for 289
+
+#54901: (507)  [167] TOI9 for 289
+
+#54901: (5473)  [5473] Re:: GetIndexMessage Sent to feed_set583
+
+#54911: (1055)  [1055] TOI9 for 289
+
+#54921: (1539)  [1539] TOI9 for 289
+
+#54931: (4556)  [4556] TOI9 for 289
+
+#54941: (4523)  [4523] TOI9 for 289
+
+#54951: (2636)  [2636] TOI9 for 289
+
+#54961: (557)  [91] TOI9 for 289
+
+#54961: (5481)  [5481] Re:: GetIndexMessage Sent to feed_set859
+
+#54971: (3911)  [3911] TOI9 for 289
+
+#54981: (157)  [152] TOI9 for 289
+
+#54991: (382)  [161] TOI9 for 289
+55000 5501 4481 452 545 604.8403999259397
+
+#55001: (3160)  [3160] TOI9 for 289
+
+#55211: (5500)  [5500] Re:: GetIndexMessage Sent to feed_set274
+
+#55211: (5510)  [5510] Re:: GetIndexMessage Sent to feed_set162
+
+#55221: (5505)  [5505] Re:: GetIndexMessage Sent to feed_set78
+
+#55311: (5520)  [5520] Re:: GetIndexMessage Sent to feed_set73
+
+#55311: (5512)  [5512] Re:: GetIndexMessage Sent to feed_set818
+
+#55331: (5516)  [5516] Re:: GetIndexMessage Sent to feed_set813
+
+#55341: (5513)  [5513] Re:: GetIndexMessage Sent to feed_set558
+
+#55381: (5521)  [5521] Re:: GetIndexMessage Sent to feed_set824
+
+#55381: (5523)  [5523] Re:: GetIndexMessage Sent to feed_set801
+
+#55401: (5525)  [5525] Re:: GetIndexMessage Sent to feed_set795
+
+#55481: (4037)  [4037] TOI9 for 289
+
+#55491: (1974)  [1974] TOI9 for 289
+
+#55501: (643)  [169] TOI9 for 289
+
+#55571: (5538)  [5538] Re:: GetIndexMessage Sent to feed_set381
+
+#55621: (5553)  [5553] Re:: GetIndexMessage Sent to feed_set587
+
+#55821: (5561)  [5561] Re:: GetIndexMessage Sent to feed_set516
+
+#55901: (5569)  [5569] Re:: GetIndexMessage Sent to feed_set807
+
+#55911: (5574)  [5574] Re:: GetIndexMessage Sent to feed_set780
+
+#55911: (5576)  [5576] Re:: GetIndexMessage Sent to feed_set788
+
+#55921: (5577)  [5577] Re:: GetIndexMessage Sent to feed_set677
+
+#55971: (4913)  [4913] Empty ReturnIndexMessage Sent
+
+#55971: (4913)  [4913] ReduceSetMessage Sent
+
+#55991: (5570)  [5570] Empty ReturnIndexMessage Sent
+
+#55991: (5570)  [5570] ReduceSetMessage Sent
+56000 5601 4576 447 549 622.6553353935648
+
+#56031: (5576)  [5576] Empty ReturnIndexMessage Received from feed_set788
+
+#56031: (5576)  [5576] Re::: GetIndexMessage Sent to feed_set622
+
+#56041: (5583)  [5583] Re:: GetIndexMessage Sent to feed_set730
+
+#56061: (5585)  [5585] Re:: GetIndexMessage Sent to feed_set608
+
+#56061: (5577)  [5577] Empty ReturnIndexMessage Received from feed_set677
+
+#56061: (5577)  [5577] Re::: GetIndexMessage Sent to feed_set804
+
+#56081: (5593)  [5593] Re:: GetIndexMessage Sent to feed_set498
+
+#56081: (5461)  [5461] Empty ReturnIndexMessage Sent
+
+#56081: (5461)  [5461] ReduceSetMessage Sent
+
+#56111: (5596)  [5596] Re:: GetIndexMessage Sent to feed_set822
+
+#56141: (5599)  [5599] Empty ReturnIndexMessage Received from feed_set739
+
+#56141: (5599)  [5599] Re::: GetIndexMessage Sent to feed_set570
+
+#56161: (5599)  [5599] Empty ReturnIndexMessage Sent
+
+#56161: (5599)  [5599] ReduceSetMessage Sent
+
+#56211: (5602)  [5602] Re:: GetIndexMessage Sent to feed_set788
+
+#56241: (5593)  [5593] Empty ReturnIndexMessage Received from feed_set498
+
+#56241: (5593)  [5593] Re::: GetIndexMessage Sent to feed_set725
+
+#56291: (5598)  [5598] Empty ReturnIndexMessage Sent
+
+#56291: (5598)  [5598] ReduceSetMessage Sent
+
+#56371: (5602)  [5602] Empty ReturnIndexMessage Received from feed_set788
+
+#56371: (5602)  [5602] Re::: GetIndexMessage Sent to feed_set790
+
+#56401: (5625)  [5625] Re:: GetIndexMessage Sent to feed_set887
+
+#56471: (4644)  [4644] TOI for 289
+
+#56471: (5630)  [5630] Re:: GetIndexMessage Sent to feed_set378
+
+#56801: (5600)  [5600] Empty ReturnIndexMessage Sent
+
+#56801: (5600)  [5600] ReduceSetMessage Sent
+
+#56821: (5661)  [5661] Re:: GetIndexMessage Sent to feed_set445
+
+#56861: (5675)  [5675] Re:: GetIndexMessage Sent to feed_set277
+
+#56881: (5669)  [5669] Empty ReturnIndexMessage Received from feed_set526
+
+#56881: (5669)  [5669] Re::: GetIndexMessage Sent to feed_set566
+
+#56911: (5678)  [5678] Re:: GetIndexMessage Sent to feed_set401
+
+#56941: (5679)  [5679] Re:: GetIndexMessage Sent to feed_set634
+
+#56971: (4035)  [4035] Empty ReturnIndexMessage Sent
+
+#56971: (4035)  [4035] ReduceSetMessage Sent
+
+#56981: (5675)  [5675] Re:: GetIndexMessage Sent to feed_set855
+57000 5701 4677 456 551 645.2426352437064
+
+#57031: (5686)  [5686] Empty ReturnIndexMessage Received from feed_set236
+
+#57031: (5686)  [5686] Re::: GetIndexMessage Sent to feed_set624
+
+#57101: (5693)  [5693] Re:: GetIndexMessage Sent to feed_set77
+
+#57161: (277)  [957] Empty ReturnIndexMessage Sent
+
+#57161: (277)  [957] ReduceSetMessage Sent
+
+#57171: (5698)  [5698] Re:: GetIndexMessage Sent to feed_set544
+
+#57221: (5693)  [5693] Empty ReturnIndexMessage Received from feed_set77
+
+#57221: (5693)  [5693] Re::: GetIndexMessage Sent to feed_set384
+
+#57241: (1808)  [1808] TOI9 for 624
+
+#57251: (782)  [424] TOI9 for 624
+
+#57261: (2522)  [2522] TOI9 for 624
+
+#57271: (3074)  [3074] TOI9 for 624
+
+#57281: (2228)  [2228] TOI9 for 624
+
+#57291: (491)  [434] TOI9 for 624
+
+#57301: (4523)  [4523] TOI9 for 624
+
+#57311: (997)  [172] TOI9 for 624
+
+#57311: (5716)  [5716] Re:: GetIndexMessage Sent to feed_set572
+
+#57321: (4328)  [4328] TOI9 for 624
+
+#57331: (3891)  [3891] TOI9 for 624
+
+#57341: (1487)  [1487] TOI9 for 624
+
+#57351: (1262)  [1262] TOI9 for 624
+
+#57361: (4426)  [4426] TOI9 for 624
+
+#57371: (870)  [432] TOI9 for 624
+
+#57421: (5719)  [5719] Re:: GetIndexMessage Sent to feed_set915
+
+#57441: (5727)  [5727] Re:: GetIndexMessage Sent to feed_set938
+
+#57511: (5730)  [5730] Re:: GetIndexMessage Sent to feed_set648
+
+#57611: (5730)  [5730] Re:: GetIndexMessage Sent to feed_set71
+
+#57631: (5748)  [5748] Re:: GetIndexMessage Sent to feed_set751
+
+#57801: (4317)  [4317] Empty ReturnIndexMessage Sent
+
+#57801: (4317)  [4317] ReduceSetMessage Sent
+
+#57871: (5774)  [5774] Re:: GetIndexMessage Sent to feed_set822
+
+#57881: (5769)  [5769] Empty ReturnIndexMessage Received from feed_set420
+
+#57881: (5769)  [5769] Re::: GetIndexMessage Sent to feed_set137
+
+#57911: (5776)  [5776] Re:: GetIndexMessage Sent to feed_set553
+58000 5801 4776 456 551 659.0131555867391
+
+#58011: (5776)  [5776] Re:: GetIndexMessage Sent to feed_set44
+
+#58061: (3944)  [3944] Empty ReturnIndexMessage Sent
+
+#58061: (3944)  [3944] ReduceSetMessage Sent
+
+#58111: (5788)  [5788] Re:: GetIndexMessage Sent to feed_set568
+
+#58131: (5796)  [5796] Empty ReturnIndexMessage Received from feed_set364
+
+#58131: (5796)  [5796] Re::: GetIndexMessage Sent to feed_set195
+
+#58231: (5808)  [5808] Re:: GetIndexMessage Sent to feed_set857
+
+#58251: (5804)  [5804] Re:: GetIndexMessage Sent to feed_set23
+
+#58261: (5805)  [5805] Re:: GetIndexMessage Sent to feed_set608
+
+#58321: (5817)  [5817] Re:: GetIndexMessage Sent to feed_set535
+
+#58351: (5788)  [5788] Empty ReturnIndexMessage Sent
+
+#58351: (5788)  [5788] ReduceSetMessage Sent
+
+#58391: (3782)  [3782] TOI9 for 289
+
+#58401: (3879)  [3879] TOI9 for 289
+
+#58411: (1511)  [1511] TOI9 for 289
+
+#58421: (4372)  [4372] TOI9 for 289
+
+#58431: (5824)  [5824] Empty ReturnIndexMessage Received from feed_set546
+
+#58431: (5824)  [5824] Re::: GetIndexMessage Sent to feed_set868
+
+#58431: (1592)  [1592] TOI9 for 289
+
+#58441: (4514)  [4514] TOI9 for 289
+
+#58541: (5835)  [5835] Re:: GetIndexMessage Sent to feed_set937
+
+#58621: (5843)  [5843] Re:: GetIndexMessage Sent to feed_set511
+
+#58681: (3382)  [3382] Empty ReturnIndexMessage Sent
+
+#58681: (3382)  [3382] ReduceSetMessage Sent
+
+#58741: (5843)  [5843] Empty ReturnIndexMessage Received from feed_set511
+
+#58741: (5843)  [5843] Re::: GetIndexMessage Sent to feed_set398
+
+#58901: (5871)  [5871] Re:: GetIndexMessage Sent to feed_set178
+59000 5901 4875 454 545 664.8439924151008
+
+#59121: (5895)  [5895] Re:: GetIndexMessage Sent to feed_set940
+
+#59321: (5911)  [5911] Re:: GetIndexMessage Sent to feed_set204
+
+#59381: (4935)  [4935] TOI for 289
+
+#59461: (5925)  [5925] Re:: GetIndexMessage Sent to feed_set105
+
+#59551: (5946)  [5946] Re:: GetIndexMessage Sent to feed_set821
+
+#59741: (5953)  [5953] Re:: GetIndexMessage Sent to feed_set809
+
+#59771: (5962)  [5962] Re:: GetIndexMessage Sent to feed_set850
+
+#59821: (5969)  [5969] Re:: GetIndexMessage Sent to feed_set474
+
+#59851: (5968)  [5968] Re:: GetIndexMessage Sent to feed_set821
+
+#59891: (5964)  [5964] Re:: GetIndexMessage Sent to feed_set813
+
+#59891: (5972)  [5972] Re:: GetIndexMessage Sent to feed_set417
+60000 6001 4974 452 545 665.4519572953736
+
+#60171: (5996)  [5996] Re:: GetIndexMessage Sent to feed_set443
+
+#60171: (6002)  [6002] Re:: GetIndexMessage Sent to feed_set381
+
+#60221: (6005)  [6005] Re:: GetIndexMessage Sent to feed_set433
+
+#60481: (6027)  [6027] Re:: GetIndexMessage Sent to feed_set830
+
+#60521: (6039)  [6039] Re:: GetIndexMessage Sent to feed_set280
+
+#60531: (6034)  [6034] Re:: GetIndexMessage Sent to feed_set813
+
+#60591: (6048)  [6048] Re:: GetIndexMessage Sent to feed_set470
+
+#60591: (6044)  [6044] Re:: GetIndexMessage Sent to feed_set421
+
+#60591: (6027)  [6027] Re:: GetIndexMessage Sent to feed_set891
+
+#60631: (6046)  [6046] Re:: GetIndexMessage Sent to feed_set194
+
+#60641: (6039)  [6039] Re:: GetIndexMessage Sent to feed_set961
+
+#60641: (6052)  [6052] Re:: GetIndexMessage Sent to feed_set656
+
+#60671: (6050)  [6050] Re:: GetIndexMessage Sent to feed_set110
+
+#60701: (6049)  [6049] Re:: GetIndexMessage Sent to feed_set925
+
+#60711: (6044)  [6044] Re:: GetIndexMessage Sent to feed_set531
+
+#60881: (6075)  [6075] Re:: GetIndexMessage Sent to feed_set903
+
+#60911: (6072)  [6072] Re:: GetIndexMessage Sent to feed_set66
+
+#60981: (6081)  [6081] Re:: GetIndexMessage Sent to feed_set780
+61000 6101 5077 445 539 671.8990168305282
+
+#61051: (4035)  [4035] Empty ReturnIndexMessage Sent
+
+#61051: (4035)  [4035] ReduceSetMessage Sent
+
+#61091: (5638)  [5638] Empty ReturnIndexMessage Sent
+
+#61091: (5638)  [5638] ReduceSetMessage Sent
+
+#61111: (6096)  [6096] Empty ReturnIndexMessage Received from feed_set302
+
+#61111: (6096)  [6096] Re::: GetIndexMessage Sent to feed_set439
+
+#61121: (6097)  [6097] Re:: GetIndexMessage Sent to feed_set731
+
+#61151: (6100)  [6100] Empty ReturnIndexMessage Received from feed_set222
+
+#61151: (6100)  [6100] Re::: GetIndexMessage Sent to feed_set566
+
+#61261: (6107)  [6107] Re:: GetIndexMessage Sent to feed_set893
+
+#61341: (6117)  [6117] Re:: GetIndexMessage Sent to feed_set868
+
+#61691: (6152)  [6152] Re:: GetIndexMessage Sent to feed_set722
+
+#61791: (6160)  [6160] Re:: GetIndexMessage Sent to feed_set886
+
+#61831: (6152)  [6152] Re:: GetIndexMessage Sent to feed_set680
+
+#61931: (6152)  [6152] Re:: GetIndexMessage Sent to feed_set922
+62000 6201 5179 445 540 680.6754630388461
+
+#62171: (6204)  [6204] Re:: GetIndexMessage Sent to feed_set842
+
+#62181: (6195)  [6195] Re:: GetIndexMessage Sent to feed_set793
+
+#62201: (6201)  [6201] Re:: GetIndexMessage Sent to feed_set742
+
+#62311: (6218)  [6218] Re:: GetIndexMessage Sent to feed_set855
+
+#62331: (6216)  [6216] Re:: GetIndexMessage Sent to feed_set944
+
+#62341: (6195)  [6195] Re:: GetIndexMessage Sent to feed_set10
+
+#62541: (6239)  [6239] Re:: GetIndexMessage Sent to feed_set416
+
+#62551: (6238)  [6238] Re:: GetIndexMessage Sent to feed_set675
+
+#62801: (6267)  [6267] Re:: GetIndexMessage Sent to feed_set586
+
+#62891: (6272)  [6272] Re:: GetIndexMessage Sent to feed_set513
+
+#62971: (6284)  [6284] Re:: GetIndexMessage Sent to feed_set678
+
+#62981: (6281)  [6281] Re:: GetIndexMessage Sent to feed_set193
+63000 6301 5275 442 538 684.1873891307854
+
+#63131: (6284)  [6284] Re:: GetIndexMessage Sent to feed_set230
+
+#63161: (6299)  [6299] Re:: GetIndexMessage Sent to feed_set637
+
+#63251: (6284)  [6284] Re:: GetIndexMessage Sent to feed_set38
+
+#63291: (5982)  [5982] Empty ReturnIndexMessage Sent
+
+#63291: (5982)  [5982] ReduceSetMessage Sent
+
+#63331: (6316)  [6316] Re:: GetIndexMessage Sent to feed_set714
+
+#63361: (6319)  [6319] Empty ReturnIndexMessage Received from feed_set689
+
+#63361: (6319)  [6319] Re::: GetIndexMessage Sent to feed_set720
+
+#63441: (1394)  [1394] Empty ReturnIndexMessage Sent
+
+#63441: (1394)  [1394] ReduceSetMessage Sent
+
+#63501: (6319)  [6319] Re:: GetIndexMessage Sent to feed_set501
+
+#63511: (6334)  [6334] Empty ReturnIndexMessage Received from feed_set662
+
+#63511: (6334)  [6334] Re::: GetIndexMessage Sent to feed_set565
+
+#63561: (6345)  [6345] Re:: GetIndexMessage Sent to feed_set619
+
+#63601: (5238)  [5238] TOI9 for 289
+
+#63611: (627)  [104] TOI9 for 289
+
+#63621: (445)  [147] TOI9 for 289
+
+#63631: (616)  [166] TOI9 for 289
+
+#63641: (6319)  [6319] Re:: GetIndexMessage Sent to feed_set541
+
+#63691: (6352)  [6352] Re:: GetIndexMessage Sent to feed_set515
+
+#63861: (6367)  [6367] Re:: GetIndexMessage Sent to feed_set941
+64000 6401 5376 441 535 693.5446754483415
+
+#64081: (6393)  [6393] Re:: GetIndexMessage Sent to feed_set682
+
+#64141: (2070)  [2070] Empty ReturnIndexMessage Sent
+
+#64141: (2070)  [2070] ReduceSetMessage Sent
+
+#64221: (6403)  [6403] Empty ReturnIndexMessage Received from feed_set673
+
+#64221: (6403)  [6403] Re::: GetIndexMessage Sent to feed_set401
+
+#64431: (6424)  [6424] Re:: GetIndexMessage Sent to feed_set174
+
+#64451: (6428)  [6428] Re:: GetIndexMessage Sent to feed_set840
+
+#64461: (6431)  [6431] Re:: GetIndexMessage Sent to feed_set322
+
+#64501: (6438)  [6438] Re:: GetIndexMessage Sent to feed_set188
+
+#64541: (6433)  [6433] Re:: GetIndexMessage Sent to feed_set968
+
+#64571: (6424)  [6424] Re:: GetIndexMessage Sent to feed_set959
+
+#64591: (5456)  [5456] TOI for 289
+
+#64611: (6442)  [6442] Re:: GetIndexMessage Sent to feed_set436
+
+#64621: (6447)  [6447] Re:: GetIndexMessage Sent to feed_set321
+
+#64631: (6446)  [6446] Re:: GetIndexMessage Sent to feed_set854
+
+#64731: (6466)  [6466] Re:: GetIndexMessage Sent to feed_set851
+
+#64751: (6460)  [6460] Re:: GetIndexMessage Sent to feed_set862
+
+#64761: (6455)  [6455] Re:: GetIndexMessage Sent to feed_set984
+
+#64761: (6446)  [6446] Re:: GetIndexMessage Sent to feed_set825
+
+#64771: (6458)  [6458] Re:: GetIndexMessage Sent to feed_set831
+
+#64931: (6480)  [6480] Re:: GetIndexMessage Sent to feed_set453
+
+#64961: (6473)  [6473] Re:: GetIndexMessage Sent to feed_set811
+
+#64981: (3798)  [3798] Empty ReturnIndexMessage Sent
+
+#64981: (3798)  [3798] ReduceSetMessage Sent
+65000 6501 5476 442 534 707.8717387908139
+
+#65051: (6490)  [6490] Re:: GetIndexMessage Sent to feed_set901
+
+#65061: (6487)  [6487] Empty ReturnIndexMessage Received from feed_set847
+
+#65061: (6487)  [6487] Re::: GetIndexMessage Sent to feed_set946
+
+#65101: (6489)  [6489] Re:: GetIndexMessage Sent to feed_set772
+
+#65211: (6500)  [6500] Re:: GetIndexMessage Sent to feed_set1007
+
+#65301: (4035)  [4035] Empty ReturnIndexMessage Sent
+
+#65301: (4035)  [4035] ReduceSetMessage Sent
+
+#65381: (6519)  [6519] Empty ReturnIndexMessage Received from feed_set784
+
+#65381: (6519)  [6519] Re::: GetIndexMessage Sent to feed_set726
+
+#65391: (6518)  [6518] Re:: GetIndexMessage Sent to feed_set824
+
+#65421: (6523)  [6523] Re:: GetIndexMessage Sent to feed_set429
+
+#65461: (6529)  [6529] Re:: GetIndexMessage Sent to feed_set683
+
+#65561: (6543)  [6543] Re:: GetIndexMessage Sent to feed_set990
+
+#65561: (6519)  [6519] Re:: GetIndexMessage Sent to feed_set665
+
+#65621: (6539)  [6539] Re:: GetIndexMessage Sent to feed_set718
+
+#65771: (6562)  [6562] Re:: GetIndexMessage Sent to feed_set145
+
+#65791: (6558)  [6558] Re:: GetIndexMessage Sent to feed_set916
+
+#65801: (6565)  [6565] Re:: GetIndexMessage Sent to feed_set656
+
+#65811: (6566)  [6566] Re:: GetIndexMessage Sent to feed_set924
+
+#65841: (6563)  [6563] Re:: GetIndexMessage Sent to feed_set514
+
+#65931: (6558)  [6558] Re:: GetIndexMessage Sent to feed_set925
+66000 6601 5580 442 533 717.6594370096908
+
+#66031: (4179)  [4179] Empty ReturnIndexMessage Sent
+
+#66031: (4179)  [4179] ReduceSetMessage Sent
+
+#66041: (774)  [993] TOI9 for 624
+
+#66051: (4067)  [4067] TOI9 for 624
+
+#66101: (6593)  [6593] Empty ReturnIndexMessage Received from feed_set860
+
+#66101: (6593)  [6593] Re::: GetIndexMessage Sent to feed_set577
+
+#66541: (6635)  [6635] Re:: GetIndexMessage Sent to feed_set238
+
+#66771: (6660)  [6660] Re:: GetIndexMessage Sent to feed_set971
+
+#66901: (6675)  [6675] Re:: GetIndexMessage Sent to feed_set380
+67000 6701 5677 451 544 728.2266323284351
+
+#67031: (5686)  [5686] TOI for 624
+
+#67041: (4994)  [4994] Empty ReturnIndexMessage Sent
+
+#67041: (4994)  [4994] ReduceSetMessage Sent
+
+#67111: (6694)  [6694] Empty ReturnIndexMessage Received from feed_set630
+
+#67111: (6694)  [6694] Re::: GetIndexMessage Sent to feed_set990
+
+#67161: (6695)  [6695] Re:: GetIndexMessage Sent to feed_set936
+
+#67221: (6707)  [6707] Re:: GetIndexMessage Sent to feed_set443
+
+#67291: (6714)  [6714] Re:: GetIndexMessage Sent to feed_set787
+
+#67411: (6722)  [6722] Re:: GetIndexMessage Sent to feed_set987
+
+#67501: (6731)  [6731] Re:: GetIndexMessage Sent to feed_set716
+
+#67611: (6744)  [6744] Re:: GetIndexMessage Sent to feed_set578
+
+#67641: (6747)  [6747] Re:: GetIndexMessage Sent to feed_set763
+
+#67801: (6767)  [6767] Re:: GetIndexMessage Sent to feed_set986
+
+#67851: (6766)  [6766] Re:: GetIndexMessage Sent to feed_set1045
+
+#67941: (6777)  [6777] Re:: GetIndexMessage Sent to feed_set706
+
+#67941: (6779)  [6779] Re:: GetIndexMessage Sent to feed_set965
+
+#67971: (6776)  [6776] ConnectDMessage Received
+
+#67971: (6776)  [6776] Re ConnectMessage send to 6597
+68000 6801 5776 458 550 742.7676466199075
+
+#68131: (6798)  [6798] Re:: GetIndexMessage Sent to feed_set849
+
+#68231: (6806)  [6806] Re:: GetIndexMessage Sent to feed_set779
+
+#68231: (6800)  [6800] Re:: GetIndexMessage Sent to feed_set279
+
+#68321: (6809)  [6809] Re:: GetIndexMessage Sent to feed_set581
+
+#68341: (1450)  [1450] TOI9 for 221
+
+#68351: (790)  [273] TOI9 for 221
+
+#68361: (2248)  [2248] TOI9 for 221
+
+#68371: (4392)  [4392] TOI9 for 221
+
+#68381: (2676)  [2676] TOI9 for 221
+
+#68391: (4771)  [4771] TOI9 for 221
+
+#68401: (3114)  [3114] TOI9 for 221
+
+#68411: (875)  [514] TOI9 for 221
+
+#68411: (6806)  [6806] Re:: GetIndexMessage Sent to feed_set287
+
+#68421: (3246)  [3246] TOI9 for 221
+
+#68421: (6827)  [6827] Re:: GetIndexMessage Sent to feed_set949
+
+#68431: (3882)  [3882] TOI9 for 221
+
+#68441: (3208)  [3208] TOI9 for 221
+
+#68451: (3046)  [3046] TOI9 for 221
+
+#68461: (4759)  [4759] TOI9 for 221
+
+#68471: (5654)  [5654] TOI9 for 221
+
+#68481: (131)  [483] TOI9 for 221
+
+#68491: (6834)  [6834] Re:: GetIndexMessage Sent to feed_set791
+
+#68491: (3238)  [3238] TOI9 for 221
+
+#68491: (6836)  [6836] Re:: GetIndexMessage Sent to feed_set692
+
+#68501: (6837)  [6837] Re:: GetIndexMessage Sent to feed_set738
+
+#68621: (6837)  [6837] Re:: GetIndexMessage Sent to feed_set1036
+
+#68641: (6839)  [6839] Re:: GetIndexMessage Sent to feed_set970
+
+#68691: (6733)  [6733] Empty ReturnIndexMessage Sent
+
+#68691: (6733)  [6733] ReduceSetMessage Sent
+
+#68701: (2981)  [2981] Empty ReturnIndexMessage Sent
+
+#68701: (2981)  [2981] ReduceSetMessage Sent
+
+#68761: (6861)  [6861] Empty ReturnIndexMessage Received from feed_set738
+
+#68761: (6861)  [6861] Re::: GetIndexMessage Sent to feed_set959
+
+#68771: (6858)  [6858] Empty ReturnIndexMessage Received from feed_set956
+
+#68771: (6858)  [6858] Re::: GetIndexMessage Sent to feed_set952
+
+#68881: (6871)  [6871] Re:: GetIndexMessage Sent to feed_set951
+
+#68911: (6872)  [6872] Re:: GetIndexMessage Sent to feed_set226
+69000 6901 5878 460 550 759.0251433612704
+
+#69041: (6883)  [6883] Re:: GetIndexMessage Sent to feed_set876
+
+#69071: (6888)  [6888] Re:: GetIndexMessage Sent to feed_set717
+
+#69151: (6898)  [6898] Re:: GetIndexMessage Sent to feed_set78
+
+#69171: (6888)  [6888] Re:: GetIndexMessage Sent to feed_set583
+
+#69221: (6903)  [6903] Re:: GetIndexMessage Sent to feed_set1036
+
+#69291: (6898)  [6898] Re:: GetIndexMessage Sent to feed_set24
+
+#69331: (5930)  [5930] TOI for 221
+
+#69331: (6918)  [6918] Re:: GetIndexMessage Sent to feed_set531
+
+#69371: (6920)  [6920] Re:: GetIndexMessage Sent to feed_set884
+
+#69401: (1315)  [1315] Empty ReturnIndexMessage Sent
+
+#69401: (1315)  [1315] ReduceSetMessage Sent
+
+#69481: (6929)  [6929] Empty ReturnIndexMessage Received from feed_set717
+
+#69481: (6929)  [6929] Re::: GetIndexMessage Sent to feed_set1032
+
+#69491: (6928)  [6928] Re:: GetIndexMessage Sent to feed_set965
+
+#69601: (6943)  [6943] Re:: GetIndexMessage Sent to feed_set1031
+
+#69721: (6953)  [6953] Re:: GetIndexMessage Sent to feed_set139
+
+#69781: (6965)  [6965] Re:: GetIndexMessage Sent to feed_set211
+
+#69821: (6961)  [6961] Re:: GetIndexMessage Sent to feed_set682
+
+#69881: (6969)  [6969] Re:: GetIndexMessage Sent to feed_set1025
+
+#69931: (6978)  [6978] Re:: GetIndexMessage Sent to feed_set175
+
+#69981: (6965)  [6965] Re:: GetIndexMessage Sent to feed_set963
+70000 7001 5976 464 554 776.7145341254891
+
+#70001: (6979)  [6979] Re:: GetIndexMessage Sent to feed_set378
+
+#70061: (6987)  [6987] Re:: GetIndexMessage Sent to feed_set949
+
+#70081: (6989)  [6989] Re:: GetIndexMessage Sent to feed_set751
+
+#70221: (6989)  [6989] Re:: GetIndexMessage Sent to feed_set993
+
+#70271: (7006)  [7006] Re:: GetIndexMessage Sent to feed_set522
+
+#70431: (7020)  [7020] Re:: GetIndexMessage Sent to feed_set671
+
+#70451: (7024)  [7024] Re:: GetIndexMessage Sent to feed_set768
+
+#70541: (7039)  [7039] Re:: GetIndexMessage Sent to feed_set1076
+
+#70571: (4888)  [4888] Empty ReturnIndexMessage Sent
+
+#70571: (4888)  [4888] ReduceSetMessage Sent
+
+#70611: (7050)  [7050] Empty ReturnIndexMessage Received from feed_set462
+
+#70611: (7050)  [7050] Re::: GetIndexMessage Sent to feed_set959
+
+#70701: (7057)  [7057] Re:: GetIndexMessage Sent to feed_set1078
+
+#70731: (7060)  [7060] Re:: GetIndexMessage Sent to feed_set568
+
+#70791: (7064)  [7064] Re:: GetIndexMessage Sent to feed_set204
+
+#70811: (7068)  [7068] Re:: GetIndexMessage Sent to feed_set334
+
+#70861: (7065)  [7065] Re:: GetIndexMessage Sent to feed_set1077
+
+#70961: (7075)  [7075] Re:: GetIndexMessage Sent to feed_set821
+
+#70971: (7084)  [7084] Re:: GetIndexMessage Sent to feed_set1034
+71000 7101 6076 464 552 790.8278817311813
+
+#71081: (7089)  [7089] Re:: GetIndexMessage Sent to feed_set796
+
+#71121: (7101)  [7101] Re:: GetIndexMessage Sent to feed_set881
+
+#71131: (7092)  [7092] Re:: GetIndexMessage Sent to feed_set873
+
+#71271: (7108)  [7108] Re:: GetIndexMessage Sent to feed_set699
+
+#71291: (7114)  [7114] Re:: GetIndexMessage Sent to feed_set840
+
+#71341: (6227)  [6227] Empty ReturnIndexMessage Sent
+
+#71341: (6227)  [6227] ReduceSetMessage Sent
+
+#71361: (4813)  [4813] TOI9 for 221
+
+#71371: (5801)  [5801] TOI9 for 221
+
+#71391: (7108)  [7108] Re:: GetIndexMessage Sent to feed_set337
+
+#71421: (7123)  [7123] Empty ReturnIndexMessage Received from feed_set759
+
+#71421: (7123)  [7123] Re::: GetIndexMessage Sent to feed_set827
+
+#71531: (7108)  [7108] Re:: GetIndexMessage Sent to feed_set953
+
+#71561: (7139)  [7139] Re:: GetIndexMessage Sent to feed_set892
+
+#71561: (7140)  [7140] Re:: GetIndexMessage Sent to feed_set842
+
+#71651: (7148)  [7148] Re:: GetIndexMessage Sent to feed_set495
+
+#71701: (7139)  [7139] Re:: GetIndexMessage Sent to feed_set844
+
+#71701: (7153)  [7153] Re:: GetIndexMessage Sent to feed_set458
+
+#71801: (7161)  [7161] Re:: GetIndexMessage Sent to feed_set864
+
+#71971: (7180)  [7180] Re:: GetIndexMessage Sent to feed_set1034
+72000 7201 6180 459 549 802.3769891564568
+
+#72011: (7186)  [7186] Re:: GetIndexMessage Sent to feed_set656
+
+#72061: (7187)  [7187] Re:: GetIndexMessage Sent to feed_set899
+
+#72071: (7190)  [7190] Re:: GetIndexMessage Sent to feed_set1014
+
+#72091: (7190)  [7190] Re:: GetIndexMessage Sent to feed_set201
+
+#72131: (7192)  [7192] Re:: GetIndexMessage Sent to feed_set390
+
+#72171: (7198)  [7198] Re:: GetIndexMessage Sent to feed_set38
+
+#72231: (7204)  [7204] Re:: GetIndexMessage Sent to feed_set109
+
+#72241: (7187)  [7187] Re:: GetIndexMessage Sent to feed_set971
+
+#72251: (7208)  [7208] Re:: GetIndexMessage Sent to feed_set1056
+
+#72341: (7223)  [7223] Re:: GetIndexMessage Sent to feed_set665
+
+#72351: (6232)  [6232] TOI for 221
+
+#72411: (7220)  [7220] Re:: GetIndexMessage Sent to feed_set186
+
+#72471: (7228)  [7228] Re:: GetIndexMessage Sent to feed_set1027
+
+#72511: (7236)  [7236] Re:: GetIndexMessage Sent to feed_set744
+
+#72591: (6807)  [6807] Empty ReturnIndexMessage Sent
+
+#72591: (6807)  [6807] ReduceSetMessage Sent
+
+#72641: (7249)  [7249] Re:: GetIndexMessage Sent to feed_set514
+
+#72671: (7248)  [7248] Empty ReturnIndexMessage Received from feed_set824
+
+#72671: (7248)  [7248] Re::: GetIndexMessage Sent to feed_set874
+
+#72751: (7260)  [7260] Re:: GetIndexMessage Sent to feed_set1008
+
+#72831: (7268)  [7268] Re:: GetIndexMessage Sent to feed_set1088
+
+#72961: (7279)  [7279] Re:: GetIndexMessage Sent to feed_set1022
+73000 7301 6281 458 546 813.5593667546174
+
+#73011: (3353)  [3353] Empty ReturnIndexMessage Sent
+
+#73011: (3353)  [3353] ReduceSetMessage Sent
+
+#73031: (7292)  [7292] Re:: GetIndexMessage Sent to feed_set656
+
+#73091: (7290)  [7290] Empty ReturnIndexMessage Received from feed_set594
+
+#73091: (7290)  [7290] Re::: GetIndexMessage Sent to feed_set965
+
+#73121: (7297)  [7297] Re:: GetIndexMessage Sent to feed_set398
+
+#73221: (7307)  [7307] Re:: GetIndexMessage Sent to feed_set1052
+
+#73281: (7309)  [7309] Re:: GetIndexMessage Sent to feed_set959
+
+#73351: (7314)  [7314] Re:: GetIndexMessage Sent to feed_set24
+
+#73411: (7320)  [7320] Re:: GetIndexMessage Sent to feed_set1093
+
+#73471: (7328)  [7328] Re:: GetIndexMessage Sent to feed_set1083
+
+#73501: (7339)  [7339] Re:: GetIndexMessage Sent to feed_set661
+
+#73641: (7349)  [7349] Re:: GetIndexMessage Sent to feed_set962
+
+#73701: (6227)  [6227] Empty ReturnIndexMessage Sent
+
+#73701: (6227)  [6227] ReduceSetMessage Sent
+
+#73701: (7339)  [7339] Re:: GetIndexMessage Sent to feed_set637
+
+#73751: (7356)  [7356] Re:: GetIndexMessage Sent to feed_set947
+
+#73771: (7360)  [7360] Empty ReturnIndexMessage Received from feed_set221
+
+#73771: (7360)  [7360] Re::: GetIndexMessage Sent to feed_set0
+
+#73771: (7202)  [7202] Empty ReturnIndexMessage Sent
+
+#73771: (7202)  [7202] ReduceSetMessage Sent
+
+#73781: (7363)  [7363] Re:: GetIndexMessage Sent to feed_set1018
+
+#73801: (7361)  [7361] Re:: GetIndexMessage Sent to feed_set217
+
+#73811: (7372)  [7372] Re:: GetIndexMessage Sent to feed_set944
+
+#73821: (7339)  [7339] Re:: GetIndexMessage Sent to feed_set389
+
+#73851: (7366)  [7366] Empty ReturnIndexMessage Received from feed_set1097
+
+#73851: (7366)  [7366] Re::: GetIndexMessage Sent to feed_set377
+
+#73881: (7047)  [7047] Empty ReturnIndexMessage Sent
+
+#73881: (7047)  [7047] ReduceSetMessage Sent
+
+#73931: (7378)  [7378] Re:: GetIndexMessage Sent to feed_set201
+
+#73931: (7202)  [7202] Empty ReturnIndexMessage Sent
+
+#73931: (7202)  [7202] ReduceSetMessage Sent
+
+#73941: (7339)  [7339] Empty ReturnIndexMessage Received from feed_set389
+
+#73941: (7339)  [7339] Re::: GetIndexMessage Sent to feed_set1015
+
+#73961: (7381)  [7381] Re:: GetIndexMessage Sent to feed_set568
+74000 7401 6379 447 535 823.9157649637036
+
+#74011: (7382)  [7382] Empty ReturnIndexMessage Received from feed_set1097
+
+#74011: (7382)  [7382] Re::: GetIndexMessage Sent to feed_set1049
+
+#74041: (7234)  [7234] Empty ReturnIndexMessage Sent
+
+#74041: (7234)  [7234] ReduceSetMessage Sent
+
+#74121: (711)  [403] Empty ReturnIndexMessage Sent
+
+#74121: (711)  [403] ReduceSetMessage Sent
+
+#74141: (7339)  [7339] Empty ReturnIndexMessage Received from feed_set1015
+
+#74141: (7339)  [7339] Re::: GetIndexMessage Sent to feed_set1111
+
+#74181: (7397)  [7397] Re:: GetIndexMessage Sent to feed_set951
+
+#74201: (7401)  [7401] Empty ReturnIndexMessage Received from feed_set678
+
+#74201: (7401)  [7401] Re::: GetIndexMessage Sent to feed_set570
+
+#74291: (7416)  [7416] Re:: GetIndexMessage Sent to feed_set927
+
+#74351: (7414)  [7414] Re:: GetIndexMessage Sent to feed_set105
+
+#74381: (7421)  [7421] Re:: GetIndexMessage Sent to feed_set947
+
+#74381: (7423)  [7423] Re:: GetIndexMessage Sent to feed_set404
+
+#74401: (7419)  [7419] Re:: GetIndexMessage Sent to feed_set1050
+
+#74481: (7427)  [7427] Re:: GetIndexMessage Sent to feed_set741
+
+#74491: (7430)  [7430] Re:: GetIndexMessage Sent to feed_set716
+
+#74511: (2420)  [2420] Empty ReturnIndexMessage Sent
+
+#74511: (2420)  [2420] ReduceSetMessage Sent
+
+#74531: (7432)  [7432] Re:: GetIndexMessage Sent to feed_set1061
+
+#74591: (7440)  [7440] Empty ReturnIndexMessage Received from feed_set611
+
+#74591: (7440)  [7440] Re::: GetIndexMessage Sent to feed_set1040
+
+#74671: (7452)  [7452] Re:: GetIndexMessage Sent to feed_set1105
+
+#74751: (7464)  [7464] Re:: GetIndexMessage Sent to feed_set1008
+
+#74831: (7468)  [7468] Re:: GetIndexMessage Sent to feed_set998
+
+#74881: (7468)  [7468] Re:: GetIndexMessage Sent to feed_set16
+
+#74921: (7475)  [7475] Re:: GetIndexMessage Sent to feed_set112
+75000 7501 6483 447 536 846.6772057830023
+
+#75181: (7503)  [7503] Re:: GetIndexMessage Sent to feed_set154
+
+#75321: (7503)  [7503] Re:: GetIndexMessage Sent to feed_set970
+
+#75361: (7519)  [7519] Re:: GetIndexMessage Sent to feed_set1136
+
+#75371: (7520)  [7520] Re:: GetIndexMessage Sent to feed_set937
+
+#75381: (7523)  [7523] Re:: GetIndexMessage Sent to feed_set1039
+
+#75441: (7503)  [7503] Re:: GetIndexMessage Sent to feed_set685
+
+#75511: (7520)  [7520] Re:: GetIndexMessage Sent to feed_set620
+
+#75541: (7533)  [7533] Re:: GetIndexMessage Sent to feed_set400
+
+#75551: (7520)  [7520] Re:: GetIndexMessage Sent to feed_set217
+
+#75571: (7538)  [7538] Re:: GetIndexMessage Sent to feed_set416
+
+#75631: (7544)  [7544] Re:: GetIndexMessage Sent to feed_set939
+
+#75691: (7538)  [7538] Re:: GetIndexMessage Sent to feed_set1060
+
+#75771: (7560)  [7560] Re:: GetIndexMessage Sent to feed_set656
+
+#75771: (7544)  [7544] Re:: GetIndexMessage Sent to feed_set853
+
+#75801: (3779)  [3779] Empty ReturnIndexMessage Sent
+
+#75801: (3779)  [3779] ReduceSetMessage Sent
+
+#75881: (7569)  [7569] Empty ReturnIndexMessage Received from feed_set620
+
+#75881: (7569)  [7569] Re::: GetIndexMessage Sent to feed_set1048
+
+#75931: (7544)  [7544] Re:: GetIndexMessage Sent to feed_set550
+
+#75941: (7571)  [7571] Re:: GetIndexMessage Sent to feed_set832
+
+#75991: (7582)  [7582] Re:: GetIndexMessage Sent to feed_set509
+76000 7601 6576 446 538 861.2510331955739
+
+#76071: (7584)  [7584] Re:: GetIndexMessage Sent to feed_set1119
+
+#76071: (7590)  [7590] Re:: GetIndexMessage Sent to feed_set827
+
+#76171: (5562)  [5562] Empty ReturnIndexMessage Sent
+
+#76171: (5562)  [5562] ReduceSetMessage Sent
+
+#76251: (7606)  [7606] Empty ReturnIndexMessage Received from feed_set700
+
+#76251: (7606)  [7606] Re::: GetIndexMessage Sent to feed_set1111
+
+#76361: (1810)  [1810] Empty ReturnIndexMessage Sent
+
+#76361: (1810)  [1810] ReduceSetMessage Sent
+
+#76451: (7624)  [7624] Empty ReturnIndexMessage Received from feed_set833
+
+#76451: (7624)  [7624] Re::: GetIndexMessage Sent to feed_set578
+
+#76611: (7638)  [7638] Re:: GetIndexMessage Sent to feed_set147
+
+#76681: (7645)  [7645] Re:: GetIndexMessage Sent to feed_set968
+
+#76681: (7546)  [7546] Empty ReturnIndexMessage Sent
+
+#76681: (7546)  [7546] ReduceSetMessage Sent
+
+#76711: (7650)  [7650] Re:: GetIndexMessage Sent to feed_set253
+
+#76711: (7638)  [7638] Re:: GetIndexMessage Sent to feed_set1033
+
+#76771: (7656)  [7656] Empty ReturnIndexMessage Received from feed_set841
+
+#76771: (7656)  [7656] Re::: GetIndexMessage Sent to feed_set532
+
+#76801: (7661)  [7661] Re:: GetIndexMessage Sent to feed_set587
+
+#76811: (2783)  [2783] Empty ReturnIndexMessage Sent
+
+#76811: (2783)  [2783] ReduceSetMessage Sent
+
+#76871: (7674)  [7674] Re:: GetIndexMessage Sent to feed_set295
+
+#76891: (7670)  [7670] Empty ReturnIndexMessage Received from feed_set757
+
+#76891: (7670)  [7670] Re::: GetIndexMessage Sent to feed_set763
+
+#76901: (7671)  [7671] Re:: GetIndexMessage Sent to feed_set873
+
+#76911: (7656)  [7656] Re:: GetIndexMessage Sent to feed_set749
+
+#76981: (7687)  [7687] Re:: GetIndexMessage Sent to feed_set642
+77000 7701 6677 449 537 878.8192343112748
+
+#77131: (7694)  [7694] Re:: GetIndexMessage Sent to feed_set1079
+
+#77221: (1811)  [1811] Empty ReturnIndexMessage Sent
+
+#77221: (1811)  [1811] ReduceSetMessage Sent
+
+#77301: (7711)  [7711] Empty ReturnIndexMessage Received from feed_set776
+
+#77301: (7711)  [7711] Re::: GetIndexMessage Sent to feed_set36
+
+#77401: (7732)  [7732] Empty ReturnIndexMessage Sent
+
+#77401: (7732)  [7732] ReduceSetMessage Sent
+
+#77421: (7721)  [7721] Re:: GetIndexMessage Sent to feed_set961
+
+#77501: (7711)  [7711] Empty ReturnIndexMessage Received from feed_set36
+
+#77501: (7711)  [7711] Re::: GetIndexMessage Sent to feed_set401
+
+#77581: (7721)  [7721] Re:: GetIndexMessage Sent to feed_set495
+
+#77621: (7711)  [7711] Re:: GetIndexMessage Sent to feed_set910
+
+#77691: (7752)  [7752] Re:: GetIndexMessage Sent to feed_set1092
+
+#77731: (7757)  [7757] Re:: GetIndexMessage Sent to feed_set622
+
+#77741: (7711)  [7711] Re:: GetIndexMessage Sent to feed_set172
+
+#77761: (7753)  [7753] Re:: GetIndexMessage Sent to feed_set578
+
+#77881: (7779)  [7779] Re:: GetIndexMessage Sent to feed_set702
+
+#77981: (978)  [222] Empty ReturnIndexMessage Sent
+
+#77981: (978)  [222] ReduceSetMessage Sent
+78000 7801 6780 454 542 888.873782625633
+
+#78081: (7785)  [7785] Re:: GetIndexMessage Sent to feed_set1090
+
+#78091: (7784)  [7784] Empty ReturnIndexMessage Received from feed_set595
+
+#78091: (7784)  [7784] Re::: GetIndexMessage Sent to feed_set750
+
+#78231: (7804)  [7804] Re:: GetIndexMessage Sent to feed_set186
+
+#78281: (7809)  [7809] Re:: GetIndexMessage Sent to feed_set1021
+
+#78301: (7815)  [7815] Re:: GetIndexMessage Sent to feed_set1070
+
+#78321: (2108)  [2108] Empty ReturnIndexMessage Sent
+
+#78321: (2108)  [2108] ReduceSetMessage Sent
+
+#78381: (7823)  [7823] Empty ReturnIndexMessage Received from feed_set792
+
+#78381: (7823)  [7823] Re::: GetIndexMessage Sent to feed_set856
+
+#78501: (7833)  [7833] Re:: GetIndexMessage Sent to feed_set683
+
+#78531: (7838)  [7838] Re:: GetIndexMessage Sent to feed_set713
+
+#78641: (7843)  [7843] Re:: GetIndexMessage Sent to feed_set1163
+
+#78651: (7690)  [7690] Empty ReturnIndexMessage Sent
+
+#78651: (7690)  [7690] ReduceSetMessage Sent
+
+#78721: (7855)  [7855] Empty ReturnIndexMessage Received from feed_set708
+
+#78721: (7855)  [7855] Re::: GetIndexMessage Sent to feed_set803
+
+#78731: (7856)  [7856] Re:: GetIndexMessage Sent to feed_set953
+
+#78811: (7862)  [7862] Re:: GetIndexMessage Sent to feed_set980
+
+#78811: (639)  [807] Empty ReturnIndexMessage Sent
+
+#78811: (639)  [807] ReduceSetMessage Sent
+
+#78851: (7868)  [7868] Re:: GetIndexMessage Sent to feed_set164
+
+#78871: (7872)  [7872] Empty ReturnIndexMessage Received from feed_set910
+
+#78871: (7872)  [7872] Re::: GetIndexMessage Sent to feed_set380
+
+#78901: (7871)  [7871] Re:: GetIndexMessage Sent to feed_set1148
+
+#78921: (98)  [895] Empty ReturnIndexMessage Sent
+
+#78921: (98)  [895] ReduceSetMessage Sent
+
+#78991: (7868)  [7868] Empty ReturnIndexMessage Received from feed_set164
+
+#78991: (7868)  [7868] Re::: GetIndexMessage Sent to feed_set314
+79000 7901 6879 460 545 906.670555057044
+
+#79091: (7868)  [7868] Re:: GetIndexMessage Sent to feed_set1111
+
+#79301: (7913)  [7913] Re:: GetIndexMessage Sent to feed_set239
+
+#79331: (7920)  [7920] Re:: GetIndexMessage Sent to feed_set1074
+
+#79361: (3022)  [3022] Empty ReturnIndexMessage Sent
+
+#79361: (3022)  [3022] ReduceSetMessage Sent
+
+#79391: (7926)  [7926] Re:: GetIndexMessage Sent to feed_set807
+
+#79451: (7924)  [7924] Empty ReturnIndexMessage Received from feed_set211
+
+#79451: (7924)  [7924] Re::: GetIndexMessage Sent to feed_set983
+
+#79521: (7933)  [7933] Re:: GetIndexMessage Sent to feed_set374
+
+#79541: (7939)  [7939] Re:: GetIndexMessage Sent to feed_set870
+
+#79591: (7940)  [7940] Re:: GetIndexMessage Sent to feed_set995
+
+#79771: (7962)  [7962] Re:: GetIndexMessage Sent to feed_set595
+
+#79811: (978)  [222] Empty ReturnIndexMessage Sent
+
+#79811: (978)  [222] ReduceSetMessage Sent
+
+#79851: (7962)  [7962] Empty ReturnIndexMessage Received from feed_set595
+
+#79851: (7962)  [7962] Re::: GetIndexMessage Sent to feed_set1004
+
+#79871: (2314)  [2314] Empty ReturnIndexMessage Sent
+
+#79871: (2314)  [2314] ReduceSetMessage Sent
+
+#79941: (7820)  [7820] Empty ReturnIndexMessage Sent
+
+#79941: (7820)  [7820] ReduceSetMessage Sent
+
+#79961: (7975)  [7975] Empty ReturnIndexMessage Received from feed_set586
+
+#79961: (7975)  [7975] Re::: GetIndexMessage Sent to feed_set1067
+80000 8001 6978 467 549 918.3088216681433
+
+#80001: (7985)  [7985] Empty ReturnIndexMessage Received from feed_set36
+
+#80001: (7985)  [7985] Re::: GetIndexMessage Sent to feed_set578
+
+#80011: (7962)  [7962] Re:: GetIndexMessage Sent to feed_set863
+
+#80031: (7820)  [7820] Empty ReturnIndexMessage Sent
+
+#80031: (7820)  [7820] ReduceSetMessage Sent
+
+#80051: (7984)  [7984] Re:: GetIndexMessage Sent to feed_set768
+
+#80111: (6068)  [6068] Empty ReturnIndexMessage Sent
+
+#80111: (6068)  [6068] ReduceSetMessage Sent
+
+#80111: (7992)  [7992] Empty ReturnIndexMessage Received from feed_set36
+
+#80111: (7992)  [7992] Re::: GetIndexMessage Sent to feed_set1077
+
+#80131: (7096)  [7096] Empty ReturnIndexMessage Sent
+
+#80131: (7096)  [7096] ReduceSetMessage Sent
+
+#80181: (8001)  [8001] Re:: GetIndexMessage Sent to feed_set855
+
+#80211: (7962)  [7962] Empty ReturnIndexMessage Received from feed_set863
+
+#80211: (7962)  [7962] Re::: GetIndexMessage Sent to feed_set1173
+
+#80211: (8002)  [8002] Empty ReturnIndexMessage Received from feed_set972
+
+#80211: (8002)  [8002] Re::: GetIndexMessage Sent to feed_set380
+
+#80231: (8006)  [8006] Re:: GetIndexMessage Sent to feed_set656
+
+#80241: (8007)  [8007] Re:: GetIndexMessage Sent to feed_set1125
+
+#80251: (8008)  [8008] Re:: GetIndexMessage Sent to feed_set29
+
+#80291: (7869)  [7869] Empty ReturnIndexMessage Sent
+
+#80291: (7869)  [7869] ReduceSetMessage Sent
+
+#80331: (8008)  [8008] Empty ReturnIndexMessage Received from feed_set29
+
+#80331: (8008)  [8008] Re::: GetIndexMessage Sent to feed_set570
+
+#80351: (8022)  [8022] Re:: GetIndexMessage Sent to feed_set764
+
+#80501: (8029)  [8029] Re:: GetIndexMessage Sent to feed_set49
+
+#80501: (8033)  [8033] Re:: GetIndexMessage Sent to feed_set543
+
+#80521: (8037)  [8037] Re:: GetIndexMessage Sent to feed_set1059
+
+#80591: (8044)  [8044] Re:: GetIndexMessage Sent to feed_set904
+
+#80621: (8045)  [8045] Re:: GetIndexMessage Sent to feed_set1178
+
+#80661: (8049)  [8049] Re:: GetIndexMessage Sent to feed_set1055
+
+#80711: (7160)  [7160] Empty ReturnIndexMessage Sent
+
+#80711: (7160)  [7160] ReduceSetMessage Sent
+
+#80761: (8049)  [8049] Empty ReturnIndexMessage Received from feed_set1055
+
+#80761: (8049)  [8049] Re::: GetIndexMessage Sent to feed_set385
+
+#80891: (6499)  [6499] Empty ReturnIndexMessage Sent
+
+#80891: (6499)  [6499] ReduceSetMessage Sent
+
+#80901: (5926)  [5926] Empty ReturnIndexMessage Sent
+
+#80901: (5926)  [5926] ReduceSetMessage Sent
+
+#80951: (8080)  [8080] Empty ReturnIndexMessage Received from feed_set814
+
+#80951: (8080)  [8080] Re::: GetIndexMessage Sent to feed_set355
+
+#80951: (8076)  [8076] Re:: GetIndexMessage Sent to feed_set947
+
+#80981: (8079)  [8079] Empty ReturnIndexMessage Received from feed_set408
+
+#80981: (8079)  [8079] Re::: GetIndexMessage Sent to feed_set934
+81000 8101 7080 460 533 932.270591176103
+
+#81331: (8114)  [8114] Re:: GetIndexMessage Sent to feed_set872
+
+#81551: (8128)  [8128] Re:: GetIndexMessage Sent to feed_set145
+
+#81601: (8139)  [8139] Re:: GetIndexMessage Sent to feed_set924
+
+#81651: (8152)  [8152] Re:: GetIndexMessage Sent to feed_set1063
+
+#81901: (8169)  [8169] Re:: GetIndexMessage Sent to feed_set1185
+
+#81901: (2604)  [2604] Empty ReturnIndexMessage Sent
+
+#81901: (2604)  [2604] ReduceSetMessage Sent
+
+#81921: (8177)  [8177] Re:: GetIndexMessage Sent to feed_set186
+
+#81981: (8179)  [8179] Empty ReturnIndexMessage Received from feed_set822
+
+#81981: (8179)  [8179] Re::: GetIndexMessage Sent to feed_set1171
+82000 8201 7177 464 541 938.4978397728676
+
+#82071: (8190)  [8190] Re:: GetIndexMessage Sent to feed_set1167
+
+#82441: (8227)  [8227] Re:: GetIndexMessage Sent to feed_set629
+
+#82461: (8229)  [8229] Re:: GetIndexMessage Sent to feed_set1126
+
+#82531: (8230)  [8230] Re:: GetIndexMessage Sent to feed_set1069
+
+#82541: (8235)  [8235] Re:: GetIndexMessage Sent to feed_set295
+
+#82631: (8248)  [8248] Re:: GetIndexMessage Sent to feed_set1142
+
+#82691: (8250)  [8250] Re:: GetIndexMessage Sent to feed_set568
+
+#82931: (8278)  [8278] Re:: GetIndexMessage Sent to feed_set1214
+83000 8301 7278 461 537 941.9473234971344
+
+#83191: (7806)  [7806] Empty ReturnIndexMessage Sent
+
+#83191: (7806)  [7806] ReduceSetMessage Sent
+
+#83241: (8311)  [8311] Empty ReturnIndexMessage Received from feed_set260
+
+#83241: (8311)  [8311] Re::: GetIndexMessage Sent to feed_set1148
+
+#83341: (8307)  [8307] Re:: GetIndexMessage Sent to feed_set634
+
+#83371: (8316)  [8316] Re:: GetIndexMessage Sent to feed_set410
+
+#83421: (8321)  [8321] Re:: GetIndexMessage Sent to feed_set1046
+
+#83441: (8325)  [8325] Re:: GetIndexMessage Sent to feed_set725
+
+#83531: (8316)  [8316] Re:: GetIndexMessage Sent to feed_set1098
+
+#83671: (4984)  [4984] Empty ReturnIndexMessage Sent
+
+#83671: (4984)  [4984] ReduceSetMessage Sent
+
+#83741: (8357)  [8357] Empty ReturnIndexMessage Received from feed_set1064
+
+#83741: (8357)  [8357] Re::: GetIndexMessage Sent to feed_set321
+
+#83751: (8350)  [8350] Re:: GetIndexMessage Sent to feed_set920
+
+#83881: (1279)  [1279] Empty ReturnIndexMessage Sent
+
+#83881: (1279)  [1279] ReduceSetMessage Sent
+
+#83911: (8350)  [8350] Re:: GetIndexMessage Sent to feed_set1191
+
+#83931: (8021)  [8021] Empty ReturnIndexMessage Sent
+
+#83931: (8021)  [8021] ReduceSetMessage Sent
+
+#83951: (8372)  [8372] Re:: GetIndexMessage Sent to feed_set1061
+
+#83951: (8378)  [8378] Empty ReturnIndexMessage Received from feed_set478
+
+#83951: (8378)  [8378] Re::: GetIndexMessage Sent to feed_set24
+84000 8401 7376 464 536 946.183712805686
+
+#84011: (8382)  [8382] Empty ReturnIndexMessage Received from feed_set303
+
+#84011: (8382)  [8382] Re::: GetIndexMessage Sent to feed_set422
+
+#84111: (8390)  [8390] Re:: GetIndexMessage Sent to feed_set1103
+
+#84291: (8416)  [8416] Re:: GetIndexMessage Sent to feed_set1092
+
+#84351: (8422)  [8422] Re:: GetIndexMessage Sent to feed_set44
+
+#84391: (8418)  [8418] Re:: GetIndexMessage Sent to feed_set781
+
+#84531: (8430)  [8430] Re:: GetIndexMessage Sent to feed_set733
+
+#84561: (8437)  [8437] Re:: GetIndexMessage Sent to feed_set527
+
+#84631: (8446)  [8446] Re:: GetIndexMessage Sent to feed_set966
+
+#84681: (8447)  [8447] Re:: GetIndexMessage Sent to feed_set109
+
+#84721: (8449)  [8449] Re:: GetIndexMessage Sent to feed_set1144
+
+#84821: (8463)  [8463] Re:: GetIndexMessage Sent to feed_set487
+
+#84871: (8470)  [8470] Re:: GetIndexMessage Sent to feed_set1153
+
+#84881: (8447)  [8447] Re:: GetIndexMessage Sent to feed_set614
+
+#84911: (8476)  [8476] Re:: GetIndexMessage Sent to feed_set1023
+
+#84931: (8478)  [8478] Re:: GetIndexMessage Sent to feed_set207
+85000 8501 7477 462 538 956.8103797167004
+
+#85111: (8494)  [8494] Re:: GetIndexMessage Sent to feed_set1241
+
+#85251: (8502)  [8502] Re:: GetIndexMessage Sent to feed_set188
+
+#85281: (6489)  [6489] Empty ReturnIndexMessage Sent
+
+#85281: (6489)  [6489] ReduceSetMessage Sent
+
+#85301: (8519)  [8519] Re:: GetIndexMessage Sent to feed_set844
+
+#85341: (8515)  [8515] Re:: GetIndexMessage Sent to feed_set1239
+
+#85371: (8516)  [8516] Empty ReturnIndexMessage Received from feed_set963
+
+#85371: (8516)  [8516] Re::: GetIndexMessage Sent to feed_set374
+
+#85421: (8527)  [8527] Re:: GetIndexMessage Sent to feed_set955
+
+#85571: (8536)  [8536] Re:: GetIndexMessage Sent to feed_set1125
+
+#85711: (8556)  [8556] Re:: GetIndexMessage Sent to feed_set378
+
+#85721: (8555)  [8555] Re:: GetIndexMessage Sent to feed_set1076
+
+#85791: (8562)  [8562] Re:: GetIndexMessage Sent to feed_set832
+
+#85841: (8575)  [8575] Re:: GetIndexMessage Sent to feed_set991
+
+#85941: (7698)  [7698] Empty ReturnIndexMessage Sent
+
+#85941: (7698)  [7698] ReduceSetMessage Sent
+
+#85981: (8573)  [8573] Re:: GetIndexMessage Sent to feed_set994
+86000 8601 7579 462 536 967.750029408305
+
+#86001: (8585)  [8585] Empty ReturnIndexMessage Received from feed_set1123
+
+#86001: (8585)  [8585] Re::: GetIndexMessage Sent to feed_set228
+
+#86021: (8575)  [8575] Re:: GetIndexMessage Sent to feed_set55
+
+#86041: (8587)  [8587] Re:: GetIndexMessage Sent to feed_set1172
+
+#86061: (8593)  [8593] Re:: GetIndexMessage Sent to feed_set732
+
+#86071: (8582)  [8582] Re:: GetIndexMessage Sent to feed_set977
+
+#86161: (8573)  [8573] Re:: GetIndexMessage Sent to feed_set1053
+
+#86181: (8585)  [8585] Re:: GetIndexMessage Sent to feed_set1225
+
+#86221: (8593)  [8593] Re:: GetIndexMessage Sent to feed_set691
+
+#86271: (8610)  [8610] Re:: GetIndexMessage Sent to feed_set1068
+
+#86301: (8617)  [8617] Re:: GetIndexMessage Sent to feed_set1037
+
+#86381: (8623)  [8623] Re:: GetIndexMessage Sent to feed_set782
+
+#86461: (8021)  [8021] Empty ReturnIndexMessage Sent
+
+#86461: (8021)  [8021] ReduceSetMessage Sent
+
+#86501: (8633)  [8633] Re:: GetIndexMessage Sent to feed_set1127
+
+#86541: (8623)  [8623] Empty ReturnIndexMessage Received from feed_set782
+
+#86541: (8623)  [8623] Re::: GetIndexMessage Sent to feed_set1139
+
+#86571: (8640)  [8640] Re:: GetIndexMessage Sent to feed_set720
+
+#86571: (8638)  [8638] Re:: GetIndexMessage Sent to feed_set654
+
+#86751: (8640)  [8640] Re:: GetIndexMessage Sent to feed_set705
+
+#86781: (8671)  [8671] Re:: GetIndexMessage Sent to feed_set1161
+
+#86831: (8664)  [8664] Re:: GetIndexMessage Sent to feed_set733
+87000 8701 7680 456 530 983.2193930938263
+
+#87021: (8683)  [8683] Re:: GetIndexMessage Sent to feed_set769
+
+#87041: (8687)  [8687] Re:: GetIndexMessage Sent to feed_set1225
+
+#87061: (8689)  [8689] Re:: GetIndexMessage Sent to feed_set906
+
+#87071: (8688)  [8688] Re:: GetIndexMessage Sent to feed_set943
+
+#87141: (8691)  [8691] Re:: GetIndexMessage Sent to feed_set355
+
+#87181: (8689)  [8689] Re:: GetIndexMessage Sent to feed_set113
+
+#87271: (8714)  [8714] Re:: GetIndexMessage Sent to feed_set643
+
+#87401: (8723)  [8723] Re:: GetIndexMessage Sent to feed_set1091
+
+#87521: (8723)  [8723] Re:: GetIndexMessage Sent to feed_set763
+
+#87661: (8762)  [8762] Empty ReturnIndexMessage Sent
+
+#87661: (8762)  [8762] ReduceSetMessage Sent
+
+#87721: (8753)  [8753] Re:: GetIndexMessage Sent to feed_set1249
+
+#87731: (8758)  [8758] Re:: GetIndexMessage Sent to feed_set1034
+
+#87731: (8756)  [8756] Empty ReturnIndexMessage Received from feed_set666
+
+#87731: (8756)  [8756] Re::: GetIndexMessage Sent to feed_set1099
+
+#87811: (8766)  [8766] Re:: GetIndexMessage Sent to feed_set1014
+
+#87861: (8769)  [8769] Re:: GetIndexMessage Sent to feed_set513
+
+#87961: (8773)  [8773] Re:: GetIndexMessage Sent to feed_set1112
+
+#87971: (8766)  [8766] Re:: GetIndexMessage Sent to feed_set1009
+88000 8801 7776 456 532 997.0620618319733
+
+#88121: (8773)  [8773] Re:: GetIndexMessage Sent to feed_set821
+
+#88131: (8272)  [8272] Empty ReturnIndexMessage Sent
+
+#88131: (8272)  [8272] ReduceSetMessage Sent
+
+#88161: (8797)  [8797] Re:: GetIndexMessage Sent to feed_set495
+
+#88171: (8804)  [8804] Re:: GetIndexMessage Sent to feed_set570
+
+#88201: (8805)  [8805] Re:: GetIndexMessage Sent to feed_set400
+
+#88201: (8803)  [8803] Empty ReturnIndexMessage Received from feed_set892
+
+#88201: (8803)  [8803] Re::: GetIndexMessage Sent to feed_set962
+
+#88301: (8819)  [8819] Re:: GetIndexMessage Sent to feed_set862
+
+#88361: (8821)  [8821] Re:: GetIndexMessage Sent to feed_set393
+
+#88391: (8537)  [8537] Empty ReturnIndexMessage Sent
+
+#88391: (8537)  [8537] ReduceSetMessage Sent
+
+#88431: (8830)  [8830] Re:: GetIndexMessage Sent to feed_set226
+
+#88441: (8831)  [8831] Re:: GetIndexMessage Sent to feed_set1232
+
+#88461: (8829)  [8829] Empty ReturnIndexMessage Received from feed_set1012
+
+#88461: (8829)  [8829] Re::: GetIndexMessage Sent to feed_set921
+
+#88601: (8537)  [8537] Empty ReturnIndexMessage Sent
+
+#88601: (8537)  [8537] ReduceSetMessage Sent
+
+#88611: (8846)  [8846] Re:: GetIndexMessage Sent to feed_set1220
+
+#88691: (8848)  [8848] Empty ReturnIndexMessage Received from feed_set1012
+
+#88691: (8848)  [8848] Re::: GetIndexMessage Sent to feed_set1168
+
+#88871: (8866)  [8866] Re:: GetIndexMessage Sent to feed_set1124
+
+#88931: (8878)  [8878] Re:: GetIndexMessage Sent to feed_set105
+
+#88941: (8875)  [8875] Re:: GetIndexMessage Sent to feed_set1178
+
+#88991: (8884)  [8884] Re:: GetIndexMessage Sent to feed_set204
+89000 8901 7880 456 529 1007.5043745028973
+
+#89061: (8891)  [8891] Re:: GetIndexMessage Sent to feed_set923
+
+#89131: (8894)  [8894] Re:: GetIndexMessage Sent to feed_set448
+
+#89211: (5142)  [5142] Empty ReturnIndexMessage Sent
+
+#89211: (5142)  [5142] ReduceSetMessage Sent
+
+#89221: (8907)  [8907] Re:: GetIndexMessage Sent to feed_set1286
+
+#89281: (8911)  [8911] Empty ReturnIndexMessage Received from feed_set682
+
+#89281: (8911)  [8911] Re::: GetIndexMessage Sent to feed_set1206
+
+#89281: (8905)  [8905] Re:: GetIndexMessage Sent to feed_set733
+
+#89311: (8913)  [8913] Re:: GetIndexMessage Sent to feed_set938
+
+#89311: (8910)  [8910] Re:: GetIndexMessage Sent to feed_set867
+
+#89311: (8894)  [8894] Re:: GetIndexMessage Sent to feed_set1261
+
+#89421: (7566)  [7566] Empty ReturnIndexMessage Sent
+
+#89421: (7566)  [7566] ReduceSetMessage Sent
+
+#89511: (8930)  [8930] Empty ReturnIndexMessage Received from feed_set964
+
+#89511: (8930)  [8930] Re::: GetIndexMessage Sent to feed_set977
+
+#89601: (8943)  [8943] Re:: GetIndexMessage Sent to feed_set750
+
+#89681: (8953)  [8953] Re:: GetIndexMessage Sent to feed_set1259
+
+#89701: (8943)  [8943] Re:: GetIndexMessage Sent to feed_set934
+
+#89731: (8956)  [8956] Re:: GetIndexMessage Sent to feed_set55
+
+#89761: (8961)  [8961] Re:: GetIndexMessage Sent to feed_set873
+
+#89831: (8964)  [8964] Re:: GetIndexMessage Sent to feed_set1212
+
+#89861: (8965)  [8965] Re:: GetIndexMessage Sent to feed_set1092
+
+#89871: (8970)  [8970] Re:: GetIndexMessage Sent to feed_set433
+
+#89941: (8975)  [8975] Re:: GetIndexMessage Sent to feed_set876
+90000 9001 7980 447 518 1015.7692394113021
+
+#90011: (8034)  [8034] Empty ReturnIndexMessage Sent
+
+#90011: (8034)  [8034] ReduceSetMessage Sent
+
+#90041: (8987)  [8987] Re:: GetIndexMessage Sent to feed_set282
+
+#90101: (8993)  [8993] Re:: GetIndexMessage Sent to feed_set643
+
+#90101: (8994)  [8994] Re:: GetIndexMessage Sent to feed_set1145
+
+#90111: (8988)  [8988] Empty ReturnIndexMessage Received from feed_set954
+
+#90111: (8988)  [8988] Re::: GetIndexMessage Sent to feed_set1237
+
+#90191: (9004)  [9004] Re:: GetIndexMessage Sent to feed_set930
+
+#90241: (9007)  [9007] Re:: GetIndexMessage Sent to feed_set1188
+
+#90271: (9008)  [9008] Re:: GetIndexMessage Sent to feed_set1144
+
+#90371: (9020)  [9020] Re:: GetIndexMessage Sent to feed_set1005
+
+#90521: (9037)  [9037] Re:: GetIndexMessage Sent to feed_set821
+
+#90561: (7864)  [7864] Empty ReturnIndexMessage Sent
+
+#90561: (7864)  [7864] ReduceSetMessage Sent
+
+#90591: (9042)  [9042] Re:: GetIndexMessage Sent to feed_set1180
+
+#90651: (9044)  [9044] Empty ReturnIndexMessage Received from feed_set257
+
+#90651: (9044)  [9044] Re::: GetIndexMessage Sent to feed_set565
+
+#90731: (9052)  [9052] Re:: GetIndexMessage Sent to feed_set1101
+
+#90931: (4189)  [4189] Empty ReturnIndexMessage Sent
+
+#90931: (4189)  [4189] ReduceSetMessage Sent
+
+#90971: (9078)  [9078] Re:: GetIndexMessage Sent to feed_set1264
+91000 9101 8082 447 519 1032.0582157538051
+
+#91001: (9083)  [9083] Empty ReturnIndexMessage Received from feed_set241
+
+#91001: (9083)  [9083] Re::: GetIndexMessage Sent to feed_set1142
+
+#91011: (9093)  [9093] Re:: GetIndexMessage Sent to feed_set1204
+
+#91091: (9088)  [9088] Re:: GetIndexMessage Sent to feed_set1102
+
+#91151: (9096)  [9096] Re:: GetIndexMessage Sent to feed_set1036
+
+#91181: (9101)  [9101] Re:: GetIndexMessage Sent to feed_set691
+
+#91211: (9088)  [9088] Re:: GetIndexMessage Sent to feed_set1024
+
+#91211: (9100)  [9100] Re:: GetIndexMessage Sent to feed_set925
+
+#91221: (9099)  [9099] Re:: GetIndexMessage Sent to feed_set439
+
+#91271: (9096)  [9096] Re:: GetIndexMessage Sent to feed_set1056
+
+#91301: (9117)  [9117] Re:: GetIndexMessage Sent to feed_set1156
+
+#91441: (9123)  [9123] Re:: GetIndexMessage Sent to feed_set1150
+
+#91631: (9148)  [9148] Re:: GetIndexMessage Sent to feed_set856
+
+#91681: (9153)  [9153] Re:: GetIndexMessage Sent to feed_set1106
+
+#91711: (9068)  [9068] Empty ReturnIndexMessage Sent
+
+#91711: (9068)  [9068] ReduceSetMessage Sent
+
+#91781: (9161)  [9161] Empty ReturnIndexMessage Received from feed_set1239
+
+#91781: (9161)  [9161] Re::: GetIndexMessage Sent to feed_set350
+
+#91971: (9176)  [9176] Re:: GetIndexMessage Sent to feed_set1003
+92000 9201 8179 442 510 1034.1747060762555
+
+#92001: (9183)  [9183] Re:: GetIndexMessage Sent to feed_set856
+
+#92181: (9201)  [9201] Re:: GetIndexMessage Sent to feed_set1187
+
+#92281: (9211)  [9211] Re:: GetIndexMessage Sent to feed_set1153
+
+#92321: (9201)  [9201] Re:: GetIndexMessage Sent to feed_set1207
+
+#92331: (8404)  [8404] Empty ReturnIndexMessage Sent
+
+#92331: (8404)  [8404] ReduceSetMessage Sent
+
+#92341: (9215)  [9215] Re:: GetIndexMessage Sent to feed_set1254
+
+#92431: (9220)  [9220] Empty ReturnIndexMessage Received from feed_set445
+
+#92431: (9220)  [9220] Re::: GetIndexMessage Sent to feed_set1216
+
+#92451: (9226)  [9226] Re:: GetIndexMessage Sent to feed_set152
+
+#92581: (9243)  [9243] Re:: GetIndexMessage Sent to feed_set1255
+
+#92641: (9247)  [9247] Re:: GetIndexMessage Sent to feed_set433
+
+#92701: (9253)  [9253] Re:: GetIndexMessage Sent to feed_set821
+
+#92721: (9251)  [9251] Re:: GetIndexMessage Sent to feed_set113
+
+#92731: (9250)  [9250] Re:: GetIndexMessage Sent to feed_set1257
+
+#92881: (6210)  [6210] Empty ReturnIndexMessage Sent
+
+#92881: (6210)  [6210] ReduceSetMessage Sent
+
+#92881: (9267)  [9267] Re:: GetIndexMessage Sent to feed_set1296
+
+#92891: (6431)  [6431] Empty ReturnIndexMessage Sent
+
+#92891: (6431)  [6431] ReduceSetMessage Sent
+
+#92921: (6210)  [6210] Empty ReturnIndexMessage Sent
+
+#92921: (6210)  [6210] ReduceSetMessage Sent
+
+#92951: (9286)  [9286] Empty ReturnIndexMessage Received from feed_set1198
+
+#92951: (9286)  [9286] Re::: GetIndexMessage Sent to feed_set1255
+
+#92961: (9277)  [9277] Empty ReturnIndexMessage Received from feed_set1198
+
+#92961: (9277)  [9277] Re::: GetIndexMessage Sent to feed_set1142
+
+#92961: (9279)  [9279] Empty ReturnIndexMessage Received from feed_set461
+
+#92961: (9279)  [9279] Re::: GetIndexMessage Sent to feed_set1116
+93000 9301 8278 446 513 1049.6160199978262
+
+#93041: (9281)  [9281] Re:: GetIndexMessage Sent to feed_set1103
+
+#93051: (9288)  [9288] Re:: GetIndexMessage Sent to feed_set1010
+
+#93111: (9292)  [9292] Re:: GetIndexMessage Sent to feed_set456
+
+#93311: (3009)  [3009] Empty ReturnIndexMessage Sent
+
+#93311: (3009)  [3009] ReduceSetMessage Sent
+
+#93321: (9311)  [9311] Re:: GetIndexMessage Sent to feed_set725
+
+#93371: (9322)  [9322] Empty ReturnIndexMessage Received from feed_set1155
+
+#93371: (9322)  [9322] Re::: GetIndexMessage Sent to feed_set927
+
+#93511: (9322)  [9322] Re:: GetIndexMessage Sent to feed_set907
+
+#93601: (9337)  [9337] Re:: GetIndexMessage Sent to feed_set1109
+
+#93911: (9368)  [9368] Re:: GetIndexMessage Sent to feed_set997
+94000 9401 8378 449 514 1058.38823782389
+
+#94031: (9388)  [9388] Re:: GetIndexMessage Sent to feed_set1176
+
+#94521: (9433)  [9433] Re:: GetIndexMessage Sent to feed_set543
+
+#94621: (9443)  [9443] Re:: GetIndexMessage Sent to feed_set1335
+
+#94711: (9452)  [9452] Re:: GetIndexMessage Sent to feed_set94
+
+#94921: (9469)  [9469] Re:: GetIndexMessage Sent to feed_set1257
+
+#94931: (8201)  [8201] Empty ReturnIndexMessage Sent
+
+#94931: (8201)  [8201] ReduceSetMessage Sent
+
+#94931: (9476)  [9476] Re:: GetIndexMessage Sent to feed_set623
+95000 9501 8478 448 514 1055.1905116476971
+
+#95001: (9483)  [9483] Empty ReturnIndexMessage Received from feed_set1078
+
+#95001: (9483)  [9483] Re::: GetIndexMessage Sent to feed_set226
+
+#95051: (7026)  [7026] Empty ReturnIndexMessage Sent
+
+#95051: (7026)  [7026] ReduceSetMessage Sent
+
+#95101: (9495)  [9495] Re:: GetIndexMessage Sent to feed_set701
+
+#95141: (9493)  [9493] Empty ReturnIndexMessage Received from feed_set547
+
+#95141: (9493)  [9493] Re::: GetIndexMessage Sent to feed_set1147
+
+#95291: (9510)  [9510] Re:: GetIndexMessage Sent to feed_set923
+
+#95311: (9514)  [9514] Re:: GetIndexMessage Sent to feed_set1206
+
+#95501: (9525)  [9525] Re:: GetIndexMessage Sent to feed_set144
+
+#95631: (9546)  [9546] Re:: GetIndexMessage Sent to feed_set1225
+
+#95721: (9551)  [9551] Re:: GetIndexMessage Sent to feed_set226
+
+#95851: (9560)  [9560] Re:: GetIndexMessage Sent to feed_set1305
+
+#95881: (9575)  [9575] Re:: GetIndexMessage Sent to feed_set381
+
+#95881: (9569)  [9569] Re:: GetIndexMessage Sent to feed_set1307
+
+#95911: (9263)  [9263] Empty ReturnIndexMessage Sent
+
+#95911: (9263)  [9263] ReduceSetMessage Sent
+
+#95941: (9577)  [9577] Re:: GetIndexMessage Sent to feed_set803
+
+#95941: (8759)  [8759] Empty ReturnIndexMessage Sent
+
+#95941: (8759)  [8759] ReduceSetMessage Sent
+
+#95971: (9582)  [9582] Re:: GetIndexMessage Sent to feed_set706
+
+#95981: (9573)  [9573] Re:: GetIndexMessage Sent to feed_set621
+96000 9601 8576 451 514 1063.740237869698
+
+#96001: (9579)  [9579] Empty ReturnIndexMessage Received from feed_set422
+
+#96001: (9579)  [9579] Re::: GetIndexMessage Sent to feed_set785
+
+#96001: (9585)  [9585] Empty ReturnIndexMessage Received from feed_set702
+
+#96001: (9585)  [9585] Re::: GetIndexMessage Sent to feed_set1098
+
+#96031: (9580)  [9580] Re:: GetIndexMessage Sent to feed_set1203
+
+#96091: (9588)  [9588] Re:: GetIndexMessage Sent to feed_set359
+
+#96171: (9596)  [9596] Re:: GetIndexMessage Sent to feed_set1347
+
+#96201: (9599)  [9599] Re:: GetIndexMessage Sent to feed_set474
+
+#96221: (9597)  [9597] Re:: GetIndexMessage Sent to feed_set1213
+
+#96251: (9588)  [9588] Re:: GetIndexMessage Sent to feed_set404
+
+#96251: (9610)  [9610] Re:: GetIndexMessage Sent to feed_set734
+
+#96261: (9607)  [9607] Re:: GetIndexMessage Sent to feed_set1046
+
+#96411: (9628)  [9628] Re:: GetIndexMessage Sent to feed_set947
+
+#96431: (9622)  [9622] Re:: GetIndexMessage Sent to feed_set714
+
+#96501: (9625)  [9625] Re:: GetIndexMessage Sent to feed_set1252
+
+#96501: (9639)  [9639] Re:: GetIndexMessage Sent to feed_set1077
+
+#96511: (9638)  [9638] Re:: GetIndexMessage Sent to feed_set194
+
+#96531: (9628)  [9628] Re:: GetIndexMessage Sent to feed_set1109
+
+#96631: (9648)  [9648] Re:: GetIndexMessage Sent to feed_set1263
+
+#96701: (3612)  [3612] Empty ReturnIndexMessage Sent
+
+#96701: (3612)  [3612] ReduceSetMessage Sent
+
+#96711: (9650)  [9650] Re:: GetIndexMessage Sent to feed_set865
+
+#96721: (9649)  [9649] Re:: GetIndexMessage Sent to feed_set520
+
+#96791: (9658)  [9658] Empty ReturnIndexMessage Received from feed_set947
+
+#96791: (9658)  [9658] Re::: GetIndexMessage Sent to feed_set1329
+
+#96811: (9656)  [9656] Re:: GetIndexMessage Sent to feed_set714
+
+#96831: (9672)  [9672] Re:: GetIndexMessage Sent to feed_set1350
+
+#96841: (9657)  [9657] Re:: GetIndexMessage Sent to feed_set1130
+
+#96941: (9657)  [9657] Re:: GetIndexMessage Sent to feed_set538
+
+#96971: (9678)  [9678] Re:: GetIndexMessage Sent to feed_set378
+
+#96981: (6431)  [6431] Empty ReturnIndexMessage Sent
+
+#96981: (6431)  [6431] ReduceSetMessage Sent
+97000 9701 8676 437 503 1080.3319445891052
+
+#97061: (9691)  [9691] Re:: GetIndexMessage Sent to feed_set1293
+
+#97061: (9687)  [9687] Empty ReturnIndexMessage Received from feed_set835
+
+#97061: (9687)  [9687] Re::: GetIndexMessage Sent to feed_set475
+
+#97091: (4888)  [4888] Empty ReturnIndexMessage Sent
+
+#97091: (4888)  [4888] ReduceSetMessage Sent
+
+#97171: (9698)  [9698] Empty ReturnIndexMessage Received from feed_set1256
+
+#97171: (9698)  [9698] Re::: GetIndexMessage Sent to feed_set1084
+
+#97531: (9728)  [9728] Re:: GetIndexMessage Sent to feed_set1007
+
+#97581: (6336)  [6336] Empty ReturnIndexMessage Sent
+
+#97581: (6336)  [6336] ReduceSetMessage Sent
+
+#97691: (9744)  [9744] Empty ReturnIndexMessage Received from feed_set1353
+
+#97691: (9744)  [9744] Re::: GetIndexMessage Sent to feed_set685
+
+#97821: (9767)  [9767] Re:: GetIndexMessage Sent to feed_set1188
+
+#97891: (9768)  [9768] Re:: GetIndexMessage Sent to feed_set925
+
+#97951: (9778)  [9778] Re:: GetIndexMessage Sent to feed_set155
+98000 9801 8777 441 502 1086.7594062467788
+
+#98001: (9779)  [9779] Re:: GetIndexMessage Sent to feed_set1092
+
+#98081: (9789)  [9789] Re:: GetIndexMessage Sent to feed_set1061
+
+#98391: (9818)  [9818] Re:: GetIndexMessage Sent to feed_set1192
+
+#98521: (9835)  [9835] Re:: GetIndexMessage Sent to feed_set1023
+
+#98541: (9839)  [9839] Re:: GetIndexMessage Sent to feed_set642
+
+#98581: (6412)  [6412] Empty ReturnIndexMessage Sent
+
+#98581: (6412)  [6412] ReduceSetMessage Sent
+
+#98631: (9850)  [9850] Empty ReturnIndexMessage Received from feed_set43
+
+#98631: (9850)  [9850] Re::: GetIndexMessage Sent to feed_set1251
+
+#98651: (9844)  [9844] Re:: GetIndexMessage Sent to feed_set1172
+
+#98671: (9846)  [9846] Re:: GetIndexMessage Sent to feed_set434
+
+#98721: (9857)  [9857] Re:: GetIndexMessage Sent to feed_set930
+
+#98721: (9855)  [9855] Re:: GetIndexMessage Sent to feed_set439
+
+#98801: (9865)  [9865] Re:: GetIndexMessage Sent to feed_set642
+
+#98811: (6412)  [6412] Empty ReturnIndexMessage Sent
+
+#98811: (6412)  [6412] ReduceSetMessage Sent
+
+#98821: (9861)  [9861] Re:: GetIndexMessage Sent to feed_set288
+
+#98871: (9872)  [9872] Empty ReturnIndexMessage Received from feed_set334
+
+#98871: (9872)  [9872] Re::: GetIndexMessage Sent to feed_set166
+
+#98971: (9882)  [9882] Re:: GetIndexMessage Sent to feed_set226
+
+#98971: (5022)  [5022] Empty ReturnIndexMessage Sent
+
+#98971: (5022)  [5022] ReduceSetMessage Sent
+99000 9901 8878 443 502 1099.3626160595857
+
+#99031: (9872)  [9872] Re:: GetIndexMessage Sent to feed_set1153
+
+#99051: (9886)  [9886] Empty ReturnIndexMessage Received from feed_set1008
+
+#99051: (9886)  [9886] Re::: GetIndexMessage Sent to feed_set1322
+
+#99071: (8317)  [8317] Empty ReturnIndexMessage Sent
+
+#99071: (8317)  [8317] ReduceSetMessage Sent
+
+#99161: (9895)  [9895] Empty ReturnIndexMessage Received from feed_set1111
+
+#99161: (9895)  [9895] Re::: GetIndexMessage Sent to feed_set865
+
+#99221: (9903)  [9903] Re:: GetIndexMessage Sent to feed_set1346
+
+#99231: (9904)  [9904] Re:: GetIndexMessage Sent to feed_set519
+
+#99251: (9914)  [9914] Re:: GetIndexMessage Sent to feed_set949
+
+#99441: (9925)  [9925] Re:: GetIndexMessage Sent to feed_set652
+
+#99441: (4091)  [4091] Empty ReturnIndexMessage Sent
+
+#99441: (4091)  [4091] ReduceSetMessage Sent
+
+#99501: (9929)  [9929] Re:: GetIndexMessage Sent to feed_set1207
+
+#99511: (9934)  [9934] Empty ReturnIndexMessage Received from feed_set1126
+
+#99511: (9934)  [9934] Re::: GetIndexMessage Sent to feed_set1232
+
+#99601: (9945)  [9945] Re:: GetIndexMessage Sent to feed_set1279
+
+#99601: (9943)  [9943] Re:: GetIndexMessage Sent to feed_set144
+
+#99651: (9679)  [9679] Empty ReturnIndexMessage Sent
+
+#99651: (9679)  [9679] ReduceSetMessage Sent
+
+#99671: (8370)  [8370] Empty ReturnIndexMessage Sent
+
+#99671: (8370)  [8370] ReduceSetMessage Sent
+
+#99741: (9953)  [9953] Empty ReturnIndexMessage Received from feed_set1038
+
+#99741: (9953)  [9953] Re::: GetIndexMessage Sent to feed_set1264
+
+#99741: (9945)  [9945] Re:: GetIndexMessage Sent to feed_set1340
+
+#99751: (9956)  [9956] Empty ReturnIndexMessage Received from feed_set514
+
+#99751: (9956)  [9956] Re::: GetIndexMessage Sent to feed_set282
+
+#99761: (9967)  [9967] Re:: GetIndexMessage Sent to feed_set1251
+
+#99961: (9985)  [9985] Re:: GetIndexMessage Sent to feed_set437
+
+#99981: (9975)  [9975] Re:: GetIndexMessage Sent to feed_set562
+100000 10001 8980 442 498 1115.2496717503282
+
+#100181: (10003)  [10003] Re:: GetIndexMessage Sent to feed_set1231
+
+#100301: (10003)  [10003] Re:: GetIndexMessage Sent to feed_set1176
+
+#100331: (10010)  [10010] Re:: GetIndexMessage Sent to feed_set705
+
+#100361: (10021)  [10021] Re:: GetIndexMessage Sent to feed_set142
+
+#100431: (10032)  [10032] Re:: GetIndexMessage Sent to feed_set1266
+
+#100511: (10030)  [10030] Re:: GetIndexMessage Sent to feed_set1262
+
+#100561: (10039)  [10039] Re:: GetIndexMessage Sent to feed_set654
+
+#100771: (10056)  [10056] Re:: GetIndexMessage Sent to feed_set550
+
+#100821: (10067)  [10067] Re:: GetIndexMessage Sent to feed_set930
+
+#100821: (10061)  [10061] Re:: GetIndexMessage Sent to feed_set905
+
+#100951: (10080)  [10080] Re:: GetIndexMessage Sent to feed_set348
+
+#100951: (10076)  [10076] Re:: GetIndexMessage Sent to feed_set831
+101000 10101 9078 444 501 1126.6302369763023
+
+#101061: (10089)  [10089] Re:: GetIndexMessage Sent to feed_set1320
+
+#101101: (10087)  [10087] Re:: GetIndexMessage Sent to feed_set855
+
+#101131: (10094)  [10094] Re:: GetIndexMessage Sent to feed_set1299
+
+#101231: (10106)  [10106] Re:: GetIndexMessage Sent to feed_set1157
+
+#101421: (10127)  [10127] Re:: GetIndexMessage Sent to feed_set876
+
+#101441: (10125)  [10125] Re:: GetIndexMessage Sent to feed_set1372
+
+#101501: (10133)  [10133] Re:: GetIndexMessage Sent to feed_set1125
+
+#101531: (10134)  [10134] Re:: GetIndexMessage Sent to feed_set350
+
+#101601: (10145)  [10145] Re:: GetIndexMessage Sent to feed_set1288
+
+#101721: (1322)  [1322] Empty ReturnIndexMessage Sent
+
+#101721: (1322)  [1322] ReduceSetMessage Sent
+
+#101771: (10164)  [10164] Empty ReturnIndexMessage Received from feed_set850
+
+#101771: (10164)  [10164] Re::: GetIndexMessage Sent to feed_set195
+
+#101801: (10165)  [10165] Re:: GetIndexMessage Sent to feed_set1056
+
+#101831: (10162)  [10162] Re:: GetIndexMessage Sent to feed_set112
+
+#101921: (10173)  [10173] Re:: GetIndexMessage Sent to feed_set384
+
+#101931: (10172)  [10172] Re:: GetIndexMessage Sent to feed_set16
+
+#101971: (10180)  [10180] Re:: GetIndexMessage Sent to feed_set1068
+
+#101981: (10179)  [10179] Re:: GetIndexMessage Sent to feed_set155
+102000 10201 9176 444 499 1141.028215028215
+
+#102021: (10181)  [10181] Re:: GetIndexMessage Sent to feed_set1314
+
+#102101: (10187)  [10187] Re:: GetIndexMessage Sent to feed_set1297
+
+#102141: (10191)  [10191] Re:: GetIndexMessage Sent to feed_set1386
+
+#102241: (10205)  [10205] Re:: GetIndexMessage Sent to feed_set112
+
+#102291: (10208)  [10208] Re:: GetIndexMessage Sent to feed_set701
+
+#102291: (10212)  [10212] Re:: GetIndexMessage Sent to feed_set725
+
+#102361: (5436)  [5436] Empty ReturnIndexMessage Sent
+
+#102361: (5436)  [5436] ReduceSetMessage Sent
+
+#102431: (10208)  [10208] Empty ReturnIndexMessage Received from feed_set701
+
+#102431: (10208)  [10208] Re::: GetIndexMessage Sent to feed_set876
+
+#102451: (10230)  [10230] Re:: GetIndexMessage Sent to feed_set152
+
+#102521: (1135)  [1135] Empty ReturnIndexMessage Sent
+
+#102521: (1135)  [1135] ReduceSetMessage Sent
+
+#102591: (10230)  [10230] Empty ReturnIndexMessage Received from feed_set152
+
+#102591: (10230)  [10230] Re::: GetIndexMessage Sent to feed_set785
+
+#102601: (10235)  [10235] Re:: GetIndexMessage Sent to feed_set962
+
+#102621: (10243)  [10243] Re:: GetIndexMessage Sent to feed_set1169
+
+#102651: (10250)  [10250] Re:: GetIndexMessage Sent to feed_set1379
+
+#102681: (10235)  [10235] Re:: GetIndexMessage Sent to feed_set943
+
+#102731: (10252)  [10252] Re:: GetIndexMessage Sent to feed_set1084
+
+#102841: (10265)  [10265] Re:: GetIndexMessage Sent to feed_set803
+
+#102931: (10278)  [10278] Re:: GetIndexMessage Sent to feed_set949
+103000 10301 9276 441 496 1156.0666601313596
+
+#103001: (10285)  [10285] Re:: GetIndexMessage Sent to feed_set1349
+
+#103091: (10292)  [10292] Re:: GetIndexMessage Sent to feed_set439
+
+#103171: (6214)  [6214] Empty ReturnIndexMessage Sent
+
+#103171: (6214)  [6214] ReduceSetMessage Sent
+
+#103171: (10296)  [10296] Re:: GetIndexMessage Sent to feed_set204
+
+#103241: (10307)  [10307] Empty ReturnIndexMessage Received from feed_set1294
+
+#103241: (10307)  [10307] Re::: GetIndexMessage Sent to feed_set1211
+
+#103441: (10327)  [10327] Re:: GetIndexMessage Sent to feed_set1088
+
+#103511: (10330)  [10330] Re:: GetIndexMessage Sent to feed_set856
+
+#103541: (10333)  [10333] Re:: GetIndexMessage Sent to feed_set582
+
+#103601: (10327)  [10327] Re:: GetIndexMessage Sent to feed_set727
+
+#103641: (10343)  [10343] Re:: GetIndexMessage Sent to feed_set1366
+
+#103671: (10330)  [10330] Re:: GetIndexMessage Sent to feed_set1050
+
+#103681: (10353)  [10353] Re:: GetIndexMessage Sent to feed_set1426
+
+#103721: (1432)  [1432] Empty ReturnIndexMessage Sent
+
+#103721: (1432)  [1432] ReduceSetMessage Sent
+
+#103771: (10330)  [10330] Empty ReturnIndexMessage Received from feed_set1050
+
+#103771: (10330)  [10330] Re::: GetIndexMessage Sent to feed_set896
+
+#103781: (10359)  [10359] Re:: GetIndexMessage Sent to feed_set1151
+
+#103781: (10363)  [10363] Re:: GetIndexMessage Sent to feed_set900
+
+#103791: (10367)  [10367] Re:: GetIndexMessage Sent to feed_set1264
+
+#103801: (10365)  [10365] Re:: GetIndexMessage Sent to feed_set1234
+104000 10401 9380 450 501 1178.3122026987671
+
+#104001: (1357)  [1357] Empty ReturnIndexMessage Sent
+
+#104001: (1357)  [1357] ReduceSetMessage Sent
+
+#104051: (10382)  [10382] Re:: GetIndexMessage Sent to feed_set1243
+
+#104081: (10389)  [10389] Empty ReturnIndexMessage Received from feed_set856
+
+#104081: (10389)  [10389] Re::: GetIndexMessage Sent to feed_set1361
+
+#104131: (10396)  [10396] Re:: GetIndexMessage Sent to feed_set930
+
+#104171: (4885)  [4885] Empty ReturnIndexMessage Sent
+
+#104171: (4885)  [4885] ReduceSetMessage Sent
+
+#104171: (10382)  [10382] Re:: GetIndexMessage Sent to feed_set1090
+
+#104251: (10406)  [10406] Empty ReturnIndexMessage Received from feed_set1128
+
+#104251: (10406)  [10406] Re::: GetIndexMessage Sent to feed_set968
+
+#104311: (9161)  [9161] Empty ReturnIndexMessage Sent
+
+#104311: (9161)  [9161] ReduceSetMessage Sent
+
+#104381: (10421)  [10421] Empty ReturnIndexMessage Received from feed_set410
+
+#104381: (10421)  [10421] Re::: GetIndexMessage Sent to feed_set1379
+
+#104401: (9161)  [9161] Empty ReturnIndexMessage Sent
+
+#104401: (9161)  [9161] ReduceSetMessage Sent
+
+#104441: (10433)  [10433] Re:: GetIndexMessage Sent to feed_set495
+
+#104461: (10431)  [10431] Empty ReturnIndexMessage Received from feed_set410
+
+#104461: (10431)  [10431] Re::: GetIndexMessage Sent to feed_set1010
+
+#104681: (10451)  [10451] Re:: GetIndexMessage Sent to feed_set1174
+
+#104731: (10456)  [10456] Re:: GetIndexMessage Sent to feed_set873
+
+#104811: (10456)  [10456] Re:: GetIndexMessage Sent to feed_set783
+105000 10501 9482 457 505 1195.8492452648784
+
+#105021: (10491)  [10491] Re:: GetIndexMessage Sent to feed_set1327
+
+#105171: (10506)  [10506] Re:: GetIndexMessage Sent to feed_set950
+
+#105311: (10512)  [10512] Re:: GetIndexMessage Sent to feed_set1391
+
+#105481: (10533)  [10533] Re:: GetIndexMessage Sent to feed_set1125
+
+#105511: (10534)  [10534] Re:: GetIndexMessage Sent to feed_set1404
+
+#105841: (10571)  [10571] Re:: GetIndexMessage Sent to feed_set949
+106000 10601 9582 463 513 1202.1870298066851
+
+#106121: (10591)  [10591] Re:: GetIndexMessage Sent to feed_set1247
+
+#106131: (10596)  [10596] Re:: GetIndexMessage Sent to feed_set1250
+
+#106181: (10605)  [10605] Re:: GetIndexMessage Sent to feed_set1076
+
+#106281: (10613)  [10613] Re:: GetIndexMessage Sent to feed_set1177
+
+#106381: (10617)  [10617] Re:: GetIndexMessage Sent to feed_set188
+
+#106401: (10613)  [10613] Re:: GetIndexMessage Sent to feed_set1323
+
+#106681: (10653)  [10653] Re:: GetIndexMessage Sent to feed_set1278
+
+#106721: (10655)  [10655] Re:: GetIndexMessage Sent to feed_set1027
+
+#106741: (8375)  [8375] Empty ReturnIndexMessage Sent
+
+#106741: (8375)  [8375] ReduceSetMessage Sent
+
+#106801: (10653)  [10653] Empty ReturnIndexMessage Received from feed_set1278
+
+#106801: (10653)  [10653] Re::: GetIndexMessage Sent to feed_set1282
+
+#106811: (10664)  [10664] Re:: GetIndexMessage Sent to feed_set795
+
+#106821: (10659)  [10659] Re:: GetIndexMessage Sent to feed_set893
+
+#106821: (2387)  [2387] Empty ReturnIndexMessage Sent
+
+#106821: (2387)  [2387] ReduceSetMessage Sent
+
+#106881: (10673)  [10673] Empty ReturnIndexMessage Received from feed_set1082
+
+#106881: (10673)  [10673] Re::: GetIndexMessage Sent to feed_set1001
+
+#106911: (10676)  [10676] Re:: GetIndexMessage Sent to feed_set763
+
+#106931: (10678)  [10678] Re:: GetIndexMessage Sent to feed_set487
+
+#106981: (10673)  [10673] Re:: GetIndexMessage Sent to feed_set1371
+
+#106991: (9591)  [9591] Empty ReturnIndexMessage Sent
+
+#106991: (9591)  [9591] ReduceSetMessage Sent
+107000 10701 9677 459 509 1204.7179511366853
+
+#107071: (10688)  [10688] Empty ReturnIndexMessage Received from feed_set1218
+
+#107071: (10688)  [10688] Re::: GetIndexMessage Sent to feed_set1432
+
+#107381: (10723)  [10723] Re:: GetIndexMessage Sent to feed_set1260
+
+#107411: (10724)  [10724] Re:: GetIndexMessage Sent to feed_set1424
+
+#107461: (10727)  [10727] Re:: GetIndexMessage Sent to feed_set1289
+
+#107511: (10732)  [10732] Re:: GetIndexMessage Sent to feed_set475
+
+#107611: (10738)  [10738] Re:: GetIndexMessage Sent to feed_set1095
+
+#107751: (10754)  [10754] Re:: GetIndexMessage Sent to feed_set953
+
+#107751: (10738)  [10738] Re:: GetIndexMessage Sent to feed_set142
+
+#107821: (10761)  [10761] Re:: GetIndexMessage Sent to feed_set1249
+108000 10801 9780 463 511 1214.5263059527147
+
+#108151: (10792)  [10792] Re:: GetIndexMessage Sent to feed_set1039
+
+#108221: (10799)  [10799] Re:: GetIndexMessage Sent to feed_set1443
+
+#108291: (10792)  [10792] Re:: GetIndexMessage Sent to feed_set731
+
+#108311: (10812)  [10812] Re:: GetIndexMessage Sent to feed_set381
+
+#108311: (2709)  [2709] Empty ReturnIndexMessage Sent
+
+#108311: (2709)  [2709] ReduceSetMessage Sent
+
+#108321: (10813)  [10813] Re:: GetIndexMessage Sent to feed_set1067
+
+#108321: (10817)  [10817] Re:: GetIndexMessage Sent to feed_set629
+
+#108361: (10823)  [10823] Empty ReturnIndexMessage Received from feed_set1098
+
+#108361: (10823)  [10823] Re::: GetIndexMessage Sent to feed_set1135
+
+#108391: (10822)  [10822] Re:: GetIndexMessage Sent to feed_set1003
+
+#108451: (10824)  [10824] Re:: GetIndexMessage Sent to feed_set522
+
+#108481: (10823)  [10823] Re:: GetIndexMessage Sent to feed_set826
+
+#108511: (10830)  [10830] Re:: GetIndexMessage Sent to feed_set1357
+
+#108531: (4990)  [4990] Empty ReturnIndexMessage Sent
+
+#108531: (4990)  [4990] ReduceSetMessage Sent
+
+#108561: (5330)  [5330] Empty ReturnIndexMessage Sent
+
+#108561: (5330)  [5330] ReduceSetMessage Sent
+
+#108571: (8105)  [8105] Empty ReturnIndexMessage Sent
+
+#108571: (8105)  [8105] ReduceSetMessage Sent
+
+#108571: (10836)  [10836] Re:: GetIndexMessage Sent to feed_set1454
+
+#108591: (10844)  [10844] Empty ReturnIndexMessage Received from feed_set1121
+
+#108591: (10844)  [10844] Re::: GetIndexMessage Sent to feed_set513
+
+#108611: (10830)  [10830] Empty ReturnIndexMessage Received from feed_set1357
+
+#108611: (10830)  [10830] Re::: GetIndexMessage Sent to feed_set1203
+
+#108651: (10846)  [10846] Empty ReturnIndexMessage Received from feed_set1354
+
+#108651: (10846)  [10846] Re::: GetIndexMessage Sent to feed_set1496
+
+#108651: (10842)  [10842] Re:: GetIndexMessage Sent to feed_set1412
+
+#108871: (10864)  [10864] Re:: GetIndexMessage Sent to feed_set1367
+
+#108961: (10883)  [10883] Re:: GetIndexMessage Sent to feed_set975
+
+#108991: (10864)  [10864] Re:: GetIndexMessage Sent to feed_set1172
+109000 10901 9880 469 515 1235.1179520414776
+
+#109081: (10889)  [10889] Re:: GetIndexMessage Sent to feed_set919
+
+#109111: (50)  [292] Empty ReturnIndexMessage Sent
+
+#109111: (50)  [292] ReduceSetMessage Sent
+
+#109191: (10900)  [10900] Empty ReturnIndexMessage Received from feed_set1113
+
+#109191: (10900)  [10900] Re::: GetIndexMessage Sent to feed_set543
+
+#109231: (10898)  [10898] Re:: GetIndexMessage Sent to feed_set378
+
+#109311: (2280)  [2280] Empty ReturnIndexMessage Sent
+
+#109311: (2280)  [2280] ReduceSetMessage Sent
+
+#109391: (10898)  [10898] Empty ReturnIndexMessage Received from feed_set378
+
+#109391: (10898)  [10898] Re::: GetIndexMessage Sent to feed_set1304
+
+#109591: (10940)  [10940] Re:: GetIndexMessage Sent to feed_set1174
+
+#109721: (10955)  [10955] Re:: GetIndexMessage Sent to feed_set1293
+
+#109781: (10959)  [10959] Re:: GetIndexMessage Sent to feed_set744
+
+#109791: (10962)  [10962] Re:: GetIndexMessage Sent to feed_set1465
+
+#109861: (10955)  [10955] Re:: GetIndexMessage Sent to feed_set796
+
+#109911: (10978)  [10978] Re:: GetIndexMessage Sent to feed_set1382
+
+#109961: (10983)  [10983] Re:: GetIndexMessage Sent to feed_set162
+110000 11000 9979 469 513 1241.323394495413
+
+#110121: (10995)  [10995] Re:: GetIndexMessage Sent to feed_set665
+
+#110151: (10998)  [10998] Re:: GetIndexMessage Sent to feed_set967
+111000 11000 10001 471 513 1249.1012844036698
+112000 11000 10001 471 513 1249.1129357798166
+113000 11000 10001 471 513 1249.1244036697249
+114000 11000 10001 471 513 1249.1375229357798
+115000 11000 10001 471 513 1249.1500917431192
+116000 11000 10001 471 513 1249.161376146789
+117000 11000 10001 471 513 1249.1714678899082
+118000 11000 10001 471 513 1249.1833027522937
+119000 11000 10001 471 513 1249.195137614679
+120000 11000 10001 471 513 1249.2059633027523
+121000 11000 10001 471 513 1249.2083486238532
+122000 11000 10001 471 513 1249.2083486238532
+123000 11000 10001 471 513 1249.2083486238532
+124000 11000 10001 471 513 1249.2083486238532
+125000 11000 10001 471 513 1249.2083486238532
+126000 11000 10001 471 513 1249.2083486238532
+127000 11000 10001 471 513 1249.2083486238532
+128000 11000 10001 471 513 1249.2083486238532
+129000 11000 10001 471 513 1249.2083486238532
+130000 11000 10001 471 513 1249.2083486238532
+131000 11000 10001 471 513 1249.2083486238532
+132000 11000 10001 471 513 1249.2083486238532
+133000 11000 10001 471 513 1249.2083486238532
+134000 11000 10001 471 513 1249.2083486238532
+135000 11000 10001 471 513 1249.2083486238532
+136000 11000 10001 471 513 1249.2083486238532
+137000 11000 10001 471 513 1249.2083486238532
+138000 11000 10001 471 513 1249.2083486238532
+139000 11000 10001 471 513 1249.2083486238532

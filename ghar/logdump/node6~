@@ -1,0 +1,235 @@
+10151: GetIndexMessage forwarded  
+ Wait list contains ->  0, 
+10181: ReturnIndexMessage Received for 0 
+10191: GetIndexMessage forwarded  
+ Wait list contains ->  0, 
+10221: ReturnIndexMessage Received for 0 
+10511: GetIndexMessage forwarded  
+ Wait list contains ->  3, 
+10571: ReturnIndexMessage Received for 3 
+10581: GetIndexMessage forwarded  
+ Wait list contains ->  0, 
+10621: ReturnIndexMessage Received for 0 
+10981: GetIndexMessage forwarded  
+ Wait list contains ->  3, 
+11061: ReturnIndexMessage Received for 3 
+11221: GetIndexMessage forwarded  
+ Wait list contains ->  16, 
+11301: ReturnIndexMessage Received for 16 
+12031: GetIndexMessage forwarded  
+ Wait list contains ->  16, 
+12111: ReturnIndexMessage Received for 16 
+12581: GetIndexMessage forwarded  
+ Wait list contains ->  82, 
+12621: ReturnIndexMessage Received for 82 
+12671: GetIndexMessage forwarded  
+ Wait list contains ->  61, 
+12771: ReturnIndexMessage Received for 61 
+12891: GetIndexMessage forwarded  
+ Wait list contains ->  98, 
+12951: ReturnIndexMessage Received for 98 
+12951: GetIndexMessage forwarded  
+ Wait list contains ->  82, 
+12991: ReturnIndexMessage Received for 82 
+13281: GetIndexMessage forwarded  
+ Wait list contains ->  73, 
+13301: GetIndexMessage forwarded  
+ Wait list contains ->  98,  73, 
+13361: ReturnIndexMessage Received for 98 
+13891: GetIndexMessage forwarded  
+ Wait list contains ->  127,  73, 
+13911: GetIndexMessage forwarded  
+ Wait list contains ->  127,  109,  73, 
+13991: ReturnIndexMessage Received for 127 
+13991: GetIndexMessage forwarded  
+ Wait list contains ->  140,  109,  73, 
+14011: ReturnIndexMessage Received for 109 
+14031: ReturnIndexMessage Received for 140 
+14041: GetIndexMessage forwarded  
+ Wait list contains ->  98,  73, 
+14101: ReturnIndexMessage Received for 98 
+14381: GetIndexMessage forwarded  
+ Wait list contains ->  140,  73, 
+14421: ReturnIndexMessage Received for 140 
+14451: GetIndexMessage forwarded  
+ Wait list contains ->  82,  73, 
+14491: ReturnIndexMessage Received for 82 
+14561: GetIndexMessage forwarded  
+ Wait list contains ->  54,  73, 
+14661: ReturnIndexMessage Received for 54 
+16361: GetIndexMessage forwarded  
+ Wait list contains ->  264,  73, 
+16421: ReturnIndexMessage Received for 264 
+16651: GetIndexMessage forwarded  
+ Wait list contains ->  251,  73, 
+16751: ReturnIndexMessage Received for 251 
+16901: GetIndexMessage forwarded  
+ Wait list contains ->  238,  73, 
+17301: GetIndexMessage forwarded  
+ Wait list contains ->  238,  264,  73, 
+17361: ReturnIndexMessage Received for 264 
+18001: GetIndexMessage forwarded  
+ Wait list contains ->  238,  73,  268, 
+18061: ReturnIndexMessage Received for 268 
+18801: GetIndexMessage forwarded  
+ Wait list contains ->  356,  238,  73, 
+18901: ReturnIndexMessage Received for 356 
+19161: GetIndexMessage forwarded  
+ Wait list contains ->  238,  264,  73, 
+19171: GetIndexMessage forwarded  
+ Wait list contains ->  238,  308,  264,  73, 
+19221: ReturnIndexMessage Received for 264 
+19251: ReturnIndexMessage Received for 308 
+19851: GetIndexMessage forwarded  
+ Wait list contains ->  238,  82,  73, 
+19911: ReturnIndexMessage Received for 82 
+23281: TOI for 73
+ Wait list contains ->  238 (26901),  73 (23281), 
+GetIndexMessage Sent after TOI
+23281: GetIndexMessage forwarded  
+ Wait list contains ->  0,  238, 
+23341: ReturnIndexMessage Received for 0 
+26901: TOI for 238
+ Wait list contains ->  238 (26901), 
+GetIndexMessage Sent after TOI
+26961: ReturnIndexMessage Received for 0 
+10151: GetIndexMessage forwarded  
+ Wait list contains ->  0, 
+10181: ReturnIndexMessage Received for 0 
+10191: GetIndexMessage forwarded  
+ Wait list contains ->  0, 
+10221: ReturnIndexMessage Received for 0 
+10511: GetIndexMessage forwarded  
+ Wait list contains ->  3, 
+10571: ReturnIndexMessage Received for 3 
+10581: GetIndexMessage forwarded  
+ Wait list contains ->  0, 
+10621: ReturnIndexMessage Received for 0 
+10981: GetIndexMessage forwarded  
+ Wait list contains ->  3, 
+11061: ReturnIndexMessage Received for 3 
+11221: GetIndexMessage forwarded  
+ Wait list contains ->  16, 
+11301: ReturnIndexMessage Received for 16 
+12031: GetIndexMessage forwarded  
+ Wait list contains ->  16, 
+12111: ReturnIndexMessage Received for 16 
+12581: GetIndexMessage forwarded  
+ Wait list contains ->  82, 
+12621: ReturnIndexMessage Received for 82 
+12671: GetIndexMessage forwarded  
+ Wait list contains ->  61, 
+12771: ReturnIndexMessage Received for 61 
+12891: GetIndexMessage forwarded  
+ Wait list contains ->  98, 
+12951: ReturnIndexMessage Received for 98 
+12951: GetIndexMessage forwarded  
+ Wait list contains ->  82, 
+12991: ReturnIndexMessage Received for 82 
+13281: GetIndexMessage forwarded  
+ Wait list contains ->  73, 
+13301: GetIndexMessage forwarded  
+ Wait list contains ->  98,  73, 
+13361: ReturnIndexMessage Received for 98 
+13891: GetIndexMessage forwarded  
+ Wait list contains ->  127,  73, 
+13911: GetIndexMessage forwarded  
+ Wait list contains ->  127,  109,  73, 
+13991: ReturnIndexMessage Received for 127 
+13991: GetIndexMessage forwarded  
+ Wait list contains ->  140,  109,  73, 
+14011: ReturnIndexMessage Received for 109 
+14031: ReturnIndexMessage Received for 140 
+14041: GetIndexMessage forwarded  
+ Wait list contains ->  98,  73, 
+14101: ReturnIndexMessage Received for 98 
+14381: GetIndexMessage forwarded  
+ Wait list contains ->  140,  73, 
+14421: ReturnIndexMessage Received for 140 
+14451: GetIndexMessage forwarded  
+ Wait list contains ->  82,  73, 
+14491: ReturnIndexMessage Received for 82 
+14561: GetIndexMessage forwarded  
+ Wait list contains ->  54,  73, 
+14661: ReturnIndexMessage Received for 54 
+16361: GetIndexMessage forwarded  
+ Wait list contains ->  264,  73, 
+16421: ReturnIndexMessage Received for 264 
+16651: GetIndexMessage forwarded  
+ Wait list contains ->  251,  73, 
+16751: ReturnIndexMessage Received for 251 
+16901: GetIndexMessage forwarded  
+ Wait list contains ->  238,  73, 
+17301: GetIndexMessage forwarded  
+ Wait list contains ->  238,  264,  73, 
+17361: ReturnIndexMessage Received for 264 
+18001: GetIndexMessage forwarded  
+ Wait list contains ->  238,  73,  268, 
+18061: ReturnIndexMessage Received for 268 
+18801: GetIndexMessage forwarded  
+ Wait list contains ->  356,  238,  73, 
+18901: ReturnIndexMessage Received for 356 
+19161: GetIndexMessage forwarded  
+ Wait list contains ->  238,  264,  73, 
+19171: GetIndexMessage forwarded  
+ Wait list contains ->  238,  308,  264,  73, 
+19221: ReturnIndexMessage Received for 264 
+19251: ReturnIndexMessage Received for 308 
+19851: GetIndexMessage forwarded  
+ Wait list contains ->  238,  82,  73, 
+19911: ReturnIndexMessage Received for 82 
+23281: TOI for 73
+ Wait list contains ->  238 (26901),  73 (23281), 
+GetIndexMessage Sent after TOI
+23281: GetIndexMessage forwarded  
+ Wait list contains ->  0,  238, 
+23341: ReturnIndexMessage Received for 0 
+26901: TOI for 238
+ Wait list contains ->  238 (26901), 
+GetIndexMessage Sent after TOI
+26961: ReturnIndexMessage Received for 0 
+10151: GetIndexMessage forwarded  
+ Wait list contains ->  0, 
+10181: ReturnIndexMessage Received for 0 
+10191: GetIndexMessage forwarded  
+ Wait list contains ->  0, 
+10231: ReturnIndexMessage Received for 0 
+10291: GetIndexMessage forwarded  
+ Wait list contains ->  0, 
+10331: ReturnIndexMessage Received for 0 
+10451: GetIndexMessage forwarded  
+ Wait list contains ->  0, 
+10491: ReturnIndexMessage Received for 0 
+11451: GetIndexMessage forwarded  
+ Wait list contains ->  18, 
+11551: ReturnIndexMessage Received for 18 
+12541: GetIndexMessage forwarded  
+ Wait list contains ->  73, 
+12581: ReturnIndexMessage Received for 73 
+12891: GetIndexMessage forwarded  
+ Wait list contains ->  73, 
+12931: ReturnIndexMessage Received for 73 
+14201: GetIndexMessage forwarded  
+ Wait list contains ->  140, 
+14221: ReturnIndexMessage Received for 140 
+14281: GetIndexMessage forwarded  
+ Wait list contains ->  73, 
+14321: ReturnIndexMessage Received for 73 
+14881: GetIndexMessage forwarded  
+ Wait list contains ->  16, 
+14941: ReturnIndexMessage Received for 16 
+15521: GetIndexMessage forwarded  
+ Wait list contains ->  182, 
+15621: ReturnIndexMessage Received for 182 
+15631: GetIndexMessage forwarded  
+ Wait list contains ->  140, 
+15651: ReturnIndexMessage Received for 140 
+15691: GetIndexMessage forwarded  
+ Wait list contains ->  181, 
+15771: ReturnIndexMessage Received for 181 
+15811: GetIndexMessage forwarded  
+ Wait list contains ->  73, 
+15851: ReturnIndexMessage Received for 73 
+18671: GetIndexMessage forwarded  
+ Wait list contains ->  0, 
+18751: ReturnIndexMessage Received for 0 

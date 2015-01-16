@@ -1,0 +1,26 @@
+package peersim.chord;
+
+import java.math.*;
+import peersim.core.*;
+
+public class ReturnNMessage implements ChordMessage {
+
+	private int n;
+	private long expiryTime; 
+
+
+	public ReturnNMessage(int n, long time) {
+		this.n = n;
+		this.expiryTime = time;
+	}
+	
+	public int getN () {
+		return n;
+	}
+
+	public long getExpiryTime () {
+		return expiryTime;
+	}
+
+
+}

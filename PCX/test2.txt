@@ -1,0 +1,48 @@
+java -cp `find -L lib/ -name "*.jar" | tr [:space:] :`:"":classes peersim.Simulator PCX.cfg
+
+
+
+
+#60.26: (54)  [65]  got update with et = 120000 from 93
+
+#120.26: (54)  [65]  got update with et = 180000 from 93
+# node : From 38 to 222
+# node : From 222 to 231
+
+#180.36: (54)  [65]  got update with et = 240000 from 93
+
+#240.36: (54)  [65]  got update with et = 300000 from 93
+
+#300.36: (54)  [65]  got update with et = 360000 from 93
+#360310: cup_list for 66
+ # id = 378 true
+ # id = 338 true
+ # id = 54 true
+ # id = 411 true
+ # id = 115 true
+ # id = 295 true
+ # id = 47 true
+ # id = 62 true
+ # id = 302 true
+ # id = 151 true
+ ############################
+
+#360.36: (54)  [65]  got update with et = 420000 from 93
+#420310: cup_list for 66
+ # id = 378 true
+ # id = 338 true
+ # id = 54 true
+ # id = 411 true
+ # id = 115 true
+ # id = 295 true
+ # id = 47 true
+ # id = 62 true
+ # id = 475 true
+ # id = 302 true
+ # id = 151 true
+ ############################
+
+#480.31: (54)  [65]  got update with et = 540000 from 170
+
+#540.31: (54)  [65]  got update with et = 600000 from 170
+# node : From 231 to 683

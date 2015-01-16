@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package peersim.chord;
+
+/**
+ * @author Andrea
+ * 
+ */
+public interface ChordMessage {
+
+	public int messageId = -1 ;
+
+}

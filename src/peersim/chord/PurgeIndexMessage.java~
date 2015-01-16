@@ -1,0 +1,43 @@
+package peersim.chord;
+
+import java.math.*;
+import peersim.core.*;
+
+public class PurgeIndexMessage implements ChordMessage {
+
+	//private Node source;
+
+	//private Node from;
+
+	private int k;
+
+	private BigInteger targetId; 
+	
+
+	public PurgeIndexMessage(int k, BigInteger targetId) {
+	//	this.source = source;
+	//	this.from = from;
+		this.k = k;
+		this.targetId = targetId;
+		
+	}
+	
+	/*public Node getSource () {
+		return source;
+	}
+
+	public Node getFrom () {
+		return from;
+	}
+*/
+	public int getK() {
+		return k;
+	}
+
+	public BigInteger getTargetId () {
+		return targetId;
+	}
+
+
+
+}

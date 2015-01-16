@@ -1,0 +1,34 @@
+package peersim.chord;
+
+import java.math.*;
+import peersim.core.*;
+
+public class GetIndexMsg implements ChordMessage {
+
+	private Node from;
+
+	private BigInteger destination; 
+
+	private int n;
+	
+	
+	public GetIndexMsg(Node from, BigInteger destination, int n) {
+		this.from = from;
+		this.destination = destination;	
+		this.n = n;
+	}
+
+	public Node getFrom () {
+		return from;
+	}
+
+	public BigInteger getDestination () {
+		return destination;
+	}
+
+	public int getN() {
+		return n;
+	}
+
+
+}

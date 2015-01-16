@@ -1,0 +1,303 @@
+
+10000 101 1 0
+
+#10021: (54)  [63] from scratch
+11000 111 10 4
+12000 121 20 7
+# setRoot : From 59 to 125
+13000 131 30 8
+14000 141 40 14
+# setRoot : From 101 to 148
+15000 151 50 15
+# setRoot : From 132 to 157
+16000 161 60 21
+17000 171 70 23
+# setRoot : From 138 to 174
+18000 181 80 26
+# setRoot : From 127 to 181
+19000 191 90 28
+# setRoot : From 15 to 191
+# setRoot : From 29 to 193
+# setRoot : From 31 to 195
+# setRoot : From 191 to 198
+# setRoot : From 109 to 200
+20000 201 100 33
+# setRoot : From 89 to 204
+# setRoot : From 99 to 206
+# setRoot : From 99 to 206
+# setRoot : From 140 to 210
+21000 211 110 36
+# setRoot : From 30 to 216
+# setRoot : From 121 to 217
+22000 221 120 37
+# setRoot : From 137 to 225
+# setRoot : From 192 to 228
+23000 231 130 41
+# setRoot : From 20 to 232
+# setRoot : From 161 to 233
+# setRoot : From 157 to 239
+24000 241 140 43
+# setRoot : From 174 to 241
+# setRoot : From 151 to 244
+# setRoot : From 195 to 245
+# setRoot : From 195 to 245
+# setRoot : From 216 to 249
+25000 251 150 45
+# setRoot : From 159 to 253
+# setRoot : From 63 to 255
+26000 261 160 51
+# setRoot : From 232 to 262
+27000 271 170 53
+# setRoot : From 225 to 280
+28000 281 180 53
+# setRoot : From 140 to 281
+# setRoot : From 140 to 281
+# setRoot : From 140 to 281
+# setRoot : From 33 to 288
+29000 291 190 58
+# setRoot : From 204 to 294
+# setRoot : From 204 to 294
+30000 301 200 64
+# setRoot : From 253 to 301
+# setRoot : From 253 to 301
+# setRoot : From 206 to 305
+# setRoot : From 206 to 305
+# setRoot : From 245 to 307
+31000 311 210 64
+# setRoot : From 281 to 311
+# setRoot : From 281 to 311
+# setRoot : From 198 to 314
+32000 321 220 65
+# setRoot : From 30 to 323
+# setRoot : From 129 to 330
+# setRoot : From 129 to 330
+# setRoot : From 129 to 330
+33000 331 231 70
+# setRoot : From 73 to 334
+# setRoot : From 163 to 336
+# setRoot : From 146 to 337
+34000 341 240 71
+# setRoot : From 249 to 350
+35000 351 250 73
+# setRoot : From 194 to 353
+# setRoot : From 194 to 353
+# setRoot : From 2 to 355
+36000 361 260 75
+# setRoot : From 190 to 367
+37000 371 270 76
+# setRoot : From 228 to 374
+# setRoot : From 121 to 375
+# setRoot : From 121 to 375
+# setRoot : From 65 to 378
+38000 381 280 79
+# setRoot : From 64 to 385
+39000 391 290 80
+# setRoot : From 305 to 391
+# setRoot : From 305 to 391
+# setRoot : From 305 to 391
+# setRoot : From 281 to 396
+# setRoot : From 281 to 396
+# setRoot : From 294 to 398
+# setRoot : From 294 to 398
+# setRoot : From 323 to 400
+40000 401 300 79
+# setRoot : From 113 to 403
+# setRoot : From 94 to 407
+# setRoot : From 288 to 410
+41000 411 311 79
+42000 421 320 78
+43000 431 330 78
+# setRoot : From 287 to 435
+44000 441 340 78
+# setRoot : From 30 to 444
+# setRoot : From 163 to 447
+# setRoot : From 376 to 450
+45000 451 349 80
+# setRoot : From 311 to 451
+# setRoot : From 311 to 451
+46000 461 359 80
+# setRoot : From 197 to 463
+# setRoot : From 391 to 470
+# setRoot : From 391 to 470
+47000 471 369 80
+# setRoot : From 375 to 474
+# setRoot : From 367 to 475
+48000 481 380 79
+49000 491 390 80
+# setRoot : From 211 to 497
+50000 501 400 80
+# setRoot : From 244 to 504
+# setRoot : From 330 to 507
+# setRoot : From 330 to 507
+# setRoot : From 330 to 507
+# setRoot : From 112 to 509
+# setRoot : From 112 to 509
+51000 511 410 80
+# setRoot : From 378 to 517
+52000 521 420 79
+53000 531 430 79
+# setRoot : From 507 to 531
+# setRoot : From 82 to 537
+# setRoot : From 37 to 539
+# setRoot : From 100 to 540
+54000 541 440 78
+# setRoot : From 210 to 546
+55000 551 450 77
+# setRoot : From 245 to 552
+# setRoot : From 245 to 552
+# setRoot : From 245 to 552
+56000 561 460 77
+57000 571 470 78
+# setRoot : From 241 to 576
+# setRoot : From 396 to 580
+# setRoot : From 396 to 580
+58000 581 480 79
+# setRoot : From 509 to 589
+# setRoot : From 451 to 590
+# setRoot : From 451 to 590
+59000 591 490 82
+# setRoot : From 233 to 591
+# setRoot : From 447 to 595
+# setRoot : From 157 to 600
+# setRoot : From 157 to 600
+60000 601 500 84
+# setRoot : From 227 to 601
+61000 611 510 85
+# setRoot : From 507 to 616
+62000 621 520 87
+# setRoot : From 590 to 621
+# setRoot : From 590 to 621
+# setRoot : From 400 to 622
+# setRoot : From 277 to 630
+63000 631 530 89
+# setRoot : From 616 to 632
+# setRoot : From 115 to 633
+# setRoot : From 546 to 638
+64000 641 540 90
+# setRoot : From 200 to 649
+# setRoot : From 301 to 650
+# setRoot : From 301 to 650
+65000 651 550 91
+# setRoot : From 301 to 653
+# setRoot : From 301 to 653
+66000 661 560 92
+67000 671 570 93
+# setRoot : From 241 to 678
+# setRoot : From 241 to 678
+# setRoot : From 552 to 679
+# setRoot : From 552 to 679
+68000 681 580 93
+# setRoot : From 58 to 683
+# setRoot : From 181 to 685
+69000 691 590 91
+# setRoot : From 474 to 693
+# setRoot : From 253 to 700
+# setRoot : From 253 to 700
+# setRoot : From 253 to 700
+70000 701 599 90
+# setRoot : From 398 to 708
+# setRoot : From 398 to 708
+71000 711 609 88
+# setRoot : From 78 to 717
+# setRoot : From 417 to 720
+72000 721 620 89
+73000 731 630 87
+# setRoot : From 531 to 733
+# setRoot : From 407 to 739
+# setRoot : From 450 to 740
+74000 741 639 87
+# setRoot : From 353 to 741
+# setRoot : From 353 to 741
+# setRoot : From 591 to 745
+# setRoot : From 601 to 747
+# setRoot : From 720 to 748
+75000 751 650 85
+# setRoot : From 463 to 751
+# setRoot : From 463 to 751
+76000 761 660 85
+# setRoot : From 410 to 762
+77000 771 669 82
+# setRoot : From 245 to 774
+# setRoot : From 245 to 774
+# setRoot : From 245 to 774
+# setRoot : From 580 to 779
+# setRoot : From 580 to 779
+78000 781 679 82
+79000 791 690 81
+# setRoot : From 509 to 799
+# setRoot : From 509 to 799
+80000 801 700 81
+# setRoot : From 595 to 801
+# setRoot : From 678 to 805
+81000 811 710 82
+82000 821 719 84
+83000 831 730 83
+# setRoot : From 120 to 838
+84000 841 740 85
+# setRoot : From 193 to 841
+# setRoot : From 53 to 846
+85000 851 750 84
+86000 861 760 82
+# setRoot : From 650 to 869
+87000 871 770 83
+# setRoot : From 435 to 872
+# setRoot : From 799 to 877
+# setRoot : From 30 to 880
+# setRoot : From 30 to 880
+88000 881 780 84
+# setRoot : From 774 to 881
+# setRoot : From 774 to 881
+# setRoot : From 774 to 881
+# setRoot : From 799 to 882
+# setRoot : From 799 to 882
+# setRoot : From 627 to 889
+89000 891 790 86
+# setRoot : From 113 to 892
+90000 901 800 89
+# setRoot : From 403 to 905
+91000 911 810 87
+# setRoot : From 747 to 913
+92000 921 820 88
+93000 931 830 89
+# setRoot : From 748 to 934
+94000 941 840 89
+# setRoot : From 741 to 942
+# setRoot : From 65 to 946
+# setRoot : From 65 to 946
+95000 951 850 89
+96000 961 859 88
+97000 971 870 87
+# setRoot : From 375 to 974
+# setRoot : From 375 to 974
+# setRoot : From 869 to 978
+98000 981 879 87
+# setRoot : From 470 to 988
+# setRoot : From 470 to 988
+99000 991 890 84
+# setRoot : From 495 to 994
+# setRoot : From 803 to 998
+100000 1001 900 83
+# setRoot : From 877 to 1005
+101000 1011 909 81
+# setRoot : From 974 to 1016
+# setRoot : From 974 to 1016
+102000 1021 920 81
+103000 1031 930 80
+# setRoot : From 739 to 1039
+104000 1041 940 81
+# setRoot : From 319 to 1046
+# setRoot : From 25 to 1050
+105000 1051 950 79
+# setRoot : From 866 to 1054
+106000 1061 960 81
+# setRoot : From 564 to 1061
+107000 1071 969 80
+# setRoot : From 245 to 1077
+# setRoot : From 245 to 1077
+# setRoot : From 245 to 1077
+108000 1081 980 79
+109000 1091 990 78
+# setRoot : From 749 to 1099
+110000 1100 1000 77
+111000 1100 1001 77
+

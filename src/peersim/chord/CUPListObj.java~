@@ -1,0 +1,64 @@
+/**
+ * 
+ */
+package peersim.chord;
+
+import peersim.core.*;
+import peersim.config.Configuration;
+import peersim.edsim.EDSimulator;
+
+import java.sql.Timestamp;
+import java.math.*;
+import java.util.Comparator;
+
+public class CUPListObj {
+
+	public BigInteger id;
+
+	private boolean iBit; 
+
+	private Node node;
+
+	private boolean reqStatus;
+
+	public CUPListObj ( BigInteger id, boolean iBit, Node node, boolean reqStatus) {
+		this.id = id;
+		this.iBit = iBit;
+		this.node = node;
+		this.reqStatus = reqStatus;
+
+	}
+	
+	
+
+	/*public int compare(Object arg0, Object arg1) {
+		BigInteger one = ((RegListObj)arg0).id;
+		BigInteger two = ((RegListObj)arg1).id;
+		return one.compareTo(two);
+	}*/
+
+	public boolean getReqStatus () {
+		return reqStatus;
+	}
+
+	public boolean getIBit() {
+		return iBit;
+	}
+
+	public boolean setIBit(boolean status) {
+		this.iBit = status;
+	}
+
+	public void setReqStatus (boolean status) {
+		this.reqStatus = status;
+	}
+
+	public Node getNode () {
+		return node;
+	} 
+
+	}
+
+	 
+
+}

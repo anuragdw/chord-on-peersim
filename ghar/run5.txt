@@ -1,0 +1,15 @@
+java -cp `find -L lib/ -name "*.jar" | tr [:space:] :`:"":classes peersim.Simulator test.cfg
+
+
+
+0 100 0 0 0 NaN
+1000 100 1 1 0 Infinity
+2000 100 1 1 0 Infinity
+3000 100 1 1 0 Infinity
+4000 100 1 1 0 Infinity
+5000 100 1 1 0 Infinity
+6000 100 1 1 0 Infinity
+7000 100 1 1 0 Infinity
+8000 100 1 1 0 Infinity
+9000 100 1 1 0 Infinity
+10000 101 1 1 0 6.0

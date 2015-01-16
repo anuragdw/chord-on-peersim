@@ -1,0 +1,61 @@
+java -cp `find -L lib/ -name "*.jar" | tr [:space:] :`:"":classes peersim.Simulator PCX.cfg
+
+
+
+#0 PCXInitMessage Sent .. 
+3421.0 986 2.4563894
+9503.0 986 8.624746
+
+
+
+#0 PCXInitMessage Sent .. 
+3737.0 986 2.7768762
+8516.0 986 7.623732
+
+
+
+#0 PCXInitMessage Sent .. 
+3607.0 986 2.6450305
+8306.0 986 7.4107504
+
+
+
+#0 PCXInitMessage Sent .. 
+3419.0 988 2.4493928
+8626.0 988 7.7196355
+
+
+
+#0 PCXInitMessage Sent .. 
+3815.0 988 2.8502023
+7574.0 988 6.654858
+
+
+
+#0 PCXInitMessage Sent .. 
+3471.0 985 2.5096447
+9318.0 985 8.445685
+
+
+
+#0 PCXInitMessage Sent .. 
+3687.0 982 2.7372708
+7154.0 982 6.267821
+
+
+
+#0 PCXInitMessage Sent .. 
+3643.0 988 2.6761134
+7887.0 988 6.97166
+
+
+
+#0 PCXInitMessage Sent .. 
+3425.0 984 2.4654472
+9227.0 984 8.361789
+
+
+
+#0 PCXInitMessage Sent .. 
+4183.0 988 3.222672
+6100.0 988 5.1629553

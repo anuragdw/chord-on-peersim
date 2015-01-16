@@ -1,0 +1,463 @@
+java -cp `find -L lib/ -name "*.jar" | tr [:space:] :`:"":classes peersim.Simulator test.cfg
+
+
+
+
+#0.26: (64)  [99] InitMessage Received
+Node Index | Expiry Time | Node Id  
+25       | 2147483647       | 52933791896412666620445544188364539489
+____________________________________________________________
+
+#1.01: (24)  [17] StreamMessage Received
+
+#1.01: (24)  [17] FindSetMessage Sent
+
+#1.611: (24)  [17] ReturnSetMessage Received
+ Set -> [ 0,  ] 
+
+#1.611: (24)  [17] GetIndexMessage Sent
+
+#1.811: (64)  [99] ReturnIndexMessage Sent
+Node Index | Expiry Time | Node Id  
+25       | 2147483647       | 52933791896412666620445544188364539489
+____________________________________________________________
+
+#2.01: (81)  [12] StreamMessage Received
+
+#2.01: (81)  [12] FindSetMessage Sent
+
+#2.011: (24)  [17] ReturnIndexMessage Received
+Node Index | Expiry Time | Node Id  
+25       | 2147483647       | 52933791896412666620445544188364539489
+____________________________________________________________
+
+#2.011: (24)  [17] ConnectMessage send
+
+#2.061: (25)  [15] ConnectAMessage Send
+
+#2.111: (24)  [17] ConnectAMessage Received
+
+#2.111: (24)  [17] RegisterIndexMessage Sent
+
+#2.111: (81)  [12] ReturnSetMessage Received
+ Set -> [ 0,  ] 
+
+#2.111: (81)  [12] GetIndexMessage Sent
+
+#2.311: (64)  [99] RegisterAMessage Sent
+Node Index | Expiry Time | Node Id  
+25       | 2147483647       | 52933791896412666620445544188364539489
+24       | 32111       | 57823242331037154635936926783013540196
+____________________________________________________________
+
+#2.361: (24)  [17] RegisterAMessage Received
+
+#2.361: (64)  [99] ReturnIndexMessage Sent
+Node Index | Expiry Time | Node Id  
+25       | 2147483647       | 52933791896412666620445544188364539489
+24       | 32111       | 57823242331037154635936926783013540196
+____________________________________________________________
+
+#2.611: (81)  [12] ReturnIndexMessage Received
+Node Index | Expiry Time | Node Id  
+25       | 2147483647       | 52933791896412666620445544188364539489
+24       | 32111       | 57823242331037154635936926783013540196
+____________________________________________________________
+
+#2.611: (81)  [12] ConnectMessage send
+
+#2.661: (25)  [15] ConnectAMessage Send
+
+#2.711: (81)  [12] ConnectAMessage Received
+
+#2.711: (81)  [12] RegisterIndexMessage Sent
+
+#2.961: (64)  [99] RegisterAMessage Sent
+Node Index | Expiry Time | Node Id  
+25       | 2147483647       | 52933791896412666620445544188364539489
+24       | 32111       | 57823242331037154635936926783013540196
+81       | 32711       | 37805176579303467873198247643290245728
+____________________________________________________________
+
+#3.01: (54)  [5] StreamMessage Received
+
+#3.01: (54)  [5] FindSetMessage Sent
+
+#3.011: (81)  [12] RegisterAMessage Received
+
+#3.311: (54)  [5] ReturnSetMessage Received
+ Set -> [ 0,  ] 
+
+#3.311: (54)  [5] GetIndexMessage Sent
+
+#3.561: (64)  [99] ReturnIndexMessage Sent
+Node Index | Expiry Time | Node Id  
+25       | 2147483647       | 52933791896412666620445544188364539489
+24       | 32111       | 57823242331037154635936926783013540196
+81       | 32711       | 37805176579303467873198247643290245728
+____________________________________________________________
+
+#3.811: (54)  [5] ReturnIndexMessage Received
+Node Index | Expiry Time | Node Id  
+25       | 2147483647       | 52933791896412666620445544188364539489
+24       | 32111       | 57823242331037154635936926783013540196
+81       | 32711       | 37805176579303467873198247643290245728
+____________________________________________________________
+
+#3.811: (54)  [5] ConnectMessage send
+
+#3.861: (24)  [17] ConnectAMessage Send
+
+#3.911: (54)  [5] ConnectAMessage Received
+
+#3.911: (54)  [5] RegisterIndexMessage Sent
+
+#4.01: (57)  [6] StreamMessage Received
+
+#4.01: (57)  [6] FindSetMessage Sent
+
+#4.161: (64)  [99] RegisterAMessage Sent
+Node Index | Expiry Time | Node Id  
+25       | 2147483647       | 52933791896412666620445544188364539489
+24       | 32111       | 57823242331037154635936926783013540196
+81       | 32711       | 37805176579303467873198247643290245728
+54       | 33911       | 9283826053423474389114907833689827002
+____________________________________________________________
+
+#4.211: (54)  [5] RegisterAMessage Received
+
+#4.311: (57)  [6] ReturnSetMessage Received
+ Set -> [ 0,  ] 
+
+#4.311: (57)  [6] GetIndexMessage Sent
+
+#4.561: (64)  [99] ReturnIndexMessage Sent
+Node Index | Expiry Time | Node Id  
+25       | 2147483647       | 52933791896412666620445544188364539489
+24       | 32111       | 57823242331037154635936926783013540196
+81       | 32711       | 37805176579303467873198247643290245728
+54       | 33911       | 9283826053423474389114907833689827002
+____________________________________________________________
+
+#4.811: (57)  [6] ReturnIndexMessage Received
+Node Index | Expiry Time | Node Id  
+25       | 2147483647       | 52933791896412666620445544188364539489
+24       | 32111       | 57823242331037154635936926783013540196
+81       | 32711       | 37805176579303467873198247643290245728
+54       | 33911       | 9283826053423474389114907833689827002
+____________________________________________________________
+
+#4.811: (57)  [6] ConnectMessage send
+
+#4.861: (24)  [17] ConnectAMessage Send
+
+#4.911: (57)  [6] ConnectAMessage Received
+
+#4.911: (57)  [6] RegisterIndexMessage Sent
+
+#5.01: (99)  [0] StreamMessage Received
+
+#5.01: (99)  [0] FindSetMessage Sent
+
+#5.161: (64)  [99] RegisterAMessage Sent
+Node Index | Expiry Time | Node Id  
+25       | 2147483647       | 52933791896412666620445544188364539489
+24       | 32111       | 57823242331037154635936926783013540196
+81       | 32711       | 37805176579303467873198247643290245728
+54       | 33911       | 9283826053423474389114907833689827002
+57       | 34911       | 12183831645075170368065714422880521214
+____________________________________________________________
+
+#5.211: (57)  [6] RegisterAMessage Received
+
+#5.211: (99)  [0] ReturnSetMessage Received
+ Set -> [ 0,  ] 
+
+#5.211: (99)  [0] GetIndexMessage Sent
+
+#5.511: (64)  [99] ReturnIndexMessage Sent
+Node Index | Expiry Time | Node Id  
+25       | 2147483647       | 52933791896412666620445544188364539489
+24       | 32111       | 57823242331037154635936926783013540196
+81       | 32711       | 37805176579303467873198247643290245728
+54       | 33911       | 9283826053423474389114907833689827002
+57       | 34911       | 12183831645075170368065714422880521214
+____________________________________________________________
+
+#5.811: (99)  [0] ReturnIndexMessage Received
+Node Index | Expiry Time | Node Id  
+25       | 2147483647       | 52933791896412666620445544188364539489
+24       | 32111       | 57823242331037154635936926783013540196
+81       | 32711       | 37805176579303467873198247643290245728
+54       | 33911       | 9283826053423474389114907833689827002
+57       | 34911       | 12183831645075170368065714422880521214
+____________________________________________________________
+
+#5.811: (99)  [0] ConnectMessage send
+
+#5.861: (81)  [12] ConnectAMessage Send
+
+#5.911: (99)  [0] ConnectAMessage Received
+
+#5.911: (99)  [0] RegisterIndexMessage Sent
+
+#6.211: (64)  [99] ExpandSetMessage Sent
+
+#6.412: (11)  [66] After Update
+ Set -> [ 0, 1,  ] 
+
+#6.412: (11)  [66] RegisterDMessage Sent 
+
+#6.462: (99)  [0] RegisterDMessage Received
+
+#6.462: (99)  [0] RegisterIndexMessage Sent
+
+#6.662: (10)  [72] RegisterAMessage Sent
+Node Index | Expiry Time | Node Id  
+99       | 36462       | 22255510768428228432771639094358808
+____________________________________________________________
+
+#6.712: (99)  [0] RegisterAMessage Received
+
+#20.01: (98)  [87] StreamMessage Received
+
+#20.01: (98)  [87] FindSetMessage Sent
+
+#20.211: (98)  [87] ReturnSetMessage Received
+ Set -> [ 0, 1,  ] 
+
+#20.211: (98)  [87] GetIndexMessage Sent
+
+#20.411: (10)  [72] ReturnIndexMessage Sent
+Node Index | Expiry Time | Node Id  
+99       | 36462       | 22255510768428228432771639094358808
+____________________________________________________________
+
+#20.611: (98)  [87] ReturnIndexMessage Received
+Node Index | Expiry Time | Node Id  
+99       | 36462       | 22255510768428228432771639094358808
+____________________________________________________________
+
+#20.611: (98)  [87] ConnectMessage send
+
+#20.661: (99)  [0] ConnectAMessage Send
+
+#20.711: (98)  [87] ConnectAMessage Received
+
+#20.711: (98)  [87] RegisterIndexMessage Sent
+
+#20.911: (10)  [72] RegisterAMessage Sent
+Node Index | Expiry Time | Node Id  
+99       | 36462       | 22255510768428228432771639094358808
+98       | 50711       | 286311794166630347611758023812094612064
+____________________________________________________________
+
+#20.961: (98)  [87] RegisterAMessage Received
+
+#21.01: (50)  [46] StreamMessage Received
+
+#21.01: (50)  [46] FindSetMessage Sent
+
+#21.111: (50)  [46] ReturnSetMessage Received
+ Set -> [ 0, 1,  ] 
+
+#21.111: (50)  [46] GetIndexMessage Sent
+
+#21.361: (10)  [72] ReturnIndexMessage Sent
+Node Index | Expiry Time | Node Id  
+99       | 36462       | 22255510768428228432771639094358808
+98       | 50711       | 286311794166630347611758023812094612064
+____________________________________________________________
+
+#21.611: (50)  [46] ReturnIndexMessage Received
+Node Index | Expiry Time | Node Id  
+99       | 36462       | 22255510768428228432771639094358808
+98       | 50711       | 286311794166630347611758023812094612064
+____________________________________________________________
+
+#21.611: (50)  [46] ConnectMessage send
+
+#21.661: (98)  [87] ConnectAMessage Send
+
+#21.711: (50)  [46] ConnectAMessage Received
+
+#21.711: (50)  [46] RegisterIndexMessage Sent
+
+#21.961: (10)  [72] RegisterAMessage Sent
+Node Index | Expiry Time | Node Id  
+99       | 36462       | 22255510768428228432771639094358808
+98       | 50711       | 286311794166630347611758023812094612064
+50       | 51711       | 165163297541521525872512313472393603639
+____________________________________________________________
+
+#22.01: (67)  [74] StreamMessage Received
+
+#22.01: (67)  [74] FindSetMessage Sent
+
+#22.011: (50)  [46] RegisterAMessage Received
+
+#22.311: (67)  [74] ReturnSetMessage Received
+ Set -> [ 0, 1,  ] 
+
+#22.311: (67)  [74] GetIndexMessage Sent
+
+#22.561: (10)  [72] ReturnIndexMessage Sent
+Node Index | Expiry Time | Node Id  
+99       | 36462       | 22255510768428228432771639094358808
+98       | 50711       | 286311794166630347611758023812094612064
+50       | 51711       | 165163297541521525872512313472393603639
+____________________________________________________________
+
+#22.811: (67)  [74] ReturnIndexMessage Received
+Node Index | Expiry Time | Node Id  
+99       | 36462       | 22255510768428228432771639094358808
+98       | 50711       | 286311794166630347611758023812094612064
+50       | 51711       | 165163297541521525872512313472393603639
+____________________________________________________________
+
+#22.811: (67)  [74] ConnectMessage send
+
+#22.861: (50)  [46] ConnectAMessage Send
+
+#22.911: (67)  [74] ConnectAMessage Received
+
+#22.911: (67)  [74] RegisterIndexMessage Sent
+
+#23.01: (51)  [11] StreamMessage Received
+
+#23.01: (51)  [11] FindSetMessage Sent
+
+#23.111: (51)  [11] ReturnSetMessage Received
+ Set -> [ 0, 1,  ] 
+
+#23.111: (51)  [11] GetIndexMessage Sent
+
+#23.161: (10)  [72] RegisterAMessage Sent
+Node Index | Expiry Time | Node Id  
+99       | 36462       | 22255510768428228432771639094358808
+98       | 50711       | 286311794166630347611758023812094612064
+50       | 51711       | 165163297541521525872512313472393603639
+67       | 52911       | 247280327156935707118683897677961595825
+____________________________________________________________
+
+#23.211: (67)  [74] RegisterAMessage Received
+
+#23.361: (10)  [72] ReturnIndexMessage Sent
+Node Index | Expiry Time | Node Id  
+99       | 36462       | 22255510768428228432771639094358808
+98       | 50711       | 286311794166630347611758023812094612064
+50       | 51711       | 165163297541521525872512313472393603639
+67       | 52911       | 247280327156935707118683897677961595825
+____________________________________________________________
+
+#23.611: (51)  [11] ReturnIndexMessage Received
+Node Index | Expiry Time | Node Id  
+99       | 36462       | 22255510768428228432771639094358808
+98       | 50711       | 286311794166630347611758023812094612064
+50       | 51711       | 165163297541521525872512313472393603639
+67       | 52911       | 247280327156935707118683897677961595825
+____________________________________________________________
+
+#23.611: (51)  [11] ConnectMessage send
+
+#23.661: (98)  [87] ConnectAMessage Send
+
+#23.711: (51)  [11] ConnectAMessage Received
+
+#23.711: (51)  [11] RegisterIndexMessage Sent
+
+#23.961: (10)  [72] RegisterAMessage Sent
+Node Index | Expiry Time | Node Id  
+99       | 36462       | 22255510768428228432771639094358808
+98       | 50711       | 286311794166630347611758023812094612064
+50       | 51711       | 165163297541521525872512313472393603639
+67       | 52911       | 247280327156935707118683897677961595825
+51       | 53711       | 37113903728188271483631115587434181480
+____________________________________________________________
+
+#24.011: (51)  [11] RegisterAMessage Received
+digraph Stream {
+99 -> 98;
+99 [style=filled,color=".7 .3 1.0"]; 
+54 [style=filled,color=".7 .3 1.0"]; 
+57 [style=filled,color=".7 .3 1.0"]; 
+51 [style=filled,color=".7 .3 1.0"]; 
+81 -> 99;
+81 [style=filled,color=".7 .3 1.0"]; 
+25 -> 81;
+25 -> 24;
+25 [style=filled,color=".7 .3 1.0"]; 
+24 -> 54;
+24 -> 57;
+24 [style=filled,color=".7 .3 1.0"]; 
+50 -> 67;
+50 [style=filled,color=".7 .3 1.0"]; 
+67 [style=filled,color=".7 .3 1.0"]; 
+98 -> 51;
+98 -> 50;
+98 [style=filled,color=".7 .3 1.0"]; 
+}
+digraph Index0 {
+99 [style=filled,color=".7 .3 1.0"]; 
+54 [style=filled,color=".7 .3 1.0"]; 
+57 [style=filled,color=".7 .3 1.0"]; 
+51 [style=filled,color=".7 .3 1.0"]; 
+81 [style=filled,color=".7 .3 1.0"]; 
+25 [style=filled,color=".7 .3 1.0"]; 
+24 [style=filled,color=".7 .3 1.0"]; 
+50 [style=filled,color=".7 .3 1.0"]; 
+93 -> 99;
+40 -> 54;
+23 -> 57;
+83 -> 81;
+16 -> 24;
+67 [style=filled,color=".7 .3 1.0"]; 
+61 -> 93;
+94 -> 40;
+90 -> 23;
+98 [style=filled,color=".7 .3 1.0"]; 
+68 -> 83;
+88 -> 61;
+62 -> 68;
+62 -> 94;
+62 -> 90;
+62 -> 16;
+78 -> 88;
+42 -> 78;
+42 -> 62;
+64 -> 42;
+}
+digraph Set {
+99 [style=filled,color=".7 .3 1.0"]; 
+54 [style=filled,color=".7 .3 1.0"]; 
+57 [style=filled,color=".7 .3 1.0"]; 
+51 [style=filled,color=".7 .3 1.0"]; 
+81 [style=filled,color=".7 .3 1.0"]; 
+25 [style=filled,color=".7 .3 1.0"]; 
+24 [style=filled,color=".7 .3 1.0"]; 
+38 -> 67;
+21 -> 98;
+77 -> 24;
+50 [style=filled,color=".7 .3 1.0"]; 
+35 -> 38;
+93 -> 99;
+40 -> 21;
+40 -> 54;
+23 -> 57;
+96 -> 77;
+80 -> 40;
+56 -> 23;
+83 -> 81;
+83 -> 51;
+83 -> 50;
+83 -> 96;
+53 -> 93;
+53 -> 83;
+53 -> 80;
+53 -> 35;
+72 -> 53;
+72 -> 56;
+11 -> 72;
+67 [style=filled,color=".7 .3 1.0"]; 
+98 [style=filled,color=".7 .3 1.0"]; 
+}

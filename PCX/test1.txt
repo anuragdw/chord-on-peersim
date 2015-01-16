@@ -1,0 +1,73 @@
+java -cp `find -L lib/ -name "*.jar" | tr [:space:] :`:"":classes peersim.Simulator PCX.cfg
+
+
+
+
+#60.46: (124)  [124]  got UPDATE with et = 120000 from 121
+
+#120.46: (124)  [124]  got UPDATE with et = 180000 from 121
+# node : From 38 to 216
+
+#180.51: (124)  [124]  got UPDATE with et = 240000 from 121
+
+#180.56: (124)  [124]  got UPDATE with et = 240000 from 121
+
+#240.56: (124)  [124]  got UPDATE with et = 300000 from 121
+
+#240.56: (124)  [124]  got UPDATE with et = 300000 from 121
+
+#240.61: (124)  [124]  got UPDATE with et = 300000 from 121
+
+#300.56: (124)  [124]  got UPDATE with et = 360000 from 121
+
+#300.56: (124)  [124]  got UPDATE with et = 360000 from 121
+
+#300.61: (124)  [124]  got UPDATE with et = 360000 from 121
+
+#360.56: (124)  [124]  got UPDATE with et = 420000 from 121
+
+#360.56: (124)  [124]  got UPDATE with et = 420000 from 121
+
+#360.61: (124)  [124]  got UPDATE with et = 420000 from 121
+
+#420.56: (124)  [124]  got UPDATE with et = 480000 from 121
+
+#420.56: (124)  [124]  got UPDATE with et = 480000 from 121
+
+#420.61: (124)  [124]  got UPDATE with et = 480000 from 121
+
+#420.61: (124)  [124]  got UPDATE with et = 480000 from 121
+
+#420.61: (124)  [124]  got UPDATE with et = 480000 from 121
+
+#420.66: (124)  [124]  got UPDATE with et = 480000 from 121
+
+#480.56: (124)  [124]  got UPDATE with et = 540000 from 121
+
+#480.56: (124)  [124]  got UPDATE with et = 540000 from 121
+
+#480.61: (124)  [124]  got UPDATE with et = 540000 from 121
+
+#480.61: (124)  [124]  got UPDATE with et = 540000 from 121
+
+#480.61: (124)  [124]  got UPDATE with et = 540000 from 121
+
+#480.66: (124)  [124]  got UPDATE with et = 540000 from 121
+
+#480.66: (124)  [124]  got UPDATE with et = 540000 from 121
+
+#540.61: (124)  [124]  got UPDATE with et = 600000 from 121
+
+#540.61: (124)  [124]  got UPDATE with et = 600000 from 121
+
+#540.66: (124)  [124]  got UPDATE with et = 600000 from 121
+
+#540.66: (124)  [124]  got UPDATE with et = 600000 from 121
+
+#540.66: (124)  [124]  got UPDATE with et = 600000 from 121
+
+#540.71: (124)  [124]  got UPDATE with et = 600000 from 121
+
+#540.71: (124)  [124]  got UPDATE with et = 600000 from 121
+
+#540.76: (124)  [124]  got UPDATE with et = 600000 from 121

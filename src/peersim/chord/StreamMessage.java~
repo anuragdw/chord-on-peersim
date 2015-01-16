@@ -1,0 +1,21 @@
+package peersim.chord;
+
+import java.math.*;
+import peersim.core.*;
+
+public class TimeOutSetMessage implements ChordMessage {
+
+
+	private BigInteger targetId;
+
+
+	public TimeOutSetMessage( BigInteger targetId) {
+		this.targetId = targetId;
+		
+	}
+
+	public BigInteger getTargetId () {
+		return targetId;
+	}
+
+}

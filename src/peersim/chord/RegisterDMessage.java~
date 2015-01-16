@@ -1,0 +1,21 @@
+package peersim.chord;
+
+import java.math.*;
+import peersim.core.*;
+
+public class RegisterDMessage implements ChordMessage {
+
+
+	//private BigInteger targetId;
+
+
+	public RegisterDMessage() {
+		//this.targetId = targetId;
+		
+	}
+
+	//public BigInteger getTargetId () {
+	//	return targetId;
+	//}
+
+}

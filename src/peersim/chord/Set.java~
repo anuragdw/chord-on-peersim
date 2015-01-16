@@ -1,0 +1,65 @@
+package peersim.chord;
+
+import java.math.*;
+import peersim.core.*;
+import java.util.*;
+import java.lang.Integer;
+
+public class Set {
+
+	private int count; 
+
+	private Vector<Integer> set;
+
+	private int max;
+
+	public Set(int n, Vector<Integer> set ) {
+		this.count = n;
+		this.set = set;
+		this.max = -1;
+	}
+
+	public Set(Set s) {
+		this.count = s.count;
+		this.max = s.max;
+		this.set = new Vector<Integer>(10);
+		for (int i = 0; i< this.count; i++) 
+			this.set.add(i, s.get(i));
+
+	}
+
+	public Set() {
+		this.count = 0;
+		this.set = new Vector<Integer> (10);
+
+	}
+
+	
+	public int getCount() {
+		return count;
+	}	
+
+	public int add (int num) {
+		set.add(new Integer(num));
+		count = set.size();
+		if (num>max) max = num;
+		return count;
+	}
+
+	public int get ( int index) {
+		return set.get(index);
+	} 
+
+	public int getMax() {
+		return max;
+	}	
+
+	public void remove( int num ) {
+		if( (this.set.contains(new Integer(num))) && (this.set.size() > 1) {
+			set.remove(new Integer(num));
+			this.count -= 1;
+		}
+		
+	}
+
+}

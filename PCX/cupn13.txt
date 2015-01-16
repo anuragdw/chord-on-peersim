@@ -1,0 +1,11 @@
+java -cp `find -L lib/ -name "*.jar" | tr [:space:] :`:"":classes peersim.Simulator PCX.cfg
+
+
+
+# node : From 38 to 222
+# node : From 222 to 231
+# node : From 231 to 375
+# node : From 375 to 811
+# node : From 811 to 1118
+9065.0 2984 2.032842
+78321.0 2984 25.241957

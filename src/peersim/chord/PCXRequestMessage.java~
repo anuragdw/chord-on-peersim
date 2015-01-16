@@ -1,0 +1,29 @@
+package peersim.chord;
+
+import java.math.*;
+import peersim.core.*;
+
+public class PCXRequestMessage implements ChordMessage {
+
+	private Node from;
+	
+	private BigInteger key; 
+
+
+
+	public PCXRequestMessage(Node from, BigInteger key) {
+		this.from = from;
+		this.key = key;
+		
+	}
+
+
+	public Node getFrom () {
+		return from;
+	}
+
+	public BigInteger getKey () {
+		return key;
+	}
+
+}

@@ -1,0 +1,25 @@
+package peersim.chord;
+
+import java.math.*;
+import peersim.core.*;
+
+public class PCXReturnMessage implements ChordMessage {
+
+	private Node to;
+	private int value; 
+
+
+	public PCXReturnMessage(int value) {
+		this.value = value;
+	}
+
+
+	public Node getTo () {
+		return to;
+	}
+
+	public int getValue () {
+		return value;
+	}
+
+}

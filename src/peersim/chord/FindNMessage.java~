@@ -1,0 +1,43 @@
+package peersim.chord;
+
+import java.math.*;
+import peersim.core.*;
+
+public class FindNMessage implements ChordMessage {
+
+	private Node source;
+
+	private Node from;
+
+	private BigInteger destination; 
+	
+	private int numTry;
+
+
+
+	public FindNMessage(Node source, Node from, BigInteger destination, int numTry) {
+		this.source = source;
+		this.from = from;
+		this.destination = destination;
+		this.numTry = numTry;
+		
+	}
+	
+	public Node getSource () {
+		return source;
+	}
+
+	public ode getFrom () {
+		return from;
+	}
+
+	public BigInteger getDestination () {
+		return destination;
+	}
+
+	public int getNumTry () {
+		return numTry;
+	}
+
+
+}

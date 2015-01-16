@@ -1,0 +1,499 @@
+java -cp `find -L lib/ -name "*.jar" | tr [:space:] :`:"":classes peersim.Simulator test.cfg
+
+
+
+0 100 0 0
+
+#30: (41)  [98] InitMessage Received added first setRoot
+1000 100 1 0
+2000 100 1 0
+3000 100 1 0
+4000 100 1 0
+5000 100 1 0
+6000 100 1 0
+7000 100 1 0
+8000 100 1 0
+9000 100 1 0
+10000 101 1 0
+
+#10051: (48)  [73]  cache count = 1
+
+#10051: (48)  [73] from scratch
+
+#10081: (69)  [62] ReturnSetMessage Received
+11000 111 11 1
+
+#11042: (48)  [73]  added in cache -> 1
+
+#11092: (85)  [79] setroot added -> 1
+
+#11231: (111)  [111] ConnectDMessage Received
+
+#11231: (111)  [111] Re ConnectMessage send to 101
+
+#11232: (48)  [73]  added in cache -> 2
+
+#11272: (66)  [26] setroot added -> 2
+
+#11332: (48)  [73]  added in cache -> 3
+
+#11382: (94)  [2] setroot added -> 3
+# setRoot : From 94 to 115
+
+#11772: (48)  [73]  added in cache -> 4
+
+#11822: (105)  [105] setroot added -> 4
+12000 121 20 5
+# setRoot : From 85 to 128
+13000 131 30 5
+# setRoot : From 105 to 138
+14000 141 40 5
+
+#14093: (139)  [139]  added in cache -> 5
+
+#14143: (19)  [27] setroot added -> 5
+
+#14182: (139)  [139]  added in cache -> 6
+
+#14242: (127)  [127] setroot added -> 6
+
+#14572: (139)  [139]  added in cache -> 7
+
+#14592: (4)  [13] setroot added -> 7
+
+#14912: (139)  [139]  added in cache -> 8
+
+#14962: (122)  [122] setroot added -> 8
+15000 151 50 9
+
+#15062: (139)  [139]  added in cache -> 9
+
+#15122: (115)  [115] setroot added -> 9
+# setRoot : From 138 to 152
+
+#15412: (139)  [139]  added in cache -> 10
+
+#15452: (118)  [118] setroot added -> 10
+
+#15712: (139)  [139]  added in cache -> 11
+
+#15782: (58)  [83] setroot added -> 11
+# setRoot : From 122 to 158
+16000 161 60 12
+
+#16022: (139)  [139]  added in cache -> 12
+
+#16072: (123)  [123] setroot added -> 12
+
+#16702: (139)  [139]  added in cache -> 13
+
+#16732: (139)  [139]  added in cache -> 14
+
+#16762: (94)  [2] setroot added -> 13
+
+#16792: (26)  [38] setroot added -> 14
+
+#16872: (139)  [139]  added in cache -> 15
+
+#16932: (37)  [22] setroot added -> 15
+
+#16942: (139)  [139]  added in cache -> 16
+
+#16992: (106)  [106] setroot added -> 16
+17000 171 70 17
+
+#17472: (139)  [139]  added in cache -> 17
+
+#17522: (36)  [28] setroot added -> 17
+
+#17561: (103)  [103] pre node is 133
+
+#17812: (139)  [139]  added in cache -> 18
+
+#17852: (107)  [107] setroot added -> 18
+18000 181 80 19
+
+#18062: (139)  [139]  added in cache -> 19
+
+#18112: (45)  [37] setroot added -> 19
+
+#18342: (139)  [139]  added in cache -> 20
+
+#18382: (148)  [148] setroot added -> 20
+
+#18541: (96)  [18] GetIndexMessage from 185 to 11
+
+#18551: (11)  [36] GetIndexMessage from 96 to 45
+
+#18561: (45)  [37] GetIndexMessage from 11 to 26
+
+#18951: (103)  [103] pre node is 133
+19000 191 90 21
+# setRoot : From 123 to 191
+# setRoot : From 115 to 195
+# setRoot : From 115 to 195
+
+#19622: (139)  [139]  added in cache -> 21
+
+#19662: (0)  [81] setroot added -> 21
+# setRoot : From 94 to 198
+
+#19802: (139)  [139]  added in cache -> 22
+
+#19841: (84)  [34] GetIndexMessage from 198 to 11
+
+#19851: (11)  [36] GetIndexMessage from 84 to 45
+
+#19861: (45)  [37] GetIndexMessage from 11 to 26
+
+#19862: (189)  [189] setroot added -> 22
+20000 201 100 23
+
+#20012: (139)  [139]  added in cache -> 23
+
+#20062: (64)  [82] setroot added -> 23
+
+#20191: (201)  [201] ConnectDMessage Received
+
+#20191: (201)  [201] Re ConnectMessage send to 101
+
+#20212: (139)  [139]  added in cache -> 24
+
+#20252: (146)  [146] setroot added -> 24
+
+#20272: (139)  [139]  added in cache -> 25
+
+#20322: (192)  [192] setroot added -> 25
+21000 211 110 26
+
+#21022: (139)  [139]  added in cache -> 26
+
+#21082: (91)  [95] setroot added -> 26
+# setRoot : From 94 to 219
+22000 221 121 27
+23000 231 130 27
+# setRoot : From 158 to 233
+
+#23522: (231)  [231]  added in cache -> 27
+
+#23572: (200)  [200] setroot added -> 27
+
+#23662: (231)  [231]  added in cache -> 28
+
+#23702: (167)  [167] setroot added -> 28
+# setRoot : From 37 to 240
+24000 241 141 29
+
+#24181: (103)  [103] pre node is 133
+# setRoot : From 200 to 249
+25000 251 150 29
+
+#25541: (103)  [103] pre node is 133
+26000 261 160 29
+
+#26022: (231)  [231]  added in cache -> 29
+
+#26072: (135)  [135] setroot added -> 29
+
+#26192: (231)  [231]  added in cache -> 30
+
+#26262: (231)  [231] setroot added -> 30
+# setRoot : From 146 to 265
+
+#26622: (231)  [231]  added in cache -> 31
+
+#26682: (36)  [28] setroot added -> 31
+# setRoot : From 0 to 270
+27000 271 170 32
+
+#27072: (231)  [231]  added in cache -> 32
+
+#27122: (9)  [68] setroot added -> 32
+
+#27242: (231)  [231]  added in cache -> 33
+
+#27312: (185)  [185] setroot added -> 33
+
+#27412: (231)  [231]  added in cache -> 34
+
+#27502: (124)  [124] setroot added -> 34
+
+#27682: (231)  [231]  added in cache -> 35
+# setRoot : From 195 to 277
+
+#27742: (122)  [122] setroot added -> 35
+
+#27892: (231)  [231]  added in cache -> 36
+
+#27942: (106)  [106] setroot added -> 36
+28000 281 181 37
+
+#28062: (231)  [231]  added in cache -> 37
+
+#28092: (231)  [231]  added in cache -> 38
+
+#28122: (60)  [21] setroot added -> 37
+
+#28162: (223)  [223] setroot added -> 38
+# setRoot : From 128 to 283
+# setRoot : From 223 to 284
+# setRoot : From 107 to 285
+
+#28632: (231)  [231]  added in cache -> 39
+
+#28692: (63)  [41] setroot added -> 39
+# setRoot : From 58 to 287
+
+#28902: (231)  [231]  added in cache -> 40
+
+#28942: (193)  [193] setroot added -> 40
+29000 291 191 41
+
+#29461: (103)  [103] pre node is 133
+# setRoot : From 195 to 296
+30000 301 200 41
+# setRoot : From 270 to 303
+# setRoot : From 45 to 304
+31000 311 210 41
+# setRoot : From 195 to 317
+32000 321 220 41
+# setRoot : From 64 to 324
+33000 331 230 41
+# setRoot : From 283 to 335
+# setRoot : From 94 to 338
+34000 341 240 41
+35000 351 250 41
+36000 361 260 41
+37000 371 270 41
+# setRoot : From 240 to 371
+38000 381 280 41
+39000 391 290 41
+# setRoot : From 198 to 396
+# setRoot : From 191 to 399
+40000 401 300 41
+
+#40571: (405)  [405] Re:: GetIndexMessage Sent to feed_set15
+
+#40591: (335)  [335] setroot removed -> 1 1
+# setRoot : From 338 to 406
+
+#40642: (231)  [231]  removed from cache -> 1
+# setRoot : From 91 to 409
+41000 411 310 40
+# setRoot : From 304 to 413
+# setRoot : From 324 to 418
+42000 421 320 40
+43000 431 330 40
+# setRoot : From 303 to 434
+
+#43891: (438)  [438] Re:: GetIndexMessage Sent to feed_set21
+
+#43921: (399)  [399] setroot removed -> 1 12
+
+#43972: (231)  [231]  removed from cache -> 12
+44000 441 340 39
+# setRoot : From 195 to 442
+# setRoot : From 195 to 442
+# setRoot : From 106 to 445
+# setRoot : From 106 to 445
+# setRoot : From 413 to 450
+45000 451 350 39
+# setRoot : From 193 to 453
+# setRoot : From 152 to 460
+46000 461 359 39
+47000 471 370 39
+# setRoot : From 167 to 471
+48000 481 380 39
+# setRoot : From 371 to 483
+# setRoot : From 317 to 485
+
+#48541: (103)  [103] pre node is 133
+# setRoot : From 185 to 488
+49000 491 390 39
+# setRoot : From 442 to 494
+# setRoot : From 442 to 494
+50000 501 400 39
+# setRoot : From 485 to 502
+51000 511 410 39
+
+#51341: (103)  [103] pre node is 133
+52000 521 420 39
+53000 531 430 39
+# setRoot : From 445 to 533
+# setRoot : From 445 to 533
+54000 541 440 39
+55000 551 450 39
+56000 561 460 39
+# setRoot : From 453 to 561
+# setRoot : From 434 to 562
+# setRoot : From 562 to 563
+57000 571 470 39
+58000 581 480 39
+59000 591 489 39
+# setRoot : From 26 to 593
+
+#59911: (598)  [598] Re:: GetIndexMessage Sent to feed_set39
+
+#59951: (124)  [124] setroot removed -> 1 34
+60000 601 500 39
+
+#60012: (231)  [231]  removed from cache -> 34
+61000 611 510 38
+# setRoot : From 219 to 617
+62000 621 520 38
+
+#62351: (103)  [103] pre node is 133
+# setRoot : From 533 to 625
+# setRoot : From 533 to 625
+# setRoot : From 233 to 626
+63000 631 530 38
+# setRoot : From 4 to 631
+64000 641 540 38
+
+#64132: (231)  [231]  added in cache -> 41
+
+#64212: (135)  [135] setroot added -> 41
+
+#64351: (103)  [103] pre node is 133
+65000 651 550 39
+# setRoot : From 189 to 652
+66000 661 560 39
+# setRoot : From 285 to 664
+67000 671 570 39
+68000 681 580 39
+# setRoot : From 488 to 685
+69000 691 590 39
+
+#69131: (690)  [690] Re:: GetIndexMessage Sent to feed_set3
+
+#69181: (19)  [27] setroot removed -> 1 5
+
+#69232: (231)  [231]  removed from cache -> 5
+70000 701 600 38
+71000 711 610 38
+72000 721 620 38
+# setRoot : From 664 to 722
+73000 731 630 38
+
+#73102: (231)  [231]  added in cache -> 42
+
+#73182: (91)  [95] setroot added -> 42
+
+#73392: (231)  [231]  added in cache -> 43
+# setRoot : From 593 to 734
+
+#73452: (102)  [102] setroot added -> 43
+74000 741 640 40
+# setRoot : From 192 to 742
+
+#74371: (103)  [103] pre node is 133
+
+#74502: (231)  [231]  added in cache -> 44
+
+#74552: (159)  [159] setroot added -> 44
+
+#74781: (103)  [103] pre node is 133
+75000 751 651 41
+# setRoot : From 617 to 755
+76000 761 659 41
+77000 771 670 41
+78000 781 680 41
+79000 791 690 41
+80000 801 700 41
+81000 811 710 41
+# setRoot : From 91 to 818
+82000 821 720 41
+# setRoot : From 127 to 824
+83000 831 730 41
+# setRoot : From 91 to 832
+# setRoot : From 91 to 833
+# setRoot : From 91 to 833
+84000 841 739 41
+
+#84641: (103)  [103] pre node is 133
+# setRoot : From 832 to 849
+85000 851 750 41
+86000 861 760 41
+87000 871 770 41
+88000 881 780 41
+89000 891 790 41
+90000 901 800 41
+# setRoot : From 833 to 910
+91000 911 810 41
+
+#91671: (103)  [103] pre node is 133
+92000 921 820 41
+# setRoot : From 396 to 925
+93000 931 830 41
+
+#93261: (103)  [103] pre node is 133
+# setRoot : From 910 to 937
+94000 941 840 41
+95000 951 850 41
+96000 961 860 41
+
+#96832: (811)  [811]  added in cache -> 45
+
+#96902: (301)  [301] setroot added -> 45
+97000 971 870 42
+# setRoot : From 287 to 973
+98000 981 880 42
+
+#98891: (103)  [103] pre node is 133
+99000 991 889 42
+# setRoot : From 742 to 993
+100000 1001 900 42
+# setRoot : From 625 to 1005
+# setRoot : From 625 to 1005
+101000 1011 910 42
+102000 1021 919 42
+
+#102541: (103)  [103] pre node is 133
+103000 1031 930 42
+# setRoot : From 406 to 1032
+104000 1041 940 42
+# setRoot : From 231 to 1050
+105000 1051 950 42
+
+#105041: (103)  [103] pre node is 133
+# setRoot : From 1050 to 1055
+# setRoot : From 9 to 1056
+106000 1061 960 42
+# setRoot : From 41 to 1065
+# setRoot : From 502 to 1066
+107000 1071 970 42
+108000 1081 980 42
+109000 1091 989 42
+
+#109471: (103)  [103] pre node is 133
+# setRoot : From 824 to 1096
+110000 1100 1000 42
+111000 1100 1001 42
+112000 1100 1001 42
+113000 1100 1001 42
+114000 1100 1001 42
+115000 1100 1001 42
+116000 1100 1001 42
+117000 1100 1001 42
+118000 1100 1001 42
+119000 1100 1001 42
+120000 1100 1001 42
+121000 1100 1001 42
+122000 1100 1001 42
+123000 1100 1001 42
+124000 1100 1001 42
+125000 1100 1001 42
+126000 1100 1001 42
+127000 1100 1001 42
+128000 1100 1001 42
+129000 1100 1001 42
+130000 1100 1001 42
+131000 1100 1001 42
+132000 1100 1001 42
+133000 1100 1001 42
+134000 1100 1001 42
+135000 1100 1001 42
+136000 1100 1001 42
+137000 1100 1001 42
+138000 1100 1001 42
+139000 1100 1001 42

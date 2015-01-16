@@ -1,0 +1,660 @@
+java -cp `find -L lib/ -name "*.jar" | tr [:space:] :`:"":classes peersim.Simulator test.cfg
+
+
+
+0 100 0 0 0 NaN
+1000 100 1 1 0 Infinity
+2000 100 1 1 0 Infinity
+3000 100 1 1 0 Infinity
+4000 100 1 1 0 Infinity
+5000 100 1 1 0 Infinity
+6000 100 1 1 0 Infinity
+7000 100 1 1 0 Infinity
+8000 100 1 1 0 Infinity
+9000 100 1 1 0 Infinity
+10000 101 1 1 0 6.0
+
+#10201: (104)  [104] ConnectDMessage Received
+
+#10201: (104)  [104] Re ConnectMessage send to 25
+
+#10211: (101)  [101] ConnectDMessage Received
+
+#10211: (101)  [101] Re ConnectMessage send to 25
+
+#10211: (102)  [102] ConnectDMessage Received
+
+#10211: (102)  [102] Re ConnectMessage send to 25
+
+#10221: (104)  [104] ConnectDMessage Received
+
+#10221: (104)  [104] Re: GetIndexMessage Sent to feed_set0
+
+#10221: (103)  [103] ConnectDMessage Received
+
+#10221: (103)  [103] Re ConnectMessage send to 25
+
+#10231: (102)  [102] ConnectDMessage Received
+
+#10231: (102)  [102] Re: GetIndexMessage Sent to feed_set0
+
+#10231: (101)  [101] ConnectDMessage Received
+
+#10231: (101)  [101] Re: GetIndexMessage Sent to feed_set0
+
+#10241: (103)  [103] ConnectDMessage Received
+
+#10241: (103)  [103] Re: GetIndexMessage Sent to feed_set0
+
+#10261: (114)  [114] ConnectDMessage Received
+
+#10261: (114)  [114] Re ConnectMessage send to 25
+
+#10271: (111)  [111] ConnectDMessage Received
+
+#10271: (111)  [111] Re ConnectMessage send to 25
+
+#10271: (112)  [112] ConnectDMessage Received
+
+#10271: (112)  [112] Re ConnectMessage send to 108
+
+#10271: (113)  [113] ConnectDMessage Received
+
+#10271: (113)  [113] Re ConnectMessage send to 108
+
+#10281: (114)  [114] ConnectDMessage Received
+
+#10281: (114)  [114] Re ConnectMessage send to 108
+
+#10291: (111)  [111] ConnectDMessage Received
+
+#10291: (111)  [111] Re ConnectMessage send to 106
+
+#10331: (103)  [103] ConnectDMessage Received
+
+#10331: (103)  [103] Re ConnectMessage send to 105
+
+#10331: (120)  [120] ConnectDMessage Received
+
+#10331: (120)  [120] Re ConnectMessage send to 25
+
+#10331: (118)  [118] ConnectDMessage Received
+
+#10331: (118)  [118] Re ConnectMessage send to 108
+
+#10341: (104)  [104] ConnectDMessage Received
+
+#10341: (104)  [104] Re ConnectMessage send to 108
+
+#10351: (120)  [120] ConnectDMessage Received
+
+#10351: (120)  [120] Re ConnectMessage send to 106
+
+#10351: (118)  [118] ConnectDMessage Received
+
+#10351: (118)  [118] Re ConnectMessage send to 100
+
+#10361: (121)  [121] ConnectDMessage Received
+
+#10361: (121)  [121] Re ConnectMessage send to 106
+
+#10361: (104)  [104] ConnectDMessage Received
+
+#10361: (104)  [104] Re ConnectMessage send to 100
+# numRoot : From 11 to 137
+220554182942670109621697512637866214556 - original 
+222310092502710643278803021254173453278 - new 
+226566254310817368817527337777231867238 - old 
+
+#10371: (120)  [120] ConnectDMessage Received
+
+#10371: (120)  [120] Re ConnectMessage send to 100
+
+#10381: (121)  [121] ConnectDMessage Received
+
+#10381: (121)  [121] Re ConnectMessage send to 100
+
+#10391: (120)  [120] ConnectDMessage Received
+
+#10391: (120)  [120] Re ConnectMessage send to 108
+
+#10401: (121)  [121] ConnectDMessage Received
+
+#10401: (121)  [121] Re ConnectMessage send to 25
+
+#10411: (120)  [120] ConnectDMessage Received
+
+#10411: (120)  [120] Re ConnectMessage send to 105
+
+#10411: (122)  [122] ConnectDMessage Received
+
+#10411: (122)  [122] Re ConnectMessage send to 108
+
+#10411: (130)  [130] ConnectDMessage Received
+
+#10411: (130)  [130] Re ConnectMessage send to 25
+
+#10421: (121)  [121] ConnectDMessage Received
+
+#10421: (121)  [121] Re ConnectMessage send to 108
+
+#10421: (131)  [131] ConnectDMessage Received
+
+#10421: (131)  [131] Re ConnectMessage send to 105
+# numRoot : From 137 to 143
+220554182942670109621697512637866214556 - original 
+221810046425655465023897068971572458077 - new 
+222310092502710643278803021254173453278 - old 
+
+#10431: (128)  [128] ConnectDMessage Received
+
+#10431: (128)  [128] Re ConnectMessage send to 100
+
+#10431: (130)  [130] ConnectDMessage Received
+
+#10431: (130)  [130] Re ConnectMessage send to 106
+
+#10431: (122)  [122] ConnectDMessage Received
+
+#10431: (122)  [122] Re ConnectMessage send to 106
+
+#10441: (133)  [133] ConnectDMessage Received
+
+#10441: (133)  [133] Re ConnectMessage send to 108
+
+#10441: (131)  [131] ConnectDMessage Received
+
+#10441: (131)  [131] Re ConnectMessage send to 106
+
+#10441: (121)  [121] ConnectDMessage Received
+
+#10441: (121)  [121] Re ConnectMessage send to 105
+
+#10451: (130)  [130] ConnectDMessage Received
+
+#10451: (130)  [130] Re ConnectMessage send to 105
+
+#10451: (122)  [122] ConnectDMessage Received
+
+#10451: (122)  [122] Re ConnectMessage send to 100
+
+#10451: (128)  [128] ConnectDMessage Received
+
+#10451: (128)  [128] Re ConnectMessage send to 105
+
+#10461: (121)  [121] ConnectDMessage Received
+
+#10461: (121)  [121] Re: GetIndexMessage Sent to feed_set5
+
+#10461: (131)  [131] ConnectDMessage Received
+
+#10461: (131)  [131] Re ConnectMessage send to 100
+
+#10461: (133)  [133] ConnectDMessage Received
+
+#10461: (133)  [133] Re ConnectMessage send to 25
+
+#10471: (130)  [130] ConnectDMessage Received
+
+#10471: (130)  [130] Re ConnectMessage send to 100
+
+#10471: (122)  [122] ConnectDMessage Received
+
+#10471: (122)  [122] Re ConnectMessage send to 25
+
+#10471: (128)  [128] ConnectDMessage Received
+
+#10471: (128)  [128] Re ConnectMessage send to 106
+
+#10481: (133)  [133] ConnectDMessage Received
+
+#10481: (133)  [133] Re ConnectMessage send to 105
+
+#10481: (131)  [131] ConnectDMessage Received
+
+#10481: (131)  [131] Re ConnectMessage send to 108
+
+#10491: (122)  [122] ConnectDMessage Received
+
+#10491: (122)  [122] Re ConnectMessage send to 105
+
+#10491: (128)  [128] ConnectDMessage Received
+
+#10491: (128)  [128] Re ConnectMessage send to 25
+
+#10491: (130)  [130] ConnectDMessage Received
+
+#10491: (130)  [130] Re ConnectMessage send to 108
+
+#10501: (131)  [131] ConnectDMessage Received
+
+#10501: (131)  [131] Re ConnectMessage send to 25
+
+#10501: (133)  [133] ConnectDMessage Received
+
+#10501: (133)  [133] Re ConnectMessage send to 100
+
+#10511: (130)  [130] ConnectDMessage Received
+
+#10511: (130)  [130] Re: GetIndexMessage Sent to feed_set1
+
+#10511: (122)  [122] ConnectDMessage Received
+
+#10511: (122)  [122] Re: GetIndexMessage Sent to feed_set1
+
+#10511: (140)  [140] ConnectDMessage Received
+
+#10511: (140)  [140] Re ConnectMessage send to 108
+
+#10511: (138)  [138] ConnectDMessage Received
+
+#10511: (138)  [138] Re ConnectMessage send to 108
+
+#10511: (128)  [128] ConnectDMessage Received
+
+#10511: (128)  [128] Re ConnectMessage send to 108
+
+#10521: (131)  [131] ConnectDMessage Received
+
+#10521: (131)  [131] Re: GetIndexMessage Sent to feed_set0
+
+#10521: (133)  [133] ConnectDMessage Received
+
+#10521: (133)  [133] Re ConnectMessage send to 106
+
+#10531: (128)  [128] ConnectDMessage Received
+
+#10531: (128)  [128] Re: GetIndexMessage Sent to feed_set7
+
+#10531: (140)  [140] ConnectDMessage Received
+
+#10531: (140)  [140] Re ConnectMessage send to 25
+
+#10531: (138)  [138] ConnectDMessage Received
+
+#10531: (138)  [138] Re ConnectMessage send to 105
+
+#10541: (133)  [133] ConnectDMessage Received
+
+#10541: (133)  [133] Re: GetIndexMessage Sent to feed_set9
+
+#10551: (138)  [138] ConnectDMessage Received
+
+#10551: (138)  [138] Re ConnectMessage send to 100
+
+#10551: (140)  [140] ConnectDMessage Received
+
+#10551: (140)  [140] Re ConnectMessage send to 105
+
+#10551: (147)  [147] ConnectDMessage Received
+
+#10551: (147)  [147] Re ConnectMessage send to 105
+
+#10561: (145)  [145] ConnectDMessage Received
+
+#10561: (145)  [145] Re ConnectMessage send to 25
+
+#10571: (140)  [140] ConnectDMessage Received
+
+#10571: (140)  [140] Re ConnectMessage send to 106
+
+#10571: (142)  [142] ConnectDMessage Received
+
+#10571: (142)  [142] Re ConnectMessage send to 105
+
+#10571: (138)  [138] ConnectDMessage Received
+
+#10571: (138)  [138] Re ConnectMessage send to 106
+
+#10571: (147)  [147] ConnectDMessage Received
+
+#10571: (147)  [147] Re ConnectMessage send to 108
+
+#10581: (145)  [145] ConnectDMessage Received
+
+#10581: (145)  [145] Re ConnectMessage send to 108
+
+#10591: (138)  [138] ConnectDMessage Received
+
+#10591: (138)  [138] Re ConnectMessage send to 25
+
+#10591: (147)  [147] ConnectDMessage Received
+
+#10591: (147)  [147] Re ConnectMessage send to 106
+
+#10591: (140)  [140] ConnectDMessage Received
+
+#10591: (140)  [140] Re ConnectMessage send to 100
+
+#10591: (142)  [142] ConnectDMessage Received
+
+#10591: (142)  [142] Re ConnectMessage send to 106
+
+#10601: (145)  [145] ConnectDMessage Received
+
+#10601: (145)  [145] Re ConnectMessage send to 109
+
+#10611: (147)  [147] ConnectDMessage Received
+
+#10611: (147)  [147] Re ConnectMessage send to 100
+
+#10611: (142)  [142] ConnectDMessage Received
+
+#10611: (142)  [142] Re ConnectMessage send to 25
+
+#10611: (140)  [140] ConnectDMessage Received
+
+#10611: (140)  [140] Re: GetIndexMessage Sent to feed_set5
+
+#10611: (138)  [138] ConnectDMessage Received
+
+#10611: (138)  [138] Re: GetIndexMessage Sent to feed_set2
+
+#10621: (131)  [131] ConnectDMessage Received
+
+#10621: (131)  [131] Re ConnectMessage send to 25
+
+#10631: (149)  [149] ConnectDMessage Received
+
+#10631: (149)  [149] Re ConnectMessage send to 100
+
+#10631: (142)  [142] ConnectDMessage Received
+
+#10631: (142)  [142] Re ConnectMessage send to 108
+
+#10631: (147)  [147] ConnectDMessage Received
+
+#10631: (147)  [147] Re ConnectMessage send to 116
+# setRoot : From 57 to 164
+
+#10641: (161)  [161] Wait for time out at req
+
+#10641: (161)  [161] ReduceSetMessage Sent
+
+#10641: (131)  [131] ConnectDMessage Received
+
+#10641: (131)  [131] Re ConnectMessage send to 100
+
+#10651: (142)  [142] ConnectDMessage Received
+
+#10651: (142)  [142] Re ConnectMessage send to 100
+
+#10651: (149)  [149] ConnectDMessage Received
+
+#10651: (149)  [149] Re ConnectMessage send to 25
+# setRoot : From 44 to 166
+
+#10661: (131)  [131] ConnectDMessage Received
+
+#10661: (131)  [131] Re ConnectMessage send to 105
+
+#10671: (149)  [149] ConnectDMessage Received
+
+#10671: (149)  [149] Re ConnectMessage send to 108
+
+#10671: (142)  [142] ConnectDMessage Received
+
+#10671: (142)  [142] Re: GetIndexMessage Sent to feed_set15
+
+#10681: (131)  [131] ConnectDMessage Received
+
+#10681: (131)  [131] Re ConnectMessage send to 119
+
+#10691: (149)  [149] ConnectDMessage Received
+
+#10691: (149)  [149] Re ConnectMessage send to 106
+
+#10701: (159)  [159] ConnectDMessage Received
+
+#10701: (159)  [159] Re ConnectMessage send to 100
+
+#10711: (149)  [149] ConnectDMessage Received
+
+#10711: (149)  [149] Re ConnectMessage send to 105
+
+#10721: (159)  [159] ConnectDMessage Received
+
+#10721: (159)  [159] Re ConnectMessage send to 105
+
+#10731: (149)  [149] ConnectDMessage Received
+
+#10731: (149)  [149] Re: GetIndexMessage Sent to feed_set2
+
+#10741: (159)  [159] ConnectDMessage Received
+
+#10741: (159)  [159] Re ConnectMessage send to 25
+
+#10761: (159)  [159] ConnectDMessage Received
+
+#10761: (159)  [159] Re ConnectMessage send to 108
+
+#10781: (159)  [159] ConnectDMessage Received
+
+#10781: (159)  [159] Re ConnectMessage send to 106
+
+#10801: (159)  [159] ConnectDMessage Received
+
+#10801: (159)  [159] Re: GetIndexMessage Sent to feed_set17
+# setRoot : From 64 to 186
+# setRoot : From 61 to 188
+# numRoot : From 143 to 194
+220554182942670109621697512637866214556 - original 
+220599776597470503754624891214654020999 - new 
+221810046425655465023897068971572458077 - old 
+11000 201 83 24 27 49.851485148514854
+# setRoot : From 166 to 204
+# setRoot : From 0 to 213
+# setRoot : From 59 to 217
+# setRoot : From 161 to 219
+# setRoot : From 71 to 222
+
+#11341: (221)  [221] ConnectDMessage Received
+
+#11341: (221)  [221] Re ConnectMessage send to 127
+# setRoot : From 167 to 236
+
+#11361: (221)  [221] ConnectDMessage Received
+
+#11361: (221)  [221] Re ConnectMessage send to 168
+# setRoot : From 21 to 244
+# setRoot : From 147 to 253
+# setRoot : From 219 to 254
+
+#11621: (247)  [247] ConnectDMessage Received
+
+#11621: (247)  [247] Re ConnectMessage send to 25
+# setRoot : From 154 to 264
+
+#11641: (247)  [247] ConnectDMessage Received
+
+#11641: (247)  [247] Re ConnectMessage send to 105
+# setRoot : From 195 to 266
+
+#11661: (247)  [247] ConnectDMessage Received
+
+#11661: (247)  [247] Re ConnectMessage send to 108
+
+#11681: (247)  [247] ConnectDMessage Received
+
+#11681: (247)  [247] Re ConnectMessage send to 100
+
+#11701: (247)  [247] ConnectDMessage Received
+
+#11701: (247)  [247] Re ConnectMessage send to 106
+# setRoot : From 191 to 272
+
+#11721: (247)  [247] ConnectDMessage Received
+
+#11721: (247)  [247] Re: GetIndexMessage Sent to feed_set29
+# setRoot : From 55 to 284
+# setRoot : From 16 to 288
+# setRoot : From 50 to 292
+# setRoot : From 193 to 296
+12000 301 180 52 67 78.1542288557214
+# setRoot : From 6 to 306
+# setRoot : From 27 to 312
+
+#12171: (306)  [306] ConnectDMessage Received
+
+#12171: (306)  [306] Re ConnectMessage send to 105
+# setRoot : From 2 to 319
+
+#12191: (306)  [306] ConnectDMessage Received
+
+#12191: (306)  [306] Re ConnectMessage send to 106
+
+#12211: (306)  [306] ConnectDMessage Received
+
+#12211: (306)  [306] Re ConnectMessage send to 25
+
+#12231: (306)  [306] ConnectDMessage Received
+
+#12231: (306)  [306] Re ConnectMessage send to 100
+
+#12251: (306)  [306] ConnectDMessage Received
+
+#12251: (306)  [306] Re ConnectMessage send to 108
+
+#12271: (306)  [306] ConnectDMessage Received
+
+#12271: (306)  [306] Re: GetIndexMessage Sent to feed_set10
+# setRoot : From 319 to 330
+# setRoot : From 119 to 333
+
+#12351: (320)  [320] ConnectDMessage Received
+
+#12351: (320)  [320] Re ConnectMessage send to 137
+# setRoot : From 169 to 338
+# setRoot : From 131 to 339
+# setRoot : From 258 to 347
+# setRoot : From 42 to 353
+# setRoot : From 253 to 365
+# setRoot : From 224 to 366
+# setRoot : From 82 to 368
+# setRoot : From 118 to 370
+# setRoot : From 254 to 371
+# setRoot : From 164 to 374
+# setRoot : From 374 to 375
+# setRoot : From 44 to 377
+# setRoot : From 315 to 384
+# setRoot : From 155 to 385
+# setRoot : From 297 to 388
+# setRoot : From 192 to 389
+# setRoot : From 157 to 395
+13000 401 272 95 118 115.45182724252491
+# setRoot : From 102 to 409
+
+#13191: (402)  [402] ConnectDMessage Received
+
+#13191: (402)  [402] Re ConnectMessage send to 25
+# setRoot : From 333 to 421
+
+#13211: (402)  [402] ConnectDMessage Received
+
+#13211: (402)  [402] Re ConnectMessage send to 106
+
+#13231: (402)  [402] ConnectDMessage Received
+
+#13231: (402)  [402] Re ConnectMessage send to 105
+
+#13251: (402)  [402] ConnectDMessage Received
+
+#13251: (402)  [402] Re ConnectMessage send to 108
+
+#13271: (402)  [402] ConnectDMessage Received
+
+#13271: (402)  [402] Re ConnectMessage send to 100
+
+#13291: (402)  [402] ConnectDMessage Received
+
+#13291: (402)  [402] Re: GetIndexMessage Sent to feed_set69
+# setRoot : From 222 to 430
+
+#13311: (420)  [420] ConnectDMessage Received
+
+#13311: (420)  [420] Re ConnectMessage send to 105
+
+#13331: (420)  [420] ConnectDMessage Received
+
+#13331: (420)  [420] Re ConnectMessage send to 106
+
+#13351: (420)  [420] ConnectDMessage Received
+
+#13351: (420)  [420] Re ConnectMessage send to 25
+# setRoot : From 385 to 436
+
+#13371: (420)  [420] ConnectDMessage Received
+
+#13371: (420)  [420] Re ConnectMessage send to 100
+
+#13391: (420)  [420] ConnectDMessage Received
+
+#13391: (420)  [420] Re ConnectMessage send to 108
+
+#13411: (420)  [420] ConnectDMessage Received
+
+#13411: (420)  [420] Re: GetIndexMessage Sent to feed_set78
+# setRoot : From 300 to 444
+
+#13441: (376)  [376] Wait for time out at req
+
+#13441: (376)  [376] ReduceSetMessage Sent
+# setRoot : From 388 to 446
+# setRoot : From 30 to 447
+# setRoot : From 381 to 450
+# setRoot : From 235 to 454
+# setRoot : From 366 to 462
+
+#13621: (449)  [449] ConnectDMessage Received
+
+#13621: (449)  [449] Re ConnectMessage send to 106
+
+#13641: (449)  [449] ConnectDMessage Received
+
+#13641: (449)  [449] Re ConnectMessage send to 25
+# setRoot : From 236 to 465
+# setRoot : From 130 to 466
+
+#13661: (449)  [449] ConnectDMessage Received
+
+#13661: (449)  [449] Re ConnectMessage send to 105
+
+#13681: (449)  [449] ConnectDMessage Received
+
+#13681: (449)  [449] Re ConnectMessage send to 108
+
+#13691: (450)  [450] ConnectDMessage Received
+
+#13691: (450)  [450] Re ConnectMessage send to 100
+
+#13701: (449)  [449] ConnectDMessage Received
+
+#13701: (449)  [449] Re ConnectMessage send to 100
+
+#13711: (450)  [450] ConnectDMessage Received
+
+#13711: (450)  [450] Re ConnectMessage send to 25
+
+#13721: (449)  [449] ConnectDMessage Received
+
+#13721: (449)  [449] Re: GetIndexMessage Sent to feed_set113
+
+#13731: (450)  [450] ConnectDMessage Received
+
+#13731: (450)  [450] Re ConnectMessage send to 105
+
+#13751: (450)  [450] ConnectDMessage Received
+
+#13751: (450)  [450] Re ConnectMessage send to 106
+
+#13771: (450)  [450] ConnectDMessage Received
+
+#13771: (450)  [450] Re ConnectMessage send to 108
+
+#13791: (450)  [450] ConnectDMessage Received
+
+#13791: (450)  [450] Re: GetIndexMessage Sent to feed_set104
+# setRoot : From 47 to 482
+# setRoot : From 466 to 490
+# setRoot : From 288 to 492
+# setRoot : From 7 to 494

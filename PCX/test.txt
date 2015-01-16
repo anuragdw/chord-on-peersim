@@ -1,0 +1,18 @@
+java -cp `find -L lib/ -name "*.jar" | tr [:space:] :`:"":classes peersim.Simulator PCX.cfg
+
+
+
+
+#60.46: (124)  [124]  got update with et = 120000
+
+#120.46: (124)  [124]  got update with et = 180000
+
+#240.41: (124)  [124]  got update with et = 300000
+
+#360.41: (124)  [124]  got update with et = 420000
+
+#420.41: (124)  [124]  got update with et = 480000
+
+#480.41: (124)  [124]  got update with et = 540000
+
+#540.41: (124)  [124]  got update with et = 600000

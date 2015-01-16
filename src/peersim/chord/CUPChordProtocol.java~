@@ -1,0 +1,1686 @@
+/**
+ * 
+ */
+package peersim.chord;
+
+import peersim.config.Configuration;
+import peersim.core.Network;
+import peersim.core.Node;
+import peersim.core.CommonState;
+import peersim.edsim.EDProtocol;
+import peersim.transport.Transport;
+
+import java.math.*;
+import java.security.*;
+import java.util.*;
+
+
+
+/**
+ * @author Andrea
+ * 
+ */
+public class CUPChordProtocol implements EDProtocol {
+
+	private static final String PAR_TRANSPORT = "transport"; // to get configuration parameter
+
+	private Parameters p; // TODO
+  
+	private int[] lookupMessage; // array to store number of hops encountered by lookup messages originating at this node 
+
+	public int index = 0;  // TODO
+
+	public Node predecessor;  // predecessor node
+	
+	private Node node; // this node
+
+	public Node[] fingerTable; // list of nodes in finger table, # = chorID length
+
+	public Node[] successorList; // list of nodes in successor table, # = succLSize
+
+	public BigInteger chordId; // id of node 
+
+	public int m; // TODO
+
+	public int succLSize;  // length of successor list
+
+	public String prefix; // TODO 
+
+	private int next = 0;  // TODO
+	
+	private BigInteger maxId;
+	
+	private BigInteger minId;
+	
+	
+
+	
+	
+	// Added 
+	//public int[] sequenceNums; 
+	
+	// Variables for general node	
+	public int numOfSets;
+	public long expiryTime = 0;
+	public Map<BigInteger, RegListObj> regList;
+
+	public int regListET = 1500; // an entry in regList is removed after regListET time
+	public int nValueET = 1200;  //  TODO 
+	public int cacheET = 500;  //  TODO  250000 // not used
+	
+	public boolean  reqActive = false;
+	
+	private long [] hopCountArray ; // = 0;
+	public int hopCountNum = 0; 
+	 
+	public int hopCount = 0;
+	// Variables for stream root node
+	public boolean rStream = false;
+
+	// Variables for set root node
+	public boolean rSet = false;
+	
+	// Variables for N root node
+	public boolean rValue = false;
+	private int initNumSets = -1;
+	private long lastUpdateTime; 
+	public double fracValue;
+	private double nDecayRate = 0.00005; //  0.0005; == correct
+	
+	private long lastReqTime ;
+	private long reqTimeOut = 50;
+	
+	public long startTime = 0;
+	public long endTime = 0; 
+	public long totalTime = 0;
+	public int totalMsg = 0;
+	
+	public int lastUpdatedVal = 0;
+	
+	public int msgCount = 0;
+	public int uMsgCount = 0;
+	
+	
+	
+
+
+// TOREM
+	private boolean stale = true; 
+
+	
+
+	public boolean anchor = false; 
+	private BigInteger anchorId; 
+
+	 
+
+	private UpdateTable[] table; 
+	
+	private int numEntries = 0;
+	//tableNode;
+	//private boolean[] tableResolved;
+	//private BigInteger[] tableId ;
+ // TOREM
+
+	// campo x debug
+	private int currentNode = 0;  // TODO
+
+	public int varSuccList = 0;   // temp variable 
+
+	public int stabilizations = 0; // count of number of stabilizations run on this node 
+
+	public int fails = 0;  // count of number of failures on this node
+
+	
+	public void printTable () {
+
+		if(numEntries != 0) {
+			System.out.println("Printing for " + chordId + "(" + getIndex(chordId) + ")" );
+			for (int i=0; i< numEntries ; i++ ) {
+				//System.out.println(" id : " + table[i].getId() + "(" + getIndex(table[i].getId()) + ") 
+				//isExpired : " + table[i].getIsExpired() + " isServed : " + table[i].getIsServed() );
+			}
+		}
+	}   
+
+	/**
+	 * 
+	 */
+	public CUPChordProtocol(String prefix) {
+		this.prefix = prefix;
+		lookupMessage = new int[1];
+		lookupMessage[0] = 0; 
+		p = new Parameters();
+		p.tid = Configuration.getPid(prefix + "." + PAR_TRANSPORT);
+		numOfSets = -1; // ABM 
+		lastUpdateTime = 0;
+		table = new UpdateTable[100] ; // ABM
+	//	System.out.println("New Node created");
+		
+		minId = BigInteger.ZERO;
+		maxId = BigInteger.valueOf(2);
+		for (int exp = 1; exp < m; exp++) {
+			maxId = maxId.multiply(BigInteger.valueOf(2));
+		}
+		
+
+		
+		regList = new HashMap<BigInteger, RegListObj> ();
+	}
+
+	// ADM TODO 
+	public void setNode(Node n) {
+		this.node = n;
+	}
+	
+	public int getN(){
+		///if (expiryTime < CommonState.getTime())
+			return numOfSets;
+	//	else 
+		//	return -1;
+		
+	}
+	
+	public int getUpdatedN() { //  to be used only on rValue nodes
+		if (numOfSets == -1) return -1 ; 
+		fracValue -= (CommonState.getTime() - lastUpdateTime)*nDecayRate;
+		if (fracValue < 1 )
+			fracValue = 1; 
+		numOfSets = (int)Math.ceil(fracValue);
+		lastUpdateTime = CommonState.getTime() ;
+		return numOfSets;
+		
+	}
+	
+	public void updateN( int num) {
+		if (num == 0 ) {
+			fracValue += 1;
+			getUpdatedN();
+		} else {
+			fracValue = num;
+			numOfSets = num; 
+			getUpdatedN();
+		}
+			
+	}
+
+	public void log (String text, Object... arguments) {
+		//System.out.format(CommonState.getTime() + ": " + text + "\n", arguments);
+	}
+	
+	public void logg (String text, Object... arguments) {
+		System.out.format("#" + CommonState.getTime() + ": " + text + "\n", arguments);
+	}
+
+	public long getIndex( BigInteger id ) {
+		for ( int i=0; i<Network.size() ; i++ ) {
+			if ( id.compareTo( ((ChordProtocol) Network.get(i).getProtocol(p.pid)).chordId ) == 0 )
+				return Network.get(i).getIndex();
+		}
+		return -1;
+	}
+	
+	public void printRegList() {
+		
+		logg ("regList for "+ this.node.getIndex());
+	
+		for (Map.Entry<BigInteger, RegListObj> entry : regList.entrySet()) {
+			   // System.out.println(entry.getKey() + "/" + entry.getValue());
+				RegListObj obj = entry.getValue();
+				logg("index = "+ obj.getNode().getIndex() + " eTime = " + obj.getETime());
+				if ( obj.getETime() > CommonState.getTime() ) {
+					
+				}				
+		}
+		
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see peersim.edsim.EDProtocol#processEvent(peersim.core.Node, int,
+	 *      java.lang.Object)
+	 */
+
+	/* this is to be run when a the event in the event queue is scheduled.
+	   the event is added by the function 
+		send(Node src, Node dest, Object msg, int pid) 
+	   of the UniformRandomTransport Class	 
+	*/ 
+	public void processEvent(Node node, int pid, Object event) {
+		// process requests according to the routing table of the node
+		p.pid = pid;
+		currentNode = node.getIndex();
+
+		if (event.getClass() == InitMessage.class) {
+	
+			InitMessage message = (InitMessage) event;
+			if ( message.type == 0) {
+				log ("InitMessage received at stream root node");
+				try {
+					MD5Hash hash = new MD5Hash ("feed_set0");
+					BigInteger target = hash.getHash();
+					Transport t = (Transport) node.getProtocol(p.tid);
+			
+					Node dest = find_nearest_neighbour(target,node); 
+					
+					if (dest.getID() == successorList[0].getID()
+							&& (target.compareTo(((ChordProtocol) dest
+									.getProtocol(p.pid)).chordId) < 0)) {
+						fails++;
+						// TODO Handle this failure
+					} else {
+						InitMessage nm = new InitMessage (1,target);  
+						t.send(node, dest, nm, pid);
+					}
+			
+				} catch (NoSuchAlgorithmException e) {
+					System.err.println("I'm sorry, but MD5 is not a valid message digest algorithm");
+	    			}
+				
+				try {
+					MD5Hash hash = new MD5Hash ("feed_num_of_sets");
+					BigInteger target = hash.getHash();
+					Transport t = (Transport) node.getProtocol(p.tid);
+			
+					Node dest = find_nearest_neighbour(target,node); 
+					
+					if (dest.getID() == successorList[0].getID()
+							&& (target.compareTo(((ChordProtocol) dest
+									.getProtocol(p.pid)).chordId) < 0)) {
+						fails++;
+						// TODO Handle this failure
+					} else {
+						InitMessage nm = new InitMessage (2,target);  
+						t.send(node, dest, nm, pid);
+					}
+			
+				} catch (NoSuchAlgorithmException e) {
+					System.err.println("I'm sorry, but MD5 is not a valid message digest algorithm");
+	    		}
+				
+ 		
+			} else if ( message.type == 1 ) {
+
+				BigInteger target = message.getTarget();
+				Transport t = (Transport) node.getProtocol(p.tid);
+
+				if (target == ((ChordProtocol) node.getProtocol(pid)).chordId) {
+					log ("InitMessage received at set root node");
+					
+					this.rSet = true; 
+				}
+
+				if (target != ((ChordProtocol) node.getProtocol(pid)).chordId) {
+					
+					Node dest = find_nearest_neighbour(target,node); 
+					
+					if (dest.getID() == successorList[0].getID()
+							&& (target.compareTo(((ChordProtocol) dest
+									.getProtocol(p.pid)).chordId) < 0)) {
+						if ( !this.rSet ) {
+							fails++;
+							this.rSet = true;
+							log ("InitMessage received at new set root node");
+						} else {
+							log ("InitMessage received at set root node");
+						}
+							
+						
+					} else {
+						
+						if ( this.rSet ) this.rSet = false;
+						t.send(node, dest, message, pid);
+					//	log ("InitMessage 1 forwarded");
+							
+					}
+				}
+				
+			} else if ( message.type == 2 ) {
+
+				BigInteger target = message.getTarget();
+				Transport t = (Transport) node.getProtocol(p.tid);
+	
+				if (target == ((ChordProtocol) node.getProtocol(pid)).chordId) {
+					log ("InitMessage received at value root node");
+					this.rValue = true;
+					this.numOfSets = initNumSets; 
+					this.fracValue = initNumSets;
+					this.lastUpdateTime = CommonState.getTime(); 
+				}
+
+				if (target != ((ChordProtocol) node.getProtocol(pid)).chordId) {
+				
+					Node dest = find_nearest_neighbour(target,node); 
+				
+					if (dest.getID() == successorList[0].getID()
+							&& (target.compareTo(((ChordProtocol) dest
+									.getProtocol(p.pid)).chordId) < 0)) {
+						if ( !this.rValue ) {
+							fails++;
+							this.rValue = true;
+						//	System.out.println ("InitMessage received at new value root node with id " + getIndex(this.chordId));
+							
+							
+							this.numOfSets = initNumSets;
+							this.fracValue = initNumSets;
+							this.lastUpdateTime = CommonState.getTime();
+						} else {
+							log ("InitMessage received at value root node");
+						}
+						
+					
+					} else {
+					
+						if ( this.rValue ) this.rValue = false;
+						t.send(node, dest, message, pid);
+					//	log ("InitMessage 2 forwarded");
+						
+					}
+				}
+			
+			} // end of type = 2
+
+
+
+		} // end of InitMessage
+
+
+		if (event.getClass() == LookUpMessage.class) {
+			LookUpMessage message = (LookUpMessage) event;
+			message.increaseHopCounter();
+			BigInteger target = message.getTarget();
+			Transport t = (Transport) node.getProtocol(p.tid);
+			Node n = message.getSender();
+			if (target == ((ChordProtocol) node.getProtocol(pid)).chordId) {
+				// message received at target. send final message 
+				t.send(node, n, new FinalMessage(message.getHopCounter()), pid);
+			}
+			if (target != ((ChordProtocol) node.getProtocol(pid)).chordId) {
+				// lookup function on fingertabable
+				Node dest = find_successor(target); // find node nearest to target from the successor list
+				if (dest.isUp() == false) {
+					do {
+						varSuccList = 0;
+						stabilize(node); 
+						stabilizations++;
+						fixFingers();  
+						dest = find_successor(target); // try again 
+					} while (dest.isUp() == false);
+				} // next hop found. If next hop is the first entry in the 
+				if (dest.getID() == successorList[0].getID()
+						&& (target.compareTo(((ChordProtocol) dest
+								.getProtocol(p.pid)).chordId) < 0)) {
+					fails++;
+				} else {
+					t.send(message.getSender(), dest, message, pid);
+				}
+			}
+		}
+		if (event.getClass() == FinalMessage.class) {
+			FinalMessage message = (FinalMessage) event;
+			lookupMessage = new int[index + 1];
+			lookupMessage[index] = message.getHopCounter();
+			index++;
+		}
+
+		// Added 
+
+	//	if (event.getClass() == ReturnNMessage.class) {
+	//		ReturnNMessage message = (ReturnNMessage) event;
+	//		numOfSets = message.getN();
+//
+//			System.out.println(" Returned value of num_of_sets is " + numOfSets );
+//				
+//		}
+		
+
+		// Added 
+
+		if ( event.getClass() == StartQuery.class) {
+
+			StartQuery message = (StartQuery) event;
+			
+			if(message.getType() == 1 ){
+
+				int numTry = message.getNumReplica();
+
+				System.out.println(CommonState.getTime() + " : Sending find N message to num_of_sets" );
+
+				try {  
+				
+					MD5Hash hash = new MD5Hash ("no_of_sets" + numTry);
+					BigInteger target = hash.getHash();
+			
+					System.out.println("num_of_sets" + numTry + " (" + target + ")" );
+					Transport t = (Transport) node.getProtocol(p.tid);
+			
+					Node dest = find_nearest_neighbour(target,node); 
+					
+					if (dest.getID() == successorList[0].getID()
+							&& (target.compareTo(((ChordProtocol) dest
+									.getProtocol(p.pid)).chordId) < 0)) {
+						fails++;
+						// TODO Handle this failure
+					} else {
+						FindNMessage newMsg = new FindNMessage ( node, node, target, numTry,0); 
+						t.send(node, dest, newMsg, pid);
+					//	System.out.println (" from " + chordId + "("+ node.getIndex() +") to " + ((ChordProtocol) dest.getPro
+						//tocol(pid)).chordId + "("+ dest.getIndex() +")"  );
+					
+					}
+			
+				} catch (NoSuchAlgorithmException e) {
+					System.err.println("I'm sorry, but MD5 is not a valid message digest algorithm");
+	    			}
+
+			} else if (message.getType() == 2) {
+
+				int value = message.getValue();
+
+				numOfSets = value;
+				//Date date = new Date();
+				//expiryTime = date.getTime();
+		//		expiryTime = CommonState.getTime() + cacheET;
+
+				System.out.println(CommonState.getTime() + " : Updating values of N" );
+
+				for ( int l=1; l <=5 ; l++ ) {
+					try {  
+				
+						MD5Hash hash = new MD5Hash ("no_of_sets" + l);
+						BigInteger target = hash.getHash();
+						
+						Transport t = (Transport) node.getProtocol(p.tid);
+						Node dest = find_nearest_neighbour(target,node);  // ACtually it is not guarentedd to find NN
+						
+				
+						if (dest.getID() == successorList[0].getID()
+							&& (target.compareTo(((ChordProtocol) dest.getProtocol(p.pid)).chordId) < 0)) {
+							fails++;
+							// TODO sort out this failure
+						
+						} else {
+							UpdateMessage msg = new UpdateMessage(value, target, CommonState.getTime() + cacheET, false); 
+							t.send(node, dest, msg, pid);
+							System.out.println (" Update Message send for node " +target+":" + getIndex(target) );
+						}
+
+					} catch (NoSuchAlgorithmException e) {
+						System.err.println("I'm sorry, but MD5 is not a valid message digest algorithm");
+	    				}	
+				}
+			} 
+			
+		}
+
+		// Added 
+		
+		if (event.getClass() == UpdateMessage.class) {
+
+			UpdateMessage message = (UpdateMessage) event;
+			BigInteger target = message.getTarget();  
+
+		//	numOfSets = message.getN();
+			// Update only on the reverse path through regList 
+		//	expiryTime = message.getETime(); 
+			Transport t = (Transport) node.getProtocol(p.tid);
+			//System.out.println(CommonState.getTime() + ": UPDATED at "+ node.getIndex());	
+
+			// send update to all entries in the update table who are not expired. 
+
+	/*		for (Map.Entry<BigInteger, RegListObj> entry : regList.entrySet()) {
+			   // System.out.println(entry.getKey() + "/" + entry.getValue());
+				RegListObj obj = entry.getValue();
+				if ( obj.getETime() > CommonState.getTime() ) {
+					UpdateMessage nMsg = new UpdateMessage(numOfSets, 
+							((ChordProtocol) obj.getNode().getProtocol(pid)).chordId, expiryTime, true);  
+					t.send(node, obj.getNode(), nMsg, pid );
+					//regList.put(entry.getKey(), obj );
+					System.out.println("Updated..."); 
+				}				
+			}
+
+		*/			
+
+			
+			if (target == ((ChordProtocol) node.getProtocol(pid)).chordId) {
+				
+				if ( this.rValue ) {
+					// this is marked, check for value 
+					if ( this.getUpdatedN() > 0 ) {
+						// value is correct, return it 
+					//	log("Return the value of N");
+						//	System.out.println(CommonState.getTime() + " Returned from " + getIndex(chordId));
+						this.updateN(0) ; 
+						logg("#Value of N imceremented ... ");
+						expiryTime = CommonState.getTime() + nValueET; 
+						
+						for (Map.Entry<BigInteger, RegListObj> entry : regList.entrySet()) {
+							   // System.out.println(entry.getKey() + "/" + entry.getValue());
+								RegListObj obj = entry.getValue();
+								if ( obj.getETime() > CommonState.getTime() ) {
+									UpdateMessage2 nMsg = new UpdateMessage2(this.getUpdatedN(), expiryTime);  
+									t.send(node, obj.getNode(), nMsg, pid );
+									//regList.put(entry.getKey(), obj );
+									System.out.println("Updated..."); 
+								}				
+						}
+						
+						
+					}
+					else {
+						// wait for update message from rSet node 
+					//	log("Value of N not ready"); 
+						this.updateN(message.getN());
+						logg("#Value of N initialized");
+						//fails++;
+					}
+				} else {
+					this.rValue = true;
+					this.updateN(message.getN());
+					logg("Root node for N stabalized at " + node.getIndex()); 
+					logg("Value of N initialized");
+					//fails++;
+				} 
+				
+		/*		System.out.println(CommonState.getTime() + ": Updated value received at target " + getIndex(target)); 
+				if ( message.getSU() == false ) {this.anchor = true; 
+				anchorId = chordId; }
+				else System.out.println("Test");*/
+				logg("#Value of N imceremented");
+			}
+			
+			
+			
+			if (target != ((ChordProtocol) node.getProtocol(pid)).chordId) {
+				
+				Node tmPre = ((ChordProtocol)node.getProtocol(pid)).predecessor;
+				if (tmPre == null ) tmPre = find_predecessor(((ChordProtocol)node.getProtocol(pid)).chordId.subtract(BigInteger.ONE));
+				// TODO quick fix for now
+				if ( idInabC(target,((ChordProtocol)tmPre.getProtocol(pid)).chordId,chordId) ) {
+					
+					if ( this.rValue ) {
+						// this is marked, check for value 
+						if ( this.getUpdatedN() > 0 ) {
+							// value is correct, return it 
+						//	log("Return the value of N");
+							//	System.out.println(CommonState.getTime() + " Returned from " + getIndex(chordId));
+							this.updateN(0) ; 
+							logg("Value of N imceremented at " + node.getIndex());
+							expiryTime = CommonState.getTime() + nValueET; 
+							
+							printRegList();
+							
+							for (Map.Entry<BigInteger, RegListObj> entry : regList.entrySet()) {
+								   // System.out.println(entry.getKey() + "/" + entry.getValue());
+									RegListObj obj = entry.getValue();
+									if ( obj.getETime() > CommonState.getTime() ) {
+										UpdateMessage2 nMsg = new UpdateMessage2(this.getUpdatedN(), expiryTime);  
+										t.send(node, obj.getNode(), nMsg, pid );
+										//regList.put(entry.getKey(), obj );
+								//		System.out.println("Updated..."); 
+									}				
+							}
+							
+							//System.out.println("Updated"); 	
+						}
+						else {
+							// wait for update message from rSet node 
+						//	log("Value of N not ready"); 
+							this.updateN(message.getN());
+							logg("Value of N initialized");
+							//fails++;
+						}
+					} else {
+						this.rValue = true;
+						this.updateN(message.getN());
+					//	logg("Root node for N stabalized at " + node.getIndex()); 
+					//	logg("Value of N initialized");
+						//log("Root node for N stabalized at " + node.getIndex()); 
+						//fails++;
+					} 
+					
+				} else {
+					Node dest = find_nearest_neighbour(target,node);
+					t.send(node, dest, message, pid);
+				}
+				// lookup function on fingertabable
+			/*	Node dest = find_nearest_neighbour(target,node); // find node nearest to target from the successor list
+				
+				if (dest.getID() == successorList[0].getID()
+						&& (target.compareTo(((ChordProtocol) dest
+								.getProtocol(p.pid)).chordId) < 0)) {
+					
+					if ( this.anchor == false ) {
+						fails++;
+						System.out.println(CommonState.getTime() + " : Exact match not found, using nearest neighbour " + 
+								getIndex(chordId) + " as the \"anchor\" ") ; 
+						this.anchor = true;
+						anchorId = target; 
+					} else
+						System.out.println(CommonState.getTime() + ": Updated value received at target " + getIndex(chordId));
+
+				} else {
+					UpdateMessage newMsg = new UpdateMessage ( numOfSets, target, message.getETime(), false); 
+					t.send(node, dest, newMsg, pid);
+					if( this.anchor && (this.anchorId == target) ) 
+						this.anchor = false; 
+					//System.out.println (CommonState.getTime() + ": From " + chordId + "("+ node.getIndex() 
+					//+") to " + ((ChordProtocol) dest.getProtocol(pid)).chordId + "("+ dest.getIndex() +")"  );
+				
+				}*/
+				
+				
+			}
+		}
+
+		// Added 
+		
+		if (event.getClass() == FindNMessage.class) {
+		//	log("FN Message received");
+			FindNMessage message = (FindNMessage) event;
+			
+			
+			//FindNMessage message = (FindNMessage) event;
+			BigInteger target = message.getDestination();
+		//	logg("Re AT " + node.getIndex() );
+		//	if (node.getIndex() == 631) { printSuccList(); } 
+
+			
+		//	System.out.println(CommonState.getTime() + " Received at " + getIndex(chordId));
+			
+			Transport t = (Transport) node.getProtocol(p.tid);
+
+			if (target == ((ChordProtocol) node.getProtocol(pid)).chordId) {
+				log("message received at target"); 
+				
+					if ( this.rValue ) {
+						// this is marked, check for value 
+						if ( this.getUpdatedN() > 0 ) {
+							// value is correct, return it 
+						//	log("Return the value of N");
+							//	System.out.println(CommonState.getTime() + " Returned from " + getIndex(chordId));
+							if (message.getSource() != this.node) { // to guard against those messages that may have originated at the
+																	// node itself
+								ReturnNMessage newMsg = new ReturnNMessage ( this.getUpdatedN(), CommonState.getTime() + 
+										nValueET,message.getHC()); 
+								t.send(node, message.getFrom(), newMsg, pid);
+								msgCount ++ ;
+								//this.endTime = CommonState.getTime() ;
+							
+								// make entry in table 
+								BigInteger tmpid = ((ChordProtocol) message.getFrom().getProtocol(pid)).chordId;
+								RegListObj tmpentry = new RegListObj( tmpid, CommonState.getTime() + regListET, message.getFrom(), 
+											true ); 
+								regList.put( tmpid, tmpentry);	
+							}
+							
+						}
+						else {
+							// wait for update message from rSet node 
+						//	log("Value of N not ready"); 
+							fails++;
+					//		this.endTime = -1 ;
+						}
+					} else {
+						this.rValue = true;
+						log("Root node for N stabalized at " + node.getIndex()); 
+				//		this.endTime = -1 ;
+						fails++;
+					} 
+					
+				 /* else if (message.getNumTry() < 5) {
+					StartQuery newMsg = new StartQuery(message.getNumTry() + 1 , 1 ); 
+					t.send(node, message.getSource(), newMsg, pid );
+				} else {
+					System.out.println("Find N query failed... ");
+				}*/
+				
+			}
+			
+			if (target != ((ChordProtocol) node.getProtocol(pid)).chordId) {
+				// lookup function on fingertabable
+				
+			//	Node dest = find_nearest_neighbour(target,node); // find node nearest to target from the successor list 
+																 // only one hop
+				//if (dest.getID() == successorList[0].getID()
+					//	&& (target.compareTo(((ChordProtocol) dest
+						//		.getProtocol(p.pid)).chordId) < 0)) {
+				
+				Node tmPre = ((ChordProtocol)node.getProtocol(pid)).predecessor;
+				if (tmPre == null ) tmPre = find_predecessor(((ChordProtocol)node.getProtocol(pid)).chordId.subtract(BigInteger.ONE));
+				// TODO quick fix for now
+				if ( idInabC(target,((ChordProtocol)tmPre.getProtocol(pid)).chordId,chordId) ) {
+				//	logg("message received at NN."); 
+				
+					if ( this.rValue ) {
+						// this is marked, check for value 
+						if ( this.getUpdatedN() > 0 ) {
+							// value is correct, return it 
+						//	logg("Return the value of N" + this.getUpdatedN());
+							//	System.out.println(CommonState.getTime() + " Returned from " + getIndex(chordId));
+							if (message.getSource() != this.node) {	
+								ReturnNMessage newMsg = new ReturnNMessage ( this.getUpdatedN(), CommonState.getTime() + 
+										nValueET,message.getHC()); 
+								msgCount ++ ;
+								t.send(node, message.getFrom(), newMsg, pid);
+							//	this.endTime = CommonState.getTime();
+							
+								// make entry in table 
+								BigInteger tmpid = ((ChordProtocol) message.getFrom().getProtocol(pid)).chordId;
+								RegListObj tmpentry = new RegListObj( tmpid, CommonState.getTime() + regListET, message.getFrom(), 
+											true ); 
+								regList.put( tmpid, tmpentry);
+							}
+						}
+						else {
+							// wait for update message from rSet node 
+							logg("Value of N not ready"); 
+							fails++;
+						//	this.endTime = -1 ;
+						}
+					} else {
+						this.rValue = true;
+						logg("Root node for N stabalized at "+ node.getIndex() + " with diff " + 
+						target.subtract(chordId).bitCount());
+						//if (node.getIndex() == 1833) { printFingers(); printSuccList(); } 
+					//	( (ChordProtocol) node.getProtocol(pid)).printFingers();
+						fails++;
+					//	this.endTime = -1 ;
+					} 
+					
+				} else { // this expiryTime is when the value of N on this node will become stale 
+				//	logg("message received at NmmN."); 
+					
+					
+					if(this.rValue) {
+						this.rValue = false; 
+						System.out.println("Root node removed at " + node.getIndex() );
+
+					}
+					if ( this.expiryTime > CommonState.getTime() ) {
+					//	logg("Value not stale. Return the value of N");
+					//	System.out.println(CommonState.getTime() + " " + 100);
+					//	System.out.println(CommonState.getTime() + " Returned from " + getIndex(chordId));
+						if (message.getSource() != this.node) { 
+							ReturnNMessage newMsg = new ReturnNMessage ( this.getN(), this.expiryTime,
+									message.getHC()); 
+							msgCount ++ ;
+							t.send(node, message.getFrom(), newMsg, pid);
+						//	this.endTime = CommonState.getTime() ;
+						//	if (message.getFrom().getIndex() == 0) System.out.println("sent to zero"); 
+	
+							BigInteger tmpid = ((ChordProtocol) message.getFrom().getProtocol(pid)).chordId;
+							RegListObj tmpentry = new RegListObj( tmpid, CommonState.getTime() + regListET, message.getFrom(), 
+									true ); 
+							regList.put( tmpid, tmpentry);
+						}
+					} else {
+					//	log("message received at NmmN."); 
+					//	if(CommonState.getTime() > 20000 ) { System.out.println(CommonState.getTime() + " " + 10); } 
+							if((reqActive == false) || (lastReqTime + reqTimeOut < CommonState.getTime() )) { 
+								// if a previous request has not been made
+								FindNMessage newMsg = new FindNMessage ( message.getSource(), node, target, message.getNumTry(),
+										message.getHC() + 1); 
+								msgCount ++ ;
+								Node dest = find_nearest_neighbour(target,node);
+								t.send(node, dest, newMsg, pid);
+								reqActive = true; // TODO
+								lastReqTime = CommonState.getTime();
+								
+								startTime = CommonState.getTime() ;
+							//	if (node.getID() == 1111 ) System.out.println("# Started at " + startTime);
+								
+							//	System.out.println("From ")
+							//	System.out.println(CommonState.getTime() + " Forwarded from " + getIndex(chordId) + " to " +
+								//dest.getIndex());
+							//	log("From " + node.getID() + " to " + dest.getID());
+								
+								
+								
+							}
+								//System.out.println(CommonState.getTime() + " Stopped at "+ getIndex(chordId));
+							
+							//log("messge");
+							if (message.getSource() != this.node) {
+								BigInteger tmpid = ((ChordProtocol) message.getFrom().getProtocol(pid)).chordId;
+								RegListObj tmpentry = new RegListObj( tmpid, CommonState.getTime() + regListET, message.getFrom(), 
+										false ); // value has to be returned
+								regList.put( tmpid, tmpentry);
+							}
+					}
+				}
+
+			}
+		}
+
+		if (event.getClass() == ReturnNMessage.class) {
+		
+			ReturnNMessage message = (ReturnNMessage) event;
+			numOfSets = message.getN(); 
+			expiryTime = message.getExpiryTime();
+			
+			
+			this.endTime = CommonState.getTime();
+			
+			{
+				long delay = endTime - startTime ;
+				if ((delay != 0) && (startTime != 0 )) {
+					hopCountArray = new long[hopCountNum + 1];
+					hopCountArray[hopCountNum] = delay;
+					hopCountNum ++ ;	
+					if (node.getID() == 1111 ) System.out.println("# Received at " + endTime);
+				}
+				
+				startTime = 0;
+				endTime = 0;
+				
+			}
+			//message.hopCount ++ ; 
+			//this.hopCount = message.hopCount;
+			Transport t = (Transport) node.getProtocol(p.tid);
+			reqActive = false;
+			
+			
+			
+
+			// send return N Message to all the unsatisfied entries in the list
+		//	System.out.println("send return N Message to all the unsatisfied entries in the list");
+
+			for (Map.Entry<BigInteger, RegListObj> entry : regList.entrySet()) {
+			   // System.out.println(entry.getKey() + "/" + entry.getValue());
+				RegListObj obj = entry.getValue();
+				if ( obj.getReqStatus() == false ) {
+					obj.setReqStatus(true);
+					ReturnNMessage msg = new ReturnNMessage ( message.getN(), message.getExpiryTime(), message.getHC() + 1);
+					msgCount ++ ;
+					t.send(node, obj.getNode(), msg, pid );
+				//	if (obj.getNode().getIndex() == 0) System.out.println(numOfSets + " sent to 0"); 
+
+					regList.put(entry.getKey(), obj );
+					//System.out.println("Send..."); 
+				}				
+			}
+
+			//System.out.println(" Returned value of num_of_sets is " + numOfSets );
+
+
+		}
+		
+		if (event.getClass() == UpdateMessage2.class) {
+		//	if (node.getIndex() == 1500) logg("Updated2 at " + node.getIndex());
+			
+			//printRegList();
+			uMsgCount++;
+			
+			UpdateMessage2 message = (UpdateMessage2) event;
+			numOfSets = message.getN(); 
+			expiryTime = message.getETime();
+			//message.hopCount ++ ; 
+			//this.hopCount = message.hopCount;
+			Transport t = (Transport) node.getProtocol(p.tid);
+			//reqActive = false;
+			
+			//hopCountArray = new int[hopCountNum + 1];
+			//hopCountArray[hopCountNum] = message.getHC() ;
+			//hopCountNum ++ ;
+			
+			if (lastUpdatedVal != numOfSets ) {
+				lastUpdatedVal = numOfSets;
+				for (Map.Entry<BigInteger, RegListObj> entry : regList.entrySet()) {
+				   // System.out.println(entry.getKey() + "/" + entry.getValue());
+						RegListObj obj = entry.getValue();
+						if ( obj.getETime() > CommonState.getTime() ) {
+							//UpdateMessage2 nMsg = new UpdateMessage2(this.getUpdatedN(), expiryTime);  
+							t.send(node, obj.getNode(), message, pid );
+							//regList.put(entry.getKey(), obj );
+							//System.out.println("Updated2..."); 
+						}
+				}
+			}
+
+			// send return N Message to all the unsatisfied entries in the list
+		//	System.out.println("send return N Message to all the unsatisfied entries in the list");
+
+			
+
+			//System.out.println(" Returned value of num_of_sets is " + numOfSets );
+
+
+		}
+		
+		
+							   
+			
+			
+			
+	}
+
+	/* TODO */	
+	public Object clone() {
+		ChordProtocol cp = new ChordProtocol(prefix);
+		String val = BigInteger.ZERO.toString();
+		cp.chordId = new BigInteger(val);
+		cp.fingerTable = new Node[m];
+		cp.successorList = new Node[succLSize];
+		cp.currentNode = 0;
+		return cp;
+	}
+
+	/* TODO */
+	public long[] getLookupMessage() {
+		return hopCountArray;
+	}
+
+	/* Add myNode in the network at the current place by connecting to its appropriate successor */
+	public void stabilize(Node myNode) { 
+		//this.node = myNode;
+	//	logg("Stabilize start;");
+		try {
+			//updateSuccessor();
+			Node node = ((ChordProtocol) successorList[0].getProtocol(p.pid)).predecessor;
+		//	logg ( ((ChordProtocol) successorList[0].getProtocol(p.pid)).chordId + " succ = " + successorList[0].getIndex());
+		//	logg ( chordId + "");
+		//	logg ( ((ChordProtocol) node.getProtocol(p.pid)).chordId + " pre = " + node.getIndex());
+			if ((node != null) && (node.isUp() != false)) {
+				if (this.chordId == ((ChordProtocol) node.getProtocol(p.pid)).chordId)
+					return; // if currentNode is already a predecessor, no need to stabilize
+				BigInteger remoteID = ((ChordProtocol) node.getProtocol(p.pid)).chordId;
+				if (idInabC(remoteID, chordId, ((ChordProtocol) successorList[0]
+						.getProtocol(p.pid)).chordId))
+					{successorList[0] = node; // here stabilized needs to be called again but we will call it from outside
+				//	logg("Succ changed to " + node.getIndex());
+					}						// of this function, that is from the join function 
+				// no need to change values for node ( predecessor ) here, it may be correctly placed 
+				((ChordProtocol) successorList[0].getProtocol(p.pid))
+						.notify(myNode); // notify the new successor to change its predecessor on some conditions ... 
+			} else {
+		    //	System.out.println("No pre found");
+				((ChordProtocol) successorList[0].getProtocol(p.pid)).predecessor = myNode;
+			//	System.exit(0);
+			}
+	//		System.out.println("AD");
+			 node = ((ChordProtocol) successorList[0].getProtocol(p.pid)).predecessor;
+			log ( "pre = " + node.getID());
+		//	printSuccList();
+			updateSuccessorList(myNode); 
+		//	printSuccList();
+	//		logg("Stabalize over");
+		} catch (Exception e1) {
+			e1.printStackTrace();
+			updateSuccessor();
+		}
+	}
+
+	private void updateSuccessorList(Node myNode) throws Exception {
+		this.node = myNode;
+		try {
+		//	System.out.println("USL s");
+		/*	while (successorList[0] == null || successorList[0].isUp() == false) {
+				updateSuccessor(); // finds next entry in the successor list
+			}*/
+			if (successorList[0] == null || successorList[0].isUp() == false) {
+			//	System.out.println("incorrect updateSuccessorList() call"); // finds next entry in the successor list
+				updateSuccessor();
+				//return;
+			}
+		//	System.out.println("USL over");
+			// just copies the successor list of the neighbour ( first successor )
+			System.arraycopy(((ChordProtocol) successorList[0]
+					.getProtocol(p.pid)).successorList, 0, successorList, 1,
+					succLSize - 2);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void notify(Node node) throws Exception {
+		BigInteger nodeId = ((ChordProtocol) node.getProtocol(p.pid)).chordId;
+		if (predecessor == null) {
+			predecessor = node;
+		//	System.out.println("test");
+		}
+		
+		else if (idInabC(nodeId, ((ChordProtocol) predecessor
+						.getProtocol(p.pid)).chordId, this.chordId)) {
+			Node tmp = predecessor;
+		//	System.out.println("test2");
+			((ChordProtocol) predecessor.getProtocol(p.pid)).successorList[0] = node;
+			((ChordProtocol) node.getProtocol(p.pid)).predecessor = predecessor;
+			predecessor = node;
+			//((ChordProtocol) tmp.getProtocol(p.pid)).stabilize(tmp); // not necessary
+		} else {
+		//	System.out.println("testn");
+		}
+		// TODO : change here 
+		
+	}
+	
+	public void notifys(Node node)  {
+		BigInteger nodeId = ((ChordProtocol) node.getProtocol(p.pid)).chordId;
+		if (predecessor == null) {
+			predecessor = node;
+			System.out.println("test");
+		}
+		
+		else if (idInab(((ChordProtocol) predecessor
+						.getProtocol(p.pid)).chordId, this.chordId, nodeId)) {
+			Node tmp = predecessor;
+		//	System.out.println("test3");
+			((ChordProtocol) predecessor.getProtocol(p.pid)).successorList[0] = node;
+			((ChordProtocol) node.getProtocol(p.pid)).predecessor = predecessor;
+			predecessor = node;
+			((ChordProtocol) tmp.getProtocol(p.pid)).stabilize(tmp);
+		}
+		// TODO : change here 
+		
+	}
+
+	private void updateSuccessor() {
+		// find the first successor alive
+		boolean searching = true;
+		varSuccList = 0 ; // ABM
+		Node myNode = this.node;
+		while (searching) {
+			try { 
+				Node node = successorList[varSuccList]; // varSuccList = just a tmp variable used 
+				varSuccList++;
+				successorList[0] = node;
+				//System.out.println("US s");
+				/*if (successorList[0] == null
+						|| successorList[0].isUp() == false) {
+					if (varSuccList >= succLSize - 1) { // >= or > to be used ??
+						searching = false;
+						varSuccList = 0;
+					} else
+						updateSuccessor();  // in a sense this searches further
+						// it can be implemented in a while loop without involving recursion ( which is causing stack overflow )
+				}
+				updateSuccessorList();
+				searching = false; */
+				if (successorList[0] == null || successorList[0].isUp() == false) {
+					if (varSuccList >= succLSize - 1) { // >= or > to be used ??
+						searching = false;
+						varSuccList = 0;
+						//System.err.println("Node is disconnected from network. Start over.");
+						rejoin(myNode);
+						
+					} else {
+						//System.out.println("Value = " + varSuccList);
+						continue;
+					}
+				} else {
+					//System.out.println("US else");
+					updateSuccessorList(myNode);
+					searching = false;
+				}
+				
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		} // end of while
+	}
+	
+	public void rejoin ( Node node) {
+		   // System.out.println("Trying to join");
+			Random generator = new Random();
+			//System.out.println("New Node created");
+			if ( node == null) return ;
+			ChordProtocol cp = (ChordProtocol) node.getProtocol(p.pid);
+		
+			// search a random node to join
+			Node n;
+			do {
+				n = Network.get(generator.nextInt(Network.size()));
+			} while (n == null || n.isUp() == false); // where is isUp() implemented ??
+			
+			//System.out.println("While over");
+			
+			ChordProtocol cpRemote = (ChordProtocol) n.getProtocol(p.pid);
+
+			Node successor = cpRemote.find_successor(cp.chordId);
+			cp.successorList[0] = successor;
+			
+			
+			long succId = 0;
+			BigInteger lastId = ((ChordProtocol) Network.get(Network.size() - 1)
+					.getProtocol(p.pid)).chordId; // TODO 
+			int progress = 10; 
+			do {
+				cp.stabilizations++;
+				succId = cp.successorList[0].getID();
+				cp.stabilize(node);
+				if (((ChordProtocol) cp.successorList[0].getProtocol(p.pid)).chordId
+						.compareTo(cp.chordId) < 0) {
+				//	System.out.println("TEST");
+					progress = 10; 
+					cp.successorList[0] = ((ChordProtocol) cp.successorList[0]
+							.getProtocol(p.pid)).find_successor(cp.chordId);
+				}
+				progress-- ; 
+				if ( progress == 0 ) {
+					//System.out.println("New start");
+					do {
+						n = Network.get(generator.nextInt(Network.size()));
+					} while (n == null || n.isUp() == false); // where is isUp() implemented ??
+					progress = 10;
+					cp.successorList[0] = ((ChordProtocol) n.getProtocol(p.pid)).find_successor(cp.chordId);
+				}
+				// control was not the last element of the network
+				if (cp.chordId.compareTo(lastId) > 0) {
+					cp.successorList[0] = Network.get(0);
+					break;
+				}
+			} while (cp.successorList[0].getID() != succId
+					|| ((ChordProtocol) cp.successorList[0].getProtocol(p.pid)).chordId
+							.compareTo(cp.chordId) < 0);
+			cp.fixFingers();
+		
+	}
+
+	private boolean idInab(BigInteger id, BigInteger a, BigInteger b) {
+		if ((a.compareTo(id) == -1) && (id.compareTo(b) == -1)) {
+			return true;
+		}
+		return false;
+	}
+	
+	private boolean idInabC(BigInteger id, BigInteger a, BigInteger b) { 
+		// also takes care of the circular nature of id space										
+		if ((b.compareTo(a) == 1)) {
+			if ((a.compareTo(id) == -1) && (id.compareTo(b) == -1)) {
+				return true;
+			}
+			return false;
+		} else {
+			if ((a.compareTo(id) == 1) && (id.compareTo(b) == 1)) {
+				return false;
+			}
+			return true;
+		}
+	}
+
+	public Node find_successor(BigInteger id) { // FROM PAPER : find the node responsible for this id, that is, 
+		//the live node at or immediately after this id.
+		log ( "in fs "+ this.node.getIndex());
+	//	logg ( id + " to find " + getIndex(id));
+	//	logg (chordId + " at " + getIndex(chordId));
+		//if ( getIndex(chordId) == 727)  printSuccList();
+	//	log("test " + getIndex(chordId)); // printSuccList();
+		try {
+			
+			if ( this.chordId == id ) return this.node; // TODO modify it.. this.node has been artificially created 
+			
+		/*	if (this.node.getIndex() == 835) {
+			//	System.out.println( "succ = " + successorList[0].getIndex()) ;
+				log ( ""+chordId);
+				log ("" + id);
+				log ("" + ((ChordProtocol) successorList[0].getProtocol(p.pid)).chordId );
+			} */
+		
+			if (successorList[0] == null || successorList[0].isUp() == false) { // if successor list is invalid, //
+				//validate it first
+			//	logg ("tag1");
+				updateSuccessor();
+			}
+			
+			//if ( this.chordId == id ) return successorList[0]
+			if (idInabC(id, this.chordId, ((ChordProtocol) successorList[0] // idInab -> idInabC
+					.getProtocol(p.pid)).chordId)) {
+			//	logg("tag2");
+				return successorList[0];
+				
+			} else {
+				
+				if( ((ChordProtocol) successorList[0].getProtocol(p.pid)).chordId.compareTo(id) == 0)
+					return successorList[0];
+				
+				Node tmp = closest_preceding_node(id); // what if successorList[0].id == id ?? 
+			//	logg (((ChordProtocol) tmp.getProtocol(p.pid)).chordId + " cpp gives " + tmp.getIndex()  );
+				BigInteger tmpId = ((ChordProtocol)tmp.getProtocol(p.pid)).chordId;
+				if ( tmpId == chordId ) {  
+					//((ChordProtocol) tmp.getProtocol(p.pid)).printSuccList();
+				//((ChordProtocol) tmp.getProtocol(p.pid)).printFingers(); 
+				return tmp; }  // TODO 
+				log("node = " + tmp.getIndex() + " " + id.subtract(tmpId).bitCount());
+				
+				//if ( this.node == tmp) return tmp; // TODO : improve this solution
+				//else 
+					return ((ChordProtocol) tmp.getProtocol(p.pid)).find_successor(id);
+				//return tmp;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return successorList[0];
+	} 
+	
+	public Node find_successor_once(BigInteger id) { // FROM PAPER : find the node responsible for this id, that is, 
+		//the live node at or immediately after this id.
+		//log ( "in fso");
+		//if ( getIndex(chordId) == 727)  printSuccList();
+	//	log("test " + getIndex(chordId)); // printSuccList();
+		try {
+			
+			//if ( this.chordId == id ) return this.node; // TODO modify it.. this.node has been artificially created 
+		
+			if (successorList[0] == null || successorList[0].isUp() == false) { // if successor list is invalid, //
+				//validate it first
+			//	log ("tag1");
+				updateSuccessor();
+			}
+			
+			//if ( this.chordId == id ) return successorList[0]
+			if (idInabC(id, this.chordId, ((ChordProtocol) successorList[0] // idInab -> idInabC
+					.getProtocol(p.pid)).chordId)) {
+			//	log("tag2");
+				return successorList[0];
+				
+			} else {
+				
+				if( ((ChordProtocol) successorList[0].getProtocol(p.pid)).chordId.compareTo(id) == 0)
+					return successorList[0];
+				
+				Node tmp = closest_preceding_node(id); // what if successorList[0].id == id ?? 
+				BigInteger tmpId = ((ChordProtocol)tmp.getProtocol(p.pid)).chordId;
+				//log("node = " + tmp.getIndex() + " " + id.subtract(tmpId).bitCount());
+				
+				//if ( this.node == tmp) return tmp; // TODO : improve this solution
+				//else 
+					//return ((ChordProtocol) tmp.getProtocol(p.pid)).find_successor(id);
+				return tmp;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return successorList[0];
+	} 
+
+/*	private Node closest_preceding_node(BigInteger id) {
+		for (int i = m; i > 0; i--) {
+			try {
+				if (fingerTable[i - 1] == null
+						|| fingerTable[i - 1].isUp() == false) {
+					continue;
+				}
+				BigInteger fingerId = ((ChordProtocol) (fingerTable[i - 1]
+						.getProtocol(p.pid))).chordId;
+				if ((idInab(fingerId, this.chordId, id))
+						|| (id.compareTo(fingerId) == 0)) {
+					return fingerTable[i - 1];
+				}
+				if (fingerId.compareTo(this.chordId) == -1) {
+					// sono nel caso in cui ho fatto un giro della rete
+					// circolare
+					if (idInab(id, fingerId, this.chordId)) {
+						return fingerTable[i - 1];
+					}
+				}  
+				if ((id.compareTo(fingerId) == -1)
+						&& (id.compareTo(this.chordId) == -1)) {
+					if (i == 1)
+						return successorList[0];
+					BigInteger lowId = ((ChordProtocol) fingerTable[i - 2]
+							.getProtocol(p.pid)).chordId;
+					if (idInab(id, lowId, fingerId))
+						return fingerTable[i - 2];
+					else if (fingerId.compareTo(this.chordId) == -1)
+						continue;
+					else if (fingerId.compareTo(this.chordId) == 1)
+						return fingerTable[i - 1];
+				}
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+		if (fingerTable[m - 1] == null)
+			return successorList[0];
+		return successorList[0];
+	} */
+	
+	private Node closest_preceding_node(BigInteger id) {
+	//	if (this.node.getIndex() == 7303)  { printSuccList(); printFingers(); }
+		boolean t = true;
+		for (int i = m; i > 0; i--) {
+			try {
+				if (fingerTable[i - 1] == null
+						|| fingerTable[i - 1].isUp() == false) {
+					//fixFingers();  
+					if ((this.node.getIndex() == 7303) && false) {
+		//				logg("fix fingers called");
+						printFingers(); 
+						t = false;
+					}
+					continue;
+				}
+				BigInteger fingerId = ((ChordProtocol) (fingerTable[i - 1]
+						.getProtocol(p.pid))).chordId;
+				if ((idInabC(fingerId, this.chordId, id))
+						|| (id.compareTo(fingerId) == 0)) {
+					//if (id.compareTo(BigInteger. .valueOf(232798229045287842454616700156363484)) == 0) 
+				//	if (this.node.getIndex() == 999 )	System.out.println ("took " + getIndex(fingerId));
+					return fingerTable[i - 1];
+				}
+			//	if (this.node.getIndex() == 999 )	 {  System.out.println("left " + getIndex(fingerId)); }
+				
+			//	if ( i == 1) 
+				//	return successorList[0]; 
+				
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+	//	if (fingerTable[m - 1] == null)
+		//	return successorList[0];
+		//log(this.node);
+		//log("test");
+		updateSuccessor();
+		BigInteger ts = ((ChordProtocol) (successorList[0].getProtocol(p.pid))).chordId;
+		if ( idInabC(ts,chordId,id)) return successorList[0];
+		return this.node;
+	}
+	
+
+	// debug function
+	public void printFingers() {
+		log("start");
+		for (int i = fingerTable.length - 1; i >= 0; i--) {
+			if (fingerTable[i] == null) {
+				System.out.println("Finger " + i + " is null");
+				continue;
+			}
+			if ((((ChordProtocol) fingerTable[i].getProtocol(p.pid)).chordId)
+					.compareTo(this.chordId) == 0)
+				break;
+			System.out
+					.println("Finger["
+							+ i
+							+ "] = "
+							+ fingerTable[i].getIndex()
+							+ " chordId "
+							+ ((ChordProtocol) fingerTable[i]
+									.getProtocol(p.pid)).chordId);
+		}
+		log("done");
+	}
+
+	public void fixFingers() {
+		//logg("in ff m = " + next);
+		if (next >= m )
+			next = 0;
+		//logg("in ff m == " + next);
+		if (fingerTable[next] != null && fingerTable[next].isUp()) {
+			next++;
+			return;
+		}
+		BigInteger base;
+		if (next == 0)
+			base = BigInteger.ONE;
+		else {
+			base = BigInteger.valueOf(2);
+			for (int exp = 1; exp < next; exp++) {
+				base = base.multiply(BigInteger.valueOf(2));
+			}
+		}
+		BigInteger pot = this.chordId.add(base);
+	//	logg(pot + " = pot");
+	//	BigInteger idFirst = ((ChordProtocol) Network.get(0).getProtocol(p.pid)).chordId;
+//		BigInteger idLast = ((ChordProtocol) Network.get(Network.size() - 1)
+	//			.getProtocol(p.pid)).chordId; // TODO
+		
+		maxId = BigInteger.valueOf(2);
+		for (int exp = 1; exp < m; exp++) {
+			maxId = maxId.multiply(BigInteger.valueOf(2));
+		}
+		if (pot.compareTo(maxId) == 1) {
+			pot = (pot.mod(maxId));
+			if (pot.compareTo(this.chordId) != -1) {
+				next++;
+				return;
+			}
+		//	if (pot.compareTo(idFirst) == -1) {
+			//	this.fingerTable[next] = Network.get(Network.size() - 1);
+			//	next++;
+			//	return;
+		//	}
+		}
+		do {
+		//	logg(pot + " = pot");
+			fingerTable[next] = find_successor(pot);
+		//	pot = pot.subtract(BigInteger.ONE);
+		//	((ChordProtocol) successorList[0].getProtocol(p.pid)).fixFingers();
+		} while (fingerTable[next] == null || fingerTable[next].isUp() == false);
+		next++;
+	}
+	
+	public void fixFingersNew() {
+		
+		BigInteger base;
+		for (int j=0; j<m; j++) {
+		//	System.out.println(j + "");
+			if (j == 0)
+			base = BigInteger.ONE;
+			else {
+				base = BigInteger.valueOf(2);
+				for (int exp = 1; exp < j; exp++) {
+				base = base.multiply(BigInteger.valueOf(2));
+				}
+			}
+			
+			BigInteger pot = this.chordId.subtract(base);
+			if (j==119) {
+		//		System.out.println(j + " this" + successorList[0].getIndex());
+		//		System.out.println(chordId + "");
+		//		System.out.println(base + "");
+		//		System.out.println(pot + "");
+			}
+	//	BigInteger idFirst = ((ChordProtocol) Network.get(0).getProtocol(p.pid)).chordId;
+	//	BigInteger idLast = ((ChordProtocol) Network.get(Network.size() - 1)
+	//			.getProtocol(p.pid)).chordId; // TODO
+			if (pot.compareTo(BigInteger.ZERO) == -1) {
+				pot = (pot.add(maxId));
+			//	if (j==120) System.out.println("hello");
+			}
+			
+			Node pn = find_predecessor(pot);
+			if (j==119) {
+		//		System.out.println(pn.getIndex());
+			}
+			((ChordProtocol)pn.getProtocol(p.pid)).update_finger_table(this.node, j);
+			
+		}
+			
+	}
+	
+	public Node find_predecessor (BigInteger id) {
+		
+	//	logg ("find prede of " + id );
+		Node n = this.node;
+		if (chordId.compareTo(id) == 0)
+			return n;
+		
+		updateSuccessor(); 
+		BigInteger succId = ((ChordProtocol)successorList[0].getProtocol(p.pid)).chordId;
+		if  ( (id.compareTo(succId) == 0) ) 
+			return successorList[0];
+		
+		BigInteger nodeId = this.chordId;
+		
+		//System.out.println("tst");
+		int count = 0;
+		while ( idInabC (id,nodeId,succId) == false){
+		//	System.out.println("tst " + n.getIndex());
+			if (count == 15){
+		//		System.out.println(id + " " + getIndex(id));
+		//		System.out.println(nodeId + " "+ getIndex(nodeId) );
+		//		System.out.println(succId + " " + getIndex(succId));
+		//		if ( ((ChordProtocol)n.getProtocol(p.pid)).successorList[0] == null) System.out.println("null");
+		//		if ( ((ChordProtocol)n.getProtocol(p.pid)).successorList[0].isUp() == false) System.out.println("not up");
+				//Node succ = ((ChordProtocol)n.getProtocol(p.pid)).successorList[0];
+			//	System.out.println("      " + n.getIndex());
+			}
+			
+			((ChordProtocol)n.getProtocol(p.pid)).fixFingers();
+			
+			n = ((ChordProtocol)n.getProtocol(p.pid)).closest_preceding_node(id);
+	//		if (count == 15 ) System.exit(0);
+			count ++ ;
+			nodeId = ((ChordProtocol)n.getProtocol(p.pid)).chordId;
+			Node tmpSucc = ((ChordProtocol)n.getProtocol(p.pid)).successorList[0];
+			if ( ( tmpSucc == null ) || (tmpSucc.isUp() == false )) {
+				((ChordProtocol)n.getProtocol(p.pid)).updateSuccessor();
+			//	logg("check");
+				tmpSucc = ((ChordProtocol)n.getProtocol(p.pid)).successorList[0];
+			}
+			succId =   ((ChordProtocol)tmpSucc.getProtocol(p.pid)).chordId;
+
+		}
+		
+		return n;
+		
+	}
+	
+	public void update_finger_table(Node n, int j) {
+		BigInteger nodeId = ((ChordProtocol)n.getProtocol(p.pid)).chordId;
+		BigInteger fingerId = ((ChordProtocol)fingerTable[j].getProtocol(p.pid)).chordId;
+		if ( idInabC(nodeId,chordId,fingerId)) {
+			fingerTable[j] = n;
+		//	System.out.println("FT " + j + " updated for node " + this.node.getIndex());
+			if (predecessor == null ) { 
+			//	logg(((ChordProtocol)predecessor.getProtocol(p.pid)).chordId + ""); 
+				predecessor =  find_predecessor(chordId.subtract(BigInteger.ONE)); 
+			//	logg(((ChordProtocol)nn.getProtocol(p.pid)).chordId + ""); 
+				//logg(chordId+ "");
+				//logg("exit"); System.exit(0); 
+				}
+			((ChordProtocol)predecessor.getProtocol(p.pid)).update_finger_table(n, j);
+		}
+			
+	}
+	
+	public void createFingerTable () {
+		
+	//	BigInteger idFirst = ((ChordProtocol) Network.get(0).getProtocol(pid)).chordId;
+//		BigInteger idLast = ((ChordProtocol) Network.get(Network.size() - 1)
+	//			.getProtocol(pid)).chordId;
+	//	for (int i = 0; i < Network.size(); i++) { // updating data for each node
+		//	Node node = (Node) Network.get(i);
+	//		ChordProtocol cp = (ChordProtocol) node.getProtocol(pid); 
+			/* While creating the successor list, it must be noted that, we have to take special attention when the 
+			   network is building up and the size of the network is less than successorLSize, in this case, the 
+			   entries would be repeated 
+			*/
+	//		if (Network.size() == 1 ) {
+		//		for (int a = 0; a < successorLsize; a++)
+			//		cp.successorList[a] = null;
+		//	}
+		//	else {
+			//	for (int a = 0; a < successorLsize; a++) { // creating successor list				
+				//	if ( a >= Network.size() - 1 ) 
+					//	cp.successorList[a] = cp.successorList[a-1] ; 				
+				//	else if (a + i < (Network.size() - 1))
+					//	cp.successorList[a] = Network.get(a + i + 1);
+			//		else
+				//		cp.successorList[a] = Network.get(a + i + 1 - Network.size()); 
+					// changed from a to a + i + 1 - Network.size() ... working properly
+			//	}
+		//	}
+
+
+	//		if (Network.size() == 1 ) 
+	//			cp.predecessor = null ;
+	//		else if (i > 0) 
+		//		cp.predecessor = (Node) Network.get(i - 1);
+		//	else
+		//		cp.predecessor = (Node) Network.get(Network.size() - 1);
+
+			log("in cft");
+			
+			fingerTable[0] = successorList[0];
+			BigInteger fingeId = ((ChordProtocol)fingerTable[0].getProtocol(p.pid)).chordId;
+			maxId = BigInteger.valueOf(2);
+			for (int exp = 1; exp < m; exp++) {
+				maxId = maxId.multiply(BigInteger.valueOf(2));
+			}
+		//	log (" " + fingerTable[0].getIndex() + " " + finge ); 
+			int j;
+			for (j = 1; j < m; j++) {  // creating finger table
+				BigInteger base;
+			    base = BigInteger.valueOf(2);
+					for (int exp = 1; exp < j; exp++) {
+						base = base.multiply(BigInteger.valueOf(2));
+					}
+				
+				BigInteger pot = chordId.add(base);
+			//	log(fingeId + "");
+			//	log(pot + "");
+				
+				
+				//log(maxId + ""); 
+				
+				
+				if (pot.compareTo(maxId) == 1) { // if id exceeds last id
+					pot = (pot.mod(maxId));  // take mod
+					if (pot.compareTo(chordId) != -1) { 
+						continue;
+					}
+				}
+				
+			//	log(pot + "");
+				BigInteger fingerId = ((ChordProtocol)fingerTable[j-1].getProtocol(p.pid)).chordId;
+				if ( idInabC(pot,chordId,fingerId)) {
+					fingerTable[j] = fingerTable[j-1];
+				}
+				else {
+					fingerTable[j] = ((ChordProtocol)fingerTable[0].getProtocol(p.pid)).find_successor(pot);
+				}
+					
+			}
+	//	}
+	}
+
+	/**
+	 */
+	public void emptyLookupMessage() {
+		hopCountNum = 0; // index = 0;
+		this.hopCountArray = new long[0];//this.lookupMessage = new int[0];
+	}
+
+	private BigInteger minBI( BigInteger a, BigInteger b ) {
+		if ( a.compareTo(b) == 1 ) return b;
+		return a ; 
+	}
+
+	public Node find_nearest_neighbour ( BigInteger target, Node node ) {
+	//	log("in fnn");
+		
+		Node dest = find_successor_once(target);		
+		
+		if (dest.isUp() == false) {
+			do {
+			//	log("in fnn in");
+				varSuccList = 0;
+				stabilize(node); 
+				stabilizations++;
+				fixFingers();  
+				dest = find_successor_once(target); // try again 
+			} while (dest.isUp() == false);
+		} // next hop found. If next hop is the first entry in the 
+		
+		return dest; 
+	}
+	
+	public void printSuccList () {
+		System.out.println("SuccessorList for " + getIndex(chordId)); 
+		for ( int c = 0; c< succLSize; c++ ){
+			if ( (successorList[c] != null ) && (successorList[c].isUp() == true) ) {
+				System.out.println("Successor "+ c + " = " + successorList[c].getIndex() + " " 
+							+ ((ChordProtocol)successorList[c].getProtocol(p.pid)).chordId  );
+			}
+		}
+	}
+
+}
+
+

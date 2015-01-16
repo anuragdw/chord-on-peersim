@@ -1,0 +1,65 @@
+/**
+ * 
+ */
+package peersim.chord;
+
+import peersim.core.*;
+import peersim.config.Configuration;
+import peersim.edsim.EDSimulator;
+
+import java.sql.Timestamp;
+import java.math.*;
+import java.util.Comparator;
+
+public class RegListObj {
+
+	public BigInteger id;
+
+	private long eTime;
+
+	private Node node;
+
+	private boolean reqStatus;
+	
+	private int n;
+
+	public RegListObj ( BigInteger id, long eTime, Node node, boolean reqStatus, int n) {
+		this.id = id;
+		this.eTime = eTime;
+		this.node = node;
+		this.reqStatus = reqStatus;
+		this.n = n;
+
+	}
+	
+	
+
+	/*public int compare(Object arg0, Object arg1) {
+		BigInteger one = ((RegListObj)arg0).id;
+		BigInteger two = ((RegListObj)arg1).id;
+		return one.compareTo(two);
+	}*/
+
+	public boolean getReqStatus () {
+		return reqStatus;
+	}
+
+	public void setReqStatus (boolean status) {
+		this.reqStatus = status;
+	}
+
+	public Node getNode () {
+		return node;
+	} 
+
+	public long getETime () {
+		return eTime;
+	}
+
+	public int getN() {
+		return n;
+	}
+
+	 
+
+}
